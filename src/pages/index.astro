@@ -2,13 +2,15 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
+export const prerender = true;
+
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 5);
 ---
 <BaseLayout title="Lingostar" description="Welcome to Lingostar.">
   <h1>Lingostar</h1>
-  <p>This site was migrated from WordPress to a static site on Cloudflare Pages.</p>
+  <p>This site was migrated from WordPress and runs on Coolify.</p>
 
   <h2>Latest posts</h2>
   <ul class="post-list">

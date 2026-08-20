@@ -1,10 +1,12 @@
 # Lingostar
 
-Static site (migrated from WordPress) built with [Astro](https://astro.build) and
-deployed to [Cloudflare Pages](https://pages.cloudflare.com).
+Site (migrated from WordPress) built with [Astro](https://astro.build) in
+server (SSR) mode via the [Node adapter](https://docs.astro.build/en/guides/integrations-guide/node/),
+deployed as a Docker container on [Coolify](https://coolify.io).
 
 - Content lives as Markdown in `src/content/blog/` (posts) and `src/content/pages/` (static pages).
-- The contact form posts to a [Cloudflare Pages Function](https://developers.cloudflare.com/pages/functions/) at `functions/api/contact.ts`.
+- The contact form posts to an Astro API route at `src/pages/api/contact.ts`, which runs
+  server-side in the same Node process as the rest of the site.
 - Comments use [Giscus](https://giscus.app), backed by GitHub Discussions on this repo — no separate database needed.
 
 ## Local development
@@ -65,59 +67,58 @@ git commit -m "Migrate content from WordPress"
 git push
 ```
 
-### 4. Connect the repo to Cloudflare Pages
+### 4. Connect the repo to Coolify
 
-In the Cloudflare dashboard: **Workers & Pages → Create → Pages → Connect to Git**,
-select this repository, and set:
+In Coolify: **Add a new resource → Application → Public/Private Git repository**,
+point it at this repo, and set:
 
 | Setting | Value |
 |---|---|
-| Framework preset | Astro |
-| Build command | `npm run build` |
-| Build output directory | `dist` |
+| Build pack | Dockerfile |
+| Dockerfile location | `Dockerfile` (repo root) |
+| Port | `4321` |
 
-Cloudflare Pages will auto-deploy on every push to the production branch, and
-create preview deployments for other branches/PRs.
+Coolify builds the image from the `Dockerfile` in this repo (multi-stage:
+`npm ci && npm run build`, then runs `node ./dist/server/entry.mjs`) and can
+auto-deploy on every push if you enable the webhook on the resource.
 
 ### 5. Configure environment variables & comments
 
-In the Pages project's **Settings → Environment variables**, add (as *secret*
-where noted):
+In the Coolify application's **Environment Variables** tab, add:
 
-- `RESEND_API_KEY` (secret) — from [resend.com](https://resend.com), for the contact form
+- `RESEND_API_KEY` (mark as secret) — from [resend.com](https://resend.com), for the contact form
 - `CONTACT_TO` — the email address that should receive form submissions
+- `PUBLIC_GISCUS_REPO`, `PUBLIC_GISCUS_REPO_ID`, `PUBLIC_GISCUS_CATEGORY`, `PUBLIC_GISCUS_CATEGORY_ID` — for comments (see below)
+
+These are read at runtime by the Node process (`process.env`), so no rebuild
+is needed after changing them — just restart the app in Coolify.
 
 For Giscus comments: enable **Discussions** on this GitHub repo (Settings →
 General → Features), install the [giscus app](https://github.com/apps/giscus)
 on it, then go to [giscus.app](https://giscus.app), enter this repo, and copy
-the `data-repo-id` / `data-category-id` values it gives you into
-`PUBLIC_GISCUS_REPO`, `PUBLIC_GISCUS_REPO_ID`, `PUBLIC_GISCUS_CATEGORY`, and
-`PUBLIC_GISCUS_CATEGORY_ID` as Pages environment variables (these are public,
-no need to mark them secret).
+the `data-repo-id` / `data-category-id` values it gives you into the
+`PUBLIC_GISCUS_*` variables above.
 
-Also update the sender address in `functions/api/contact.ts` (`from:`) to an
+Also update the sender address in `src/pages/api/contact.ts` (`from:`) to an
 address on a domain you've verified in Resend, and the `site` URL in
 `astro.config.mjs`.
 
 ### 6. DNS cutover
 
-1. Add your domain to Cloudflare (if it isn't already) and let it become active.
-2. In the Pages project, go to **Custom domains → Set up a custom domain** and
-   add your apex/subdomain — Cloudflare configures the DNS record for you if
-   the zone is already on Cloudflare.
+1. In the Coolify application, go to **Domains** and add your apex/subdomain.
+   Coolify provisions a Let's Encrypt certificate for it automatically once
+   DNS resolves to your server.
+2. Point your domain's DNS (A/AAAA record, or CNAME if you're behind a proxy)
+   at the server Coolify is running on.
 3. **Before** switching, set up redirects for any old URLs that changed shape
-   (e.g. `/2025/01/hello-world/` → `/blog/hello-world/`). The simplest option
-   is a `public/_redirects` file (Cloudflare Pages' redirects format):
-
-   ```
-   /2025/01/hello-world/  /blog/hello-world/  301
-   ```
-
+   (e.g. `/2025/01/hello-world/` → `/blog/hello-world/`). Add these as
+   `Astro.redirect()` routes, or as reverse-proxy rules in Coolify's Traefik/
+   Caddy config if you'd rather handle them outside the app.
 4. Keep the WordPress host running (don't cancel it) for a couple of weeks
    after cutover as a fallback, and to still access old media files you may
    have missed.
-5. Once DNS is confirmed pointing at Pages and everything checks out, cancel
-   the WordPress hosting.
+5. Once DNS is confirmed pointing at the Coolify app and everything checks
+   out, cancel the WordPress hosting.
 
 ### 7. Post-migration checklist
 

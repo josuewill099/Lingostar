@@ -1,7 +1,0 @@
-# Used for local Pages Functions testing (`npx wrangler pages dev dist`)
-# and to pin the Workers runtime compatibility date. Production build/deploy
-# settings (build command, output dir, env vars) are configured in the
-# Cloudflare dashboard when you connect this repo as a Pages project.
-name = "lingostar"
-compatibility_date = "2026-08-01"
-pages_build_output_dir = "dist"
