@@ -1,0 +1,29 @@
+---
+// Giscus comments, backed by GitHub Discussions on this repo.
+// Set up: https://giscus.app — enable Discussions on the repo, install the
+// giscus app, then fill in the data-* values below with what that page gives you.
+const repo = import.meta.env.PUBLIC_GISCUS_REPO || 'your-org/your-repo';
+const repoId = import.meta.env.PUBLIC_GISCUS_REPO_ID || '';
+const category = import.meta.env.PUBLIC_GISCUS_CATEGORY || 'Comments';
+const categoryId = import.meta.env.PUBLIC_GISCUS_CATEGORY_ID || '';
+---
+{repoId && categoryId ? (
+  <script
+    src="https://giscus.app/client.js"
+    data-repo={repo}
+    data-repo-id={repoId}
+    data-category={category}
+    data-category-id={categoryId}
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+  ></script>
+) : (
+  <p><em>Comments are not configured yet — set PUBLIC_GISCUS_* env vars (see .env.example).</em></p>
+)}

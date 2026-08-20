@@ -1,0 +1,12 @@
+---
+const nav = [
+  { href: '/', label: 'Home' },
+  { href: '/blog/', label: 'Blog' },
+  { href: '/contact/', label: 'Contact' },
+];
+---
+<header>
+  <nav>
+    {nav.map((item) => <a href={item.href}>{item.label}</a>)}
+  </nav>
+</header>
