@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Contact | Lingostar">
+  <h1>Contact</h1>
+  <p>Send us a message and we'll get back to you.</p>
+
+  <form class="contact-form" method="POST" action="/api/contact" id="contact-form">
+    <input type="text" name="name" placeholder="Your name" required />
+    <input type="email" name="email" placeholder="Your email" required />
+    <textarea name="message" rows="6" placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
+    <p id="contact-status" role="status"></p>
+  </form>
+
+  <script>
+    const form = document.getElementById('contact-form') as HTMLFormElement;
+    const status = document.getElementById('contact-status')!;
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      status.textContent = 'Sending…';
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          body: new FormData(form),
+        });
+        if (!response.ok) throw new Error('Request failed');
+        status.textContent = 'Thanks — your message has been sent.';
+        form.reset();
+      } catch {
+        status.textContent = 'Something went wrong. Please try again later.';
+      }
+    });
+  </script>
+</BaseLayout>

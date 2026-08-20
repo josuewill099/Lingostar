@@ -1,0 +1,20 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.production
+
+# editor / OS
+.DS_Store
+*.log
+
+# wrangler
+.wrangler/
+
+# raw WordPress export (contains full DB dump — keep out of the repo)
+wxr-export/
