@@ -1,0 +1,247 @@
+{
+ "infinitive": "empezar",
+ "english": "to begin, start",
+ "gerund": "empezando",
+ "past_participle": "empezado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I begin, am beginning",
+    "forms": [
+     "empiezo",
+     "empiezas",
+     "empieza",
+     "empezamos",
+     "empezáis",
+     "empiezan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will begin",
+    "forms": [
+     "empezaré",
+     "empezarás",
+     "empezará",
+     "empezaremos",
+     "empezaréis",
+     "empezarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was beginning, used to begin, began",
+    "forms": [
+     "empezaba",
+     "empezabas",
+     "empezaba",
+     "empezábamos",
+     "empezabais",
+     "empezaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I began",
+    "forms": [
+     "empecé",
+     "empezaste",
+     "empezó",
+     "empezamos",
+     "empezasteis",
+     "empezaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would begin",
+    "forms": [
+     "empezaría",
+     "empezarías",
+     "empezaría",
+     "empezaríamos",
+     "empezaríais",
+     "empezarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have begun",
+    "forms": [
+     "he empezado",
+     "has empezado",
+     "ha empezado",
+     "hemos empezado",
+     "habéis empezado",
+     "han empezado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have begun",
+    "forms": [
+     "habré empezado",
+     "habrás empezado",
+     "habrá empezado",
+     "habremos empezado",
+     "habréis empezado",
+     "habrán empezado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had begun",
+    "forms": [
+     "había empezado",
+     "habías empezado",
+     "había empezado",
+     "habíamos empezado",
+     "habíais empezado",
+     "habían empezado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had begun",
+    "forms": [
+     "hube empezado",
+     "hubiste empezado",
+     "hubo empezado",
+     "hubimos empezado",
+     "hubisteis empezado",
+     "hubieron empezado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have begun",
+    "forms": [
+     "habría empezado",
+     "habrías empezado",
+     "habría empezado",
+     "habríamos empezado",
+     "habríais empezado",
+     "habrían empezado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I begin, am beginning",
+    "forms": [
+     "empiece",
+     "empieces",
+     "empiece",
+     "empecemos",
+     "empecéis",
+     "empiecen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I began, was beginning",
+    "forms": [
+     "empezara",
+     "empezaras",
+     "empezara",
+     "empezáramos",
+     "empezarais",
+     "empezaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will begin",
+    "forms": [
+     "empezare",
+     "empezares",
+     "empezare",
+     "empezáremos",
+     "empezareis",
+     "empezaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have begun, began",
+    "forms": [
+     "haya empezado",
+     "hayas empezado",
+     "haya empezado",
+     "hayamos empezado",
+     "hayáis empezado",
+     "hayan empezado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have begun",
+    "forms": [
+     "hubiere empezado",
+     "hubieres empezado",
+     "hubiere empezado",
+     "hubiéremos empezado",
+     "hubiereis empezado",
+     "hubieren empezado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had begun",
+    "forms": [
+     "hubiera empezado",
+     "hubieras empezado",
+     "hubiera empezado",
+     "hubiéramos empezado",
+     "hubierais empezado",
+     "hubieran empezado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Begin! Don't begin!",
+    "forms": [
+     "",
+     "empieza",
+     "empiece",
+     "empecemos",
+     "empezad",
+     "empiecen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Begin! Don't begin!",
+    "forms": [
+     "",
+     "no empieces",
+     "no empiece",
+     "no empecemos",
+     "no empecéis",
+     "no empiecen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 35,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "sentir",
+  "mirar"
+ ],
+ "slug": "empezar"
+}

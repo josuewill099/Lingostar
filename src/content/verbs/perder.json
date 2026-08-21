@@ -1,0 +1,246 @@
+{
+ "infinitive": "perder",
+ "english": "to lose",
+ "gerund": "perdiendo",
+ "past_participle": "perdido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I lose, am losing",
+    "forms": [
+     "pierdo",
+     "pierdes",
+     "pierde",
+     "perdemos",
+     "perdéis",
+     "pierden"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will lose",
+    "forms": [
+     "perderé",
+     "perderás",
+     "perderá",
+     "perderemos",
+     "perderéis",
+     "perderán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was losing, used to lose, lost",
+    "forms": [
+     "perdía",
+     "perdías",
+     "perdía",
+     "perdíamos",
+     "perdíais",
+     "perdían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I lost",
+    "forms": [
+     "perdí",
+     "perdiste",
+     "perdió",
+     "perdimos",
+     "perdisteis",
+     "perdieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would lose",
+    "forms": [
+     "perdería",
+     "perderías",
+     "perdería",
+     "perderíamos",
+     "perderíais",
+     "perderían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have lost",
+    "forms": [
+     "he perdido",
+     "has perdido",
+     "ha perdido",
+     "hemos perdido",
+     "habéis perdido",
+     "han perdido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have lost",
+    "forms": [
+     "habré perdido",
+     "habrás perdido",
+     "habrá perdido",
+     "habremos perdido",
+     "habréis perdido",
+     "habrán perdido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had lost",
+    "forms": [
+     "había perdido",
+     "habías perdido",
+     "había perdido",
+     "habíamos perdido",
+     "habíais perdido",
+     "habían perdido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had lost",
+    "forms": [
+     "hube perdido",
+     "hubiste perdido",
+     "hubo perdido",
+     "hubimos perdido",
+     "hubisteis perdido",
+     "hubieron perdido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have lost",
+    "forms": [
+     "habría perdido",
+     "habrías perdido",
+     "habría perdido",
+     "habríamos perdido",
+     "habríais perdido",
+     "habrían perdido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I lose, am losing",
+    "forms": [
+     "pierda",
+     "pierdas",
+     "pierda",
+     "perdamos",
+     "perdáis",
+     "pierdan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I lost, was losing",
+    "forms": [
+     "perdiera",
+     "perdieras",
+     "perdiera",
+     "perdiéramos",
+     "perdierais",
+     "perdieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will lose",
+    "forms": [
+     "perdiere",
+     "perdieres",
+     "perdiere",
+     "perdiéremos",
+     "perdiereis",
+     "perdieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have lost, lost",
+    "forms": [
+     "haya perdido",
+     "hayas perdido",
+     "haya perdido",
+     "hayamos perdido",
+     "hayáis perdido",
+     "hayan perdido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have lost",
+    "forms": [
+     "hubiere perdido",
+     "hubieres perdido",
+     "hubiere perdido",
+     "hubiéremos perdido",
+     "hubiereis perdido",
+     "hubieren perdido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had lost",
+    "forms": [
+     "hubiera perdido",
+     "hubieras perdido",
+     "hubiera perdido",
+     "hubiéramos perdido",
+     "hubierais perdido",
+     "hubieran perdido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Lose! Don't lose!",
+    "forms": [
+     "",
+     "pierde",
+     "pierda",
+     "perdamos",
+     "perded",
+     "pierdan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Lose! Don't lose!",
+    "forms": [
+     "",
+     "no pierdas",
+     "no pierda",
+     "no perdamos",
+     "no perdáis",
+     "no pierdan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 41,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "entrar",
+  "trabajar"
+ ],
+ "slug": "perder"
+}

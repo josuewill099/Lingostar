@@ -1,0 +1,246 @@
+{
+ "infinitive": "aparecer",
+ "english": "to appear",
+ "gerund": "apareciendo",
+ "past_participle": "aparecido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I appear, am appearing",
+    "forms": [
+     "aparezco",
+     "apareces",
+     "aparece",
+     "aparecemos",
+     "aparecéis",
+     "aparecen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will appear",
+    "forms": [
+     "apareceré",
+     "aparecerás",
+     "aparecerá",
+     "apareceremos",
+     "apareceréis",
+     "aparecerán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was appearing, used to appear, appeared",
+    "forms": [
+     "aparecía",
+     "aparecías",
+     "aparecía",
+     "aparecíamos",
+     "aparecíais",
+     "aparecían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I appeared",
+    "forms": [
+     "aparecí",
+     "apareciste",
+     "apareció",
+     "aparecimos",
+     "aparecisteis",
+     "aparecieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would appear",
+    "forms": [
+     "aparecería",
+     "aparecerías",
+     "aparecería",
+     "apareceríamos",
+     "apareceríais",
+     "aparecerían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have appeared",
+    "forms": [
+     "he aparecido",
+     "has aparecido",
+     "ha aparecido",
+     "hemos aparecido",
+     "habéis aparecido",
+     "han aparecido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have appeared",
+    "forms": [
+     "habré aparecido",
+     "habrás aparecido",
+     "habrá aparecido",
+     "habremos aparecido",
+     "habréis aparecido",
+     "habrán aparecido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had appeared",
+    "forms": [
+     "había aparecido",
+     "habías aparecido",
+     "había aparecido",
+     "habíamos aparecido",
+     "habíais aparecido",
+     "habían aparecido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had appeared",
+    "forms": [
+     "hube aparecido",
+     "hubiste aparecido",
+     "hubo aparecido",
+     "hubimos aparecido",
+     "hubisteis aparecido",
+     "hubieron aparecido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have appeared",
+    "forms": [
+     "habría aparecido",
+     "habrías aparecido",
+     "habría aparecido",
+     "habríamos aparecido",
+     "habríais aparecido",
+     "habrían aparecido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I appear, am appearing",
+    "forms": [
+     "aparezca",
+     "aparezcas",
+     "aparezca",
+     "aparezcamos",
+     "aparezcáis",
+     "aparezcan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I appeared, was appearing",
+    "forms": [
+     "apareciera",
+     "aparecieras",
+     "apareciera",
+     "apareciéramos",
+     "aparecierais",
+     "aparecieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will appear",
+    "forms": [
+     "apareciere",
+     "aparecieres",
+     "apareciere",
+     "apareciéremos",
+     "apareciereis",
+     "aparecieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have appeared, appeared",
+    "forms": [
+     "haya aparecido",
+     "hayas aparecido",
+     "haya aparecido",
+     "hayamos aparecido",
+     "hayáis aparecido",
+     "hayan aparecido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have appeared",
+    "forms": [
+     "hubiere aparecido",
+     "hubieres aparecido",
+     "hubiere aparecido",
+     "hubiéremos aparecido",
+     "hubiereis aparecido",
+     "hubieren aparecido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had appeared",
+    "forms": [
+     "hubiera aparecido",
+     "hubieras aparecido",
+     "hubiera aparecido",
+     "hubiéramos aparecido",
+     "hubierais aparecido",
+     "hubieran aparecido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Appear! Don't appear!",
+    "forms": [
+     "",
+     "aparece",
+     "aparezca",
+     "aparezcamos",
+     "apareced",
+     "aparezcan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Appear! Don't appear!",
+    "forms": [
+     "",
+     "no aparezcas",
+     "no aparezca",
+     "no aparezcamos",
+     "no aparezcáis",
+     "no aparezcan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 49,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "recordar",
+  "terminar"
+ ],
+ "slug": "aparecer"
+}

@@ -1,0 +1,244 @@
+{
+ "infinitive": "terminar",
+ "english": "to finish, end",
+ "gerund": "terminando",
+ "past_participle": "terminado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I finish, am finishing",
+    "forms": [
+     "termino",
+     "terminas",
+     "termina",
+     "terminamos",
+     "termináis",
+     "terminan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will finish",
+    "forms": [
+     "terminaré",
+     "terminarás",
+     "terminará",
+     "terminaremos",
+     "terminaréis",
+     "terminarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was finishing, used to finish, finished",
+    "forms": [
+     "terminaba",
+     "terminabas",
+     "terminaba",
+     "terminábamos",
+     "terminabais",
+     "terminaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I finished",
+    "forms": [
+     "terminé",
+     "terminaste",
+     "terminó",
+     "terminamos",
+     "terminasteis",
+     "terminaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would finish",
+    "forms": [
+     "terminaría",
+     "terminarías",
+     "terminaría",
+     "terminaríamos",
+     "terminaríais",
+     "terminarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have finished",
+    "forms": [
+     "he terminado",
+     "has terminado",
+     "ha terminado",
+     "hemos terminado",
+     "habéis terminado",
+     "han terminado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have finished",
+    "forms": [
+     "habré terminado",
+     "habrás terminado",
+     "habrá terminado",
+     "habremos terminado",
+     "habréis terminado",
+     "habrán terminado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had finished",
+    "forms": [
+     "había terminado",
+     "habías terminado",
+     "había terminado",
+     "habíamos terminado",
+     "habíais terminado",
+     "habían terminado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had finished",
+    "forms": [
+     "hube terminado",
+     "hubiste terminado",
+     "hubo terminado",
+     "hubimos terminado",
+     "hubisteis terminado",
+     "hubieron terminado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have finished",
+    "forms": [
+     "habría terminado",
+     "habrías terminado",
+     "habría terminado",
+     "habríamos terminado",
+     "habríais terminado",
+     "habrían terminado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I finish, am finishing",
+    "forms": [
+     "termine",
+     "termines",
+     "termine",
+     "terminemos",
+     "terminéis",
+     "terminen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I finished, was finishing",
+    "forms": [
+     "terminara",
+     "terminaras",
+     "terminara",
+     "termináramos",
+     "terminarais",
+     "terminaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will finish",
+    "forms": [
+     "terminare",
+     "terminares",
+     "terminare",
+     "termináremos",
+     "terminareis",
+     "terminaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have finished, finished",
+    "forms": [
+     "haya terminado",
+     "hayas terminado",
+     "haya terminado",
+     "hayamos terminado",
+     "hayáis terminado",
+     "hayan terminado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have finished",
+    "forms": [
+     "hubiere terminado",
+     "hubieres terminado",
+     "hubiere terminado",
+     "hubiéremos terminado",
+     "hubiereis terminado",
+     "hubieren terminado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had finished",
+    "forms": [
+     "hubiera terminado",
+     "hubieras terminado",
+     "hubiera terminado",
+     "hubiéramos terminado",
+     "hubierais terminado",
+     "hubieran terminado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Finish! Don't finish!",
+    "forms": [
+     "",
+     "termina",
+     "termine",
+     "terminemos",
+     "terminad",
+     "terminen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Finish! Don't finish!",
+    "forms": [
+     "",
+     "no termines",
+     "no termine",
+     "no terminemos",
+     "no terminéis",
+     "no terminen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 47,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "pedir",
+  "recibir"
+ ],
+ "slug": "terminar"
+}

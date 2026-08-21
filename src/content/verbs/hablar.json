@@ -1,0 +1,244 @@
+{
+ "infinitive": "hablar",
+ "english": "to speak",
+ "gerund": "hablando",
+ "past_participle": "hablado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I speak, am speaking",
+    "forms": [
+     "hablo",
+     "hablas",
+     "habla",
+     "hablamos",
+     "habláis",
+     "hablan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will speak",
+    "forms": [
+     "hablaré",
+     "hablarás",
+     "hablará",
+     "hablaremos",
+     "hablaréis",
+     "hablarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was speaking, used to speak, spoke",
+    "forms": [
+     "hablaba",
+     "hablabas",
+     "hablaba",
+     "hablábamos",
+     "hablabais",
+     "hablaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I spoke",
+    "forms": [
+     "hablé",
+     "hablaste",
+     "habló",
+     "hablamos",
+     "hablasteis",
+     "hablaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would speak",
+    "forms": [
+     "hablaría",
+     "hablarías",
+     "hablaría",
+     "hablaríamos",
+     "hablaríais",
+     "hablarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have spoken",
+    "forms": [
+     "he hablado",
+     "has hablado",
+     "ha hablado",
+     "hemos hablado",
+     "habéis hablado",
+     "han hablado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have spoken",
+    "forms": [
+     "habré hablado",
+     "habrás hablado",
+     "habrá hablado",
+     "habremos hablado",
+     "habréis hablado",
+     "habrán hablado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had spoken",
+    "forms": [
+     "había hablado",
+     "habías hablado",
+     "había hablado",
+     "habíamos hablado",
+     "habíais hablado",
+     "habían hablado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had spoken",
+    "forms": [
+     "hube hablado",
+     "hubiste hablado",
+     "hubo hablado",
+     "hubimos hablado",
+     "hubisteis hablado",
+     "hubieron hablado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have spoken",
+    "forms": [
+     "habría hablado",
+     "habrías hablado",
+     "habría hablado",
+     "habríamos hablado",
+     "habríais hablado",
+     "habrían hablado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I speak, am speaking",
+    "forms": [
+     "hable",
+     "hables",
+     "hable",
+     "hablemos",
+     "habléis",
+     "hablen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I spoke, was speaking",
+    "forms": [
+     "hablara",
+     "hablaras",
+     "hablara",
+     "habláramos",
+     "hablarais",
+     "hablaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will speak",
+    "forms": [
+     "hablare",
+     "hablares",
+     "hablare",
+     "habláremos",
+     "hablareis",
+     "hablaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have spoken, spoke",
+    "forms": [
+     "haya hablado",
+     "hayas hablado",
+     "haya hablado",
+     "hayamos hablado",
+     "hayáis hablado",
+     "hayan hablado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have spoken",
+    "forms": [
+     "hubiere hablado",
+     "hubieres hablado",
+     "hubiere hablado",
+     "hubiéremos hablado",
+     "hubiereis hablado",
+     "hubieren hablado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had spoken",
+    "forms": [
+     "hubiera hablado",
+     "hubieras hablado",
+     "hubiera hablado",
+     "hubiéramos hablado",
+     "hubierais hablado",
+     "hubieran hablado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Speak! Don't speak!",
+    "forms": [
+     "",
+     "habla",
+     "hable",
+     "hablemos",
+     "hablad",
+     "hablen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Speak! Don't speak!",
+    "forms": [
+     "",
+     "no hables",
+     "no hable",
+     "no hablemos",
+     "no habléis",
+     "no hablen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 19,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "parecer",
+  "quedar"
+ ],
+ "slug": "hablar"
+}

@@ -1,0 +1,247 @@
+{
+ "infinitive": "seguir",
+ "english": "to follow, continue",
+ "gerund": "siguiendo",
+ "past_participle": "seguido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I follow, am following",
+    "forms": [
+     "sigo",
+     "sigues",
+     "sigue",
+     "seguimos",
+     "seguís",
+     "siguen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will follow",
+    "forms": [
+     "seguiré",
+     "seguirás",
+     "seguirá",
+     "seguiremos",
+     "seguiréis",
+     "seguirán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was following, used to follow, followed",
+    "forms": [
+     "seguía",
+     "seguías",
+     "seguía",
+     "seguíamos",
+     "seguíais",
+     "seguían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I followed",
+    "forms": [
+     "seguí",
+     "seguiste",
+     "siguió",
+     "seguimos",
+     "seguisteis",
+     "siguieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would follow",
+    "forms": [
+     "seguiría",
+     "seguirías",
+     "seguiría",
+     "seguiríamos",
+     "seguiríais",
+     "seguirían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have followed",
+    "forms": [
+     "he seguido",
+     "has seguido",
+     "ha seguido",
+     "hemos seguido",
+     "habéis seguido",
+     "han seguido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have followed",
+    "forms": [
+     "habré seguido",
+     "habrás seguido",
+     "habrá seguido",
+     "habremos seguido",
+     "habréis seguido",
+     "habrán seguido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had followed",
+    "forms": [
+     "había seguido",
+     "habías seguido",
+     "había seguido",
+     "habíamos seguido",
+     "habíais seguido",
+     "habían seguido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had followed",
+    "forms": [
+     "hube seguido",
+     "hubiste seguido",
+     "hubo seguido",
+     "hubimos seguido",
+     "hubisteis seguido",
+     "hubieron seguido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have followed",
+    "forms": [
+     "habría seguido",
+     "habrías seguido",
+     "habría seguido",
+     "habríamos seguido",
+     "habríais seguido",
+     "habrían seguido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I follow, am following",
+    "forms": [
+     "siga",
+     "sigas",
+     "siga",
+     "sigamos",
+     "sigáis",
+     "sigan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I followed, was following",
+    "forms": [
+     "siguiera",
+     "siguieras",
+     "siguiera",
+     "siguiéramos",
+     "siguierais",
+     "siguieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will follow",
+    "forms": [
+     "siguiere",
+     "siguieres",
+     "siguiere",
+     "siguiéremos",
+     "siguiereis",
+     "siguieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have followed, followed",
+    "forms": [
+     "haya seguido",
+     "hayas seguido",
+     "haya seguido",
+     "hayamos seguido",
+     "hayáis seguido",
+     "hayan seguido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have followed",
+    "forms": [
+     "hubiere seguido",
+     "hubieres seguido",
+     "hubiere seguido",
+     "hubiéremos seguido",
+     "hubiereis seguido",
+     "hubieren seguido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had followed",
+    "forms": [
+     "hubiera seguido",
+     "hubieras seguido",
+     "hubiera seguido",
+     "hubiéramos seguido",
+     "hubierais seguido",
+     "hubieran seguido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Follow! Don't follow!",
+    "forms": [
+     "",
+     "sigue",
+     "siga",
+     "sigamos",
+     "seguid",
+     "sigan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Follow! Don't follow!",
+    "forms": [
+     "",
+     "no sigas",
+     "no siga",
+     "no sigamos",
+     "no sigáis",
+     "no sigan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 22,
+ "related": [
+  "decir",
+  "ir",
+  "venir",
+  "hablar",
+  "llevar"
+ ],
+ "slug": "seguir"
+}

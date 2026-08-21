@@ -1,0 +1,244 @@
+{
+ "infinitive": "dejar",
+ "english": "to leave, abandon; to let, allow",
+ "gerund": "dejando",
+ "past_participle": "dejado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I leave, am leaving",
+    "forms": [
+     "dejo",
+     "dejas",
+     "deja",
+     "dejamos",
+     "dejáis",
+     "dejan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will leave",
+    "forms": [
+     "dejaré",
+     "dejarás",
+     "dejará",
+     "dejaremos",
+     "dejaréis",
+     "dejarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was leaving, used to leave, left",
+    "forms": [
+     "dejaba",
+     "dejabas",
+     "dejaba",
+     "dejábamos",
+     "dejabais",
+     "dejaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I left",
+    "forms": [
+     "dejé",
+     "dejaste",
+     "dejó",
+     "dejamos",
+     "dejasteis",
+     "dejaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would leave",
+    "forms": [
+     "dejaría",
+     "dejarías",
+     "dejaría",
+     "dejaríamos",
+     "dejaríais",
+     "dejarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have left",
+    "forms": [
+     "he dejado",
+     "has dejado",
+     "ha dejado",
+     "hemos dejado",
+     "habéis dejado",
+     "han dejado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have left",
+    "forms": [
+     "habré dejado",
+     "habrás dejado",
+     "habrá dejado",
+     "habremos dejado",
+     "habréis dejado",
+     "habrán dejado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had left",
+    "forms": [
+     "había dejado",
+     "habías dejado",
+     "había dejado",
+     "habíamos dejado",
+     "habíais dejado",
+     "habían dejado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had left",
+    "forms": [
+     "hube dejado",
+     "hubiste dejado",
+     "hubo dejado",
+     "hubimos dejado",
+     "hubisteis dejado",
+     "hubieron dejado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have left",
+    "forms": [
+     "habría dejado",
+     "habrías dejado",
+     "habría dejado",
+     "habríamos dejado",
+     "habríais dejado",
+     "habrían dejado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I leave, am leaving",
+    "forms": [
+     "deje",
+     "dejes",
+     "deje",
+     "dejemos",
+     "dejéis",
+     "dejen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I left, was leaving",
+    "forms": [
+     "dejara",
+     "dejaras",
+     "dejara",
+     "dejáramos",
+     "dejarais",
+     "dejaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will leave",
+    "forms": [
+     "dejare",
+     "dejares",
+     "dejare",
+     "dejáremos",
+     "dejareis",
+     "dejaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have left, left",
+    "forms": [
+     "haya dejado",
+     "hayas dejado",
+     "haya dejado",
+     "hayamos dejado",
+     "hayáis dejado",
+     "hayan dejado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have left",
+    "forms": [
+     "hubiere dejado",
+     "hubieres dejado",
+     "hubiere dejado",
+     "hubiéremos dejado",
+     "hubiereis dejado",
+     "hubieren dejado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had left",
+    "forms": [
+     "hubiera dejado",
+     "hubieras dejado",
+     "hubiera dejado",
+     "hubiéramos dejado",
+     "hubierais dejado",
+     "hubieran dejado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Leave! Don't leave!",
+    "forms": [
+     "",
+     "deja",
+     "deje",
+     "dejemos",
+     "dejad",
+     "dejen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Leave! Don't leave!",
+    "forms": [
+     "",
+     "no dejes",
+     "no deje",
+     "no dejemos",
+     "no dejéis",
+     "no dejen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 21,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "creer",
+  "hablar"
+ ],
+ "slug": "dejar"
+}

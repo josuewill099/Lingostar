@@ -1,0 +1,244 @@
+{
+ "infinitive": "llamar",
+ "english": "to call, to name",
+ "gerund": "llamando",
+ "past_participle": "llamado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I call, am calling",
+    "forms": [
+     "llamo",
+     "llamas",
+     "llama",
+     "llamamos",
+     "llamáis",
+     "llaman"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will call",
+    "forms": [
+     "llamaré",
+     "llamarás",
+     "llamará",
+     "llamaremos",
+     "llamaréis",
+     "llamarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was calling, used to call, called",
+    "forms": [
+     "llamaba",
+     "llamabas",
+     "llamaba",
+     "llamábamos",
+     "llamabais",
+     "llamaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I called",
+    "forms": [
+     "llamé",
+     "llamaste",
+     "llamó",
+     "llamamos",
+     "llamasteis",
+     "llamaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would call",
+    "forms": [
+     "llamaría",
+     "llamarías",
+     "llamaría",
+     "llamaríamos",
+     "llamaríais",
+     "llamarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have called",
+    "forms": [
+     "he llamado",
+     "has llamado",
+     "ha llamado",
+     "hemos llamado",
+     "habéis llamado",
+     "han llamado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have called",
+    "forms": [
+     "habré llamado",
+     "habrás llamado",
+     "habrá llamado",
+     "habremos llamado",
+     "habréis llamado",
+     "habrán llamado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had called",
+    "forms": [
+     "había llamado",
+     "habías llamado",
+     "había llamado",
+     "habíamos llamado",
+     "habíais llamado",
+     "habían llamado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had called",
+    "forms": [
+     "hube llamado",
+     "hubiste llamado",
+     "hubo llamado",
+     "hubimos llamado",
+     "hubisteis llamado",
+     "hubieron llamado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have called",
+    "forms": [
+     "habría llamado",
+     "habrías llamado",
+     "habría llamado",
+     "habríamos llamado",
+     "habríais llamado",
+     "habrían llamado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I call, am calling",
+    "forms": [
+     "llame",
+     "llames",
+     "llame",
+     "llamemos",
+     "llaméis",
+     "llamen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I called, was calling",
+    "forms": [
+     "llamara",
+     "llamaras",
+     "llamara",
+     "llamáramos",
+     "llamarais",
+     "llamaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will call",
+    "forms": [
+     "llamare",
+     "llamares",
+     "llamare",
+     "llamáremos",
+     "llamareis",
+     "llamaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have called, called",
+    "forms": [
+     "haya llamado",
+     "hayas llamado",
+     "haya llamado",
+     "hayamos llamado",
+     "hayáis llamado",
+     "hayan llamado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have called",
+    "forms": [
+     "hubiere llamado",
+     "hubieres llamado",
+     "hubiere llamado",
+     "hubiéremos llamado",
+     "hubiereis llamado",
+     "hubieren llamado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had called",
+    "forms": [
+     "hubiera llamado",
+     "hubieras llamado",
+     "hubiera llamado",
+     "hubiéramos llamado",
+     "hubierais llamado",
+     "hubieran llamado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Call! Don't call!",
+    "forms": [
+     "",
+     "llama",
+     "llame",
+     "llamemos",
+     "llamad",
+     "llamen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Call! Don't call!",
+    "forms": [
+     "",
+     "no llames",
+     "no llame",
+     "no llamemos",
+     "no llaméis",
+     "no llamen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 24,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "dejar",
+  "seguir"
+ ],
+ "slug": "llamar"
+}

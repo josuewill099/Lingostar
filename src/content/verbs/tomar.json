@@ -1,0 +1,244 @@
+{
+ "infinitive": "tomar",
+ "english": "to take, drink",
+ "gerund": "tomando",
+ "past_participle": "tomado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I take, am taking",
+    "forms": [
+     "tomo",
+     "tomas",
+     "toma",
+     "tomamos",
+     "tomáis",
+     "toman"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will take",
+    "forms": [
+     "tomaré",
+     "tomarás",
+     "tomará",
+     "tomaremos",
+     "tomaréis",
+     "tomarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was taking, used to take, took",
+    "forms": [
+     "tomaba",
+     "tomabas",
+     "tomaba",
+     "tomábamos",
+     "tomabais",
+     "tomaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I took",
+    "forms": [
+     "tomé",
+     "tomaste",
+     "tomó",
+     "tomamos",
+     "tomasteis",
+     "tomaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would take",
+    "forms": [
+     "tomaría",
+     "tomarías",
+     "tomaría",
+     "tomaríamos",
+     "tomaríais",
+     "tomarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have taken",
+    "forms": [
+     "he tomado",
+     "has tomado",
+     "ha tomado",
+     "hemos tomado",
+     "habéis tomado",
+     "han tomado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have taken",
+    "forms": [
+     "habré tomado",
+     "habrás tomado",
+     "habrá tomado",
+     "habremos tomado",
+     "habréis tomado",
+     "habrán tomado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had taken",
+    "forms": [
+     "había tomado",
+     "habías tomado",
+     "había tomado",
+     "habíamos tomado",
+     "habíais tomado",
+     "habían tomado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had taken",
+    "forms": [
+     "hube tomado",
+     "hubiste tomado",
+     "hubo tomado",
+     "hubimos tomado",
+     "hubisteis tomado",
+     "hubieron tomado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have taken",
+    "forms": [
+     "habría tomado",
+     "habrías tomado",
+     "habría tomado",
+     "habríamos tomado",
+     "habríais tomado",
+     "habrían tomado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I take, am taking",
+    "forms": [
+     "tome",
+     "tomes",
+     "tome",
+     "tomemos",
+     "toméis",
+     "tomen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I took, was taking",
+    "forms": [
+     "tomara",
+     "tomaras",
+     "tomara",
+     "tomáramos",
+     "tomarais",
+     "tomaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will take",
+    "forms": [
+     "tomare",
+     "tomares",
+     "tomare",
+     "tomáremos",
+     "tomareis",
+     "tomaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have taken, took",
+    "forms": [
+     "haya tomado",
+     "hayas tomado",
+     "haya tomado",
+     "hayamos tomado",
+     "hayáis tomado",
+     "hayan tomado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have taken",
+    "forms": [
+     "hubiere tomado",
+     "hubieres tomado",
+     "hubiere tomado",
+     "hubiéremos tomado",
+     "hubiereis tomado",
+     "hubieren tomado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had taken",
+    "forms": [
+     "hubiera tomado",
+     "hubieras tomado",
+     "hubiera tomado",
+     "hubiéramos tomado",
+     "hubierais tomado",
+     "hubieran tomado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Take! Don't take!",
+    "forms": [
+     "",
+     "toma",
+     "tome",
+     "tomemos",
+     "tomad",
+     "tomen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Take! Don't take!",
+    "forms": [
+     "",
+     "no tomes",
+     "no tome",
+     "no tomemos",
+     "no toméis",
+     "no tomen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 29,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "pensar",
+  "salir"
+ ],
+ "slug": "tomar"
+}

@@ -1,0 +1,244 @@
+{
+ "infinitive": "ocurrir",
+ "english": "to occur, happen",
+ "gerund": "ocurriendo",
+ "past_participle": "ocurrido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "it occurs, is occurring",
+    "forms": [
+     "",
+     "",
+     "ocurre",
+     "",
+     "",
+     "ocurren"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "it will occur",
+    "forms": [
+     "",
+     "",
+     "ocurrirá",
+     "",
+     "",
+     "ocurrirán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "it was occurring, used to occur, occurred",
+    "forms": [
+     "",
+     "",
+     "ocurría",
+     "",
+     "",
+     "ocurrían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "it occurred",
+    "forms": [
+     "",
+     "",
+     "ocurrió",
+     "",
+     "",
+     "ocurrieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "it would occur",
+    "forms": [
+     "",
+     "",
+     "ocurriría",
+     "",
+     "",
+     "ocurrirían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "it has occurred",
+    "forms": [
+     "",
+     "",
+     "ha ocurrido",
+     "",
+     "",
+     "han ocurrido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "it will have occurred",
+    "forms": [
+     "",
+     "",
+     "habrá ocurrido",
+     "",
+     "",
+     "habrán ocurrido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "it had occurred",
+    "forms": [
+     "",
+     "",
+     "había ocurrido",
+     "",
+     "",
+     "habían ocurrido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "it had occurred",
+    "forms": [
+     "",
+     "",
+     "hubo ocurrido",
+     "",
+     "",
+     "hubieron ocurrido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "it would have occurred",
+    "forms": [
+     "",
+     "",
+     "habría ocurrido",
+     "",
+     "",
+     "habrían ocurrido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "it occurs, is occurring",
+    "forms": [
+     "",
+     "",
+     "ocurra",
+     "",
+     "",
+     "ocurran"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "it occurred, was occurring",
+    "forms": [
+     "",
+     "",
+     "ocurriera",
+     "",
+     "",
+     "ocurrieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "it will occur",
+    "forms": [
+     "",
+     "",
+     "ocurriere",
+     "",
+     "",
+     "ocurrieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "it has occurred, occurred",
+    "forms": [
+     "",
+     "",
+     "haya ocurrido",
+     "",
+     "",
+     "hayan ocurrido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "it will have occurred",
+    "forms": [
+     "",
+     "",
+     "hubiere ocurrido",
+     "",
+     "",
+     "hubieren ocurrido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "it had occurred",
+    "forms": [
+     "",
+     "",
+     "hubiera ocurrido",
+     "",
+     "",
+     "hubieran ocurrido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Occur! Don't occur!",
+    "forms": [
+     "",
+     "ocurre",
+     "ocurra",
+     "",
+     "ocurrid",
+     "ocurran"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Occur! Don't occur!",
+    "forms": [
+     "",
+     "no ocurras",
+     "no ocurra",
+     "",
+     "no ocurráis",
+     "no ocurran"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 42,
+ "related": [
+  "decir",
+  "ir",
+  "seguir",
+  "trabajar",
+  "escribir"
+ ],
+ "slug": "ocurrir"
+}

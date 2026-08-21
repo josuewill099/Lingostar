@@ -1,0 +1,244 @@
+{
+ "infinitive": "llevar",
+ "english": "to carry, bring",
+ "gerund": "llevando",
+ "past_participle": "llevado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I carry, am carrying",
+    "forms": [
+     "llevo",
+     "llevas",
+     "lleva",
+     "llevamos",
+     "lleváis",
+     "llevan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will carry",
+    "forms": [
+     "llevaré",
+     "llevarás",
+     "llevará",
+     "llevaremos",
+     "llevaréis",
+     "llevarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was carrying, used to carry, carried",
+    "forms": [
+     "llevaba",
+     "llevabas",
+     "llevaba",
+     "llevábamos",
+     "llevabais",
+     "llevaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I carried",
+    "forms": [
+     "llevé",
+     "llevaste",
+     "llevó",
+     "llevamos",
+     "llevasteis",
+     "llevaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would carry",
+    "forms": [
+     "llevaría",
+     "llevarías",
+     "llevaría",
+     "llevaríamos",
+     "llevaríais",
+     "llevarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have carried",
+    "forms": [
+     "he llevado",
+     "has llevado",
+     "ha llevado",
+     "hemos llevado",
+     "habéis llevado",
+     "han llevado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have carried",
+    "forms": [
+     "habré llevado",
+     "habrás llevado",
+     "habrá llevado",
+     "habremos llevado",
+     "habréis llevado",
+     "habrán llevado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had carried",
+    "forms": [
+     "había llevado",
+     "habías llevado",
+     "había llevado",
+     "habíamos llevado",
+     "habíais llevado",
+     "habían llevado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had carried",
+    "forms": [
+     "hube llevado",
+     "hubiste llevado",
+     "hubo llevado",
+     "hubimos llevado",
+     "hubisteis llevado",
+     "hubieron llevado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have carried",
+    "forms": [
+     "habría llevado",
+     "habrías llevado",
+     "habría llevado",
+     "habríamos llevado",
+     "habríais llevado",
+     "habrían llevado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I carry, am carrying",
+    "forms": [
+     "lleve",
+     "lleves",
+     "lleve",
+     "llevemos",
+     "llevéis",
+     "lleven"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I carried, was carrying",
+    "forms": [
+     "llevara",
+     "llevaras",
+     "llevara",
+     "lleváramos",
+     "llevarais",
+     "llevaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will carry",
+    "forms": [
+     "llevare",
+     "llevares",
+     "llevare",
+     "lleváremos",
+     "llevareis",
+     "llevaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have carried, carried",
+    "forms": [
+     "haya llevado",
+     "hayas llevado",
+     "haya llevado",
+     "hayamos llevado",
+     "hayáis llevado",
+     "hayan llevado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have carried",
+    "forms": [
+     "hubiere llevado",
+     "hubieres llevado",
+     "hubiere llevado",
+     "hubiéremos llevado",
+     "hubiereis llevado",
+     "hubieren llevado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had carried",
+    "forms": [
+     "hubiera llevado",
+     "hubieras llevado",
+     "hubiera llevado",
+     "hubiéramos llevado",
+     "hubierais llevado",
+     "hubieran llevado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Carry! Don't carry!",
+    "forms": [
+     "",
+     "lleva",
+     "lleve",
+     "llevemos",
+     "llevad",
+     "lleven"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Carry! Don't carry!",
+    "forms": [
+     "",
+     "no lleves",
+     "no lleve",
+     "no llevemos",
+     "no llevéis",
+     "no lleven"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 20,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "quedar",
+  "creer"
+ ],
+ "slug": "llevar"
+}

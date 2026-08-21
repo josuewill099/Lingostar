@@ -1,0 +1,246 @@
+{
+ "infinitive": "parecer",
+ "english": "to seem, appear",
+ "gerund": "pareciendo",
+ "past_participle": "parecido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I seem, am seeming",
+    "forms": [
+     "parezco",
+     "pareces",
+     "parece",
+     "parecemos",
+     "parecéis",
+     "parecen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will seem",
+    "forms": [
+     "pareceré",
+     "parecerás",
+     "parecerá",
+     "pareceremos",
+     "pareceréis",
+     "parecerán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was seeming, used to seem, seemed",
+    "forms": [
+     "parecía",
+     "parecías",
+     "parecía",
+     "parecíamos",
+     "parecíais",
+     "parecían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I seemed",
+    "forms": [
+     "parecí",
+     "pareciste",
+     "pareció",
+     "parecimos",
+     "parecisteis",
+     "parecieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would seem",
+    "forms": [
+     "parecería",
+     "parecerías",
+     "parecería",
+     "pareceríamos",
+     "pareceríais",
+     "parecerían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have seemed",
+    "forms": [
+     "he parecido",
+     "has parecido",
+     "ha parecido",
+     "hemos parecido",
+     "habéis parecido",
+     "han parecido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have seemed",
+    "forms": [
+     "habré parecido",
+     "habrás parecido",
+     "habrá parecido",
+     "habremos parecido",
+     "habréis parecido",
+     "habrán parecido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had seemed",
+    "forms": [
+     "había parecido",
+     "habías parecido",
+     "había parecido",
+     "habíamos parecido",
+     "habíais parecido",
+     "habían parecido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had seemed",
+    "forms": [
+     "hube parecido",
+     "hubiste parecido",
+     "hubo parecido",
+     "hubimos parecido",
+     "hubisteis parecido",
+     "hubieron parecido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have seemed",
+    "forms": [
+     "habría parecido",
+     "habrías parecido",
+     "habría parecido",
+     "habríamos parecido",
+     "habríais parecido",
+     "habrían parecido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I seem, am seeming",
+    "forms": [
+     "parezca",
+     "parezcas",
+     "parezca",
+     "parezcamos",
+     "parezcáis",
+     "parezcan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I seemed, was seeming",
+    "forms": [
+     "pareciera",
+     "parecieras",
+     "pareciera",
+     "pareciéramos",
+     "parecierais",
+     "parecieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will seem",
+    "forms": [
+     "pareciere",
+     "parecieres",
+     "pareciere",
+     "pareciéremos",
+     "pareciereis",
+     "parecieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have seemed, seemed",
+    "forms": [
+     "haya parecido",
+     "hayas parecido",
+     "haya parecido",
+     "hayamos parecido",
+     "hayáis parecido",
+     "hayan parecido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have seemed",
+    "forms": [
+     "hubiere parecido",
+     "hubieres parecido",
+     "hubiere parecido",
+     "hubiéremos parecido",
+     "hubiereis parecido",
+     "hubieren parecido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had seemed",
+    "forms": [
+     "hubiera parecido",
+     "hubieras parecido",
+     "hubiera parecido",
+     "hubiéramos parecido",
+     "hubierais parecido",
+     "hubieran parecido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Seem! Don't seem!",
+    "forms": [
+     "",
+     "parece",
+     "parezca",
+     "parezcamos",
+     "pareced",
+     "parezcan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Seem! Don't seem!",
+    "forms": [
+     "",
+     "no parezcas",
+     "no parezca",
+     "no parezcamos",
+     "no parezcáis",
+     "no parezcan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 16,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "pasar",
+  "deber"
+ ],
+ "slug": "parecer"
+}

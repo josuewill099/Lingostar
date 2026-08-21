@@ -1,0 +1,247 @@
+{
+ "infinitive": "sentir",
+ "english": "to feel, regret",
+ "gerund": "sintiendo",
+ "past_participle": "sentido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I feel, am feeling",
+    "forms": [
+     "siento",
+     "sientes",
+     "siente",
+     "sentimos",
+     "sentís",
+     "sienten"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will feel",
+    "forms": [
+     "sentiré",
+     "sentirás",
+     "sentirá",
+     "sentiremos",
+     "sentiréis",
+     "sentirán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was feeling, used to feel, felt",
+    "forms": [
+     "sentía",
+     "sentías",
+     "sentía",
+     "sentíamos",
+     "sentíais",
+     "sentían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I felt",
+    "forms": [
+     "sentí",
+     "sentiste",
+     "sintió",
+     "sentimos",
+     "sentisteis",
+     "sintieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would feel",
+    "forms": [
+     "sentiría",
+     "sentirías",
+     "sentiría",
+     "sentiríamos",
+     "sentiríais",
+     "sentirían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have felt",
+    "forms": [
+     "he sentido",
+     "has sentido",
+     "ha sentido",
+     "hemos sentido",
+     "habéis sentido",
+     "han sentido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have felt",
+    "forms": [
+     "habré sentido",
+     "habrás sentido",
+     "habrá sentido",
+     "habremos sentido",
+     "habréis sentido",
+     "habrán sentido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had felt",
+    "forms": [
+     "había sentido",
+     "habías sentido",
+     "había sentido",
+     "habíamos sentido",
+     "habíais sentido",
+     "habían sentido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had felt",
+    "forms": [
+     "hube sentido",
+     "hubiste sentido",
+     "hubo sentido",
+     "hubimos sentido",
+     "hubisteis sentido",
+     "hubieron sentido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have felt",
+    "forms": [
+     "habría sentido",
+     "habrías sentido",
+     "habría sentido",
+     "habríamos sentido",
+     "habríais sentido",
+     "habrían sentido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I feel, am feeling",
+    "forms": [
+     "sienta",
+     "sientas",
+     "sienta",
+     "sintamos",
+     "sintáis",
+     "sientan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I felt, was feeling",
+    "forms": [
+     "sintiera",
+     "sintieras",
+     "sintiera",
+     "sintiéramos",
+     "sintierais",
+     "sintieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will feel",
+    "forms": [
+     "sintiere",
+     "sintieres",
+     "sintiere",
+     "sintiéremos",
+     "sintiereis",
+     "sintieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have felt, felt",
+    "forms": [
+     "haya sentido",
+     "hayas sentido",
+     "haya sentido",
+     "hayamos sentido",
+     "hayáis sentido",
+     "hayan sentido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have felt",
+    "forms": [
+     "hubiere sentido",
+     "hubieres sentido",
+     "hubiere sentido",
+     "hubiéremos sentido",
+     "hubiereis sentido",
+     "hubieren sentido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had felt",
+    "forms": [
+     "hubiera sentido",
+     "hubieras sentido",
+     "hubiera sentido",
+     "hubiéramos sentido",
+     "hubierais sentido",
+     "hubieran sentido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Feel! Don't feel!",
+    "forms": [
+     "",
+     "siente",
+     "sienta",
+     "sintamos",
+     "sentid",
+     "sientan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Feel! Don't feel!",
+    "forms": [
+     "",
+     "no sientas",
+     "no sienta",
+     "no sintamos",
+     "no sintáis",
+     "no sientan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 32,
+ "related": [
+  "decir",
+  "ir",
+  "seguir",
+  "tomar",
+  "conocer"
+ ],
+ "slug": "sentir"
+}

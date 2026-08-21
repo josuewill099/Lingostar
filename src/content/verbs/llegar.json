@@ -1,0 +1,246 @@
+{
+ "infinitive": "llegar",
+ "english": "to arrive, come, reach; to bring up, bring over; to gather together",
+ "gerund": "llegando",
+ "past_participle": "llegado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I arrive, am arriving",
+    "forms": [
+     "llego",
+     "llegas",
+     "llega",
+     "llegamos",
+     "llegáis",
+     "llegan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will arrive",
+    "forms": [
+     "llegaré",
+     "llegarás",
+     "llegará",
+     "llegaremos",
+     "llegaréis",
+     "llegarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was arriving, used to arrive, arrived",
+    "forms": [
+     "llegaba",
+     "llegabas",
+     "llegaba",
+     "llegábamos",
+     "llegabais",
+     "llegaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I arrived",
+    "forms": [
+     "llegué",
+     "llegaste",
+     "llegó",
+     "llegamos",
+     "llegasteis",
+     "llegaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would arrive",
+    "forms": [
+     "llegaría",
+     "llegarías",
+     "llegaría",
+     "llegaríamos",
+     "llegaríais",
+     "llegarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have arrived",
+    "forms": [
+     "he llegado",
+     "has llegado",
+     "ha llegado",
+     "hemos llegado",
+     "habéis llegado",
+     "han llegado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have arrived",
+    "forms": [
+     "habré llegado",
+     "habrás llegado",
+     "habrá llegado",
+     "habremos llegado",
+     "habréis llegado",
+     "habrán llegado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had arrived",
+    "forms": [
+     "había llegado",
+     "habías llegado",
+     "había llegado",
+     "habíamos llegado",
+     "habíais llegado",
+     "habían llegado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had arrived",
+    "forms": [
+     "hube llegado",
+     "hubiste llegado",
+     "hubo llegado",
+     "hubimos llegado",
+     "hubisteis llegado",
+     "hubieron llegado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have arrived",
+    "forms": [
+     "habría llegado",
+     "habrías llegado",
+     "habría llegado",
+     "habríamos llegado",
+     "habríais llegado",
+     "habrían llegado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I arrive, am arriving",
+    "forms": [
+     "llegue",
+     "llegues",
+     "llegue",
+     "lleguemos",
+     "lleguéis",
+     "lleguen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I arrived, was arriving",
+    "forms": [
+     "llegara",
+     "llegaras",
+     "llegara",
+     "llegáramos",
+     "llegarais",
+     "llegaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will arrive",
+    "forms": [
+     "llegare",
+     "llegares",
+     "llegare",
+     "llegáremos",
+     "llegareis",
+     "llegaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have arrived, arrived",
+    "forms": [
+     "haya llegado",
+     "hayas llegado",
+     "haya llegado",
+     "hayamos llegado",
+     "hayáis llegado",
+     "hayan llegado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have arrived",
+    "forms": [
+     "hubiere llegado",
+     "hubieres llegado",
+     "hubiere llegado",
+     "hubiéremos llegado",
+     "hubiereis llegado",
+     "hubieren llegado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had arrived",
+    "forms": [
+     "hubiera llegado",
+     "hubieras llegado",
+     "hubiera llegado",
+     "hubiéramos llegado",
+     "hubierais llegado",
+     "hubieran llegado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Arrive! Don't arrive!",
+    "forms": [
+     "",
+     "llega",
+     "llegue",
+     "lleguemos",
+     "llegad",
+     "lleguen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Arrive! Don't arrive!",
+    "forms": [
+     "",
+     "no llegues",
+     "no llegue",
+     "no lleguemos",
+     "no lleguéis",
+     "no lleguen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 12,
+ "related": [
+  "estar",
+  "dar",
+  "pasar",
+  "saber",
+  "querer"
+ ],
+ "slug": "llegar"
+}

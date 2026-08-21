@@ -1,0 +1,248 @@
+{
+ "infinitive": "ir",
+ "english": "to go",
+ "gerund": "yendo",
+ "past_participle": "ido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I go, am going",
+    "forms": [
+     "voy",
+     "vas",
+     "va",
+     "vamos",
+     "vais",
+     "van"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will go",
+    "forms": [
+     "iré",
+     "irás",
+     "irá",
+     "iremos",
+     "iréis",
+     "irán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was going, used to go, went",
+    "forms": [
+     "iba",
+     "ibas",
+     "iba",
+     "íbamos",
+     "ibais",
+     "iban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I went",
+    "forms": [
+     "fui",
+     "fuiste",
+     "fue",
+     "fuimos",
+     "fuisteis",
+     "fueron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would go",
+    "forms": [
+     "iría",
+     "irías",
+     "iría",
+     "iríamos",
+     "iríais",
+     "irían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have gone",
+    "forms": [
+     "he ido",
+     "has ido",
+     "ha ido",
+     "hemos ido",
+     "habéis ido",
+     "han ido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have gone",
+    "forms": [
+     "habré ido",
+     "habrás ido",
+     "habrá ido",
+     "habremos ido",
+     "habréis ido",
+     "habrán ido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had gone",
+    "forms": [
+     "había ido",
+     "habías ido",
+     "había ido",
+     "habíamos ido",
+     "habíais ido",
+     "habían ido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had gone",
+    "forms": [
+     "hube ido",
+     "hubiste ido",
+     "hubo ido",
+     "hubimos ido",
+     "hubisteis ido",
+     "hubieron ido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have gone",
+    "forms": [
+     "habría ido",
+     "habrías ido",
+     "habría ido",
+     "habríamos ido",
+     "habríais ido",
+     "habrían ido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I go, am going",
+    "forms": [
+     "vaya",
+     "vayas",
+     "vaya",
+     "vayamos",
+     "vayáis",
+     "vayan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I went, was going",
+    "forms": [
+     "fuera",
+     "fueras",
+     "fuera",
+     "fuéramos",
+     "fuerais",
+     "fueran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will go",
+    "forms": [
+     "fuere",
+     "fueres",
+     "fuere",
+     "fuéremos",
+     "fuereis",
+     "fueren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have gone, went",
+    "forms": [
+     "haya ido",
+     "hayas ido",
+     "haya ido",
+     "hayamos ido",
+     "hayáis ido",
+     "hayan ido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have gone",
+    "forms": [
+     "hubiere ido",
+     "hubieres ido",
+     "hubiere ido",
+     "hubiéremos ido",
+     "hubiereis ido",
+     "hubieren ido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had gone",
+    "forms": [
+     "hubiera ido",
+     "hubieras ido",
+     "hubiera ido",
+     "hubiéramos ido",
+     "hubierais ido",
+     "hubieran ido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Go! Don't go!",
+    "forms": [
+     "",
+     "ve",
+     "vaya",
+     "vayamos",
+     "id",
+     "vayan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Go! Don't go!",
+    "forms": [
+     "",
+     "no vayas",
+     "no vaya",
+     "no vayamos",
+     "no vayáis",
+     "no vayan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Imperfect",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 7,
+ "related": [
+  "decir",
+  "seguir",
+  "venir",
+  "hacer",
+  "poder"
+ ],
+ "slug": "ir"
+}

@@ -1,0 +1,244 @@
+{
+ "infinitive": "entrar",
+ "english": "to enter, go in, come in",
+ "gerund": "entrando",
+ "past_participle": "entrado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I enter, am entering",
+    "forms": [
+     "entro",
+     "entras",
+     "entra",
+     "entramos",
+     "entráis",
+     "entran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will enter",
+    "forms": [
+     "entraré",
+     "entrarás",
+     "entrará",
+     "entraremos",
+     "entraréis",
+     "entrarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was entering, used to enter, entered",
+    "forms": [
+     "entraba",
+     "entrabas",
+     "entraba",
+     "entrábamos",
+     "entrabais",
+     "entraban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I entered",
+    "forms": [
+     "entré",
+     "entraste",
+     "entró",
+     "entramos",
+     "entrasteis",
+     "entraron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would enter",
+    "forms": [
+     "entraría",
+     "entrarías",
+     "entraría",
+     "entraríamos",
+     "entraríais",
+     "entrarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have entered",
+    "forms": [
+     "he entrado",
+     "has entrado",
+     "ha entrado",
+     "hemos entrado",
+     "habéis entrado",
+     "han entrado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have entered",
+    "forms": [
+     "habré entrado",
+     "habrás entrado",
+     "habrá entrado",
+     "habremos entrado",
+     "habréis entrado",
+     "habrán entrado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had entered",
+    "forms": [
+     "había entrado",
+     "habías entrado",
+     "había entrado",
+     "habíamos entrado",
+     "habíais entrado",
+     "habían entrado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had entered",
+    "forms": [
+     "hube entrado",
+     "hubiste entrado",
+     "hubo entrado",
+     "hubimos entrado",
+     "hubisteis entrado",
+     "hubieron entrado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have entered",
+    "forms": [
+     "habría entrado",
+     "habrías entrado",
+     "habría entrado",
+     "habríamos entrado",
+     "habríais entrado",
+     "habrían entrado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I enter, am entering",
+    "forms": [
+     "entre",
+     "entres",
+     "entre",
+     "entremos",
+     "entréis",
+     "entren"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I entered, was entering",
+    "forms": [
+     "entrara",
+     "entraras",
+     "entrara",
+     "entráramos",
+     "entrarais",
+     "entraran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will enter",
+    "forms": [
+     "entrare",
+     "entrares",
+     "entrare",
+     "entráremos",
+     "entrareis",
+     "entraren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have entered, entered",
+    "forms": [
+     "haya entrado",
+     "hayas entrado",
+     "haya entrado",
+     "hayamos entrado",
+     "hayáis entrado",
+     "hayan entrado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have entered",
+    "forms": [
+     "hubiere entrado",
+     "hubieres entrado",
+     "hubiere entrado",
+     "hubiéremos entrado",
+     "hubiereis entrado",
+     "hubieren entrado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had entered",
+    "forms": [
+     "hubiera entrado",
+     "hubieras entrado",
+     "hubiera entrado",
+     "hubiéramos entrado",
+     "hubierais entrado",
+     "hubieran entrado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Enter! Don't enter!",
+    "forms": [
+     "",
+     "entra",
+     "entre",
+     "entremos",
+     "entrad",
+     "entren"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Enter! Don't enter!",
+    "forms": [
+     "",
+     "no entres",
+     "no entre",
+     "no entremos",
+     "no entréis",
+     "no entren"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 38,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "empezar",
+  "esperar"
+ ],
+ "slug": "entrar"
+}

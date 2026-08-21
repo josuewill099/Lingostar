@@ -1,0 +1,247 @@
+{
+ "infinitive": "saber",
+ "english": "to know",
+ "gerund": "sabiendo",
+ "past_participle": "sabido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I know",
+    "forms": [
+     "sé",
+     "sabes",
+     "sabe",
+     "sabemos",
+     "sabéis",
+     "saben"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will know",
+    "forms": [
+     "sabré",
+     "sabrás",
+     "sabrá",
+     "sabremos",
+     "sabréis",
+     "sabrán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I used to know, knew",
+    "forms": [
+     "sabía",
+     "sabías",
+     "sabía",
+     "sabíamos",
+     "sabíais",
+     "sabían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I knew",
+    "forms": [
+     "supe",
+     "supiste",
+     "supo",
+     "supimos",
+     "supisteis",
+     "supieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would know",
+    "forms": [
+     "sabría",
+     "sabrías",
+     "sabría",
+     "sabríamos",
+     "sabríais",
+     "sabrían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have known",
+    "forms": [
+     "he sabido",
+     "has sabido",
+     "ha sabido",
+     "hemos sabido",
+     "habéis sabido",
+     "han sabido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have known",
+    "forms": [
+     "habré sabido",
+     "habrás sabido",
+     "habrá sabido",
+     "habremos sabido",
+     "habréis sabido",
+     "habrán sabido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had known",
+    "forms": [
+     "había sabido",
+     "habías sabido",
+     "había sabido",
+     "habíamos sabido",
+     "habíais sabido",
+     "habían sabido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had known",
+    "forms": [
+     "hube sabido",
+     "hubiste sabido",
+     "hubo sabido",
+     "hubimos sabido",
+     "hubisteis sabido",
+     "hubieron sabido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have known",
+    "forms": [
+     "habría sabido",
+     "habrías sabido",
+     "habría sabido",
+     "habríamos sabido",
+     "habríais sabido",
+     "habrían sabido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I know",
+    "forms": [
+     "sepa",
+     "sepas",
+     "sepa",
+     "sepamos",
+     "sepáis",
+     "sepan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I knew",
+    "forms": [
+     "supiera",
+     "supieras",
+     "supiera",
+     "supiéramos",
+     "supierais",
+     "supieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will know",
+    "forms": [
+     "supiere",
+     "supieres",
+     "supiere",
+     "supiéremos",
+     "supiereis",
+     "supieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have known, knew",
+    "forms": [
+     "haya sabido",
+     "hayas sabido",
+     "haya sabido",
+     "hayamos sabido",
+     "hayáis sabido",
+     "hayan sabido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have known",
+    "forms": [
+     "hubiere sabido",
+     "hubieres sabido",
+     "hubiere sabido",
+     "hubiéremos sabido",
+     "hubiereis sabido",
+     "hubieren sabido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had known",
+    "forms": [
+     "hubiera sabido",
+     "hubieras sabido",
+     "hubiera sabido",
+     "hubiéramos sabido",
+     "hubierais sabido",
+     "hubieran sabido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Know! Don't know!",
+    "forms": [
+     "",
+     "sabe",
+     "sepa",
+     "sepamos",
+     "sabed",
+     "sepan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Know! Don't know!",
+    "forms": [
+     "",
+     "no sepas",
+     "no sepa",
+     "no sepamos",
+     "no sepáis",
+     "no sepan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 10,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "ir",
+  "ver"
+ ],
+ "slug": "saber"
+}

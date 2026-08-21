@@ -1,0 +1,244 @@
+{
+ "infinitive": "deber",
+ "english": "to owe; must, should, ought to",
+ "gerund": "debiendo",
+ "past_participle": "debido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I owe, am owing",
+    "forms": [
+     "debo",
+     "debes",
+     "debe",
+     "debemos",
+     "debéis",
+     "deben"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will owe",
+    "forms": [
+     "deberé",
+     "deberás",
+     "deberá",
+     "deberemos",
+     "deberéis",
+     "deberán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was owing, used to owe, owed",
+    "forms": [
+     "debía",
+     "debías",
+     "debía",
+     "debíamos",
+     "debíais",
+     "debían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I owed",
+    "forms": [
+     "debí",
+     "debiste",
+     "debió",
+     "debimos",
+     "debisteis",
+     "debieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would owe",
+    "forms": [
+     "debería",
+     "deberías",
+     "debería",
+     "deberíamos",
+     "deberíais",
+     "deberían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have owed",
+    "forms": [
+     "he debido",
+     "has debido",
+     "ha debido",
+     "hemos debido",
+     "habéis debido",
+     "han debido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have owed",
+    "forms": [
+     "habré debido",
+     "habrás debido",
+     "habrá debido",
+     "habremos debido",
+     "habréis debido",
+     "habrán debido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had owed",
+    "forms": [
+     "había debido",
+     "habías debido",
+     "había debido",
+     "habíamos debido",
+     "habíais debido",
+     "habían debido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had owed",
+    "forms": [
+     "hube debido",
+     "hubiste debido",
+     "hubo debido",
+     "hubimos debido",
+     "hubisteis debido",
+     "hubieron debido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have owed",
+    "forms": [
+     "habría debido",
+     "habrías debido",
+     "habría debido",
+     "habríamos debido",
+     "habríais debido",
+     "habrían debido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I owe, am owing",
+    "forms": [
+     "deba",
+     "debas",
+     "deba",
+     "debamos",
+     "debáis",
+     "deban"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I owed, was owing",
+    "forms": [
+     "debiera",
+     "debieras",
+     "debiera",
+     "debiéramos",
+     "debierais",
+     "debieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will owe",
+    "forms": [
+     "debiere",
+     "debieres",
+     "debiere",
+     "debiéremos",
+     "debiereis",
+     "debieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have owed, owed",
+    "forms": [
+     "haya debido",
+     "hayas debido",
+     "haya debido",
+     "hayamos debido",
+     "hayáis debido",
+     "hayan debido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have owed",
+    "forms": [
+     "hubiere debido",
+     "hubieres debido",
+     "hubiere debido",
+     "hubiéremos debido",
+     "hubiereis debido",
+     "hubieren debido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had owed",
+    "forms": [
+     "hubiera debido",
+     "hubieras debido",
+     "hubiera debido",
+     "hubiéramos debido",
+     "hubierais debido",
+     "hubieran debido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Owe! Don't owe!",
+    "forms": [
+     "",
+     "debe",
+     "deba",
+     "debamos",
+     "debed",
+     "deban"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Owe! Don't owe!",
+    "forms": [
+     "",
+     "no debas",
+     "no deba",
+     "no debamos",
+     "no debáis",
+     "no deban"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 14,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "querer",
+  "llegar"
+ ],
+ "slug": "deber"
+}

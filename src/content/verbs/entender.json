@@ -1,0 +1,246 @@
+{
+ "infinitive": "entender",
+ "english": "to understand",
+ "gerund": "entendiendo",
+ "past_participle": "entendido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I understand, am understanding",
+    "forms": [
+     "entiendo",
+     "entiendes",
+     "entiende",
+     "entendemos",
+     "entendéis",
+     "entienden"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will understand",
+    "forms": [
+     "entenderé",
+     "entenderás",
+     "entenderá",
+     "entenderemos",
+     "entenderéis",
+     "entenderán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was understanding, used to understand, understood",
+    "forms": [
+     "entendía",
+     "entendías",
+     "entendía",
+     "entendíamos",
+     "entendíais",
+     "entendían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I understood",
+    "forms": [
+     "entendí",
+     "entendiste",
+     "entendió",
+     "entendimos",
+     "entendisteis",
+     "entendieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would understand",
+    "forms": [
+     "entendería",
+     "entenderías",
+     "entendería",
+     "entenderíamos",
+     "entenderíais",
+     "entenderían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have understood",
+    "forms": [
+     "he entendido",
+     "has entendido",
+     "ha entendido",
+     "hemos entendido",
+     "habéis entendido",
+     "han entendido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have understood",
+    "forms": [
+     "habré entendido",
+     "habrás entendido",
+     "habrá entendido",
+     "habremos entendido",
+     "habréis entendido",
+     "habrán entendido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had understood",
+    "forms": [
+     "había entendido",
+     "habías entendido",
+     "había entendido",
+     "habíamos entendido",
+     "habíais entendido",
+     "habían entendido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had understood",
+    "forms": [
+     "hube entendido",
+     "hubiste entendido",
+     "hubo entendido",
+     "hubimos entendido",
+     "hubisteis entendido",
+     "hubieron entendido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have understood",
+    "forms": [
+     "habría entendido",
+     "habrías entendido",
+     "habría entendido",
+     "habríamos entendido",
+     "habríais entendido",
+     "habrían entendido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I understand, am understanding",
+    "forms": [
+     "entienda",
+     "entiendas",
+     "entienda",
+     "entendamos",
+     "entendáis",
+     "entiendan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I understood, was understanding",
+    "forms": [
+     "entendiera",
+     "entendieras",
+     "entendiera",
+     "entendiéramos",
+     "entendierais",
+     "entendieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will understand",
+    "forms": [
+     "entendiere",
+     "entendieres",
+     "entendiere",
+     "entendiéremos",
+     "entendiereis",
+     "entendieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have understood, understood",
+    "forms": [
+     "haya entendido",
+     "hayas entendido",
+     "haya entendido",
+     "hayamos entendido",
+     "hayáis entendido",
+     "hayan entendido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have understood",
+    "forms": [
+     "hubiere entendido",
+     "hubieres entendido",
+     "hubiere entendido",
+     "hubiéremos entendido",
+     "hubiereis entendido",
+     "hubieren entendido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had understood",
+    "forms": [
+     "hubiera entendido",
+     "hubieras entendido",
+     "hubiera entendido",
+     "hubiéramos entendido",
+     "hubierais entendido",
+     "hubieran entendido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Understand! Don't understand!",
+    "forms": [
+     "",
+     "entiende",
+     "entienda",
+     "entendamos",
+     "entended",
+     "entiendan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Understand! Don't understand!",
+    "forms": [
+     "",
+     "no entiendas",
+     "no entienda",
+     "no entendamos",
+     "no entendáis",
+     "no entiendan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 43,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "escribir",
+  "perder"
+ ],
+ "slug": "entender"
+}

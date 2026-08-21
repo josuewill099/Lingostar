@@ -1,0 +1,248 @@
+{
+ "infinitive": "ver",
+ "english": "to see",
+ "gerund": "viendo",
+ "past_participle": "visto",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I see, am seeing",
+    "forms": [
+     "veo",
+     "ves",
+     "ve",
+     "vemos",
+     "veis",
+     "ven"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will see",
+    "forms": [
+     "veré",
+     "verás",
+     "verá",
+     "veremos",
+     "veréis",
+     "verán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was seeing, used to see, saw",
+    "forms": [
+     "veía",
+     "veías",
+     "veía",
+     "veíamos",
+     "veíais",
+     "veían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I saw",
+    "forms": [
+     "vi",
+     "viste",
+     "vio",
+     "vimos",
+     "visteis",
+     "vieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would see",
+    "forms": [
+     "vería",
+     "verías",
+     "vería",
+     "veríamos",
+     "veríais",
+     "verían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have seen",
+    "forms": [
+     "he visto",
+     "has visto",
+     "ha visto",
+     "hemos visto",
+     "habéis visto",
+     "han visto"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have seen",
+    "forms": [
+     "habré visto",
+     "habrás visto",
+     "habrá visto",
+     "habremos visto",
+     "habréis visto",
+     "habrán visto"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had seen",
+    "forms": [
+     "había visto",
+     "habías visto",
+     "había visto",
+     "habíamos visto",
+     "habíais visto",
+     "habían visto"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had seen",
+    "forms": [
+     "hube visto",
+     "hubiste visto",
+     "hubo visto",
+     "hubimos visto",
+     "hubisteis visto",
+     "hubieron visto"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have seen",
+    "forms": [
+     "habría visto",
+     "habrías visto",
+     "habría visto",
+     "habríamos visto",
+     "habríais visto",
+     "habrían visto"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I see, am seeing",
+    "forms": [
+     "vea",
+     "veas",
+     "vea",
+     "veamos",
+     "veáis",
+     "vean"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I saw, was seeing",
+    "forms": [
+     "viera",
+     "vieras",
+     "viera",
+     "viéramos",
+     "vierais",
+     "vieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will see",
+    "forms": [
+     "viere",
+     "vieres",
+     "viere",
+     "viéremos",
+     "viereis",
+     "vieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have seen, saw",
+    "forms": [
+     "haya visto",
+     "hayas visto",
+     "haya visto",
+     "hayamos visto",
+     "hayáis visto",
+     "hayan visto"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have seen",
+    "forms": [
+     "hubiere visto",
+     "hubieres visto",
+     "hubiere visto",
+     "hubiéremos visto",
+     "hubiereis visto",
+     "hubieren visto"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had seen",
+    "forms": [
+     "hubiera visto",
+     "hubieras visto",
+     "hubiera visto",
+     "hubiéramos visto",
+     "hubierais visto",
+     "hubieran visto"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "See! Don't see!",
+    "forms": [
+     "",
+     "ve",
+     "vea",
+     "veamos",
+     "ved",
+     "vean"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "See! Don't see!",
+    "forms": [
+     "",
+     "no veas",
+     "no vea",
+     "no veamos",
+     "no veáis",
+     "no vean"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Imperfect",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 8,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "poder",
+  "decir"
+ ],
+ "slug": "ver"
+}

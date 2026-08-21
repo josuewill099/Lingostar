@@ -1,0 +1,247 @@
+{
+ "infinitive": "querer",
+ "english": "to want, love",
+ "gerund": "queriendo",
+ "past_participle": "querido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I want, am wanting",
+    "forms": [
+     "quiero",
+     "quieres",
+     "quiere",
+     "queremos",
+     "queréis",
+     "quieren"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will want",
+    "forms": [
+     "querré",
+     "querrás",
+     "querrá",
+     "querremos",
+     "querréis",
+     "querrán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was wanting, used to want, wanted",
+    "forms": [
+     "quería",
+     "querías",
+     "quería",
+     "queríamos",
+     "queríais",
+     "querían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I wanted",
+    "forms": [
+     "quise",
+     "quisiste",
+     "quiso",
+     "quisimos",
+     "quisisteis",
+     "quisieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would want",
+    "forms": [
+     "querría",
+     "querrías",
+     "querría",
+     "querríamos",
+     "querríais",
+     "querrían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have wanted",
+    "forms": [
+     "he querido",
+     "has querido",
+     "ha querido",
+     "hemos querido",
+     "habéis querido",
+     "han querido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have wanted",
+    "forms": [
+     "habré querido",
+     "habrás querido",
+     "habrá querido",
+     "habremos querido",
+     "habréis querido",
+     "habrán querido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had wanted",
+    "forms": [
+     "había querido",
+     "habías querido",
+     "había querido",
+     "habíamos querido",
+     "habíais querido",
+     "habían querido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had wanted",
+    "forms": [
+     "hube querido",
+     "hubiste querido",
+     "hubo querido",
+     "hubimos querido",
+     "hubisteis querido",
+     "hubieron querido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have wanted",
+    "forms": [
+     "habría querido",
+     "habrías querido",
+     "habría querido",
+     "habríamos querido",
+     "habríais querido",
+     "habrían querido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I want, am wanting",
+    "forms": [
+     "quiera",
+     "quieras",
+     "quiera",
+     "queramos",
+     "queráis",
+     "quieran"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I wanted, was wanting",
+    "forms": [
+     "quisiera",
+     "quisieras",
+     "quisiera",
+     "quisiéramos",
+     "quisierais",
+     "quisieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will want",
+    "forms": [
+     "quisiere",
+     "quisieres",
+     "quisiere",
+     "quisiéremos",
+     "quisiereis",
+     "quisieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have wanted, wanted",
+    "forms": [
+     "haya querido",
+     "hayas querido",
+     "haya querido",
+     "hayamos querido",
+     "hayáis querido",
+     "hayan querido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have wanted",
+    "forms": [
+     "hubiere querido",
+     "hubieres querido",
+     "hubiere querido",
+     "hubiéremos querido",
+     "hubiereis querido",
+     "hubieren querido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had wanted",
+    "forms": [
+     "hubiera querido",
+     "hubieras querido",
+     "hubiera querido",
+     "hubiéramos querido",
+     "hubierais querido",
+     "hubieran querido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Want! Don't want!",
+    "forms": [
+     "",
+     "quiere",
+     "quiera",
+     "queramos",
+     "quered",
+     "quieran"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Want! Don't want!",
+    "forms": [
+     "",
+     "no quieras",
+     "no quiera",
+     "no queramos",
+     "no queráis",
+     "no quieran"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 11,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "ver",
+  "dar"
+ ],
+ "slug": "querer"
+}

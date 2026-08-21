@@ -1,0 +1,246 @@
+{
+ "infinitive": "poder",
+ "english": "to be able, can",
+ "gerund": "pudiendo",
+ "past_participle": "podido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I am able, can",
+    "forms": [
+     "puedo",
+     "puedes",
+     "puede",
+     "podemos",
+     "podéis",
+     "pueden"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will be able",
+    "forms": [
+     "podré",
+     "podrás",
+     "podrá",
+     "podremos",
+     "podréis",
+     "podrán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I used to be able, was able, could",
+    "forms": [
+     "podía",
+     "podías",
+     "podía",
+     "podíamos",
+     "podíais",
+     "podían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I was able, could",
+    "forms": [
+     "pude",
+     "pudiste",
+     "pudo",
+     "pudimos",
+     "pudisteis",
+     "pudieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would be able",
+    "forms": [
+     "podría",
+     "podrías",
+     "podría",
+     "podríamos",
+     "podríais",
+     "podrían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have been able",
+    "forms": [
+     "he podido",
+     "has podido",
+     "ha podido",
+     "hemos podido",
+     "habéis podido",
+     "han podido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have been able",
+    "forms": [
+     "habré podido",
+     "habrás podido",
+     "habrá podido",
+     "habremos podido",
+     "habréis podido",
+     "habrán podido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had been able",
+    "forms": [
+     "había podido",
+     "habías podido",
+     "había podido",
+     "habíamos podido",
+     "habíais podido",
+     "habían podido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had been able",
+    "forms": [
+     "hube podido",
+     "hubiste podido",
+     "hubo podido",
+     "hubimos podido",
+     "hubisteis podido",
+     "hubieron podido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have been able",
+    "forms": [
+     "habría podido",
+     "habrías podido",
+     "habría podido",
+     "habríamos podido",
+     "habríais podido",
+     "habrían podido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I am able, can",
+    "forms": [
+     "pueda",
+     "puedas",
+     "pueda",
+     "podamos",
+     "podáis",
+     "puedan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was able, could",
+    "forms": [
+     "pudiera",
+     "pudieras",
+     "pudiera",
+     "pudiéramos",
+     "pudierais",
+     "pudieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will be able",
+    "forms": [
+     "pudiere",
+     "pudieres",
+     "pudiere",
+     "pudiéremos",
+     "pudiereis",
+     "pudieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have been able, was able",
+    "forms": [
+     "haya podido",
+     "hayas podido",
+     "haya podido",
+     "hayamos podido",
+     "hayáis podido",
+     "hayan podido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have been able",
+    "forms": [
+     "hubiere podido",
+     "hubieres podido",
+     "hubiere podido",
+     "hubiéremos podido",
+     "hubiereis podido",
+     "hubieren podido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had been able",
+    "forms": [
+     "hubiera podido",
+     "hubieras podido",
+     "hubiera podido",
+     "hubiéramos podido",
+     "hubierais podido",
+     "hubieran podido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Be able! Don't be able!",
+    "forms": [
+     "",
+     "puede",
+     "pueda",
+     "podamos",
+     "poded",
+     "puedan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Be able! Don't be able!",
+    "forms": [
+     "",
+     "no puedas",
+     "no pueda",
+     "no podamos",
+     "no podáis",
+     "no puedan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 5,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "estar"
+ ],
+ "slug": "poder"
+}

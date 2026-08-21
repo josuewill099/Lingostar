@@ -1,0 +1,246 @@
+{
+ "infinitive": "buscar",
+ "english": "to search for, look for",
+ "gerund": "buscando",
+ "past_participle": "buscado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I search for, am searching for",
+    "forms": [
+     "busco",
+     "buscas",
+     "busca",
+     "buscamos",
+     "buscáis",
+     "buscan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will search for",
+    "forms": [
+     "buscaré",
+     "buscarás",
+     "buscará",
+     "buscaremos",
+     "buscaréis",
+     "buscarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was searching for, used to search for, searched for",
+    "forms": [
+     "buscaba",
+     "buscabas",
+     "buscaba",
+     "buscábamos",
+     "buscabais",
+     "buscaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I searched for",
+    "forms": [
+     "busqué",
+     "buscaste",
+     "buscó",
+     "buscamos",
+     "buscasteis",
+     "buscaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would search for",
+    "forms": [
+     "buscaría",
+     "buscarías",
+     "buscaría",
+     "buscaríamos",
+     "buscaríais",
+     "buscarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have searched for",
+    "forms": [
+     "he buscado",
+     "has buscado",
+     "ha buscado",
+     "hemos buscado",
+     "habéis buscado",
+     "han buscado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have searched for",
+    "forms": [
+     "habré buscado",
+     "habrás buscado",
+     "habrá buscado",
+     "habremos buscado",
+     "habréis buscado",
+     "habrán buscado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had searched for",
+    "forms": [
+     "había buscado",
+     "habías buscado",
+     "había buscado",
+     "habíamos buscado",
+     "habíais buscado",
+     "habían buscado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had searched for",
+    "forms": [
+     "hube buscado",
+     "hubiste buscado",
+     "hubo buscado",
+     "hubimos buscado",
+     "hubisteis buscado",
+     "hubieron buscado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have searched for",
+    "forms": [
+     "habría buscado",
+     "habrías buscado",
+     "habría buscado",
+     "habríamos buscado",
+     "habríais buscado",
+     "habrían buscado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I search for, am searching for",
+    "forms": [
+     "busque",
+     "busques",
+     "busque",
+     "busquemos",
+     "busquéis",
+     "busquen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I searched for, was searching for",
+    "forms": [
+     "buscara",
+     "buscaras",
+     "buscara",
+     "buscáramos",
+     "buscarais",
+     "buscaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will search for",
+    "forms": [
+     "buscare",
+     "buscares",
+     "buscare",
+     "buscáremos",
+     "buscareis",
+     "buscaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have searched for, searched for",
+    "forms": [
+     "haya buscado",
+     "hayas buscado",
+     "haya buscado",
+     "hayamos buscado",
+     "hayáis buscado",
+     "hayan buscado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have searched for",
+    "forms": [
+     "hubiere buscado",
+     "hubieres buscado",
+     "hubiere buscado",
+     "hubiéremos buscado",
+     "hubiereis buscado",
+     "hubieren buscado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had searched for",
+    "forms": [
+     "hubiera buscado",
+     "hubieras buscado",
+     "hubiera buscado",
+     "hubiéramos buscado",
+     "hubierais buscado",
+     "hubieran buscado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Search for! Don't search for!",
+    "forms": [
+     "",
+     "busca",
+     "busque",
+     "busquemos",
+     "buscad",
+     "busquen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Search for! Don't search for!",
+    "forms": [
+     "",
+     "no busques",
+     "no busque",
+     "no busquemos",
+     "no busquéis",
+     "no busquen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 37,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "contar",
+  "empezar"
+ ],
+ "slug": "buscar"
+}

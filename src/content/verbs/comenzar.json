@@ -1,0 +1,247 @@
+{
+ "infinitive": "comenzar",
+ "english": "to begin, start, commence",
+ "gerund": "comenzando",
+ "past_participle": "comenzado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I begin, am beginning",
+    "forms": [
+     "comienzo",
+     "comienzas",
+     "comienza",
+     "comenzamos",
+     "comenzáis",
+     "comienzan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will begin",
+    "forms": [
+     "comenzaré",
+     "comenzarás",
+     "comenzará",
+     "comenzaremos",
+     "comenzaréis",
+     "comenzarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was beginning, used to begin, began",
+    "forms": [
+     "comenzaba",
+     "comenzabas",
+     "comenzaba",
+     "comenzábamos",
+     "comenzabais",
+     "comenzaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I began",
+    "forms": [
+     "comencé",
+     "comenzaste",
+     "comenzó",
+     "comenzamos",
+     "comenzasteis",
+     "comenzaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would begin",
+    "forms": [
+     "comenzaría",
+     "comenzarías",
+     "comenzaría",
+     "comenzaríamos",
+     "comenzaríais",
+     "comenzarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have begun",
+    "forms": [
+     "he comenzado",
+     "has comenzado",
+     "ha comenzado",
+     "hemos comenzado",
+     "habéis comenzado",
+     "han comenzado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have begun",
+    "forms": [
+     "habré comenzado",
+     "habrás comenzado",
+     "habrá comenzado",
+     "habremos comenzado",
+     "habréis comenzado",
+     "habrán comenzado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had begun",
+    "forms": [
+     "había comenzado",
+     "habías comenzado",
+     "había comenzado",
+     "habíamos comenzado",
+     "habíais comenzado",
+     "habían comenzado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had begun",
+    "forms": [
+     "hube comenzado",
+     "hubiste comenzado",
+     "hubo comenzado",
+     "hubimos comenzado",
+     "hubisteis comenzado",
+     "hubieron comenzado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have begun",
+    "forms": [
+     "habría comenzado",
+     "habrías comenzado",
+     "habría comenzado",
+     "habríamos comenzado",
+     "habríais comenzado",
+     "habrían comenzado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I begin, am beginning",
+    "forms": [
+     "comience",
+     "comiences",
+     "comience",
+     "comencemos",
+     "comencéis",
+     "comiencen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I began, was beginning",
+    "forms": [
+     "comenzara",
+     "comenzaras",
+     "comenzara",
+     "comenzáramos",
+     "comenzarais",
+     "comenzaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will begin",
+    "forms": [
+     "comenzare",
+     "comenzares",
+     "comenzare",
+     "comenzáremos",
+     "comenzareis",
+     "comenzaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have begun, began",
+    "forms": [
+     "haya comenzado",
+     "hayas comenzado",
+     "haya comenzado",
+     "hayamos comenzado",
+     "hayáis comenzado",
+     "hayan comenzado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have begun",
+    "forms": [
+     "hubiere comenzado",
+     "hubieres comenzado",
+     "hubiere comenzado",
+     "hubiéremos comenzado",
+     "hubiereis comenzado",
+     "hubieren comenzado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had begun",
+    "forms": [
+     "hubiera comenzado",
+     "hubieras comenzado",
+     "hubiera comenzado",
+     "hubiéramos comenzado",
+     "hubierais comenzado",
+     "hubieran comenzado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Begin! Don't begin!",
+    "forms": [
+     "",
+     "comienza",
+     "comience",
+     "comencemos",
+     "comenzad",
+     "comiencen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Begin! Don't begin!",
+    "forms": [
+     "",
+     "no comiences",
+     "no comience",
+     "no comencemos",
+     "no comencéis",
+     "no comiencen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 50,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "terminar",
+  "permitir"
+ ],
+ "slug": "comenzar"
+}

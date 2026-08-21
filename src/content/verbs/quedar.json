@@ -1,0 +1,244 @@
+{
+ "infinitive": "quedar",
+ "english": "to stay, remain, be left; to be [indicating location]",
+ "gerund": "quedando",
+ "past_participle": "quedado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I stay, am staying",
+    "forms": [
+     "quedo",
+     "quedas",
+     "queda",
+     "quedamos",
+     "quedáis",
+     "quedan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will stay",
+    "forms": [
+     "quedaré",
+     "quedarás",
+     "quedará",
+     "quedaremos",
+     "quedaréis",
+     "quedarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was staying, used to stay, stayed",
+    "forms": [
+     "quedaba",
+     "quedabas",
+     "quedaba",
+     "quedábamos",
+     "quedabais",
+     "quedaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I stayed",
+    "forms": [
+     "quedé",
+     "quedaste",
+     "quedó",
+     "quedamos",
+     "quedasteis",
+     "quedaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would stay",
+    "forms": [
+     "quedaría",
+     "quedarías",
+     "quedaría",
+     "quedaríamos",
+     "quedaríais",
+     "quedarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have stayed",
+    "forms": [
+     "he quedado",
+     "has quedado",
+     "ha quedado",
+     "hemos quedado",
+     "habéis quedado",
+     "han quedado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have stayed",
+    "forms": [
+     "habré quedado",
+     "habrás quedado",
+     "habrá quedado",
+     "habremos quedado",
+     "habréis quedado",
+     "habrán quedado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had stayed",
+    "forms": [
+     "había quedado",
+     "habías quedado",
+     "había quedado",
+     "habíamos quedado",
+     "habíais quedado",
+     "habían quedado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had stayed",
+    "forms": [
+     "hube quedado",
+     "hubiste quedado",
+     "hubo quedado",
+     "hubimos quedado",
+     "hubisteis quedado",
+     "hubieron quedado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have stayed",
+    "forms": [
+     "habría quedado",
+     "habrías quedado",
+     "habría quedado",
+     "habríamos quedado",
+     "habríais quedado",
+     "habrían quedado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I stay, am staying",
+    "forms": [
+     "quede",
+     "quedes",
+     "quede",
+     "quedemos",
+     "quedéis",
+     "queden"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I stayed, was staying",
+    "forms": [
+     "quedara",
+     "quedaras",
+     "quedara",
+     "quedáramos",
+     "quedarais",
+     "quedaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will stay",
+    "forms": [
+     "quedare",
+     "quedares",
+     "quedare",
+     "quedáremos",
+     "quedareis",
+     "quedaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have stayed, stayed",
+    "forms": [
+     "haya quedado",
+     "hayas quedado",
+     "haya quedado",
+     "hayamos quedado",
+     "hayáis quedado",
+     "hayan quedado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have stayed",
+    "forms": [
+     "hubiere quedado",
+     "hubieres quedado",
+     "hubiere quedado",
+     "hubiéremos quedado",
+     "hubiereis quedado",
+     "hubieren quedado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had stayed",
+    "forms": [
+     "hubiera quedado",
+     "hubieras quedado",
+     "hubiera quedado",
+     "hubiéramos quedado",
+     "hubierais quedado",
+     "hubieran quedado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "stay! Don't stay!",
+    "forms": [
+     "",
+     "queda",
+     "quede",
+     "quedemos",
+     "quedad",
+     "queden"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "stay! Don't stay!",
+    "forms": [
+     "",
+     "no quedes",
+     "no quede",
+     "no quedemos",
+     "no quedéis",
+     "no queden"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 17,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "deber",
+  "poner"
+ ],
+ "slug": "quedar"
+}

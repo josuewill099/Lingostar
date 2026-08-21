@@ -1,0 +1,247 @@
+{
+ "infinitive": "pedir",
+ "english": "to request, ask for",
+ "gerund": "pidiendo",
+ "past_participle": "pedido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I request, am requesting",
+    "forms": [
+     "pido",
+     "pides",
+     "pide",
+     "pedimos",
+     "pedís",
+     "piden"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will request",
+    "forms": [
+     "pediré",
+     "pedirás",
+     "pedirá",
+     "pediremos",
+     "pediréis",
+     "pedirán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was requesting, used to request, requested",
+    "forms": [
+     "pedía",
+     "pedías",
+     "pedía",
+     "pedíamos",
+     "pedíais",
+     "pedían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I requested",
+    "forms": [
+     "pedí",
+     "pediste",
+     "pidió",
+     "pedimos",
+     "pedisteis",
+     "pidieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would request",
+    "forms": [
+     "pediría",
+     "pedirías",
+     "pediría",
+     "pediríamos",
+     "pediríais",
+     "pedirían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have requested",
+    "forms": [
+     "he pedido",
+     "has pedido",
+     "ha pedido",
+     "hemos pedido",
+     "habéis pedido",
+     "han pedido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have requested",
+    "forms": [
+     "habré pedido",
+     "habrás pedido",
+     "habrá pedido",
+     "habremos pedido",
+     "habréis pedido",
+     "habrán pedido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had requested",
+    "forms": [
+     "había pedido",
+     "habías pedido",
+     "había pedido",
+     "habíamos pedido",
+     "habíais pedido",
+     "habían pedido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had requested",
+    "forms": [
+     "hube pedido",
+     "hubiste pedido",
+     "hubo pedido",
+     "hubimos pedido",
+     "hubisteis pedido",
+     "hubieron pedido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have requested",
+    "forms": [
+     "habría pedido",
+     "habrías pedido",
+     "habría pedido",
+     "habríamos pedido",
+     "habríais pedido",
+     "habrían pedido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I request, am requesting",
+    "forms": [
+     "pida",
+     "pidas",
+     "pida",
+     "pidamos",
+     "pidáis",
+     "pidan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I requested, was requesting",
+    "forms": [
+     "pidiera",
+     "pidieras",
+     "pidiera",
+     "pidiéramos",
+     "pidierais",
+     "pidieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will request",
+    "forms": [
+     "pidiere",
+     "pidieres",
+     "pidiere",
+     "pidiéremos",
+     "pidiereis",
+     "pidieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have requested, requested",
+    "forms": [
+     "haya pedido",
+     "hayas pedido",
+     "haya pedido",
+     "hayamos pedido",
+     "hayáis pedido",
+     "hayan pedido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have requested",
+    "forms": [
+     "hubiere pedido",
+     "hubieres pedido",
+     "hubiere pedido",
+     "hubiéremos pedido",
+     "hubiereis pedido",
+     "hubieren pedido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had requested",
+    "forms": [
+     "hubiera pedido",
+     "hubieras pedido",
+     "hubiera pedido",
+     "hubiéramos pedido",
+     "hubierais pedido",
+     "hubieran pedido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Request! Don't request!",
+    "forms": [
+     "",
+     "pide",
+     "pida",
+     "pidamos",
+     "pedid",
+     "pidan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Request! Don't request!",
+    "forms": [
+     "",
+     "no pidas",
+     "no pida",
+     "no pidamos",
+     "no pidáis",
+     "no pidan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 44,
+ "related": [
+  "decir",
+  "ir",
+  "seguir",
+  "perder",
+  "ocurrir"
+ ],
+ "slug": "pedir"
+}

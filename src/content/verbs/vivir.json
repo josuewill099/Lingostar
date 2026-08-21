@@ -1,0 +1,244 @@
+{
+ "infinitive": "vivir",
+ "english": "to live",
+ "gerund": "viviendo",
+ "past_participle": "vivido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I live, am living",
+    "forms": [
+     "vivo",
+     "vives",
+     "vive",
+     "vivimos",
+     "vivís",
+     "viven"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will live",
+    "forms": [
+     "viviré",
+     "vivirás",
+     "vivirá",
+     "viviremos",
+     "viviréis",
+     "vivirán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was living, used to live, lived",
+    "forms": [
+     "vivía",
+     "vivías",
+     "vivía",
+     "vivíamos",
+     "vivíais",
+     "vivían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I lived",
+    "forms": [
+     "viví",
+     "viviste",
+     "vivió",
+     "vivimos",
+     "vivisteis",
+     "vivieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would live",
+    "forms": [
+     "viviría",
+     "vivirías",
+     "viviría",
+     "viviríamos",
+     "viviríais",
+     "vivirían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have lived",
+    "forms": [
+     "he vivido",
+     "has vivido",
+     "ha vivido",
+     "hemos vivido",
+     "habéis vivido",
+     "han vivido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have lived",
+    "forms": [
+     "habré vivido",
+     "habrás vivido",
+     "habrá vivido",
+     "habremos vivido",
+     "habréis vivido",
+     "habrán vivido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had lived",
+    "forms": [
+     "había vivido",
+     "habías vivido",
+     "había vivido",
+     "habíamos vivido",
+     "habíais vivido",
+     "habían vivido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had lived",
+    "forms": [
+     "hube vivido",
+     "hubiste vivido",
+     "hubo vivido",
+     "hubimos vivido",
+     "hubisteis vivido",
+     "hubieron vivido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have lived",
+    "forms": [
+     "habría vivido",
+     "habrías vivido",
+     "habría vivido",
+     "habríamos vivido",
+     "habríais vivido",
+     "habrían vivido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I live, am living",
+    "forms": [
+     "viva",
+     "vivas",
+     "viva",
+     "vivamos",
+     "viváis",
+     "vivan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I lived, was living",
+    "forms": [
+     "viviera",
+     "vivieras",
+     "viviera",
+     "viviéramos",
+     "vivierais",
+     "vivieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will live",
+    "forms": [
+     "viviere",
+     "vivieres",
+     "viviere",
+     "viviéremos",
+     "viviereis",
+     "vivieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have lived, lived",
+    "forms": [
+     "haya vivido",
+     "hayas vivido",
+     "haya vivido",
+     "hayamos vivido",
+     "hayáis vivido",
+     "hayan vivido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have lived",
+    "forms": [
+     "hubiere vivido",
+     "hubieres vivido",
+     "hubiere vivido",
+     "hubiéremos vivido",
+     "hubiereis vivido",
+     "hubieren vivido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had lived",
+    "forms": [
+     "hubiera vivido",
+     "hubieras vivido",
+     "hubiera vivido",
+     "hubiéramos vivido",
+     "hubierais vivido",
+     "hubieran vivido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Live! Don't live!",
+    "forms": [
+     "",
+     "vive",
+     "viva",
+     "vivamos",
+     "vivid",
+     "vivan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Live! Don't live!",
+    "forms": [
+     "",
+     "no vivas",
+     "no viva",
+     "no vivamos",
+     "no viváis",
+     "no vivan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 31,
+ "related": [
+  "decir",
+  "ir",
+  "seguir",
+  "volver",
+  "tomar"
+ ],
+ "slug": "vivir"
+}

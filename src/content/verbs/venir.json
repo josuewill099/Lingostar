@@ -1,0 +1,247 @@
+{
+ "infinitive": "venir",
+ "english": "to come",
+ "gerund": "viniendo",
+ "past_participle": "venido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I come, am coming",
+    "forms": [
+     "vengo",
+     "vienes",
+     "viene",
+     "venimos",
+     "venís",
+     "vienen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will come",
+    "forms": [
+     "vendré",
+     "vendrás",
+     "vendrá",
+     "vendremos",
+     "vendréis",
+     "vendrán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was coming, used to come, came",
+    "forms": [
+     "venía",
+     "venías",
+     "venía",
+     "veníamos",
+     "veníais",
+     "venían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I came",
+    "forms": [
+     "vine",
+     "viniste",
+     "vino",
+     "vinimos",
+     "vinisteis",
+     "vinieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would come",
+    "forms": [
+     "vendría",
+     "vendrías",
+     "vendría",
+     "vendríamos",
+     "vendríais",
+     "vendrían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have come",
+    "forms": [
+     "he venido",
+     "has venido",
+     "ha venido",
+     "hemos venido",
+     "habéis venido",
+     "han venido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have come",
+    "forms": [
+     "habré venido",
+     "habrás venido",
+     "habrá venido",
+     "habremos venido",
+     "habréis venido",
+     "habrán venido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had come",
+    "forms": [
+     "había venido",
+     "habías venido",
+     "había venido",
+     "habíamos venido",
+     "habíais venido",
+     "habían venido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had come",
+    "forms": [
+     "hube venido",
+     "hubiste venido",
+     "hubo venido",
+     "hubimos venido",
+     "hubisteis venido",
+     "hubieron venido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have come",
+    "forms": [
+     "habría venido",
+     "habrías venido",
+     "habría venido",
+     "habríamos venido",
+     "habríais venido",
+     "habrían venido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I come, am coming",
+    "forms": [
+     "venga",
+     "vengas",
+     "venga",
+     "vengamos",
+     "vengáis",
+     "vengan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I came, was coming",
+    "forms": [
+     "viniera",
+     "vinieras",
+     "viniera",
+     "viniéramos",
+     "vinierais",
+     "vinieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will come",
+    "forms": [
+     "viniere",
+     "vinieres",
+     "viniere",
+     "viniéremos",
+     "viniereis",
+     "vinieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have come, came",
+    "forms": [
+     "haya venido",
+     "hayas venido",
+     "haya venido",
+     "hayamos venido",
+     "hayáis venido",
+     "hayan venido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have come",
+    "forms": [
+     "hubiere venido",
+     "hubieres venido",
+     "hubiere venido",
+     "hubiéremos venido",
+     "hubiereis venido",
+     "hubieren venido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had come",
+    "forms": [
+     "hubiera venido",
+     "hubieras venido",
+     "hubiera venido",
+     "hubiéramos venido",
+     "hubierais venido",
+     "hubieran venido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Come! Don't come!",
+    "forms": [
+     "",
+     "ven",
+     "venga",
+     "vengamos",
+     "venid",
+     "vengan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Come! Don't come!",
+    "forms": [
+     "",
+     "no vengas",
+     "no venga",
+     "no vengamos",
+     "no vengáis",
+     "no vengan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 25,
+ "related": [
+  "decir",
+  "ir",
+  "seguir",
+  "encontrar",
+  "llamar"
+ ],
+ "slug": "venir"
+}

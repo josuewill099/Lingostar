@@ -1,0 +1,246 @@
+{
+ "infinitive": "conocer",
+ "english": "to know",
+ "gerund": "conociendo",
+ "past_participle": "conocido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I know",
+    "forms": [
+     "conozco",
+     "conoces",
+     "conoce",
+     "conocemos",
+     "conocéis",
+     "conocen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will know",
+    "forms": [
+     "conoceré",
+     "conocerás",
+     "conocerá",
+     "conoceremos",
+     "conoceréis",
+     "conocerán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I used to know, knew",
+    "forms": [
+     "conocía",
+     "conocías",
+     "conocía",
+     "conocíamos",
+     "conocíais",
+     "conocían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I knew",
+    "forms": [
+     "conocí",
+     "conociste",
+     "conoció",
+     "conocimos",
+     "conocisteis",
+     "conocieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would know",
+    "forms": [
+     "conocería",
+     "conocerías",
+     "conocería",
+     "conoceríamos",
+     "conoceríais",
+     "conocerían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have known",
+    "forms": [
+     "he conocido",
+     "has conocido",
+     "ha conocido",
+     "hemos conocido",
+     "habéis conocido",
+     "han conocido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have known",
+    "forms": [
+     "habré conocido",
+     "habrás conocido",
+     "habrá conocido",
+     "habremos conocido",
+     "habréis conocido",
+     "habrán conocido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had known",
+    "forms": [
+     "había conocido",
+     "habías conocido",
+     "había conocido",
+     "habíamos conocido",
+     "habíais conocido",
+     "habían conocido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had known",
+    "forms": [
+     "hube conocido",
+     "hubiste conocido",
+     "hubo conocido",
+     "hubimos conocido",
+     "hubisteis conocido",
+     "hubieron conocido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have known",
+    "forms": [
+     "habría conocido",
+     "habrías conocido",
+     "habría conocido",
+     "habríamos conocido",
+     "habríais conocido",
+     "habrían conocido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I know",
+    "forms": [
+     "conozca",
+     "conozcas",
+     "conozca",
+     "conozcamos",
+     "conozcáis",
+     "conozcan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I knew, was knowing",
+    "forms": [
+     "conociera",
+     "conocieras",
+     "conociera",
+     "conociéramos",
+     "conocierais",
+     "conocieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will know",
+    "forms": [
+     "conociere",
+     "conocieres",
+     "conociere",
+     "conociéremos",
+     "conociereis",
+     "conocieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have known, knew",
+    "forms": [
+     "haya conocido",
+     "hayas conocido",
+     "haya conocido",
+     "hayamos conocido",
+     "hayáis conocido",
+     "hayan conocido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have known",
+    "forms": [
+     "hubiere conocido",
+     "hubieres conocido",
+     "hubiere conocido",
+     "hubiéremos conocido",
+     "hubiereis conocido",
+     "hubieren conocido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had known",
+    "forms": [
+     "hubiera conocido",
+     "hubieras conocido",
+     "hubiera conocido",
+     "hubiéramos conocido",
+     "hubierais conocido",
+     "hubieran conocido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Know! Don't know!",
+    "forms": [
+     "",
+     "conoce",
+     "conozca",
+     "conozcamos",
+     "conoced",
+     "conozcan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Know! Don't know!",
+    "forms": [
+     "",
+     "no conozcas",
+     "no conozca",
+     "no conozcamos",
+     "no conozcáis",
+     "no conozcan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 30,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "salir",
+  "volver"
+ ],
+ "slug": "conocer"
+}
