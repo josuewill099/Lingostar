@@ -12,8 +12,9 @@
     "migrate:wxr": "node scripts/wxr-to-markdown.mjs"
   },
   "dependencies": {
-    "astro": "^4.16.0",
-    "@astrojs/node": "^8.3.4"
+    "@astrojs/node": "^8.3.4",
+    "@astrojs/sitemap": "3.5.0",
+    "astro": "^4.16.0"
   },
   "devDependencies": {
     "fast-xml-parser": "^4.5.0",

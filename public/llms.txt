@@ -1,0 +1,27 @@
+# Lingostar
+
+> Lingostar is an AI-powered language learning platform for practicing real
+> conversations in English, Spanish, and French. Users speak or type with an
+> AI conversation partner and get instant feedback on grammar, vocabulary, and
+> pronunciation. Lingostar also publishes free Spanish grammar reference
+> content, including full verb conjugation charts.
+
+## Practice
+
+- [AI Conversation Practice](https://lingostar.ai/practice): Practice speaking
+  naturally with an AI conversation partner on topics like travel, business,
+  or everyday scenarios; get real-time grammar and pronunciation feedback.
+
+## Spanish Grammar Reference
+
+- [Spanish Verb Conjugation Charts](https://lingostar.ai/spanish/conjugation/):
+  Index of full conjugation tables for the most common Spanish verbs — every
+  tense and mood (indicative, subjunctive, imperative), with irregular forms
+  flagged and explained. Each verb has its own page at
+  `/spanish/conjugation/{verb}`, e.g. `/spanish/conjugation/tener`,
+  `/spanish/conjugation/ser`, `/spanish/conjugation/hablar`.
+
+## Optional
+
+- [Blog](https://lingostar.ai/blog/): Articles about language learning.
+- [Contact](https://lingostar.ai/contact/): Get in touch with the Lingostar team.
