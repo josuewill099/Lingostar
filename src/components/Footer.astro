@@ -1,8 +1,13 @@
 ---
+interface Props {
+  lang?: string;
+}
+const { lang = 'en' } = Astro.props as Props;
 const year = new Date().getFullYear();
+const text = lang === 'fr' ? 'Lingostar AI. Tous droits réservés.' : 'Lingostar AI. All rights reserved.';
 ---
 <footer>
-  <p>&copy; <span id="footer-year">{year}</span> Lingostar AI. All rights reserved.</p>
+  <p>&copy; <span id="footer-year">{year}</span> {text}</p>
 </footer>
 <script>
   const el = document.getElementById('footer-year');

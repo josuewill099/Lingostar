@@ -6,6 +6,11 @@ const repo = import.meta.env.PUBLIC_GISCUS_REPO || 'your-org/your-repo';
 const repoId = import.meta.env.PUBLIC_GISCUS_REPO_ID || '';
 const category = import.meta.env.PUBLIC_GISCUS_CATEGORY || 'Comments';
 const categoryId = import.meta.env.PUBLIC_GISCUS_CATEGORY_ID || '';
+
+interface Props {
+  lang?: string;
+}
+const { lang = 'en' } = Astro.props as Props;
 ---
 {repoId && categoryId ? (
   <script
@@ -20,7 +25,7 @@ const categoryId = import.meta.env.PUBLIC_GISCUS_CATEGORY_ID || '';
     data-emit-metadata="0"
     data-input-position="bottom"
     data-theme="light"
-    data-lang="en"
+    data-lang={lang}
     crossorigin="anonymous"
     async
   ></script>

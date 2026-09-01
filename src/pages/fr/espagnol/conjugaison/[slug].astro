@@ -1,0 +1,197 @@
+---
+// Spanish verb conjugation, for French speakers learning Spanish. Reuses
+// the same `verbs` collection as /spanish/conjugation/[slug].astro (the
+// conjugation data is language-neutral) with French UI copy instead of
+// English. Self-contained like its English counterpart, not BaseLayout.
+import { getCollection, type CollectionEntry } from 'astro:content';
+import SpanishNav from '../../../../components/SpanishNav.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const verbs = await getCollection('verbs');
+  return verbs.map((v) => ({ params: { slug: v.data.slug }, props: { v: v.data } }));
+}
+
+type VerbData = CollectionEntry<'verbs'>['data'];
+const { v } = Astro.props as { v: VerbData };
+
+const PRONOUNS = ["yo", "tú", "él/ella/Ud.", "nosotros", "vosotros", "ellos/Uds."];
+const IMPERATIVE_KEYS = ["Imperative Affirmative", "Imperative Negative"];
+
+const TENSE_FR: Record<string, string> = {
+  Present: "Présent", Future: "Futur", Imperfect: "Imparfait", Preterite: "Passé simple",
+  Conditional: "Conditionnel", "Present Perfect": "Passé composé", "Future Perfect": "Futur antérieur",
+  "Past Perfect": "Plus-que-parfait", "Preterite (Archaic)": "Passé antérieur (littéraire)",
+  "Conditional Perfect": "Conditionnel passé",
+};
+const MOOD_FR: Record<string, string> = { Indicative: "Indicatif", Subjunctive: "Subjonctif", Imperative: "Impératif" };
+
+// French meaning of the infinitive -- the verb data itself only carries an
+// English gloss (v.english), so this small lookup covers the 50 pilot
+// verbs rather than threading French glosses through the data pipeline.
+const FR_MEANING: Record<string, string> = {
+  ser: "être", estar: "être (état)", tener: "avoir", hacer: "faire", poder: "pouvoir",
+  decir: "dire", ir: "aller", ver: "voir", dar: "donner", saber: "savoir",
+  querer: "vouloir, aimer", llegar: "arriver", pasar: "passer", deber: "devoir", poner: "mettre",
+  parecer: "sembler", quedar: "rester", creer: "croire", hablar: "parler", llevar: "porter, emmener",
+  dejar: "laisser", seguir: "suivre, continuer", encontrar: "trouver", llamar: "appeler", venir: "venir",
+  pensar: "penser", salir: "sortir", volver: "revenir", tomar: "prendre", conocer: "connaître",
+  vivir: "vivre", sentir: "sentir, ressentir", mirar: "regarder", contar: "compter, raconter", empezar: "commencer",
+  esperar: "attendre, espérer", buscar: "chercher", entrar: "entrer", trabajar: "travailler", escribir: "écrire",
+  perder: "perdre", ocurrir: "se produire, arriver", entender: "comprendre", pedir: "demander", recibir: "recevoir",
+  recordar: "se souvenir de", terminar: "terminer", permitir: "permettre", aparecer: "apparaître", comenzar: "commencer",
+};
+
+function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
+function tenseTable(tname: string, t: { tense_es: string; forms: string[] }, irregular: Set<string>) {
+  const flag = irregular.has(tname) ? ' <span class="irr">irrégulier</span>' : '';
+  const rows = PRONOUNS.map((p, i) => `<tr><td class="pr">${p}</td><td class="fm">${t.forms[i] || "—"}</td></tr>`).join('');
+  return `<div class="tense-card">
+  <h4>${TENSE_FR[tname] || tname} <span class="es">(${t.tense_es})</span>${flag}</h4>
+  <table>${rows}</table></div>`;
+}
+
+const inf = v.infinitive, frMeaning = FR_MEANING[v.slug] || v.english;
+const irr = new Set(v.irregular_tenses);
+const irrList = [...new Set(v.irregular_tenses)];
+const badge = v.is_irregular ? "Verbe irrégulier" : "Verbe régulier";
+const present = v.moods["Indicative"]["Present"].forms;
+const quick = PRONOUNS.map((p, i) => present[i] ? `${p} <strong>${present[i]}</strong>` : null).filter(Boolean).join(', ');
+
+let moodsHtml = "", renderedMoods = 0, renderedTenses = 0;
+for (const m of ["Indicative", "Subjunctive", "Imperative"]) {
+  let cards = "";
+  if (m === "Imperative") {
+    for (const key of IMPERATIVE_KEYS) {
+      if (!v.moods[key]) continue;
+      const label = key.includes("Affirmative") ? "Affirmatif" : "Négatif";
+      for (const tn of Object.keys(v.moods[key])) {
+        cards += tenseTable(label, v.moods[key][tn], irr);
+        renderedTenses++;
+      }
+    }
+  } else {
+    if (!v.moods[m]) continue;
+    cards = Object.entries(v.moods[m]).map(([tn, t]) => tenseTable(tn, t as any, irr)).join('');
+    renderedTenses += Object.keys(v.moods[m]).length;
+  }
+  if (!cards) continue;
+  renderedMoods++;
+  moodsHtml += `<section class="mood"><h3>${MOOD_FR[m] || m}</h3><div class="tense-grid">${cards}</div></section>`;
+}
+
+const related = (v.related || []).map((r) => `<a href="/fr/espagnol/conjugaison/${r}">${cap(r)}</a>`).join('');
+const irrNote = irrList.length
+  ? `<strong>${cap(inf)}</strong> est irrégulier au ${irrList.map((t) => (TENSE_FR[t] || t).toLowerCase()).join(' et au ')} — observez les changements de radical ci-dessus.`
+  : `<strong>${cap(inf)}</strong> suit le modèle régulier des verbes en <em>-${v.verb_class}</em> à tous les temps — une fois les terminaisons connues, ce verbe n'a plus de secret.`;
+
+const faqLd = JSON.stringify({
+  "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+    { "@type": "Question", "name": `${cap(inf)} est-il régulier ou irrégulier ?`,
+      "acceptedAnswer": { "@type": "Answer", "text": `${cap(inf)} (${frMeaning}) est un verbe espagnol ${v.is_irregular ? 'irrégulier' : 'régulier'}.` } },
+    { "@type": "Question", "name": `Quel est le présent de l'indicatif de ${inf} ?`,
+      "acceptedAnswer": { "@type": "Answer", "text": present.filter(Boolean).join(', ') } },
+  ],
+});
+const crumbLd = JSON.stringify({
+  "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Espagnol", "item": "https://lingostar.ai/fr/espagnol/" },
+    { "@type": "ListItem", "position": 2, "name": "Conjugaison", "item": "https://lingostar.ai/fr/espagnol/conjugaison/" },
+    { "@type": "ListItem", "position": 3, "name": inf },
+  ],
+});
+
+const pageTitle = `Conjugaison de ${cap(inf)} — ${frMeaning} | Tous les temps espagnols | Lingostar`;
+const pageDescription = `Conjugaison complète de ${inf} (${frMeaning}) à tous les temps et modes espagnols : présent, passé simple, imparfait, subjonctif et plus. ${badge} — #${v.frequency_rank} verbe le plus utilisé.`;
+const canonical = `https://lingostar.ai/fr/espagnol/conjugaison/${v.slug}`;
+const englishUrl = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8YB8MCJV0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M8YB8MCJV0');
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription} />
+  <link rel="canonical" href={canonical} />
+  <link rel="alternate" hreflang="fr" href={canonical} />
+  <link rel="alternate" hreflang="en" href={englishUrl} />
+  <link rel="alternate" hreflang="x-default" href={englishUrl} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script type="application/ld+json" set:html={faqLd} />
+  <script type="application/ld+json" set:html={crumbLd} />
+  <style is:global>
+    :root{--ink:#1f1a16;--paper:#faf6ef;--card:#fffdf8;--red:#b3372c;--amber:#d99a2b;--line:#e7ddcc;--soft:#6f6558}
+    *{box-sizing:border-box;margin:0}
+    body{font-family:'Public Sans',sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;
+    background-image:radial-gradient(circle at 12% -8%,#f3e7d0 0,transparent 42%),radial-gradient(circle at 105% 15%,#f6e3dd 0,transparent 35%)}
+    .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+    nav.crumb{padding:18px 0;font-size:.82rem;color:var(--soft)} nav.crumb a{color:var(--red);text-decoration:none}
+    header.hero{padding:26px 0 34px;border-bottom:3px solid var(--ink)}
+    .badge{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    padding:5px 12px;border:1.5px solid var(--red);color:var(--red);border-radius:999px;margin-bottom:14px}
+    h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2.6rem,7vw,4.6rem);line-height:1.02}
+    h1 em{font-style:normal;color:var(--red)}
+    .sub{font-size:1.15rem;color:var(--soft);margin-top:10px} .sub strong{color:var(--ink)}
+    .meta{display:flex;gap:22px;margin-top:18px;font-size:.88rem;flex-wrap:wrap}
+    .meta span b{font-family:'Fraunces',serif;font-size:1.1rem}
+    .quick{margin:30px 0;background:var(--card);border:1.5px solid var(--line);border-left:6px solid var(--amber);
+    padding:20px 24px;border-radius:0 12px 12px 0}
+    .quick h2{font-family:'Fraunces',serif;font-size:1.15rem;margin-bottom:8px}
+    section.mood{margin:44px 0}
+    section.mood>h3{font-family:'Fraunces',serif;font-size:2rem;border-bottom:1.5px solid var(--line);padding-bottom:8px;margin-bottom:20px}
+    .tense-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
+    .tense-card{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:18px 20px;
+    box-shadow:3px 4px 0 rgba(31,26,22,.06);transition:transform .15s}
+    .tense-card:hover{transform:translateY(-3px)}
+    .tense-card h4{font-family:'Fraunces',serif;font-size:1.08rem} .es{font-weight:500;color:var(--soft);font-size:.85rem}
+    .irr{background:var(--red);color:#fff;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px;vertical-align:middle}
+    table{width:100%;border-collapse:collapse;font-size:.94rem;margin-top:8px}
+    td{padding:5px 4px;border-bottom:1px dashed var(--line)} tr:last-child td{border:none}
+    .pr{color:var(--soft);width:44%} .fm{font-weight:700}
+    .note,.cta{margin:38px 0;padding:24px 26px;border-radius:14px}
+    .note{background:#f2ead9;border:1.5px solid var(--line)}
+    .cta{background:var(--ink);color:var(--paper);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+    .cta h3{font-family:'Fraunces',serif;font-size:1.5rem} .cta p{color:#cfc4b2;font-size:.92rem}
+    .cta a{background:var(--amber);color:var(--ink);font-weight:700;text-decoration:none;padding:13px 26px;border-radius:999px;white-space:nowrap}
+    .related{margin:34px 0 60px} .related h3{font-family:'Fraunces',serif;margin-bottom:14px}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px}
+    .related-grid a{display:block;background:var(--card);border:1.5px solid var(--line);border-radius:12px;
+    padding:14px 16px;color:var(--ink);text-decoration:none;font-weight:700;font-family:'Fraunces',serif;font-size:1.05rem;
+    box-shadow:3px 4px 0 rgba(31,26,22,.06);transition:transform .15s,border-color .15s}
+    .related-grid a:hover{transform:translateY(-3px);border-color:var(--red)}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <SpanishNav lang="fr" />
+  <nav class="crumb"><a href="/fr/espagnol/">Espagnol</a> / <a href="/fr/espagnol/conjugaison/">Conjugaison</a> / {inf}</nav>
+  <header class="hero">
+    <span class="badge">{badge} · #{v.frequency_rank} le plus utilisé</span>
+    <h1><em>{cap(inf)}</em> — conjugaison</h1>
+    <p class="sub"><strong>{inf}</strong> — {frMeaning} · gérondif <strong>{v.gerund}</strong> · participe passé <strong>{v.past_participle}</strong></p>
+    <div class="meta"><span><b>{renderedTenses}</b> temps</span><span><b>{renderedMoods}</b> modes</span><span><b>-{v.verb_class}</b> groupe</span></div>
+  </header>
+  <div class="quick"><h2>Réponse rapide — présent de l'indicatif</h2><p set:html={quick} /></div>
+  <Fragment set:html={moodsHtml} />
+  <div class="note"><h3 style="font-family:'Fraunces',serif;margin-bottom:8px">Remarque</h3><p set:html={irrNote} /></div>
+  <div class="cta">
+    <div><h3>Pratiquez {inf} avec votre tuteur IA</h3><p>Dites-le à voix haute — Lingostar corrige votre prononciation et vous fait travailler les formes irrégulières jusqu'à ce qu'elles deviennent naturelles.</p></div>
+    <a href={`https://lingostar.ai/practice?verb=${v.slug}`}>Pratiquer →</a>
+  </div>
+  <div class="related"><h3>Verbes associés</h3><div class="related-grid"><Fragment set:html={related} /></div></div>
+</div>
+</body>
+</html>

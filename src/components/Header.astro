@@ -1,10 +1,22 @@
 ---
-const nav = [
-  { href: '/', label: 'Home' },
-  { href: '/blog/', label: 'Blog' },
-  { href: '/spanish/conjugation/', label: 'Spanish Conjugation' },
-  { href: '/contact/', label: 'Contact' },
-];
+interface Props {
+  lang?: string;
+}
+const { lang = 'en' } = Astro.props as Props;
+
+const nav = lang === 'fr'
+  ? [
+      { href: '/fr/', label: 'Accueil' },
+      { href: '/fr/blog/', label: 'Blog' },
+      { href: '/fr/espagnol/conjugaison/', label: 'Conjugaison espagnole' },
+      { href: '/fr/contact/', label: 'Contact' },
+    ]
+  : [
+      { href: '/', label: 'Home' },
+      { href: '/blog/', label: 'Blog' },
+      { href: '/spanish/conjugation/', label: 'Spanish Conjugation' },
+      { href: '/contact/', label: 'Contact' },
+    ];
 ---
 <header>
   <nav>

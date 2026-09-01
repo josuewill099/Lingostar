@@ -9,9 +9,15 @@ interface Props {
   noindex?: boolean;
   structuredData?: string;
   wide?: boolean;
+  lang?: string;
+  // Same object passed by every language version of a page, e.g.
+  // { en: 'https://lingostar.ai/contact/', fr: 'https://lingostar.ai/fr/contact/' }.
+  // Renders reciprocal hreflang tags (including a self-reference) plus
+  // x-default pointing at the English version.
+  translations?: Record<string, string>;
 }
 
-const { title, description = 'Lingostar', noindex = false, structuredData, wide = false } = Astro.props;
+const { title, description = 'Lingostar', noindex = false, structuredData, wide = false, lang = 'en', translations } = Astro.props;
 
 // Site-wide Organization block, present on every BaseLayout page. Pages
 // pass their own additional JSON-LD (BlogPosting, ContactPage, etc.) via
@@ -25,7 +31,7 @@ const organizationLd = JSON.stringify({
 });
 ---
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8YB8MCJV0"></script>
@@ -47,12 +53,16 @@ const organizationLd = JSON.stringify({
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     {!noindex && <script type="application/ld+json" set:html={organizationLd} />}
     {!noindex && structuredData && <script type="application/ld+json" set:html={structuredData} />}
+    {translations && Object.entries(translations).map(([hreflang, href]) => (
+      <link rel="alternate" hreflang={hreflang} href={href} />
+    ))}
+    {translations?.en && <link rel="alternate" hreflang="x-default" href={translations.en} />}
   </head>
   <body style={wide ? '--content-width: 64rem;' : undefined}>
-    <Header />
+    <Header lang={lang} />
     <main>
       <slot />
     </main>
-    <Footer />
+    <Footer lang={lang} />
   </body>
 </html>

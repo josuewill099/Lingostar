@@ -1,15 +1,15 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getEntry } from 'astro:content';
 
-const entry = await getEntry('pages', 'privacy-policy');
+const entry = await getEntry('pagesFr', 'privacy-policy');
 const { Content } = await entry.render();
 const translations = {
   en: 'https://lingostar.ai/privacy-policy/',
   fr: 'https://lingostar.ai/fr/privacy-policy/',
 };
 ---
-<BaseLayout title={`${entry.data.title} | Lingostar`} noindex translations={translations}>
+<BaseLayout title={`${entry.data.title} | Lingostar`} lang="fr" noindex translations={translations}>
   <article>
     <h1>{entry.data.title}</h1>
     <Content />

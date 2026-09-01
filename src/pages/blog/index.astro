@@ -34,8 +34,13 @@ function readingTime(body: string) {
   const words = body.trim().split(/\s+/).filter(Boolean).length;
   return Math.max(1, Math.round(words / 200));
 }
+
+const translations = {
+  en: 'https://lingostar.ai/blog/',
+  fr: 'https://lingostar.ai/fr/blog/',
+};
 ---
-<BaseLayout title="Blog | Lingostar" structuredData={blogLd} wide>
+<BaseLayout title="Blog | Lingostar" structuredData={blogLd} translations={translations} wide>
   <div class="blog-hero">
     <h1>Blog</h1>
     <p class="blog-hero-sub">Practical guides on language learning, AI tools, and what actually works.</p>

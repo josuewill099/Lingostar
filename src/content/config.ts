@@ -29,6 +29,36 @@ const pages = defineCollection({
   }),
 });
 
+// French translations of `blog`/`pages`. Slugs match their English
+// counterpart on purpose (french-pronunciation.md exists in both blog/ and
+// blog-fr/) so the hreflang pair can be computed from the slug alone,
+// without a separate cross-reference field.
+const blogFr = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    pubDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    author: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+    image: z.string().optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+const pagesFr = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    pubDate: z.coerce.date().optional(),
+    author: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+    draft: z.boolean().default(false),
+  }),
+});
+
 // Spanish verb conjugation data (pSEO pipeline) — one JSON file per verb,
 // built from the Jehle verb database. See scripts/build_verbs.mjs.
 const verbs = defineCollection({
@@ -61,4 +91,4 @@ const verbs = defineCollection({
   }),
 });
 
-export const collections = { blog, pages, verbs };
+export const collections = { blog, pages, blogFr, pagesFr, verbs };

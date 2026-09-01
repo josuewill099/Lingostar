@@ -117,6 +117,7 @@ const crumbLd = JSON.stringify({
 const pageTitle = `${cap(inf)} Conjugation — ${en} | All Spanish Tenses | Lingostar`;
 const pageDescription = `Full conjugation of ${inf} (${en}) in every Spanish tense and mood: present, preterite, imperfect, subjunctive and more. ${badge} #${v.frequency_rank} most common verb.`;
 const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
+const frenchUrl = `https://lingostar.ai/fr/espagnol/conjugaison/${v.slug}`;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -135,6 +136,9 @@ const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
   <title>{pageTitle}</title>
   <meta name="description" content={pageDescription} />
   <link rel="canonical" href={canonical} />
+  <link rel="alternate" hreflang="en" href={canonical} />
+  <link rel="alternate" hreflang="fr" href={frenchUrl} />
+  <link rel="alternate" hreflang="x-default" href={canonical} />
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/lingostar-conj.css" />
