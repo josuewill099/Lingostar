@@ -1,0 +1,53 @@
+---
+// Standard site nav for the self-contained Spanish pages (see the comment
+// in spanish/conjugation/[slug].astro for why they don't use BaseLayout).
+// Same destinations as Header.astro, restyled to the warm palette these
+// pages already define on :root (--ink/--line/--soft/--red).
+---
+<nav class="site-nav">
+  <a href="/" class="site-nav-brand">Lingostar</a>
+  <div class="site-nav-links">
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <a href="/spanish/conjugation/">Spanish Conjugation</a>
+    <a href="/contact/">Contact</a>
+  </div>
+</nav>
+
+<style>
+  .site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.5rem;
+    padding: 18px 0;
+    border-bottom: 1.5px solid var(--line);
+  }
+
+  .site-nav-brand {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .site-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .site-nav-links a {
+    color: var(--soft);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .site-nav-links a:hover {
+    color: var(--red);
+  }
+</style>

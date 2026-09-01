@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import SpanishNav from '../../../components/SpanishNav.astro';
 
 export const prerender = true;
 
@@ -43,6 +44,7 @@ const verbs = (await getCollection('verbs')).sort((a, b) => a.data.frequency_ran
 </head>
 <body>
 <div class="wrap">
+  <SpanishNav />
   <nav class="crumb"><a href="/spanish/">Spanish</a> / Conjugation</nav>
   <header class="hero">
     <h1>Spanish verb conjugation</h1>

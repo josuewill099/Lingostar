@@ -2,9 +2,10 @@
 // Spanish verb conjugation page — pSEO pipeline. Data comes from the `verbs`
 // content collection (src/content/verbs/*.json), built by scripts/build_verbs.mjs
 // from the Jehle verb database. This page is intentionally self-contained
-// (its own <head>/<style>, no site header/footer) to match the approved pilot
-// design rather than the generic blog layout.
+// (its own <head>/<style>, warm palette instead of the generic blog layout),
+// but still uses SpanishNav for standard site-wide navigation.
 import { getCollection, type CollectionEntry } from 'astro:content';
+import SpanishNav from '../../../components/SpanishNav.astro';
 
 export const prerender = true;
 
@@ -152,6 +153,7 @@ const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
 </head>
 <body>
 <div class="wrap">
+  <SpanishNav />
   <nav class="crumb"><a href="/spanish/">Spanish</a> / <a href="/spanish/conjugation/">Conjugation</a> / {inf}</nav>
   <header class="hero">
     <span class="badge">{badge} · #{v.frequency_rank} most used</span>
