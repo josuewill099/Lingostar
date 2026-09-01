@@ -52,6 +52,7 @@ async function handleContact(request: Request, env: Env): Promise<Response> {
   });
 
   if (!res.ok) {
+    console.error('Resend API error', res.status, await res.text());
     return new Response('Failed to send message', { status: 502 });
   }
 
