@@ -1,18 +1,32 @@
-// Cloudflare Pages Function — handles POST /api/contact.
-// Requires two environment variables set in the Cloudflare Pages dashboard
-// (Settings > Environment variables), not committed to the repo:
+// Cloudflare Worker entry point. The Cloudflare project this repo deploys to
+// is a Workers service (git-integrated "Workers Builds", running
+// `wrangler deploy`) — not the older separate "Pages" product — so static
+// assets are served via the `ASSETS` binding (see wrangler.toml's [assets]
+// block) and this script only has to handle the one dynamic route.
+//
+// Requires two environment variables set in the Cloudflare dashboard
+// (Workers & Pages > lingostar > Settings > Variables and Secrets), not
+// committed to the repo:
 //   RESEND_API_KEY  - API key from https://resend.com
 //   CONTACT_TO      - the email address that should receive submissions
-//
-// Swap this out for Formspree, Basin, or any other form backend if you'd
-// rather not manage an API key — just point the <form action> at their URL.
 
-interface Env {
+export interface Env {
+  ASSETS: Fetcher;
   RESEND_API_KEY: string;
   CONTACT_TO: string;
 }
 
-export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
+export default {
+  async fetch(request: Request, env: Env): Promise<Response> {
+    const url = new URL(request.url);
+    if (url.pathname === '/api/contact' && request.method === 'POST') {
+      return handleContact(request, env);
+    }
+    return env.ASSETS.fetch(request);
+  },
+};
+
+async function handleContact(request: Request, env: Env): Promise<Response> {
   const form = await request.formData();
   const name = String(form.get('name') || '').slice(0, 200);
   const email = String(form.get('email') || '').slice(0, 200);
@@ -42,4 +56,4 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   }
 
   return new Response('OK', { status: 200 });
-};
+}
