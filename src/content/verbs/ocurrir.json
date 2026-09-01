@@ -240,5 +240,21 @@
   "trabajar",
   "escribir"
  ],
- "slug": "ocurrir"
+ "slug": "ocurrir",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "ocurrió",
+   "note": "pretérito marks a single completed action"
+  },
+  {
+   "tense": "Imperfect",
+   "tenseEs": "Imperfecto",
+   "personIndex": 2,
+   "answer": "ocurría",
+   "note": "imperfecto marks an ongoing or repeated past action, not a one-time event"
+  }
+ ]
 }

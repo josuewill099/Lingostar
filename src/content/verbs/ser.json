@@ -243,5 +243,28 @@
   "poder",
   "estar"
  ],
- "slug": "ser"
+ "slug": "ser",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "fui",
+   "note": "\"sí\" changes to \"fui\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "fue",
+   "note": "\"sió\" changes to \"fue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "soy",
+   "note": ""
+  }
+ ]
 }

@@ -243,5 +243,28 @@
   "encontrar",
   "llamar"
  ],
- "slug": "venir"
+ "slug": "venir",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "vino",
+   "note": "\"enió\" changes to \"ino\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "vine",
+   "note": "\"ení\" changes to \"ine\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "venimos",
+   "note": ""
+  }
+ ]
 }

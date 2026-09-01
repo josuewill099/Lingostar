@@ -243,5 +243,28 @@
   "perder",
   "ocurrir"
  ],
- "slug": "pedir"
+ "slug": "pedir",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "pidió",
+   "note": "\"e\" changes to \"i\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 5,
+   "answer": "pidieron",
+   "note": "\"e\" changes to \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "pedimos",
+   "note": ""
+  }
+ ]
 }

@@ -242,5 +242,28 @@
   "pasar",
   "deber"
  ],
- "slug": "parecer"
+ "slug": "parecer",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "parezco",
+   "note": "adds \"z\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "pareces",
+   "note": ""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "parecí",
+   "note": ""
+  }
+ ]
 }

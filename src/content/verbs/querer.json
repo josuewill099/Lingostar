@@ -243,5 +243,28 @@
   "ver",
   "dar"
  ],
- "slug": "querer"
+ "slug": "querer",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "quiso",
+   "note": "\"erió\" changes to \"iso\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "quise",
+   "note": "\"erí\" changes to \"ise\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "queremos",
+   "note": ""
+  }
+ ]
 }

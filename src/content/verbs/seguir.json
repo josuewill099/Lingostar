@@ -243,5 +243,28 @@
   "hablar",
   "llevar"
  ],
- "slug": "seguir"
+ "slug": "seguir",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "sigo",
+   "note": "\"egu\" changes to \"ig\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "siguió",
+   "note": "\"e\" changes to \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "seguimos",
+   "note": ""
+  }
+ ]
 }

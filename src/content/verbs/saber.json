@@ -243,5 +243,28 @@
   "ir",
   "ver"
  ],
- "slug": "saber"
+ "slug": "saber",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "supo",
+   "note": "\"abió\" changes to \"upo\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "supe",
+   "note": "\"abí\" changes to \"upe\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "sabes",
+   "note": ""
+  }
+ ]
 }

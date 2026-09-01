@@ -18,8 +18,20 @@ type VerbData = CollectionEntry<'verbs'>['data'];
 const { v } = Astro.props as { v: VerbData };
 
 const PRONOUNS = ["yo", "tú", "él/ella/Ud.", "nosotros", "vosotros", "ellos/Uds."];
-const MOOD_ORDER = ["Indicative", "Subjunctive", "Imperative"] as const;
 const IMPERATIVE_KEYS = ["Imperative Affirmative", "Imperative Negative"];
+
+// A/B holdout for the conjugation drill: 10 of the 50 pilot verbs are held
+// back as a control (no drill), stratified by frequency_rank and the
+// irregular/regular split (32:18 in the full pilot) so the two groups are
+// comparable. Compare GSC position/CTR between groups over the same
+// 2-4 week window already planned, plus the drill-started /
+// drill-completed / cta-clicked-after-drill events below.
+const CONTROL_GROUP = new Set([
+  "tener", "dar", "parecer", "quedar", "llamar",
+  "pensar", "empezar", "entrar", "recibir", "recordar",
+]);
+const isControl = CONTROL_GROUP.has(v.slug);
+const showDrill = !isControl && v.drill && v.drill.length >= 2;
 
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
@@ -39,8 +51,25 @@ const badge = v.is_irregular ? "Irregular verb" : "Regular verb";
 const present = v.moods["Indicative"]["Present"].forms;
 const quick = PRONOUNS.map((p, i) => present[i] ? `${p} <strong>${present[i]}</strong>` : null).filter(Boolean).join(', ');
 
-let moodsHtml = "", renderedMoods = 0, renderedTenses = 0;
-for (const m of MOOD_ORDER) {
+// Indicative is split so the drill can sit directly after Present and
+// Preterite -- the two tenses the query intent is actually asking for --
+// and before the remaining tenses, which is where attention drops anyway.
+const indicative = v.moods["Indicative"] || {};
+const PRIMARY_TENSES = ["Present", "Preterite"];
+const primaryHtml = PRIMARY_TENSES.filter((tn) => indicative[tn])
+  .map((tn) => tenseTable(tn, indicative[tn], irr)).join('');
+const restIndicativeHtml = Object.entries(indicative)
+  .filter(([tn]) => !PRIMARY_TENSES.includes(tn))
+  .map(([tn, t]) => tenseTable(tn, t, irr)).join('');
+
+let renderedMoods = 0, renderedTenses = 0;
+if (Object.keys(indicative).length) {
+  renderedMoods++;
+  renderedTenses += Object.keys(indicative).length;
+}
+
+let afterDrillHtml = restIndicativeHtml ? `<div class="tense-grid tense-grid-cont">${restIndicativeHtml}</div>` : "";
+for (const m of ["Subjunctive", "Imperative"]) {
   let cards = "";
   if (m === "Imperative") {
     for (const key of IMPERATIVE_KEYS) {
@@ -58,7 +87,7 @@ for (const m of MOOD_ORDER) {
   }
   if (!cards) continue;
   renderedMoods++;
-  moodsHtml += `<section class="mood"><h3>${m}</h3><div class="tense-grid">${cards}</div></section>`;
+  afterDrillHtml += `<section class="mood"><h3>${m}</h3><div class="tense-grid">${cards}</div></section>`;
 }
 
 const related = (v.related || []).map((r) => `<a href="/spanish/conjugation/${r}">${cap(r)}</a>`).join('');
@@ -108,6 +137,7 @@ const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
   <link rel="canonical" href={canonical} />
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/lingostar-conj.css" />
   <script type="application/ld+json" set:html={faqLd} />
   <script type="application/ld+json" set:html={crumbLd} />
   <style is:global>
@@ -131,6 +161,7 @@ const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
     section.mood{margin:44px 0}
     section.mood>h3{font-family:'Fraunces',serif;font-size:2rem;border-bottom:1.5px solid var(--line);padding-bottom:8px;margin-bottom:20px}
     .tense-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
+    .tense-grid-cont{margin-top:44px}
     .tense-card{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:18px 20px;
     box-shadow:3px 4px 0 rgba(31,26,22,.06);transition:transform .15s}
     .tense-card:hover{transform:translateY(-3px)}
@@ -164,7 +195,36 @@ const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
     <div class="meta"><span><b>{renderedTenses}</b> tenses</span><span><b>{renderedMoods}</b> moods</span><span><b>-{v.verb_class}</b> verb class</span></div>
   </header>
   <div class="quick"><h2>Quick answer — present tense</h2><p set:html={quick} /></div>
-  <Fragment set:html={moodsHtml} />
+  <section class="mood"><h3>Indicative</h3><div class="tense-grid"><Fragment set:html={primaryHtml} /></div></section>
+  {showDrill && (
+    <section class="drill" id="drill" data-verb={v.slug}>
+      <h3>Quick practice</h3>
+      <p class="drill-intro">Type the missing form. No score, no timer — just a quick check.</p>
+      <div class="drill-items">
+        {v.drill.map((d) => (
+          <div class="drill-q" data-answer={d.answer} data-note={d.note}>
+            <p class="drill-prompt">
+              <strong>{inf}</strong> ({en}) — {d.tenseEs} — <em>{PRONOUNS[d.personIndex]}</em>
+            </p>
+            <div class="drill-row">
+              <input
+                type="text"
+                class="drill-input"
+                autocomplete="off"
+                autocapitalize="off"
+                autocorrect="off"
+                spellcheck="false"
+                aria-label={`Conjugated form for ${PRONOUNS[d.personIndex]}`}
+              />
+              <button type="button" class="drill-show">Show answer</button>
+            </div>
+            <p class="drill-feedback" aria-live="polite"></p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+  <Fragment set:html={afterDrillHtml} />
   <div class="note"><h3 style="font-family:'Fraunces',serif;margin-bottom:8px">Usage note</h3><p set:html={irrNote} /></div>
   <div class="cta">
     <div><h3>Practice {inf} with your AI tutor</h3><p>{ctaCopy}</p></div>
@@ -172,5 +232,86 @@ const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
   </div>
   <div class="related"><h3>Related verbs</h3><div class="related-grid"><Fragment set:html={related} /></div></div>
 </div>
+<script>
+  function stripDiacritics(s) {
+    return s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
+  function highlightAccentDiff(correct) {
+    return [...correct].map((ch) => (stripDiacritics(ch) !== ch ? `<mark>${ch}</mark>` : ch)).join('');
+  }
+
+  let drillEngaged = false;
+  const drillSection = document.getElementById('drill');
+
+  function track(event) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event, verb: drillSection ? drillSection.dataset.verb : '' });
+  }
+
+  if (drillSection) {
+    const questions = Array.from(drillSection.querySelectorAll('.drill-q'));
+    let resolvedCount = 0;
+
+    function trackStart() {
+      if (drillEngaged) return;
+      drillEngaged = true;
+      track('drill-started');
+    }
+
+    function resolve(q, state) {
+      if (!q.dataset.resolved) {
+        q.dataset.resolved = '1';
+        resolvedCount++;
+        if (resolvedCount === questions.length) track('drill-completed');
+      }
+      q.classList.remove('is-correct', 'is-almost', 'is-wrong', 'is-shown');
+      q.classList.add(state);
+    }
+
+    questions.forEach((q) => {
+      const input = q.querySelector('.drill-input');
+      const feedback = q.querySelector('.drill-feedback');
+      const showBtn = q.querySelector('.drill-show');
+      const answer = q.dataset.answer || '';
+      const note = q.dataset.note || '';
+
+      function check() {
+        const raw = input.value.trim();
+        if (!raw) return;
+        const user = raw.toLowerCase();
+        const correct = answer.toLowerCase();
+        if (user === correct) {
+          feedback.textContent = 'Correct.';
+          resolve(q, 'is-correct');
+        } else if (stripDiacritics(user) === stripDiacritics(correct)) {
+          feedback.innerHTML = `Almost — watch the accent: <span class="drill-correct-answer">${highlightAccentDiff(answer)}</span>`;
+          resolve(q, 'is-almost');
+        } else {
+          feedback.innerHTML = `Not quite — it's <span class="drill-correct-answer">${answer}</span>${note ? '. ' + note + '.' : '.'}`;
+          resolve(q, 'is-wrong');
+        }
+      }
+
+      input.addEventListener('focus', trackStart, { once: true });
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') { e.preventDefault(); check(); }
+      });
+
+      showBtn.addEventListener('click', () => {
+        trackStart();
+        feedback.innerHTML = `<span class="drill-correct-answer">${answer}</span>${note ? ' — ' + note + '.' : '.'}`;
+        resolve(q, 'is-shown');
+      });
+    });
+  }
+
+  const ctaLink = document.querySelector('.cta a');
+  if (ctaLink) {
+    ctaLink.addEventListener('click', () => {
+      if (drillEngaged) track('cta-clicked-after-drill');
+    });
+  }
+</script>
 </body>
 </html>

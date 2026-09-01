@@ -242,5 +242,28 @@
   "recordar",
   "terminar"
  ],
- "slug": "aparecer"
+ "slug": "aparecer",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "aparezco",
+   "note": "adds \"z\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "apareces",
+   "note": ""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "aparecí",
+   "note": ""
+  }
+ ]
 }

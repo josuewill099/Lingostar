@@ -243,5 +243,28 @@
   "tomar",
   "conocer"
  ],
- "slug": "sentir"
+ "slug": "sentir",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "sintió",
+   "note": "\"e\" changes to \"i\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 5,
+   "answer": "sintieron",
+   "note": "\"e\" changes to \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "sentimos",
+   "note": ""
+  }
+ ]
 }

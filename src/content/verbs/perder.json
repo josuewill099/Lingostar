@@ -242,5 +242,28 @@
   "entrar",
   "trabajar"
  ],
- "slug": "perder"
+ "slug": "perder",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "pierdo",
+   "note": "adds \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "pierdes",
+   "note": "adds \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "perdemos",
+   "note": ""
+  }
+ ]
 }

@@ -240,5 +240,28 @@
   "deber",
   "poner"
  ],
- "slug": "quedar"
+ "slug": "quedar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "quedé",
+   "note": "pretérito marks a single completed action"
+  },
+  {
+   "tense": "Imperfect",
+   "tenseEs": "Imperfecto",
+   "personIndex": 0,
+   "answer": "quedaba",
+   "note": "imperfecto marks an ongoing or repeated past action, not a one-time event"
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "quedas",
+   "note": ""
+  }
+ ]
 }

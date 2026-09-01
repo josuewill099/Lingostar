@@ -242,5 +242,28 @@
   "vivir",
   "sentir"
  ],
- "slug": "contar"
+ "slug": "contar",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "cuento",
+   "note": "\"o\" changes to \"ue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "cuentas",
+   "note": "\"o\" changes to \"ue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "contamos",
+   "note": ""
+  }
+ ]
 }

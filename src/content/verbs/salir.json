@@ -242,5 +242,28 @@
   "llamar",
   "venir"
  ],
- "slug": "salir"
+ "slug": "salir",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "salgo",
+   "note": "adds \"g\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "sales",
+   "note": ""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "salí",
+   "note": ""
+  }
+ ]
 }

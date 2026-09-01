@@ -1,0 +1,125 @@
+/* Conjugation-drill widget styles (Spanish verb pages). Kept in its own
+   external file, not inline in [slug].astro, so it's fetched once and
+   cached across all 50 verb pages instead of shipping duplicated inline
+   CSS on every single one. Assumes the page that links this has already
+   defined the warm-palette custom properties on :root (--ink, --paper,
+   --card, --red, --amber, --line, --soft) -- see [slug].astro. */
+
+.drill {
+  margin: 44px 0;
+  padding: 24px 26px;
+  background: var(--card);
+  border: 1.5px solid var(--line);
+  border-radius: 14px;
+  /* Reserve space up front so the drill never shifts layout as it loads --
+     these pages are the Core Web Vitals sample. */
+  min-height: 220px;
+}
+
+.drill h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.35rem;
+  margin-bottom: 6px;
+}
+
+.drill-intro {
+  color: var(--soft);
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.drill-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.drill-q {
+  padding-top: 18px;
+  border-top: 1px dashed var(--line);
+}
+
+.drill-q:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+
+.drill-prompt {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.drill-prompt em {
+  font-style: normal;
+  color: var(--red);
+}
+
+.drill-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.drill-input {
+  flex: 1;
+  min-width: 140px;
+  padding: 10px 14px;
+  font: inherit;
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+}
+
+.drill-input:focus {
+  outline: none;
+  border-color: var(--red);
+}
+
+.drill-show {
+  padding: 10px 16px;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--soft);
+  background: transparent;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.drill-show:hover {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+/* Fixed min-height reserves the line even while empty, so revealing
+   feedback text doesn't shift anything below it. */
+.drill-feedback {
+  min-height: 1.4em;
+  margin-top: 8px;
+  font-size: 0.88rem;
+}
+
+.drill-correct-answer {
+  font-weight: 700;
+}
+
+.drill-feedback mark {
+  background: none;
+  color: var(--red);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.drill-q.is-correct .drill-feedback { color: #3a7d3a; }
+.drill-q.is-almost .drill-feedback { color: var(--amber); }
+.drill-q.is-wrong .drill-feedback,
+.drill-q.is-shown .drill-feedback { color: var(--red); }
+
+.drill-q.is-correct .drill-input { border-color: #3a7d3a; }
+.drill-q.is-almost .drill-input { border-color: var(--amber); }
+.drill-q.is-wrong .drill-input,
+.drill-q.is-shown .drill-input { border-color: var(--red); }

@@ -49,6 +49,15 @@ const verbs = defineCollection({
     frequency_rank: z.number(),
     related: z.array(z.string()),
     slug: z.string(),
+    // In-page conjugation drill (2-3 questions), precomputed in
+    // scripts/build_verbs.mjs. See buildDrill() there for selection logic.
+    drill: z.array(z.object({
+      tense: z.string(),
+      tenseEs: z.string(),
+      personIndex: z.number(),
+      answer: z.string(),
+      note: z.string(),
+    })),
   }),
 });
 

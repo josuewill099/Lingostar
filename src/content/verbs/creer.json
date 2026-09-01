@@ -242,5 +242,28 @@
   "poner",
   "parecer"
  ],
- "slug": "creer"
+ "slug": "creer",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 1,
+   "answer": "creíste",
+   "note": "\"i\" changes to \"í\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "creyó",
+   "note": "\"i\" changes to \"y\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "creo",
+   "note": ""
+  }
+ ]
 }

@@ -243,5 +243,28 @@
   "sentir",
   "mirar"
  ],
- "slug": "empezar"
+ "slug": "empezar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "empecé",
+   "note": "\"z\" changes to \"c\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "empiezo",
+   "note": "adds \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "empezamos",
+   "note": ""
+  }
+ ]
 }

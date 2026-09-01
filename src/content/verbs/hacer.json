@@ -242,5 +242,28 @@
   "poder",
   "estar"
  ],
- "slug": "hacer"
+ "slug": "hacer",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "hizo",
+   "note": "\"ació\" changes to \"izo\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "hice",
+   "note": "\"ací\" changes to \"ice\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "haces",
+   "note": ""
+  }
+ ]
 }

@@ -242,5 +242,28 @@
   "contar",
   "empezar"
  ],
- "slug": "buscar"
+ "slug": "buscar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "busqué",
+   "note": "\"c\" changes to \"qu\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "busco",
+   "note": ""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 1,
+   "answer": "buscaste",
+   "note": ""
+  }
+ ]
 }

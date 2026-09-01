@@ -243,5 +243,28 @@
   "tener",
   "hacer"
  ],
- "slug": "decir"
+ "slug": "decir",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "dijo",
+   "note": "\"eció\" changes to \"ijo\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "dije",
+   "note": "\"ecí\" changes to \"ije\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "decimos",
+   "note": ""
+  }
+ ]
 }

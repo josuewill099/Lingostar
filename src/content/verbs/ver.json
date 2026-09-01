@@ -244,5 +244,28 @@
   "poder",
   "decir"
  ],
- "slug": "ver"
+ "slug": "ver",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "vi",
+   "note": "\"í\" changes to \"i\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "vio",
+   "note": "\"ó\" changes to \"o\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "ves",
+   "note": ""
+  }
+ ]
 }

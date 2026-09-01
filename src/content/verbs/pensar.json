@@ -242,5 +242,28 @@
   "encontrar",
   "llamar"
  ],
- "slug": "pensar"
+ "slug": "pensar",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "pienso",
+   "note": "adds \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "piensas",
+   "note": "adds \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "pensamos",
+   "note": ""
+  }
+ ]
 }

@@ -242,5 +242,28 @@
   "llevar",
   "dejar"
  ],
- "slug": "encontrar"
+ "slug": "encontrar",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "encuentro",
+   "note": "\"o\" changes to \"ue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "encuentras",
+   "note": "\"o\" changes to \"ue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "encontramos",
+   "note": ""
+  }
+ ]
 }

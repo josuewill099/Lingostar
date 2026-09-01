@@ -242,5 +242,28 @@
   "hacer",
   "estar"
  ],
- "slug": "poder"
+ "slug": "poder",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "pudo",
+   "note": "\"odió\" changes to \"udo\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "pude",
+   "note": "\"odí\" changes to \"ude\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "podemos",
+   "note": ""
+  }
+ ]
 }

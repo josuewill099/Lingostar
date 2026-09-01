@@ -32,6 +32,128 @@ function regularForms(inf, tense) {
   return ENDINGS[cls][tense].map(e => stem + e);
 }
 
+// --- Conjugation drill (3 questions per verb, precomputed at build time) --
+// Irregular verbs: 2 questions biased to the person where an irregular
+// tense diverges most from the regular reconstruction (Levenshtein
+// distance against regularForms()), plus 1 easy Present/Preterite question
+// so beginners get a win. Fully-regular verbs get a Pretérito/Imperfecto
+// contrast pair (same person, two tenses) instead -- that's their real
+// difficulty -- plus the same easy win.
+
+function levenshtein(a, b) {
+  const m = a.length, n = b.length;
+  const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      dp[i][j] = a[i - 1] === b[j - 1] ? dp[i - 1][j - 1] : 1 + Math.min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]);
+    }
+  }
+  return dp[m][n];
+}
+
+// No full phonological-rule classifier here -- instead, mechanically isolate
+// the substring that actually changed between the regular reconstruction and
+// the real form. It's more literal than "irregular stem hic-" but always
+// accurate and still tells the learner exactly what to watch for.
+function describeIrregularity(regular, actual) {
+  if (!regular || !actual || regular === actual) return 'irregular form';
+  const maxPrefix = Math.min(regular.length, actual.length);
+  let i = 0;
+  while (i < maxPrefix && regular[i] === actual[i]) i++;
+  const maxSuffix = Math.min(regular.length - i, actual.length - i);
+  let j = 0;
+  while (j < maxSuffix && regular[regular.length - 1 - j] === actual[actual.length - 1 - j]) j++;
+  const regMid = regular.slice(i, regular.length - j);
+  const actMid = actual.slice(i, actual.length - j);
+  if (!regMid && !actMid) return 'irregular form';
+  if (!regMid) return `adds "${actMid}"`;
+  if (!actMid) return `drops "${regMid}"`;
+  return `"${regMid}" changes to "${actMid}"`;
+}
+
+function buildDrill(v) {
+  const cls = v.verb_class;
+  const indicative = v.moods['Indicative'] || {};
+
+  function tenseInfo(tenseKey) {
+    const t = indicative[tenseKey];
+    if (!t) return null;
+    const reg = ENDINGS[cls] ? regularForms(v.infinitive, t.tense_es) : null;
+    return { t, reg };
+  }
+
+  const items = [];
+  const used = new Set();
+
+  function pushItem(tenseKey, personIndex, note) {
+    const info = tenseInfo(tenseKey);
+    if (!info || !info.t.forms[personIndex]) return false;
+    const key = `${tenseKey}|${personIndex}`;
+    if (used.has(key)) return false;
+    used.add(key);
+    items.push({ tense: tenseKey, tenseEs: info.t.tense_es, personIndex, answer: info.t.forms[personIndex], note });
+    return true;
+  }
+
+  function divergenceScores(info) {
+    return info.t.forms.map((actual, i) => {
+      const regular = info.reg ? info.reg[i] : null;
+      if (!actual || !regular) return -1;
+      return levenshtein(actual.toLowerCase(), regular.toLowerCase());
+    });
+  }
+
+  if (v.is_irregular) {
+    const priority = ['Preterite', 'Present', 'Imperfect'];
+    const candidates = [];
+    for (const tenseKey of priority) {
+      if (!v.irregular_tenses.includes(tenseKey)) continue;
+      const info = tenseInfo(tenseKey);
+      if (!info || !info.reg) continue;
+      divergenceScores(info).forEach((score, personIndex) => {
+        if (score > 0) candidates.push({ tenseKey, personIndex, score });
+      });
+    }
+    candidates.sort((a, b) => b.score - a.score);
+
+    for (const c of candidates) {
+      if (items.length >= 2) break;
+      const info = tenseInfo(c.tenseKey);
+      const note = describeIrregularity(info.reg[c.personIndex], info.t.forms[c.personIndex]);
+      pushItem(c.tenseKey, c.personIndex, note);
+    }
+
+    for (const tenseKey of ['Present', 'Preterite']) {
+      if (items.length >= 3) break;
+      const info = tenseInfo(tenseKey);
+      if (!info) continue;
+      const scores = divergenceScores(info);
+      const order = scores.map((s, i) => [s < 0 ? Infinity : s, i]).sort((a, b) => a[0] - b[0]);
+      for (const [, personIndex] of order) {
+        if (pushItem(tenseKey, personIndex, '')) break;
+      }
+    }
+  } else {
+    let person = 0;
+    const pInfo = tenseInfo('Preterite'), iInfo = tenseInfo('Imperfect');
+    for (let p = 0; p < 6; p++) {
+      if (pInfo?.t.forms[p] && iInfo?.t.forms[p]) { person = p; break; }
+    }
+    pushItem('Preterite', person, 'pretérito marks a single completed action');
+    pushItem('Imperfect', person, 'imperfecto marks an ongoing or repeated past action, not a one-time event');
+
+    const info = tenseInfo('Present');
+    if (info) {
+      const winPerson = info.t.forms[(person + 1) % 6] ? (person + 1) % 6 : 0;
+      pushItem('Present', winPerson, '');
+    }
+  }
+
+  return items.slice(0, 3);
+}
+
 // Minimal RFC-4180 CSV parser (handles quoted fields containing commas).
 function parseCSV(text) {
   const rows = [];
@@ -98,6 +220,7 @@ available.forEach((w, i) => {
   const neighbors = available.slice(Math.max(0, i - 3), i + 4).filter(x => x !== w);
   verbs[w].related = [...new Set([...sameClass.slice(0, 3), ...neighbors.slice(0, 3)])].slice(0, 5);
   verbs[w].slug = stripAccents(w);
+  verbs[w].drill = buildDrill(verbs[w]);
   fs.writeFileSync(`${OUT_DIR}/${stripAccents(w)}.json`, JSON.stringify(verbs[w], null, 1), 'utf-8');
 });
 

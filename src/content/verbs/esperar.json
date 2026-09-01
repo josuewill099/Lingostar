@@ -240,5 +240,28 @@
   "mirar",
   "contar"
  ],
- "slug": "esperar"
+ "slug": "esperar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "esperé",
+   "note": "pretérito marks a single completed action"
+  },
+  {
+   "tense": "Imperfect",
+   "tenseEs": "Imperfecto",
+   "personIndex": 0,
+   "answer": "esperaba",
+   "note": "imperfecto marks an ongoing or repeated past action, not a one-time event"
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "esperas",
+   "note": ""
+  }
+ ]
 }

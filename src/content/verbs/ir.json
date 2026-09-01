@@ -244,5 +244,28 @@
   "hacer",
   "poder"
  ],
- "slug": "ir"
+ "slug": "ir",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "fui",
+   "note": "\"í\" changes to \"fui\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "fue",
+   "note": "\"ió\" changes to \"fue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "voy",
+   "note": ""
+  }
+ ]
 }

@@ -243,5 +243,28 @@
   "ser",
   "tener"
  ],
- "slug": "estar"
+ "slug": "estar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 5,
+   "answer": "estuvieron",
+   "note": "\"a\" changes to \"uvie\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "estuve",
+   "note": "\"é\" changes to \"uve\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "estamos",
+   "note": ""
+  }
+ ]
 }

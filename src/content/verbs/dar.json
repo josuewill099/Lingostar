@@ -243,5 +243,28 @@
   "decir",
   "ir"
  ],
- "slug": "dar"
+ "slug": "dar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "dio",
+   "note": "\"ó\" changes to \"io\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 5,
+   "answer": "dieron",
+   "note": "\"a\" changes to \"ie\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "das",
+   "note": ""
+  }
+ ]
 }

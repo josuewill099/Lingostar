@@ -242,5 +242,28 @@
   "salir",
   "volver"
  ],
- "slug": "conocer"
+ "slug": "conocer",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "conozco",
+   "note": "adds \"z\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "conoces",
+   "note": ""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "conocí",
+   "note": ""
+  }
+ ]
 }

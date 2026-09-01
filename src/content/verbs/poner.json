@@ -243,5 +243,28 @@
   "llegar",
   "pasar"
  ],
- "slug": "poner"
+ "slug": "poner",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "puso",
+   "note": "\"onió\" changes to \"uso\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "puse",
+   "note": "\"oní\" changes to \"use\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "pones",
+   "note": ""
+  }
+ ]
 }

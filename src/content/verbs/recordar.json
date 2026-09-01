@@ -242,5 +242,28 @@
   "entender",
   "pedir"
  ],
- "slug": "recordar"
+ "slug": "recordar",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "recuerdo",
+   "note": "\"o\" changes to \"ue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "recuerdas",
+   "note": "\"o\" changes to \"ue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "recordamos",
+   "note": ""
+  }
+ ]
 }

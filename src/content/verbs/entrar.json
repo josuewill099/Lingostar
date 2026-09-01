@@ -240,5 +240,28 @@
   "empezar",
   "esperar"
  ],
- "slug": "entrar"
+ "slug": "entrar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "entré",
+   "note": "pretérito marks a single completed action"
+  },
+  {
+   "tense": "Imperfect",
+   "tenseEs": "Imperfecto",
+   "personIndex": 0,
+   "answer": "entraba",
+   "note": "imperfecto marks an ongoing or repeated past action, not a one-time event"
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "entras",
+   "note": ""
+  }
+ ]
 }

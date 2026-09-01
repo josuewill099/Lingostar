@@ -243,5 +243,28 @@
   "terminar",
   "permitir"
  ],
- "slug": "comenzar"
+ "slug": "comenzar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "comencé",
+   "note": "\"z\" changes to \"c\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "comienzo",
+   "note": "adds \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "comenzamos",
+   "note": ""
+  }
+ ]
 }

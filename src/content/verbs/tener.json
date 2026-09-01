@@ -242,5 +242,28 @@
   "poder",
   "estar"
  ],
- "slug": "tener"
+ "slug": "tener",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 2,
+   "answer": "tuvo",
+   "note": "\"enió\" changes to \"uvo\""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "tuve",
+   "note": "\"ení\" changes to \"uve\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "tenemos",
+   "note": ""
+  }
+ ]
 }

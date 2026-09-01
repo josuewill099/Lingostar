@@ -240,5 +240,28 @@
   "creer",
   "hablar"
  ],
- "slug": "dejar"
+ "slug": "dejar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "dejé",
+   "note": "pretérito marks a single completed action"
+  },
+  {
+   "tense": "Imperfect",
+   "tenseEs": "Imperfecto",
+   "personIndex": 0,
+   "answer": "dejaba",
+   "note": "imperfecto marks an ongoing or repeated past action, not a one-time event"
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "dejas",
+   "note": ""
+  }
+ ]
 }

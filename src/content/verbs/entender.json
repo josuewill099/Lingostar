@@ -242,5 +242,28 @@
   "escribir",
   "perder"
  ],
- "slug": "entender"
+ "slug": "entender",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "entiendo",
+   "note": "adds \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "entiendes",
+   "note": "adds \"i\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "entendemos",
+   "note": ""
+  }
+ ]
 }

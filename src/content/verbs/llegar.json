@@ -242,5 +242,28 @@
   "saber",
   "querer"
  ],
- "slug": "llegar"
+ "slug": "llegar",
+ "drill": [
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 0,
+   "answer": "llegué",
+   "note": "adds \"u\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "llego",
+   "note": ""
+  },
+  {
+   "tense": "Preterite",
+   "tenseEs": "Pretérito",
+   "personIndex": 1,
+   "answer": "llegaste",
+   "note": ""
+  }
+ ]
 }

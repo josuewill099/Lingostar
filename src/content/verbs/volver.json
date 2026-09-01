@@ -242,5 +242,28 @@
   "venir",
   "pensar"
  ],
- "slug": "volver"
+ "slug": "volver",
+ "drill": [
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 0,
+   "answer": "vuelvo",
+   "note": "\"o\" changes to \"ue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 1,
+   "answer": "vuelves",
+   "note": "\"o\" changes to \"ue\""
+  },
+  {
+   "tense": "Present",
+   "tenseEs": "Presente",
+   "personIndex": 3,
+   "answer": "volvemos",
+   "note": ""
+  }
+ ]
 }
