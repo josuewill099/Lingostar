@@ -29,4 +29,27 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { blog, pages };
+// Spanish verb conjugation data (pSEO pipeline) — one JSON file per verb,
+// built from the Jehle verb database. See scripts/build_verbs.mjs.
+const verbs = defineCollection({
+  type: 'data',
+  schema: z.object({
+    infinitive: z.string(),
+    english: z.string(),
+    gerund: z.string(),
+    past_participle: z.string(),
+    verb_class: z.string(),
+    moods: z.record(z.record(z.object({
+      tense_es: z.string(),
+      english_gloss: z.string(),
+      forms: z.array(z.string()),
+    }))),
+    irregular_tenses: z.array(z.string()),
+    is_irregular: z.boolean(),
+    frequency_rank: z.number(),
+    related: z.array(z.string()),
+    slug: z.string(),
+  }),
+});
+
+export const collections = { blog, pages, verbs };

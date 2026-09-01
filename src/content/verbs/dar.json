@@ -1,0 +1,247 @@
+{
+ "infinitive": "dar",
+ "english": "to give",
+ "gerund": "dando",
+ "past_participle": "dado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I give, am giving",
+    "forms": [
+     "doy",
+     "das",
+     "da",
+     "damos",
+     "dais",
+     "dan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will give",
+    "forms": [
+     "daré",
+     "darás",
+     "dará",
+     "daremos",
+     "daréis",
+     "darán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was giving, used to give, gave",
+    "forms": [
+     "daba",
+     "dabas",
+     "daba",
+     "dábamos",
+     "dabais",
+     "daban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I gave",
+    "forms": [
+     "di",
+     "diste",
+     "dio",
+     "dimos",
+     "disteis",
+     "dieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would give",
+    "forms": [
+     "daría",
+     "darías",
+     "daría",
+     "daríamos",
+     "daríais",
+     "darían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have given",
+    "forms": [
+     "he dado",
+     "has dado",
+     "ha dado",
+     "hemos dado",
+     "habéis dado",
+     "han dado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have given",
+    "forms": [
+     "habré dado",
+     "habrás dado",
+     "habrá dado",
+     "habremos dado",
+     "habréis dado",
+     "habrán dado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had given",
+    "forms": [
+     "había dado",
+     "habías dado",
+     "había dado",
+     "habíamos dado",
+     "habíais dado",
+     "habían dado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had given",
+    "forms": [
+     "hube dado",
+     "hubiste dado",
+     "hubo dado",
+     "hubimos dado",
+     "hubisteis dado",
+     "hubieron dado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have given",
+    "forms": [
+     "habría dado",
+     "habrías dado",
+     "habría dado",
+     "habríamos dado",
+     "habríais dado",
+     "habrían dado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I give, am giving",
+    "forms": [
+     "dé",
+     "des",
+     "dé",
+     "demos",
+     "deis",
+     "den"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I gave, was giving",
+    "forms": [
+     "diera",
+     "dieras",
+     "diera",
+     "diéramos",
+     "dierais",
+     "dieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will give",
+    "forms": [
+     "diere",
+     "dieres",
+     "diere",
+     "diéremos",
+     "diereis",
+     "dieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have given, gave",
+    "forms": [
+     "haya dado",
+     "hayas dado",
+     "haya dado",
+     "hayamos dado",
+     "hayáis dado",
+     "hayan dado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have given",
+    "forms": [
+     "hubiere dado",
+     "hubieres dado",
+     "hubiere dado",
+     "hubiéremos dado",
+     "hubiereis dado",
+     "hubieren dado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had given",
+    "forms": [
+     "hubiera dado",
+     "hubieras dado",
+     "hubiera dado",
+     "hubiéramos dado",
+     "hubierais dado",
+     "hubieran dado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Give! Don't give!",
+    "forms": [
+     "",
+     "da",
+     "dé",
+     "demos",
+     "dad",
+     "den"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Give! Don't give!",
+    "forms": [
+     "",
+     "no des",
+     "no dé",
+     "no demos",
+     "no deis",
+     "no den"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 9,
+ "related": [
+  "estar",
+  "llegar",
+  "pasar",
+  "decir",
+  "ir"
+ ],
+ "slug": "dar"
+}

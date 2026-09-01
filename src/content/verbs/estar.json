@@ -1,0 +1,247 @@
+{
+ "infinitive": "estar",
+ "english": "to be",
+ "gerund": "estando",
+ "past_participle": "estado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I am",
+    "forms": [
+     "estoy",
+     "estás",
+     "está",
+     "estamos",
+     "estáis",
+     "están"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will be",
+    "forms": [
+     "estaré",
+     "estarás",
+     "estará",
+     "estaremos",
+     "estaréis",
+     "estarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was, used to be",
+    "forms": [
+     "estaba",
+     "estabas",
+     "estaba",
+     "estábamos",
+     "estabais",
+     "estaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I was",
+    "forms": [
+     "estuve",
+     "estuviste",
+     "estuvo",
+     "estuvimos",
+     "estuvisteis",
+     "estuvieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would be",
+    "forms": [
+     "estaría",
+     "estarías",
+     "estaría",
+     "estaríamos",
+     "estaríais",
+     "estarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have been",
+    "forms": [
+     "he estado",
+     "has estado",
+     "ha estado",
+     "hemos estado",
+     "habéis estado",
+     "han estado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have been",
+    "forms": [
+     "habré estado",
+     "habrás estado",
+     "habrá estado",
+     "habremos estado",
+     "habréis estado",
+     "habrán estado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had been",
+    "forms": [
+     "había estado",
+     "habías estado",
+     "había estado",
+     "habíamos estado",
+     "habíais estado",
+     "habían estado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had been",
+    "forms": [
+     "hube estado",
+     "hubiste estado",
+     "hubo estado",
+     "hubimos estado",
+     "hubisteis estado",
+     "hubieron estado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have been",
+    "forms": [
+     "habría estado",
+     "habrías estado",
+     "habría estado",
+     "habríamos estado",
+     "habríais estado",
+     "habrían estado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I am",
+    "forms": [
+     "esté",
+     "estés",
+     "esté",
+     "estemos",
+     "estéis",
+     "estén"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was, were",
+    "forms": [
+     "estuviera",
+     "estuvieras",
+     "estuviera",
+     "estuviéramos",
+     "estuvierais",
+     "estuvieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will be",
+    "forms": [
+     "estuviere",
+     "estuvieres",
+     "estuviere",
+     "estuviéremos",
+     "estuviereis",
+     "estuvieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have been, was",
+    "forms": [
+     "haya estado",
+     "hayas estado",
+     "haya estado",
+     "hayamos estado",
+     "hayáis estado",
+     "hayan estado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have been",
+    "forms": [
+     "hubiere estado",
+     "hubieres estado",
+     "hubiere estado",
+     "hubiéremos estado",
+     "hubiereis estado",
+     "hubieren estado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had been",
+    "forms": [
+     "hubiera estado",
+     "hubieras estado",
+     "hubiera estado",
+     "hubiéramos estado",
+     "hubierais estado",
+     "hubieran estado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Be! Don't be!",
+    "forms": [
+     "",
+     "está",
+     "esté",
+     "estemos",
+     "estad",
+     "estén"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Be! Don't be!",
+    "forms": [
+     "",
+     "no estés",
+     "no esté",
+     "no estemos",
+     "no estéis",
+     "no estén"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 2,
+ "related": [
+  "dar",
+  "llegar",
+  "pasar",
+  "ser",
+  "tener"
+ ],
+ "slug": "estar"
+}

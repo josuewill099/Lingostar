@@ -1,0 +1,246 @@
+{
+ "infinitive": "encontrar",
+ "english": "to find, encounter",
+ "gerund": "encontrando",
+ "past_participle": "encontrado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I find, am finding",
+    "forms": [
+     "encuentro",
+     "encuentras",
+     "encuentra",
+     "encontramos",
+     "encontráis",
+     "encuentran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will find",
+    "forms": [
+     "encontraré",
+     "encontrarás",
+     "encontrará",
+     "encontraremos",
+     "encontraréis",
+     "encontrarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was finding, used to find, found",
+    "forms": [
+     "encontraba",
+     "encontrabas",
+     "encontraba",
+     "encontrábamos",
+     "encontrabais",
+     "encontraban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I found",
+    "forms": [
+     "encontré",
+     "encontraste",
+     "encontró",
+     "encontramos",
+     "encontrasteis",
+     "encontraron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would find",
+    "forms": [
+     "encontraría",
+     "encontrarías",
+     "encontraría",
+     "encontraríamos",
+     "encontraríais",
+     "encontrarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have found",
+    "forms": [
+     "he encontrado",
+     "has encontrado",
+     "ha encontrado",
+     "hemos encontrado",
+     "habéis encontrado",
+     "han encontrado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have found",
+    "forms": [
+     "habré encontrado",
+     "habrás encontrado",
+     "habrá encontrado",
+     "habremos encontrado",
+     "habréis encontrado",
+     "habrán encontrado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had found",
+    "forms": [
+     "había encontrado",
+     "habías encontrado",
+     "había encontrado",
+     "habíamos encontrado",
+     "habíais encontrado",
+     "habían encontrado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had found",
+    "forms": [
+     "hube encontrado",
+     "hubiste encontrado",
+     "hubo encontrado",
+     "hubimos encontrado",
+     "hubisteis encontrado",
+     "hubieron encontrado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have found",
+    "forms": [
+     "habría encontrado",
+     "habrías encontrado",
+     "habría encontrado",
+     "habríamos encontrado",
+     "habríais encontrado",
+     "habrían encontrado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I find, am finding",
+    "forms": [
+     "encuentre",
+     "encuentres",
+     "encuentre",
+     "encontremos",
+     "encontréis",
+     "encuentren"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I found, was finding",
+    "forms": [
+     "encontrara",
+     "encontraras",
+     "encontrara",
+     "encontráramos",
+     "encontrarais",
+     "encontraran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will find",
+    "forms": [
+     "encontrare",
+     "encontrares",
+     "encontrare",
+     "encontráremos",
+     "encontrareis",
+     "encontraren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have found, found",
+    "forms": [
+     "haya encontrado",
+     "hayas encontrado",
+     "haya encontrado",
+     "hayamos encontrado",
+     "hayáis encontrado",
+     "hayan encontrado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have found",
+    "forms": [
+     "hubiere encontrado",
+     "hubieres encontrado",
+     "hubiere encontrado",
+     "hubiéremos encontrado",
+     "hubiereis encontrado",
+     "hubieren encontrado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had found",
+    "forms": [
+     "hubiera encontrado",
+     "hubieras encontrado",
+     "hubiera encontrado",
+     "hubiéramos encontrado",
+     "hubierais encontrado",
+     "hubieran encontrado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Find! Don't find!",
+    "forms": [
+     "",
+     "encuentra",
+     "encuentre",
+     "encontremos",
+     "encontrad",
+     "encuentren"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Find! Don't find!",
+    "forms": [
+     "",
+     "no encuentres",
+     "no encuentre",
+     "no encontremos",
+     "no encontréis",
+     "no encuentren"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 23,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "llevar",
+  "dejar"
+ ],
+ "slug": "encontrar"
+}

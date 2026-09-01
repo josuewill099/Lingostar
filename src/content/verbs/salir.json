@@ -1,0 +1,246 @@
+{
+ "infinitive": "salir",
+ "english": "to leave, go out",
+ "gerund": "saliendo",
+ "past_participle": "salido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I leave, am leaving",
+    "forms": [
+     "salgo",
+     "sales",
+     "sale",
+     "salimos",
+     "salís",
+     "salen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will leave",
+    "forms": [
+     "saldré",
+     "saldrás",
+     "saldrá",
+     "saldremos",
+     "saldréis",
+     "saldrán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was leaving, used to leave, left",
+    "forms": [
+     "salía",
+     "salías",
+     "salía",
+     "salíamos",
+     "salíais",
+     "salían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I left",
+    "forms": [
+     "salí",
+     "saliste",
+     "salió",
+     "salimos",
+     "salisteis",
+     "salieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would leave",
+    "forms": [
+     "saldría",
+     "saldrías",
+     "saldría",
+     "saldríamos",
+     "saldríais",
+     "saldrían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have left, left",
+    "forms": [
+     "he salido",
+     "has salido",
+     "ha salido",
+     "hemos salido",
+     "habéis salido",
+     "han salido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have left",
+    "forms": [
+     "habré salido",
+     "habrás salido",
+     "habrá salido",
+     "habremos salido",
+     "habréis salido",
+     "habrán salido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had left",
+    "forms": [
+     "había salido",
+     "habías salido",
+     "había salido",
+     "habíamos salido",
+     "habíais salido",
+     "habían salido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had left",
+    "forms": [
+     "hube salido",
+     "hubiste salido",
+     "hubo salido",
+     "hubimos salido",
+     "hubisteis salido",
+     "hubieron salido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have left",
+    "forms": [
+     "habría salido",
+     "habrías salido",
+     "habría salido",
+     "habríamos salido",
+     "habríais salido",
+     "habrían salido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I leave, am leaving",
+    "forms": [
+     "salga",
+     "salgas",
+     "salga",
+     "salgamos",
+     "salgáis",
+     "salgan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I left, was leaving",
+    "forms": [
+     "saliera",
+     "salieras",
+     "saliera",
+     "saliéramos",
+     "salierais",
+     "salieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will leave",
+    "forms": [
+     "saliere",
+     "salieres",
+     "saliere",
+     "saliéremos",
+     "saliereis",
+     "salieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have left, left",
+    "forms": [
+     "haya salido",
+     "hayas salido",
+     "haya salido",
+     "hayamos salido",
+     "hayáis salido",
+     "hayan salido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have left",
+    "forms": [
+     "hubiere salido",
+     "hubieres salido",
+     "hubiere salido",
+     "hubiéremos salido",
+     "hubiereis salido",
+     "hubieren salido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had left",
+    "forms": [
+     "hubiera salido",
+     "hubieras salido",
+     "hubiera salido",
+     "hubiéramos salido",
+     "hubierais salido",
+     "hubieran salido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Leave! Don't leave!",
+    "forms": [
+     "",
+     "sal",
+     "salga",
+     "salgamos",
+     "salid",
+     "salgan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Leave! Don't leave!",
+    "forms": [
+     "",
+     "no salgas",
+     "no salga",
+     "no salgamos",
+     "no salgáis",
+     "no salgan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 27,
+ "related": [
+  "decir",
+  "ir",
+  "seguir",
+  "llamar",
+  "venir"
+ ],
+ "slug": "salir"
+}

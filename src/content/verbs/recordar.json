@@ -1,0 +1,246 @@
+{
+ "infinitive": "recordar",
+ "english": "to remember, remind",
+ "gerund": "recordando",
+ "past_participle": "recordado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I remember, am remembering",
+    "forms": [
+     "recuerdo",
+     "recuerdas",
+     "recuerda",
+     "recordamos",
+     "recordáis",
+     "recuerdan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will remember",
+    "forms": [
+     "recordaré",
+     "recordarás",
+     "recordará",
+     "recordaremos",
+     "recordaréis",
+     "recordarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was remembering, used to remember, remembered",
+    "forms": [
+     "recordaba",
+     "recordabas",
+     "recordaba",
+     "recordábamos",
+     "recordabais",
+     "recordaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I remembered",
+    "forms": [
+     "recordé",
+     "recordaste",
+     "recordó",
+     "recordamos",
+     "recordasteis",
+     "recordaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would remember",
+    "forms": [
+     "recordaría",
+     "recordarías",
+     "recordaría",
+     "recordaríamos",
+     "recordaríais",
+     "recordarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have remembered",
+    "forms": [
+     "he recordado",
+     "has recordado",
+     "ha recordado",
+     "hemos recordado",
+     "habéis recordado",
+     "han recordado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have remembered",
+    "forms": [
+     "habré recordado",
+     "habrás recordado",
+     "habrá recordado",
+     "habremos recordado",
+     "habréis recordado",
+     "habrán recordado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had remembered",
+    "forms": [
+     "había recordado",
+     "habías recordado",
+     "había recordado",
+     "habíamos recordado",
+     "habíais recordado",
+     "habían recordado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had remembered",
+    "forms": [
+     "hube recordado",
+     "hubiste recordado",
+     "hubo recordado",
+     "hubimos recordado",
+     "hubisteis recordado",
+     "hubieron recordado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have remembered",
+    "forms": [
+     "habría recordado",
+     "habrías recordado",
+     "habría recordado",
+     "habríamos recordado",
+     "habríais recordado",
+     "habrían recordado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I remember, am remembering",
+    "forms": [
+     "recuerde",
+     "recuerdes",
+     "recuerde",
+     "recordemos",
+     "recordéis",
+     "recuerden"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I remembered, was remembering",
+    "forms": [
+     "recordara",
+     "recordaras",
+     "recordara",
+     "recordáramos",
+     "recordarais",
+     "recordaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will remember",
+    "forms": [
+     "recordare",
+     "recordares",
+     "recordare",
+     "recordáremos",
+     "recordareis",
+     "recordaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have remembered, remembered",
+    "forms": [
+     "haya recordado",
+     "hayas recordado",
+     "haya recordado",
+     "hayamos recordado",
+     "hayáis recordado",
+     "hayan recordado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have remembered",
+    "forms": [
+     "hubiere recordado",
+     "hubieres recordado",
+     "hubiere recordado",
+     "hubiéremos recordado",
+     "hubiereis recordado",
+     "hubieren recordado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had remembered",
+    "forms": [
+     "hubiera recordado",
+     "hubieras recordado",
+     "hubiera recordado",
+     "hubiéramos recordado",
+     "hubierais recordado",
+     "hubieran recordado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Remember! Don't remember!",
+    "forms": [
+     "",
+     "recuerda",
+     "recuerde",
+     "recordemos",
+     "recordad",
+     "recuerden"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Remember! Don't remember!",
+    "forms": [
+     "",
+     "no recuerdes",
+     "no recuerde",
+     "no recordemos",
+     "no recordéis",
+     "no recuerden"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 46,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "entender",
+  "pedir"
+ ],
+ "slug": "recordar"
+}

@@ -1,0 +1,163 @@
+---
+// Spanish verb conjugation page — pSEO pipeline. Data comes from the `verbs`
+// content collection (src/content/verbs/*.json), built by scripts/build_verbs.mjs
+// from the Jehle verb database. This page is intentionally self-contained
+// (its own <head>/<style>, no site header/footer) to match the approved pilot
+// design rather than the generic blog layout.
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const verbs = await getCollection('verbs');
+  return verbs.map((v) => ({ params: { slug: v.data.slug }, props: { v: v.data } }));
+}
+
+type VerbData = CollectionEntry<'verbs'>['data'];
+const { v } = Astro.props as { v: VerbData };
+
+const PRONOUNS = ["yo", "tú", "él/ella/Ud.", "nosotros", "vosotros", "ellos/Uds."];
+const MOOD_ORDER = ["Indicative", "Subjunctive", "Imperative"] as const;
+const IMPERATIVE_KEYS = ["Imperative Affirmative", "Imperative Negative"];
+
+function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
+function tenseTable(tname: string, t: { tense_es: string; english_gloss: string; forms: string[] }, irregular: Set<string>) {
+  const flag = irregular.has(tname) ? ' <span class="irr">irregular</span>' : '';
+  const rows = PRONOUNS.map((p, i) => `<tr><td class="pr">${p}</td><td class="fm">${t.forms[i] || "—"}</td></tr>`).join('');
+  return `<div class="tense-card">
+  <h4>${tname} <span class="es">(${t.tense_es})</span>${flag}</h4>
+  <p class="gloss">${t.english_gloss}</p>
+  <table>${rows}</table></div>`;
+}
+
+const inf = v.infinitive, en = v.english;
+const irr = new Set(v.irregular_tenses);
+const irrList = [...new Set(v.irregular_tenses)];
+const badge = v.is_irregular ? "Irregular verb" : "Regular verb";
+const present = v.moods["Indicative"]["Present"].forms;
+const quick = PRONOUNS.map((p, i) => present[i] ? `${p} <strong>${present[i]}</strong>` : null).filter(Boolean).join(', ');
+
+let moodsHtml = "", renderedMoods = 0, renderedTenses = 0;
+for (const m of MOOD_ORDER) {
+  let cards = "";
+  if (m === "Imperative") {
+    for (const key of IMPERATIVE_KEYS) {
+      if (!v.moods[key]) continue;
+      const label = key.includes("Affirmative") ? "Affirmative" : "Negative";
+      for (const tn of Object.keys(v.moods[key])) {
+        cards += tenseTable(label, v.moods[key][tn], irr);
+        renderedTenses++;
+      }
+    }
+  } else {
+    if (!v.moods[m]) continue;
+    cards = Object.entries(v.moods[m]).map(([tn, t]) => tenseTable(tn, t, irr)).join('');
+    renderedTenses += Object.keys(v.moods[m]).length;
+  }
+  if (!cards) continue;
+  renderedMoods++;
+  moodsHtml += `<section class="mood"><h3>${m}</h3><div class="tense-grid">${cards}</div></section>`;
+}
+
+const related = (v.related || []).map((r) => `<a href="/spanish/conjugation/${r}">${r}</a>`).join('');
+const irrNote = irrList.length
+  ? `<strong>${cap(inf)}</strong> is irregular in the ${irrList.join(' and ').toLowerCase()} tense${irrList.length > 1 ? 's' : ''} — watch the stem changes highlighted above.`
+  : `<strong>${cap(inf)}</strong> follows the regular <em>-${v.verb_class}</em> pattern in every tense — once you know the endings, you know this verb.`;
+const ctaCopy = v.is_irregular
+  ? "Say it out loud — Lingostar checks your pronunciation and drills the irregular forms until they stick."
+  : "Say it out loud — Lingostar checks your pronunciation and locks in the pattern with real conversation practice.";
+
+const faqLd = JSON.stringify({
+  "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+    { "@type": "Question", "name": `Is ${inf} regular or irregular?`,
+      "acceptedAnswer": { "@type": "Answer", "text": `${cap(inf)} (${en}) is ${v.is_irregular ? 'an irregular' : 'a regular'} Spanish verb.` } },
+    { "@type": "Question", "name": `What is the present tense of ${inf}?`,
+      "acceptedAnswer": { "@type": "Answer", "text": present.filter(Boolean).join(', ') } },
+  ],
+});
+const crumbLd = JSON.stringify({
+  "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Spanish", "item": "https://lingostar.ai/spanish/" },
+    { "@type": "ListItem", "position": 2, "name": "Conjugation", "item": "https://lingostar.ai/spanish/conjugation/" },
+    { "@type": "ListItem", "position": 3, "name": inf },
+  ],
+});
+
+const pageTitle = `${cap(inf)} Conjugation — ${en} | All Spanish Tenses | Lingostar`;
+const pageDescription = `Full conjugation of ${inf} (${en}) in every Spanish tense and mood: present, preterite, imperfect, subjunctive and more. ${badge} #${v.frequency_rank} most common verb.`;
+const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription} />
+  <link rel="canonical" href={canonical} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script type="application/ld+json" set:html={faqLd} />
+  <script type="application/ld+json" set:html={crumbLd} />
+  <style>
+    :root{--ink:#1f1a16;--paper:#faf6ef;--card:#fffdf8;--red:#b3372c;--amber:#d99a2b;--line:#e7ddcc;--soft:#6f6558}
+    *{box-sizing:border-box;margin:0}
+    body{font-family:'Public Sans',sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;
+    background-image:radial-gradient(circle at 12% -8%,#f3e7d0 0,transparent 42%),radial-gradient(circle at 105% 15%,#f6e3dd 0,transparent 35%)}
+    .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+    nav.crumb{padding:18px 0;font-size:.82rem;color:var(--soft)} nav.crumb a{color:var(--red);text-decoration:none}
+    header.hero{padding:26px 0 34px;border-bottom:3px solid var(--ink)}
+    .badge{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    padding:5px 12px;border:1.5px solid var(--red);color:var(--red);border-radius:999px;margin-bottom:14px}
+    h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2.6rem,7vw,4.6rem);line-height:1.02}
+    h1 em{font-style:normal;color:var(--red)}
+    .sub{font-size:1.15rem;color:var(--soft);margin-top:10px} .sub strong{color:var(--ink)}
+    .meta{display:flex;gap:22px;margin-top:18px;font-size:.88rem;flex-wrap:wrap}
+    .meta span b{font-family:'Fraunces',serif;font-size:1.1rem}
+    .quick{margin:30px 0;background:var(--card);border:1.5px solid var(--line);border-left:6px solid var(--amber);
+    padding:20px 24px;border-radius:0 12px 12px 0}
+    .quick h2{font-family:'Fraunces',serif;font-size:1.15rem;margin-bottom:8px}
+    section.mood{margin:44px 0}
+    section.mood>h3{font-family:'Fraunces',serif;font-size:2rem;border-bottom:1.5px solid var(--line);padding-bottom:8px;margin-bottom:20px}
+    .tense-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
+    .tense-card{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:18px 20px;
+    box-shadow:3px 4px 0 rgba(31,26,22,.06);transition:transform .15s}
+    .tense-card:hover{transform:translateY(-3px)}
+    .tense-card h4{font-family:'Fraunces',serif;font-size:1.08rem} .es{font-weight:500;color:var(--soft);font-size:.85rem}
+    .irr{background:var(--red);color:#fff;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px;vertical-align:middle}
+    .gloss{font-size:.8rem;color:var(--soft);margin:4px 0 10px}
+    table{width:100%;border-collapse:collapse;font-size:.94rem}
+    td{padding:5px 4px;border-bottom:1px dashed var(--line)} tr:last-child td{border:none}
+    .pr{color:var(--soft);width:44%} .fm{font-weight:700}
+    .note,.cta{margin:38px 0;padding:24px 26px;border-radius:14px}
+    .note{background:#f2ead9;border:1.5px solid var(--line)}
+    .cta{background:var(--ink);color:var(--paper);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+    .cta h3{font-family:'Fraunces',serif;font-size:1.5rem} .cta p{color:#cfc4b2;font-size:.92rem}
+    .cta a{background:var(--amber);color:var(--ink);font-weight:700;text-decoration:none;padding:13px 26px;border-radius:999px;white-space:nowrap}
+    .related{margin:34px 0 60px} .related h3{font-family:'Fraunces',serif;margin-bottom:12px}
+    .related a{display:inline-block;margin:0 10px 10px 0;padding:8px 18px;border:1.5px solid var(--ink);border-radius:999px;
+    color:var(--ink);text-decoration:none;font-weight:600;font-size:.9rem}
+    .related a:hover{background:var(--ink);color:var(--paper)}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="crumb"><a href="/spanish/">Spanish</a> / <a href="/spanish/conjugation/">Conjugation</a> / {inf}</nav>
+  <header class="hero">
+    <span class="badge">{badge} · #{v.frequency_rank} most used</span>
+    <h1><em>{cap(inf)}</em> conjugation</h1>
+    <p class="sub"><strong>{inf}</strong> — {en} · gerund <strong>{v.gerund}</strong> · past participle <strong>{v.past_participle}</strong></p>
+    <div class="meta"><span><b>{renderedTenses}</b> tenses</span><span><b>{renderedMoods}</b> moods</span><span><b>-{v.verb_class}</b> verb class</span></div>
+  </header>
+  <div class="quick"><h2>Quick answer — present tense</h2><p set:html={quick} /></div>
+  <Fragment set:html={moodsHtml} />
+  <div class="note"><h3 style="font-family:'Fraunces',serif;margin-bottom:8px">Usage note</h3><p set:html={irrNote} /></div>
+  <div class="cta">
+    <div><h3>Practice {inf} with your AI tutor</h3><p>{ctaCopy}</p></div>
+    <a href={`https://lingostar.ai/practice?verb=${v.slug}`}>Practice now →</a>
+  </div>
+  <div class="related"><h3>Related verbs</h3><Fragment set:html={related} /></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,246 @@
+{
+ "infinitive": "creer",
+ "english": "to believe",
+ "gerund": "creyendo",
+ "past_participle": "creído",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I believe, am believing",
+    "forms": [
+     "creo",
+     "crees",
+     "cree",
+     "creemos",
+     "creéis",
+     "creen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will believe",
+    "forms": [
+     "creeré",
+     "creerás",
+     "creerá",
+     "creeremos",
+     "creeréis",
+     "creerán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was believing, used to believe, believed",
+    "forms": [
+     "creía",
+     "creías",
+     "creía",
+     "creíamos",
+     "creíais",
+     "creían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I believed",
+    "forms": [
+     "creí",
+     "creíste",
+     "creyó",
+     "creímos",
+     "creísteis",
+     "creyeron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would believe",
+    "forms": [
+     "creería",
+     "creerías",
+     "creería",
+     "creeríamos",
+     "creeríais",
+     "creerían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have believed",
+    "forms": [
+     "he creído",
+     "has creído",
+     "ha creído",
+     "hemos creído",
+     "habéis creído",
+     "han creído"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have believed",
+    "forms": [
+     "habré creído",
+     "habrás creído",
+     "habrá creído",
+     "habremos creído",
+     "habréis creído",
+     "habrán creído"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had believed",
+    "forms": [
+     "había creído",
+     "habías creído",
+     "había creído",
+     "habíamos creído",
+     "habíais creído",
+     "habían creído"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had believed",
+    "forms": [
+     "hube creído",
+     "hubiste creído",
+     "hubo creído",
+     "hubimos creído",
+     "hubisteis creído",
+     "hubieron creído"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have believed",
+    "forms": [
+     "habría creído",
+     "habrías creído",
+     "habría creído",
+     "habríamos creído",
+     "habríais creído",
+     "habrían creído"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I believe, am believing",
+    "forms": [
+     "crea",
+     "creas",
+     "crea",
+     "creamos",
+     "creáis",
+     "crean"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I believed, was believing",
+    "forms": [
+     "creyera",
+     "creyeras",
+     "creyera",
+     "creyéramos",
+     "creyerais",
+     "creyeran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will believe",
+    "forms": [
+     "creyere",
+     "creyeres",
+     "creyere",
+     "creyéremos",
+     "creyereis",
+     "creyeren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have believed, believed",
+    "forms": [
+     "haya creído",
+     "hayas creído",
+     "haya creído",
+     "hayamos creído",
+     "hayáis creído",
+     "hayan creído"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have believed",
+    "forms": [
+     "hubiere creído",
+     "hubieres creído",
+     "hubiere creído",
+     "hubiéremos creído",
+     "hubiereis creído",
+     "hubieren creído"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had believed",
+    "forms": [
+     "hubiera creído",
+     "hubieras creído",
+     "hubiera creído",
+     "hubiéramos creído",
+     "hubierais creído",
+     "hubieran creído"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Believe! Don't believe!",
+    "forms": [
+     "",
+     "cree",
+     "crea",
+     "creamos",
+     "creed",
+     "crean"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Believe! Don't believe!",
+    "forms": [
+     "",
+     "no creas",
+     "no crea",
+     "no creamos",
+     "no creáis",
+     "no crean"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 18,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "poner",
+  "parecer"
+ ],
+ "slug": "creer"
+}

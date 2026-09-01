@@ -1,0 +1,49 @@
+---
+export const prerender = true;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Learn Spanish | Lingostar</title>
+  <meta name="description" content="Free Spanish learning resources from Lingostar: verb conjugation charts and AI conversation practice." />
+  <link rel="canonical" href="https://lingostar.ai/spanish/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--ink:#1f1a16;--paper:#faf6ef;--card:#fffdf8;--red:#b3372c;--amber:#d99a2b;--line:#e7ddcc;--soft:#6f6558}
+    *{box-sizing:border-box;margin:0}
+    body{font-family:'Public Sans',sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+    .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+    header.hero{padding:40px 0 34px;border-bottom:3px solid var(--ink)}
+    h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2.6rem,7vw,4.2rem);line-height:1.02}
+    .sub{font-size:1.15rem;color:var(--soft);margin-top:10px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;margin:34px 0 60px}
+    .card{background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:22px 24px}
+    .card h2{font-family:'Fraunces',serif;font-size:1.3rem;margin-bottom:8px}
+    .card p{color:var(--soft);font-size:.92rem;margin-bottom:14px}
+    .card a{color:var(--red);font-weight:700;text-decoration:none}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1>Learn Spanish</h1>
+    <p class="sub">Free resources to build your Spanish, backed by Lingostar's AI conversation practice.</p>
+  </header>
+  <div class="cards">
+    <div class="card">
+      <h2>Verb conjugation</h2>
+      <p>Full conjugation charts for the most common Spanish verbs — every tense and mood, irregular forms flagged.</p>
+      <a href="/spanish/conjugation/">Browse verbs →</a>
+    </div>
+    <div class="card">
+      <h2>Practice with an AI tutor</h2>
+      <p>Speak naturally with Lingostar's AI conversation partner and get instant feedback on grammar and pronunciation.</p>
+      <a href="https://lingostar.ai/practice">Start practicing →</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

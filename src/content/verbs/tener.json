@@ -1,0 +1,246 @@
+{
+ "infinitive": "tener",
+ "english": "to have",
+ "gerund": "teniendo",
+ "past_participle": "tenido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I have, am having",
+    "forms": [
+     "tengo",
+     "tienes",
+     "tiene",
+     "tenemos",
+     "tenéis",
+     "tienen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will have",
+    "forms": [
+     "tendré",
+     "tendrás",
+     "tendrá",
+     "tendremos",
+     "tendréis",
+     "tendrán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was having, used to have, had",
+    "forms": [
+     "tenía",
+     "tenías",
+     "tenía",
+     "teníamos",
+     "teníais",
+     "tenían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I had",
+    "forms": [
+     "tuve",
+     "tuviste",
+     "tuvo",
+     "tuvimos",
+     "tuvisteis",
+     "tuvieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would have",
+    "forms": [
+     "tendría",
+     "tendrías",
+     "tendría",
+     "tendríamos",
+     "tendríais",
+     "tendrían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have had",
+    "forms": [
+     "he tenido",
+     "has tenido",
+     "ha tenido",
+     "hemos tenido",
+     "habéis tenido",
+     "han tenido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have had",
+    "forms": [
+     "habré tenido",
+     "habrás tenido",
+     "habrá tenido",
+     "habremos tenido",
+     "habréis tenido",
+     "habrán tenido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had had",
+    "forms": [
+     "había tenido",
+     "habías tenido",
+     "había tenido",
+     "habíamos tenido",
+     "habíais tenido",
+     "habían tenido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had had",
+    "forms": [
+     "hube tenido",
+     "hubiste tenido",
+     "hubo tenido",
+     "hubimos tenido",
+     "hubisteis tenido",
+     "hubieron tenido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have had",
+    "forms": [
+     "habría tenido",
+     "habrías tenido",
+     "habría tenido",
+     "habríamos tenido",
+     "habríais tenido",
+     "habrían tenido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I have, am having",
+    "forms": [
+     "tenga",
+     "tengas",
+     "tenga",
+     "tengamos",
+     "tengáis",
+     "tengan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I had, was having",
+    "forms": [
+     "tuviera",
+     "tuvieras",
+     "tuviera",
+     "tuviéramos",
+     "tuvierais",
+     "tuvieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will have",
+    "forms": [
+     "tuviere",
+     "tuvieres",
+     "tuviere",
+     "tuviéremos",
+     "tuviereis",
+     "tuvieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have had, had",
+    "forms": [
+     "haya tenido",
+     "hayas tenido",
+     "haya tenido",
+     "hayamos tenido",
+     "hayáis tenido",
+     "hayan tenido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have had",
+    "forms": [
+     "hubiere tenido",
+     "hubieres tenido",
+     "hubiere tenido",
+     "hubiéremos tenido",
+     "hubiereis tenido",
+     "hubieren tenido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had had",
+    "forms": [
+     "hubiera tenido",
+     "hubieras tenido",
+     "hubiera tenido",
+     "hubiéramos tenido",
+     "hubierais tenido",
+     "hubieran tenido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Have! Don't have!",
+    "forms": [
+     "",
+     "ten",
+     "tenga",
+     "tengamos",
+     "tened",
+     "tengan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Have! Don't have!",
+    "forms": [
+     "",
+     "no tengas",
+     "no tenga",
+     "no tengamos",
+     "no tengáis",
+     "no tengan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 3,
+ "related": [
+  "ser",
+  "hacer",
+  "poder",
+  "estar"
+ ],
+ "slug": "tener"
+}

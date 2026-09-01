@@ -1,0 +1,244 @@
+{
+ "infinitive": "escribir",
+ "english": "to write",
+ "gerund": "escribiendo",
+ "past_participle": "escrito",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I write, am writing",
+    "forms": [
+     "escribo",
+     "escribes",
+     "escribe",
+     "escribimos",
+     "escribís",
+     "escriben"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will write",
+    "forms": [
+     "escribiré",
+     "escribirás",
+     "escribirá",
+     "escribiremos",
+     "escribiréis",
+     "escribirán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was writing, used to write, wrote",
+    "forms": [
+     "escribía",
+     "escribías",
+     "escribía",
+     "escribíamos",
+     "escribíais",
+     "escribían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I wrote",
+    "forms": [
+     "escribí",
+     "escribiste",
+     "escribió",
+     "escribimos",
+     "escribisteis",
+     "escribieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would write",
+    "forms": [
+     "escribiría",
+     "escribirías",
+     "escribiría",
+     "escribiríamos",
+     "escribiríais",
+     "escribirían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have written",
+    "forms": [
+     "he escrito",
+     "has escrito",
+     "ha escrito",
+     "hemos escrito",
+     "habéis escrito",
+     "han escrito"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have written",
+    "forms": [
+     "habré escrito",
+     "habrás escrito",
+     "habrá escrito",
+     "habremos escrito",
+     "habréis escrito",
+     "habrán escrito"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had written",
+    "forms": [
+     "había escrito",
+     "habías escrito",
+     "había escrito",
+     "habíamos escrito",
+     "habíais escrito",
+     "habían escrito"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had written",
+    "forms": [
+     "hube escrito",
+     "hubiste escrito",
+     "hubo escrito",
+     "hubimos escrito",
+     "hubisteis escrito",
+     "hubieron escrito"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have written",
+    "forms": [
+     "habría escrito",
+     "habrías escrito",
+     "habría escrito",
+     "habríamos escrito",
+     "habríais escrito",
+     "habrían escrito"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I write, am writing",
+    "forms": [
+     "escriba",
+     "escribas",
+     "escriba",
+     "escribamos",
+     "escribáis",
+     "escriban"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I wrote, was writing",
+    "forms": [
+     "escribiera",
+     "escribieras",
+     "escribiera",
+     "escribiéramos",
+     "escribierais",
+     "escribieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will write",
+    "forms": [
+     "escribiere",
+     "escribieres",
+     "escribiere",
+     "escribiéremos",
+     "escribiereis",
+     "escribieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have written, wrote",
+    "forms": [
+     "haya escrito",
+     "hayas escrito",
+     "haya escrito",
+     "hayamos escrito",
+     "hayáis escrito",
+     "hayan escrito"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have written",
+    "forms": [
+     "hubiere escrito",
+     "hubieres escrito",
+     "hubiere escrito",
+     "hubiéremos escrito",
+     "hubiereis escrito",
+     "hubieren escrito"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had written",
+    "forms": [
+     "hubiera escrito",
+     "hubieras escrito",
+     "hubiera escrito",
+     "hubiéramos escrito",
+     "hubierais escrito",
+     "hubieran escrito"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Write! Don't write!",
+    "forms": [
+     "",
+     "escribe",
+     "escriba",
+     "escribamos",
+     "escribid",
+     "escriban"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Write! Don't write!",
+    "forms": [
+     "",
+     "no escribas",
+     "no escriba",
+     "no escribamos",
+     "no escribáis",
+     "no escriban"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 40,
+ "related": [
+  "decir",
+  "ir",
+  "seguir",
+  "buscar",
+  "entrar"
+ ],
+ "slug": "escribir"
+}

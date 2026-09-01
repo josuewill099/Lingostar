@@ -1,0 +1,246 @@
+{
+ "infinitive": "contar",
+ "english": "to count, relate, tell",
+ "gerund": "contando",
+ "past_participle": "contado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I count, am counting",
+    "forms": [
+     "cuento",
+     "cuentas",
+     "cuenta",
+     "contamos",
+     "contáis",
+     "cuentan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will count",
+    "forms": [
+     "contaré",
+     "contarás",
+     "contará",
+     "contaremos",
+     "contaréis",
+     "contarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was counting, used to count, counted",
+    "forms": [
+     "contaba",
+     "contabas",
+     "contaba",
+     "contábamos",
+     "contabais",
+     "contaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I counted",
+    "forms": [
+     "conté",
+     "contaste",
+     "contó",
+     "contamos",
+     "contasteis",
+     "contaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would count",
+    "forms": [
+     "contaría",
+     "contarías",
+     "contaría",
+     "contaríamos",
+     "contaríais",
+     "contarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have counted",
+    "forms": [
+     "he contado",
+     "has contado",
+     "ha contado",
+     "hemos contado",
+     "habéis contado",
+     "han contado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have counted",
+    "forms": [
+     "habré contado",
+     "habrás contado",
+     "habrá contado",
+     "habremos contado",
+     "habréis contado",
+     "habrán contado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had counted",
+    "forms": [
+     "había contado",
+     "habías contado",
+     "había contado",
+     "habíamos contado",
+     "habíais contado",
+     "habían contado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had counted",
+    "forms": [
+     "hube contado",
+     "hubiste contado",
+     "hubo contado",
+     "hubimos contado",
+     "hubisteis contado",
+     "hubieron contado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have counted",
+    "forms": [
+     "habría contado",
+     "habrías contado",
+     "habría contado",
+     "habríamos contado",
+     "habríais contado",
+     "habrían contado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I count, am counting",
+    "forms": [
+     "cuente",
+     "cuentes",
+     "cuente",
+     "contemos",
+     "contéis",
+     "cuenten"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I counted, was counting",
+    "forms": [
+     "contara",
+     "contaras",
+     "contara",
+     "contáramos",
+     "contarais",
+     "contaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will count",
+    "forms": [
+     "contare",
+     "contares",
+     "contare",
+     "contáremos",
+     "contareis",
+     "contaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have counted, counted",
+    "forms": [
+     "haya contado",
+     "hayas contado",
+     "haya contado",
+     "hayamos contado",
+     "hayáis contado",
+     "hayan contado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have counted",
+    "forms": [
+     "hubiere contado",
+     "hubieres contado",
+     "hubiere contado",
+     "hubiéremos contado",
+     "hubiereis contado",
+     "hubieren contado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had counted",
+    "forms": [
+     "hubiera contado",
+     "hubieras contado",
+     "hubiera contado",
+     "hubiéramos contado",
+     "hubierais contado",
+     "hubieran contado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Count! Don't count!",
+    "forms": [
+     "",
+     "cuenta",
+     "cuente",
+     "contemos",
+     "contad",
+     "cuenten"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Count! Don't count!",
+    "forms": [
+     "",
+     "no cuentes",
+     "no cuente",
+     "no contemos",
+     "no contéis",
+     "no cuenten"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 34,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "vivir",
+  "sentir"
+ ],
+ "slug": "contar"
+}

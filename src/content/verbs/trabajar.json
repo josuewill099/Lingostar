@@ -1,0 +1,244 @@
+{
+ "infinitive": "trabajar",
+ "english": "to work",
+ "gerund": "trabajando",
+ "past_participle": "trabajado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I work, am working",
+    "forms": [
+     "trabajo",
+     "trabajas",
+     "trabaja",
+     "trabajamos",
+     "trabajáis",
+     "trabajan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will work",
+    "forms": [
+     "trabajaré",
+     "trabajarás",
+     "trabajará",
+     "trabajaremos",
+     "trabajaréis",
+     "trabajarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was working, used to work, worked",
+    "forms": [
+     "trabajaba",
+     "trabajabas",
+     "trabajaba",
+     "trabajábamos",
+     "trabajabais",
+     "trabajaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I worked",
+    "forms": [
+     "trabajé",
+     "trabajaste",
+     "trabajó",
+     "trabajamos",
+     "trabajasteis",
+     "trabajaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would work",
+    "forms": [
+     "trabajaría",
+     "trabajarías",
+     "trabajaría",
+     "trabajaríamos",
+     "trabajaríais",
+     "trabajarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have worked",
+    "forms": [
+     "he trabajado",
+     "has trabajado",
+     "ha trabajado",
+     "hemos trabajado",
+     "habéis trabajado",
+     "han trabajado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have worked",
+    "forms": [
+     "habré trabajado",
+     "habrás trabajado",
+     "habrá trabajado",
+     "habremos trabajado",
+     "habréis trabajado",
+     "habrán trabajado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had worked",
+    "forms": [
+     "había trabajado",
+     "habías trabajado",
+     "había trabajado",
+     "habíamos trabajado",
+     "habíais trabajado",
+     "habían trabajado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had worked",
+    "forms": [
+     "hube trabajado",
+     "hubiste trabajado",
+     "hubo trabajado",
+     "hubimos trabajado",
+     "hubisteis trabajado",
+     "hubieron trabajado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have worked",
+    "forms": [
+     "habría trabajado",
+     "habrías trabajado",
+     "habría trabajado",
+     "habríamos trabajado",
+     "habríais trabajado",
+     "habrían trabajado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I work, am working",
+    "forms": [
+     "trabaje",
+     "trabajes",
+     "trabaje",
+     "trabajemos",
+     "trabajéis",
+     "trabajen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I worked, was working",
+    "forms": [
+     "trabajara",
+     "trabajaras",
+     "trabajara",
+     "trabajáramos",
+     "trabajarais",
+     "trabajaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will work",
+    "forms": [
+     "trabajare",
+     "trabajares",
+     "trabajare",
+     "trabajáremos",
+     "trabajareis",
+     "trabajaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have worked, worked",
+    "forms": [
+     "haya trabajado",
+     "hayas trabajado",
+     "haya trabajado",
+     "hayamos trabajado",
+     "hayáis trabajado",
+     "hayan trabajado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have worked",
+    "forms": [
+     "hubiere trabajado",
+     "hubieres trabajado",
+     "hubiere trabajado",
+     "hubiéremos trabajado",
+     "hubiereis trabajado",
+     "hubieren trabajado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had worked",
+    "forms": [
+     "hubiera trabajado",
+     "hubieras trabajado",
+     "hubiera trabajado",
+     "hubiéramos trabajado",
+     "hubierais trabajado",
+     "hubieran trabajado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Work! Don't work!",
+    "forms": [
+     "",
+     "trabaja",
+     "trabaje",
+     "trabajemos",
+     "trabajad",
+     "trabajen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Work! Don't work!",
+    "forms": [
+     "",
+     "no trabajes",
+     "no trabaje",
+     "no trabajemos",
+     "no trabajéis",
+     "no trabajen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 39,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "esperar",
+  "buscar"
+ ],
+ "slug": "trabajar"
+}

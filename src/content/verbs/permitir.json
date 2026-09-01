@@ -1,0 +1,244 @@
+{
+ "infinitive": "permitir",
+ "english": "to permit, allow",
+ "gerund": "permitiendo",
+ "past_participle": "permitido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I permit, am permitting",
+    "forms": [
+     "permito",
+     "permites",
+     "permite",
+     "permitimos",
+     "permitís",
+     "permiten"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will permit",
+    "forms": [
+     "permitiré",
+     "permitirás",
+     "permitirá",
+     "permitiremos",
+     "permitiréis",
+     "permitirán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was permitting, used to permit, permitted",
+    "forms": [
+     "permitía",
+     "permitías",
+     "permitía",
+     "permitíamos",
+     "permitíais",
+     "permitían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I permitted",
+    "forms": [
+     "permití",
+     "permitiste",
+     "permitió",
+     "permitimos",
+     "permitisteis",
+     "permitieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would permit",
+    "forms": [
+     "permitiría",
+     "permitirías",
+     "permitiría",
+     "permitiríamos",
+     "permitiríais",
+     "permitirían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have permitted",
+    "forms": [
+     "he permitido",
+     "has permitido",
+     "ha permitido",
+     "hemos permitido",
+     "habéis permitido",
+     "han permitido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have permitted",
+    "forms": [
+     "habré permitido",
+     "habrás permitido",
+     "habrá permitido",
+     "habremos permitido",
+     "habréis permitido",
+     "habrán permitido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had permitted",
+    "forms": [
+     "había permitido",
+     "habías permitido",
+     "había permitido",
+     "habíamos permitido",
+     "habíais permitido",
+     "habían permitido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had permitted",
+    "forms": [
+     "hube permitido",
+     "hubiste permitido",
+     "hubo permitido",
+     "hubimos permitido",
+     "hubisteis permitido",
+     "hubieron permitido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have permitted",
+    "forms": [
+     "habría permitido",
+     "habrías permitido",
+     "habría permitido",
+     "habríamos permitido",
+     "habríais permitido",
+     "habrían permitido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I permit, am permitting",
+    "forms": [
+     "permita",
+     "permitas",
+     "permita",
+     "permitamos",
+     "permitáis",
+     "permitan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I permitted, was permitting",
+    "forms": [
+     "permitiera",
+     "permitieras",
+     "permitiera",
+     "permitiéramos",
+     "permitierais",
+     "permitieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will permit",
+    "forms": [
+     "permitiere",
+     "permitieres",
+     "permitiere",
+     "permitiéremos",
+     "permitiereis",
+     "permitieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have permitted, permitted",
+    "forms": [
+     "haya permitido",
+     "hayas permitido",
+     "haya permitido",
+     "hayamos permitido",
+     "hayáis permitido",
+     "hayan permitido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have permitted",
+    "forms": [
+     "hubiere permitido",
+     "hubieres permitido",
+     "hubiere permitido",
+     "hubiéremos permitido",
+     "hubiereis permitido",
+     "hubieren permitido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had permitted",
+    "forms": [
+     "hubiera permitido",
+     "hubieras permitido",
+     "hubiera permitido",
+     "hubiéramos permitido",
+     "hubierais permitido",
+     "hubieran permitido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Permit! Don't permit!",
+    "forms": [
+     "",
+     "permite",
+     "permita",
+     "permitamos",
+     "permitid",
+     "permitan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Permit! Don't permit!",
+    "forms": [
+     "",
+     "no permitas",
+     "no permita",
+     "no permitamos",
+     "no permitáis",
+     "no permitan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 48,
+ "related": [
+  "decir",
+  "ir",
+  "seguir",
+  "recibir",
+  "recordar"
+ ],
+ "slug": "permitir"
+}

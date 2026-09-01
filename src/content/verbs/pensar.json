@@ -1,0 +1,246 @@
+{
+ "infinitive": "pensar",
+ "english": "to think",
+ "gerund": "pensando",
+ "past_participle": "pensado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I think, am thinking",
+    "forms": [
+     "pienso",
+     "piensas",
+     "piensa",
+     "pensamos",
+     "pensáis",
+     "piensan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will think",
+    "forms": [
+     "pensaré",
+     "pensarás",
+     "pensará",
+     "pensaremos",
+     "pensaréis",
+     "pensarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was thinking, used to think, thought",
+    "forms": [
+     "pensaba",
+     "pensabas",
+     "pensaba",
+     "pensábamos",
+     "pensabais",
+     "pensaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I thought",
+    "forms": [
+     "pensé",
+     "pensaste",
+     "pensó",
+     "pensamos",
+     "pensasteis",
+     "pensaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would think",
+    "forms": [
+     "pensaría",
+     "pensarías",
+     "pensaría",
+     "pensaríamos",
+     "pensaríais",
+     "pensarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have thought",
+    "forms": [
+     "he pensado",
+     "has pensado",
+     "ha pensado",
+     "hemos pensado",
+     "habéis pensado",
+     "han pensado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have thought",
+    "forms": [
+     "habré pensado",
+     "habrás pensado",
+     "habrá pensado",
+     "habremos pensado",
+     "habréis pensado",
+     "habrán pensado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had thought",
+    "forms": [
+     "había pensado",
+     "habías pensado",
+     "había pensado",
+     "habíamos pensado",
+     "habíais pensado",
+     "habían pensado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had thought",
+    "forms": [
+     "hube pensado",
+     "hubiste pensado",
+     "hubo pensado",
+     "hubimos pensado",
+     "hubisteis pensado",
+     "hubieron pensado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have thought",
+    "forms": [
+     "habría pensado",
+     "habrías pensado",
+     "habría pensado",
+     "habríamos pensado",
+     "habríais pensado",
+     "habrían pensado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I think, am thinking",
+    "forms": [
+     "piense",
+     "pienses",
+     "piense",
+     "pensemos",
+     "penséis",
+     "piensen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I thought, was thinking",
+    "forms": [
+     "pensara",
+     "pensaras",
+     "pensara",
+     "pensáramos",
+     "pensarais",
+     "pensaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will think",
+    "forms": [
+     "pensare",
+     "pensares",
+     "pensare",
+     "pensáremos",
+     "pensareis",
+     "pensaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have thought, thought",
+    "forms": [
+     "haya pensado",
+     "hayas pensado",
+     "haya pensado",
+     "hayamos pensado",
+     "hayáis pensado",
+     "hayan pensado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have thought",
+    "forms": [
+     "hubiere pensado",
+     "hubieres pensado",
+     "hubiere pensado",
+     "hubiéremos pensado",
+     "hubiereis pensado",
+     "hubieren pensado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had thought",
+    "forms": [
+     "hubiera pensado",
+     "hubieras pensado",
+     "hubiera pensado",
+     "hubiéramos pensado",
+     "hubierais pensado",
+     "hubieran pensado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Think! Don't think!",
+    "forms": [
+     "",
+     "piensa",
+     "piense",
+     "pensemos",
+     "pensad",
+     "piensen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Think! Don't think!",
+    "forms": [
+     "",
+     "no pienses",
+     "no piense",
+     "no pensemos",
+     "no penséis",
+     "no piensen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 26,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "encontrar",
+  "llamar"
+ ],
+ "slug": "pensar"
+}

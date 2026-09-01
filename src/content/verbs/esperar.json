@@ -1,0 +1,244 @@
+{
+ "infinitive": "esperar",
+ "english": "to hope",
+ "gerund": "esperando",
+ "past_participle": "esperado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I hope, am hoping",
+    "forms": [
+     "espero",
+     "esperas",
+     "espera",
+     "esperamos",
+     "esperáis",
+     "esperan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will hope",
+    "forms": [
+     "esperaré",
+     "esperarás",
+     "esperará",
+     "esperaremos",
+     "esperaréis",
+     "esperarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was hoping, used to hope, hoped",
+    "forms": [
+     "esperaba",
+     "esperabas",
+     "esperaba",
+     "esperábamos",
+     "esperabais",
+     "esperaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I hoped",
+    "forms": [
+     "esperé",
+     "esperaste",
+     "esperó",
+     "esperamos",
+     "esperasteis",
+     "esperaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would hope",
+    "forms": [
+     "esperaría",
+     "esperarías",
+     "esperaría",
+     "esperaríamos",
+     "esperaríais",
+     "esperarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have hoped",
+    "forms": [
+     "he esperado",
+     "has esperado",
+     "ha esperado",
+     "hemos esperado",
+     "habéis esperado",
+     "han esperado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have hoped",
+    "forms": [
+     "habré esperado",
+     "habrás esperado",
+     "habrá esperado",
+     "habremos esperado",
+     "habréis esperado",
+     "habrán esperado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had hoped",
+    "forms": [
+     "había esperado",
+     "habías esperado",
+     "había esperado",
+     "habíamos esperado",
+     "habíais esperado",
+     "habían esperado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had hoped",
+    "forms": [
+     "hube esperado",
+     "hubiste esperado",
+     "hubo esperado",
+     "hubimos esperado",
+     "hubisteis esperado",
+     "hubieron esperado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have hoped",
+    "forms": [
+     "habría esperado",
+     "habrías esperado",
+     "habría esperado",
+     "habríamos esperado",
+     "habríais esperado",
+     "habrían esperado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I hope, am hoping",
+    "forms": [
+     "espere",
+     "esperes",
+     "espere",
+     "esperemos",
+     "esperéis",
+     "esperen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I hoped, was hoping",
+    "forms": [
+     "esperara",
+     "esperaras",
+     "esperara",
+     "esperáramos",
+     "esperarais",
+     "esperaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will hope",
+    "forms": [
+     "esperare",
+     "esperares",
+     "esperare",
+     "esperáremos",
+     "esperareis",
+     "esperaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have hoped, hoped",
+    "forms": [
+     "haya esperado",
+     "hayas esperado",
+     "haya esperado",
+     "hayamos esperado",
+     "hayáis esperado",
+     "hayan esperado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have hoped",
+    "forms": [
+     "hubiere esperado",
+     "hubieres esperado",
+     "hubiere esperado",
+     "hubiéremos esperado",
+     "hubiereis esperado",
+     "hubieren esperado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had hoped",
+    "forms": [
+     "hubiera esperado",
+     "hubieras esperado",
+     "hubiera esperado",
+     "hubiéramos esperado",
+     "hubierais esperado",
+     "hubieran esperado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Hope! Don't hope!",
+    "forms": [
+     "",
+     "espera",
+     "espere",
+     "esperemos",
+     "esperad",
+     "esperen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Hope! Don't hope!",
+    "forms": [
+     "",
+     "no esperes",
+     "no espere",
+     "no esperemos",
+     "no esperéis",
+     "no esperen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 36,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "mirar",
+  "contar"
+ ],
+ "slug": "esperar"
+}

@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 // Static output — deployed to Cloudflare Pages as plain HTML/CSS/JS.
 // Dynamic bits (contact form) are handled separately by Cloudflare Pages
@@ -6,4 +7,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://lingostar.ai',
   output: 'static',
+  integrations: [sitemap()],
 });

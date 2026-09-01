@@ -1,0 +1,247 @@
+{
+ "infinitive": "ser",
+ "english": "to be",
+ "gerund": "siendo",
+ "past_participle": "sido",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I am",
+    "forms": [
+     "soy",
+     "eres",
+     "es",
+     "somos",
+     "sois",
+     "son"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will be",
+    "forms": [
+     "seré",
+     "serás",
+     "será",
+     "seremos",
+     "seréis",
+     "serán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I used to be, was",
+    "forms": [
+     "era",
+     "eras",
+     "era",
+     "éramos",
+     "erais",
+     "eran"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I was",
+    "forms": [
+     "fui",
+     "fuiste",
+     "fue",
+     "fuimos",
+     "fuisteis",
+     "fueron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would be",
+    "forms": [
+     "sería",
+     "serías",
+     "sería",
+     "seríamos",
+     "seríais",
+     "serían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have been",
+    "forms": [
+     "he sido",
+     "has sido",
+     "ha sido",
+     "hemos sido",
+     "habéis sido",
+     "han sido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have been",
+    "forms": [
+     "habré sido",
+     "habrás sido",
+     "habrá sido",
+     "habremos sido",
+     "habréis sido",
+     "habrán sido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had been",
+    "forms": [
+     "había sido",
+     "habías sido",
+     "había sido",
+     "habíamos sido",
+     "habíais sido",
+     "habían sido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had been",
+    "forms": [
+     "hube sido",
+     "hubiste sido",
+     "hubo sido",
+     "hubimos sido",
+     "hubisteis sido",
+     "hubieron sido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have been",
+    "forms": [
+     "habría sido",
+     "habrías sido",
+     "habría sido",
+     "habríamos sido",
+     "habríais sido",
+     "habrían sido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I am",
+    "forms": [
+     "sea",
+     "seas",
+     "sea",
+     "seamos",
+     "seáis",
+     "sean"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was, was being, were",
+    "forms": [
+     "fuera",
+     "fueras",
+     "fuera",
+     "fuéramos",
+     "fuerais",
+     "fueran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will be",
+    "forms": [
+     "fuere",
+     "fueres",
+     "fuere",
+     "fuéremos",
+     "fuereis",
+     "fueren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have been, was",
+    "forms": [
+     "haya sido",
+     "hayas sido",
+     "haya sido",
+     "hayamos sido",
+     "hayáis sido",
+     "hayan sido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have been",
+    "forms": [
+     "hubiere sido",
+     "hubieres sido",
+     "hubiere sido",
+     "hubiéremos sido",
+     "hubiereis sido",
+     "hubieren sido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had been",
+    "forms": [
+     "hubiera sido",
+     "hubieras sido",
+     "hubiera sido",
+     "hubiéramos sido",
+     "hubierais sido",
+     "hubieran sido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Be! Don't be!",
+    "forms": [
+     "",
+     "sé",
+     "sea",
+     "seamos",
+     "sed",
+     "sean"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Be! Don't be!",
+    "forms": [
+     "",
+     "no seas",
+     "no sea",
+     "no seamos",
+     "no seais",
+     "no sean"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Imperfect",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 1,
+ "related": [
+  "tener",
+  "hacer",
+  "poder",
+  "estar"
+ ],
+ "slug": "ser"
+}

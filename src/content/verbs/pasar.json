@@ -1,0 +1,244 @@
+{
+ "infinitive": "pasar",
+ "english": "to pass, pass by, go; to pass on, hand; to spend [time]; to happen",
+ "gerund": "pasando",
+ "past_participle": "pasado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I pass, am passing",
+    "forms": [
+     "paso",
+     "pasas",
+     "pasa",
+     "pasamos",
+     "pasáis",
+     "pasan"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will pass",
+    "forms": [
+     "pasaré",
+     "pasarás",
+     "pasará",
+     "pasaremos",
+     "pasaréis",
+     "pasarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was passing, used to pass, passed",
+    "forms": [
+     "pasaba",
+     "pasabas",
+     "pasaba",
+     "pasábamos",
+     "pasabais",
+     "pasaban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I passed",
+    "forms": [
+     "pasé",
+     "pasaste",
+     "pasó",
+     "pasamos",
+     "pasasteis",
+     "pasaron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would pass",
+    "forms": [
+     "pasaría",
+     "pasarías",
+     "pasaría",
+     "pasaríamos",
+     "pasaríais",
+     "pasarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have passed",
+    "forms": [
+     "he pasado",
+     "has pasado",
+     "ha pasado",
+     "hemos pasado",
+     "habéis pasado",
+     "han pasado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have passed",
+    "forms": [
+     "habré pasado",
+     "habrás pasado",
+     "habrá pasado",
+     "habremos pasado",
+     "habréis pasado",
+     "habrán pasado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had passed",
+    "forms": [
+     "había pasado",
+     "habías pasado",
+     "había pasado",
+     "habíamos pasado",
+     "habíais pasado",
+     "habían pasado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had passed",
+    "forms": [
+     "hube pasado",
+     "hubiste pasado",
+     "hubo pasado",
+     "hubimos pasado",
+     "hubisteis pasado",
+     "hubieron pasado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have passed",
+    "forms": [
+     "habría pasado",
+     "habrías pasado",
+     "habría pasado",
+     "habríamos pasado",
+     "habríais pasado",
+     "habrían pasado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I pass, am passing",
+    "forms": [
+     "pase",
+     "pases",
+     "pase",
+     "pasemos",
+     "paséis",
+     "pasen"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I passed, was passing",
+    "forms": [
+     "pasara",
+     "pasaras",
+     "pasara",
+     "pasáramos",
+     "pasarais",
+     "pasaran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will pass",
+    "forms": [
+     "pasare",
+     "pasares",
+     "pasare",
+     "pasáremos",
+     "pasareis",
+     "pasaren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have passed, passed",
+    "forms": [
+     "haya pasado",
+     "hayas pasado",
+     "haya pasado",
+     "hayamos pasado",
+     "hayáis pasado",
+     "hayan pasado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have passed",
+    "forms": [
+     "hubiere pasado",
+     "hubieres pasado",
+     "hubiere pasado",
+     "hubiéremos pasado",
+     "hubiereis pasado",
+     "hubieren pasado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had passed",
+    "forms": [
+     "hubiera pasado",
+     "hubieras pasado",
+     "hubiera pasado",
+     "hubiéramos pasado",
+     "hubierais pasado",
+     "hubieran pasado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Pass! Don't pass!",
+    "forms": [
+     "",
+     "pasa",
+     "pase",
+     "pasemos",
+     "pasad",
+     "pasen"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Pass! Don't pass!",
+    "forms": [
+     "",
+     "no pases",
+     "no pase",
+     "no pasemos",
+     "no paséis",
+     "no pasen"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 13,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "saber",
+  "querer"
+ ],
+ "slug": "pasar"
+}

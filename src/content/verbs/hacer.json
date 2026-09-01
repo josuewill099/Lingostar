@@ -1,0 +1,246 @@
+{
+ "infinitive": "hacer",
+ "english": "to do, make",
+ "gerund": "haciendo",
+ "past_participle": "hecho",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I do, am doing",
+    "forms": [
+     "hago",
+     "haces",
+     "hace",
+     "hacemos",
+     "hacéis",
+     "hacen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will do",
+    "forms": [
+     "haré",
+     "harás",
+     "hará",
+     "haremos",
+     "haréis",
+     "harán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was doing, used to do, did",
+    "forms": [
+     "hacía",
+     "hacías",
+     "hacía",
+     "hacíamos",
+     "hacíais",
+     "hacían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I did",
+    "forms": [
+     "hice",
+     "hiciste",
+     "hizo",
+     "hicimos",
+     "hicisteis",
+     "hicieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would do",
+    "forms": [
+     "haría",
+     "harías",
+     "haría",
+     "haríamos",
+     "haríais",
+     "harían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have done",
+    "forms": [
+     "he hecho",
+     "has hecho",
+     "ha hecho",
+     "hemos hecho",
+     "habéis hecho",
+     "han hecho"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have done",
+    "forms": [
+     "habré hecho",
+     "habrás hecho",
+     "habrá hecho",
+     "habremos hecho",
+     "habréis hecho",
+     "habrán hecho"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had done",
+    "forms": [
+     "había hecho",
+     "habías hecho",
+     "había hecho",
+     "habíamos hecho",
+     "habíais hecho",
+     "habían hecho"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had done",
+    "forms": [
+     "hube hecho",
+     "hubiste hecho",
+     "hubo hecho",
+     "hubimos hecho",
+     "hubisteis hecho",
+     "hubieron hecho"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have done",
+    "forms": [
+     "habría hecho",
+     "habrías hecho",
+     "habría hecho",
+     "habríamos hecho",
+     "habríais hecho",
+     "habrían hecho"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I do, am doing",
+    "forms": [
+     "haga",
+     "hagas",
+     "haga",
+     "hagamos",
+     "hagáis",
+     "hagan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I did, was doing",
+    "forms": [
+     "hiciera",
+     "hicieras",
+     "hiciera",
+     "hiciéramos",
+     "hicierais",
+     "hicieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will do",
+    "forms": [
+     "hiciere",
+     "hicieres",
+     "hiciere",
+     "hiciéremos",
+     "hiciereis",
+     "hicieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have done, did",
+    "forms": [
+     "haya hecho",
+     "hayas hecho",
+     "haya hecho",
+     "hayamos hecho",
+     "hayáis hecho",
+     "hayan hecho"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have done",
+    "forms": [
+     "hubiere hecho",
+     "hubieres hecho",
+     "hubiere hecho",
+     "hubiéremos hecho",
+     "hubiereis hecho",
+     "hubieren hecho"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had done",
+    "forms": [
+     "hubiera hecho",
+     "hubieras hecho",
+     "hubiera hecho",
+     "hubiéramos hecho",
+     "hubierais hecho",
+     "hubieran hecho"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Do! Don't do!",
+    "forms": [
+     "",
+     "haz",
+     "haga",
+     "hagamos",
+     "haced",
+     "hagan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Do! Don't do!",
+    "forms": [
+     "",
+     "no hagas",
+     "no haga",
+     "no hagamos",
+     "no hagáis",
+     "no hagan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 4,
+ "related": [
+  "ser",
+  "tener",
+  "poder",
+  "estar"
+ ],
+ "slug": "hacer"
+}

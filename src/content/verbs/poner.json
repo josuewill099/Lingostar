@@ -1,0 +1,247 @@
+{
+ "infinitive": "poner",
+ "english": "to put, place, set",
+ "gerund": "poniendo",
+ "past_participle": "puesto",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I put, am puting",
+    "forms": [
+     "pongo",
+     "pones",
+     "pone",
+     "ponemos",
+     "ponéis",
+     "ponen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will put",
+    "forms": [
+     "pondré",
+     "pondrás",
+     "pondrá",
+     "pondremos",
+     "pondréis",
+     "pondrán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was puting, used to put, put",
+    "forms": [
+     "ponía",
+     "ponías",
+     "ponía",
+     "poníamos",
+     "poníais",
+     "ponían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I put",
+    "forms": [
+     "puse",
+     "pusiste",
+     "puso",
+     "pusimos",
+     "pusisteis",
+     "pusieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would put",
+    "forms": [
+     "pondría",
+     "pondrías",
+     "pondría",
+     "pondríamos",
+     "pondríais",
+     "pondrían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have put",
+    "forms": [
+     "he puesto",
+     "has puesto",
+     "ha puesto",
+     "hemos puesto",
+     "habéis puesto",
+     "han puesto"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have put",
+    "forms": [
+     "habré puesto",
+     "habrás puesto",
+     "habrá puesto",
+     "habremos puesto",
+     "habréis puesto",
+     "habrán puesto"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had put",
+    "forms": [
+     "había puesto",
+     "habías puesto",
+     "había puesto",
+     "habíamos puesto",
+     "habíais puesto",
+     "habían puesto"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had put",
+    "forms": [
+     "hube puesto",
+     "hubiste puesto",
+     "hubo puesto",
+     "hubimos puesto",
+     "hubisteis puesto",
+     "hubieron puesto"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have put",
+    "forms": [
+     "habría puesto",
+     "habrías puesto",
+     "habría puesto",
+     "habríamos puesto",
+     "habríais puesto",
+     "habrían puesto"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I put, am puting",
+    "forms": [
+     "ponga",
+     "pongas",
+     "ponga",
+     "pongamos",
+     "pongáis",
+     "pongan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I put, was puting",
+    "forms": [
+     "pusiera",
+     "pusieras",
+     "pusiera",
+     "pusiéramos",
+     "pusierais",
+     "pusieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will put",
+    "forms": [
+     "pusiere",
+     "pusieres",
+     "pusiere",
+     "pusiéremos",
+     "pusiereis",
+     "pusieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have put, put",
+    "forms": [
+     "haya puesto",
+     "hayas puesto",
+     "haya puesto",
+     "hayamos puesto",
+     "hayáis puesto",
+     "hayan puesto"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have put",
+    "forms": [
+     "hubiere puesto",
+     "hubieres puesto",
+     "hubiere puesto",
+     "hubiéremos puesto",
+     "hubiereis puesto",
+     "hubieren puesto"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had put",
+    "forms": [
+     "hubiera puesto",
+     "hubieras puesto",
+     "hubiera puesto",
+     "hubiéramos puesto",
+     "hubierais puesto",
+     "hubieran puesto"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Put! Don't put!",
+    "forms": [
+     "",
+     "pon",
+     "ponga",
+     "pongamos",
+     "poned",
+     "pongan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Put! Don't put!",
+    "forms": [
+     "",
+     "no pongas",
+     "no ponga",
+     "no pongamos",
+     "no pongáis",
+     "no pongan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 15,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "llegar",
+  "pasar"
+ ],
+ "slug": "poner"
+}

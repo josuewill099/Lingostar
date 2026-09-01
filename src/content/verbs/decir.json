@@ -1,0 +1,247 @@
+{
+ "infinitive": "decir",
+ "english": "to say, tell",
+ "gerund": "diciendo",
+ "past_participle": "dicho",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I say, am saying",
+    "forms": [
+     "digo",
+     "dices",
+     "dice",
+     "decimos",
+     "decís",
+     "dicen"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will say",
+    "forms": [
+     "diré",
+     "dirás",
+     "dirá",
+     "diremos",
+     "diréis",
+     "dirán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was saying, used to say, said",
+    "forms": [
+     "decía",
+     "decías",
+     "decía",
+     "decíamos",
+     "decíais",
+     "decían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I said",
+    "forms": [
+     "dije",
+     "dijiste",
+     "dijo",
+     "dijimos",
+     "dijisteis",
+     "dijeron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would say",
+    "forms": [
+     "diría",
+     "dirías",
+     "diría",
+     "diríamos",
+     "diríais",
+     "dirían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have said",
+    "forms": [
+     "he dicho",
+     "has dicho",
+     "ha dicho",
+     "hemos dicho",
+     "habéis dicho",
+     "han dicho"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have said",
+    "forms": [
+     "habré dicho",
+     "habrás dicho",
+     "habrá dicho",
+     "habremos dicho",
+     "habréis dicho",
+     "habrán dicho"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had said",
+    "forms": [
+     "había dicho",
+     "habías dicho",
+     "había dicho",
+     "habíamos dicho",
+     "habíais dicho",
+     "habían dicho"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had said",
+    "forms": [
+     "hube dicho",
+     "hubiste dicho",
+     "hubo dicho",
+     "hubimos dicho",
+     "hubisteis dicho",
+     "hubieron dicho"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have said",
+    "forms": [
+     "habría dicho",
+     "habrías dicho",
+     "habría dicho",
+     "habríamos dicho",
+     "habríais dicho",
+     "habrían dicho"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I say, am saying",
+    "forms": [
+     "diga",
+     "digas",
+     "diga",
+     "digamos",
+     "digáis",
+     "digan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I said, was saying",
+    "forms": [
+     "dijera",
+     "dijeras",
+     "dijera",
+     "dijéramos",
+     "dijerais",
+     "dijeran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will say",
+    "forms": [
+     "dijere",
+     "dijeres",
+     "dijere",
+     "dijéremos",
+     "dijereis",
+     "dijeren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have said, said",
+    "forms": [
+     "haya dicho",
+     "hayas dicho",
+     "haya dicho",
+     "hayamos dicho",
+     "hayáis dicho",
+     "hayan dicho"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have said",
+    "forms": [
+     "hubiere dicho",
+     "hubieres dicho",
+     "hubiere dicho",
+     "hubiéremos dicho",
+     "hubiereis dicho",
+     "hubieren dicho"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had said",
+    "forms": [
+     "hubiera dicho",
+     "hubieras dicho",
+     "hubiera dicho",
+     "hubiéramos dicho",
+     "hubierais dicho",
+     "hubieran dicho"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Say! Don't say!",
+    "forms": [
+     "",
+     "di",
+     "diga",
+     "digamos",
+     "decid",
+     "digan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Say! Don't say!",
+    "forms": [
+     "",
+     "no digas",
+     "no diga",
+     "no digamos",
+     "no digáis",
+     "no digan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 6,
+ "related": [
+  "ir",
+  "seguir",
+  "venir",
+  "tener",
+  "hacer"
+ ],
+ "slug": "decir"
+}

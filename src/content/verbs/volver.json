@@ -1,0 +1,246 @@
+{
+ "infinitive": "volver",
+ "english": "to return, go back",
+ "gerund": "volviendo",
+ "past_participle": "vuelto",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I return, am returning",
+    "forms": [
+     "vuelvo",
+     "vuelves",
+     "vuelve",
+     "volvemos",
+     "volvéis",
+     "vuelven"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will return",
+    "forms": [
+     "volveré",
+     "volverás",
+     "volverá",
+     "volveremos",
+     "volveréis",
+     "volverán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was returning, used to return, returned",
+    "forms": [
+     "volvía",
+     "volvías",
+     "volvía",
+     "volvíamos",
+     "volvíais",
+     "volvían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I returned",
+    "forms": [
+     "volví",
+     "volviste",
+     "volvió",
+     "volvimos",
+     "volvisteis",
+     "volvieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would return",
+    "forms": [
+     "volvería",
+     "volverías",
+     "volvería",
+     "volveríamos",
+     "volveríais",
+     "volverían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have returned",
+    "forms": [
+     "he vuelto",
+     "has vuelto",
+     "ha vuelto",
+     "hemos vuelto",
+     "habéis vuelto",
+     "han vuelto"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have returned",
+    "forms": [
+     "habré vuelto",
+     "habrás vuelto",
+     "habrá vuelto",
+     "habremos vuelto",
+     "habréis vuelto",
+     "habrán vuelto"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had returned",
+    "forms": [
+     "había vuelto",
+     "habías vuelto",
+     "había vuelto",
+     "habíamos vuelto",
+     "habíais vuelto",
+     "habían vuelto"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had returned",
+    "forms": [
+     "hube vuelto",
+     "hubiste vuelto",
+     "hubo vuelto",
+     "hubimos vuelto",
+     "hubisteis vuelto",
+     "hubieron vuelto"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have returned",
+    "forms": [
+     "habría vuelto",
+     "habrías vuelto",
+     "habría vuelto",
+     "habríamos vuelto",
+     "habríais vuelto",
+     "habrían vuelto"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I return, am returning",
+    "forms": [
+     "vuelva",
+     "vuelvas",
+     "vuelva",
+     "volvamos",
+     "volváis",
+     "vuelvan"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I returned, was returning",
+    "forms": [
+     "volviera",
+     "volvieras",
+     "volviera",
+     "volviéramos",
+     "volvierais",
+     "volvieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will return",
+    "forms": [
+     "volviere",
+     "volvieres",
+     "volviere",
+     "volviéremos",
+     "volviereis",
+     "volvieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have returned, returned",
+    "forms": [
+     "haya vuelto",
+     "hayas vuelto",
+     "haya vuelto",
+     "hayamos vuelto",
+     "hayáis vuelto",
+     "hayan vuelto"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have returned",
+    "forms": [
+     "hubiere vuelto",
+     "hubieres vuelto",
+     "hubiere vuelto",
+     "hubiéremos vuelto",
+     "hubiereis vuelto",
+     "hubieren vuelto"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had returned",
+    "forms": [
+     "hubiera vuelto",
+     "hubieras vuelto",
+     "hubiera vuelto",
+     "hubiéramos vuelto",
+     "hubierais vuelto",
+     "hubieran vuelto"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Return! Don't return!",
+    "forms": [
+     "",
+     "vuelve",
+     "vuelva",
+     "volvamos",
+     "volved",
+     "vuelvan"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Return! Don't return!",
+    "forms": [
+     "",
+     "no vuelvas",
+     "no vuelva",
+     "no volvamos",
+     "no volváis",
+     "no vuelvan"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present"
+ ],
+ "is_irregular": true,
+ "frequency_rank": 28,
+ "related": [
+  "ser",
+  "tener",
+  "hacer",
+  "venir",
+  "pensar"
+ ],
+ "slug": "volver"
+}

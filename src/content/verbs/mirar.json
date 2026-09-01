@@ -1,0 +1,244 @@
+{
+ "infinitive": "mirar",
+ "english": "to watch, look at",
+ "gerund": "mirando",
+ "past_participle": "mirado",
+ "verb_class": "ar",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I watch, am watching",
+    "forms": [
+     "miro",
+     "miras",
+     "mira",
+     "miramos",
+     "miráis",
+     "miran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will watch",
+    "forms": [
+     "miraré",
+     "mirarás",
+     "mirará",
+     "miraremos",
+     "miraréis",
+     "mirarán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was watching, used to watch, watched",
+    "forms": [
+     "miraba",
+     "mirabas",
+     "miraba",
+     "mirábamos",
+     "mirabais",
+     "miraban"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I watched",
+    "forms": [
+     "miré",
+     "miraste",
+     "miró",
+     "miramos",
+     "mirasteis",
+     "miraron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would watch",
+    "forms": [
+     "miraría",
+     "mirarías",
+     "miraría",
+     "miraríamos",
+     "miraríais",
+     "mirarían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have watched",
+    "forms": [
+     "he mirado",
+     "has mirado",
+     "ha mirado",
+     "hemos mirado",
+     "habéis mirado",
+     "han mirado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have watched",
+    "forms": [
+     "habré mirado",
+     "habrás mirado",
+     "habrá mirado",
+     "habremos mirado",
+     "habréis mirado",
+     "habrán mirado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had watched",
+    "forms": [
+     "había mirado",
+     "habías mirado",
+     "había mirado",
+     "habíamos mirado",
+     "habíais mirado",
+     "habían mirado"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had watched",
+    "forms": [
+     "hube mirado",
+     "hubiste mirado",
+     "hubo mirado",
+     "hubimos mirado",
+     "hubisteis mirado",
+     "hubieron mirado"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have watched",
+    "forms": [
+     "habría mirado",
+     "habrías mirado",
+     "habría mirado",
+     "habríamos mirado",
+     "habríais mirado",
+     "habrían mirado"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I watch, am watching",
+    "forms": [
+     "mire",
+     "mires",
+     "mire",
+     "miremos",
+     "miréis",
+     "miren"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I watched, was watching",
+    "forms": [
+     "mirara",
+     "miraras",
+     "mirara",
+     "miráramos",
+     "mirarais",
+     "miraran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will watch",
+    "forms": [
+     "mirare",
+     "mirares",
+     "mirare",
+     "miráremos",
+     "mirareis",
+     "miraren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have watched, watched",
+    "forms": [
+     "haya mirado",
+     "hayas mirado",
+     "haya mirado",
+     "hayamos mirado",
+     "hayáis mirado",
+     "hayan mirado"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have watched",
+    "forms": [
+     "hubiere mirado",
+     "hubieres mirado",
+     "hubiere mirado",
+     "hubiéremos mirado",
+     "hubiereis mirado",
+     "hubieren mirado"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had watched",
+    "forms": [
+     "hubiera mirado",
+     "hubieras mirado",
+     "hubiera mirado",
+     "hubiéramos mirado",
+     "hubierais mirado",
+     "hubieran mirado"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Watch! Don't watch!",
+    "forms": [
+     "",
+     "mira",
+     "mire",
+     "miremos",
+     "mirad",
+     "miren"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Watch! Don't watch!",
+    "forms": [
+     "",
+     "no mires",
+     "no mire",
+     "no miremos",
+     "no miréis",
+     "no miren"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 33,
+ "related": [
+  "estar",
+  "dar",
+  "llegar",
+  "conocer",
+  "vivir"
+ ],
+ "slug": "mirar"
+}

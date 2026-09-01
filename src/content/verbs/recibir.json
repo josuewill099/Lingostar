@@ -1,0 +1,244 @@
+{
+ "infinitive": "recibir",
+ "english": "to receive; to welcome, greet",
+ "gerund": "recibiendo",
+ "past_participle": "recibido",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I receive, am receiving",
+    "forms": [
+     "recibo",
+     "recibes",
+     "recibe",
+     "recibimos",
+     "recibís",
+     "reciben"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will receive",
+    "forms": [
+     "recibiré",
+     "recibirás",
+     "recibirá",
+     "recibiremos",
+     "recibiréis",
+     "recibirán"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I was receiving, used to receive, received",
+    "forms": [
+     "recibía",
+     "recibías",
+     "recibía",
+     "recibíamos",
+     "recibíais",
+     "recibían"
+    ]
+   },
+   "Preterite": {
+    "tense_es": "Pretérito",
+    "english_gloss": "I received",
+    "forms": [
+     "recibí",
+     "recibiste",
+     "recibió",
+     "recibimos",
+     "recibisteis",
+     "recibieron"
+    ]
+   },
+   "Conditional": {
+    "tense_es": "Condicional",
+    "english_gloss": "I would receive",
+    "forms": [
+     "recibiría",
+     "recibirías",
+     "recibiría",
+     "recibiríamos",
+     "recibiríais",
+     "recibirían"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have received",
+    "forms": [
+     "he recibido",
+     "has recibido",
+     "ha recibido",
+     "hemos recibido",
+     "habéis recibido",
+     "han recibido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have received",
+    "forms": [
+     "habré recibido",
+     "habrás recibido",
+     "habrá recibido",
+     "habremos recibido",
+     "habréis recibido",
+     "habrán recibido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had received",
+    "forms": [
+     "había recibido",
+     "habías recibido",
+     "había recibido",
+     "habíamos recibido",
+     "habíais recibido",
+     "habían recibido"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_es": "Pretérito anterior",
+    "english_gloss": "I had received",
+    "forms": [
+     "hube recibido",
+     "hubiste recibido",
+     "hubo recibido",
+     "hubimos recibido",
+     "hubisteis recibido",
+     "hubieron recibido"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_es": "Condicional perfecto",
+    "english_gloss": "I would have received",
+    "forms": [
+     "habría recibido",
+     "habrías recibido",
+     "habría recibido",
+     "habríamos recibido",
+     "habríais recibido",
+     "habrían recibido"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "I receive, am receiving",
+    "forms": [
+     "reciba",
+     "recibas",
+     "reciba",
+     "recibamos",
+     "recibáis",
+     "reciban"
+    ]
+   },
+   "Imperfect": {
+    "tense_es": "Imperfecto",
+    "english_gloss": "I received, was receiving",
+    "forms": [
+     "recibiera",
+     "recibieras",
+     "recibiera",
+     "recibiéramos",
+     "recibierais",
+     "recibieran"
+    ]
+   },
+   "Future": {
+    "tense_es": "Futuro",
+    "english_gloss": "I will receive",
+    "forms": [
+     "recibiere",
+     "recibieres",
+     "recibiere",
+     "recibiéremos",
+     "recibiereis",
+     "recibieren"
+    ]
+   },
+   "Present Perfect": {
+    "tense_es": "Pretérito perfecto",
+    "english_gloss": "I have received, received",
+    "forms": [
+     "haya recibido",
+     "hayas recibido",
+     "haya recibido",
+     "hayamos recibido",
+     "hayáis recibido",
+     "hayan recibido"
+    ]
+   },
+   "Future Perfect": {
+    "tense_es": "Futuro perfecto",
+    "english_gloss": "I will have received",
+    "forms": [
+     "hubiere recibido",
+     "hubieres recibido",
+     "hubiere recibido",
+     "hubiéremos recibido",
+     "hubiereis recibido",
+     "hubieren recibido"
+    ]
+   },
+   "Past Perfect": {
+    "tense_es": "Pluscuamperfecto",
+    "english_gloss": "I had received",
+    "forms": [
+     "hubiera recibido",
+     "hubieras recibido",
+     "hubiera recibido",
+     "hubiéramos recibido",
+     "hubierais recibido",
+     "hubieran recibido"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Receive! Don't receive!",
+    "forms": [
+     "",
+     "recibe",
+     "reciba",
+     "recibamos",
+     "recibid",
+     "reciban"
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_es": "Presente",
+    "english_gloss": "Receive! Don't receive!",
+    "forms": [
+     "",
+     "no recibas",
+     "no reciba",
+     "no recibamos",
+     "no recibáis",
+     "no reciban"
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "is_irregular": false,
+ "frequency_rank": 45,
+ "related": [
+  "decir",
+  "ir",
+  "seguir",
+  "ocurrir",
+  "entender"
+ ],
+ "slug": "recibir"
+}
