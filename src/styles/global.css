@@ -1,8 +1,15 @@
 :root {
   --color-bg: #ffffff;
-  --color-text: #1a1a1a;
-  --color-muted: #666666;
+  --color-bg-subtle: #f9fafb;
+  --color-text: #111827;
+  --color-muted: #6b7280;
   --color-accent: #2563eb;
+  --color-accent-dark: #1d4ed8;
+  --color-border: #e5e7eb;
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
   --content-width: 42rem;
 }
 
@@ -12,7 +19,7 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", sans-serif;
   color: var(--color-text);
   background: var(--color-bg);
   line-height: 1.6;
@@ -22,6 +29,13 @@ main {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 2rem 1.25rem;
+}
+
+h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 0.5rem;
 }
 
 a {
@@ -35,16 +49,26 @@ footer {
   padding: 1.25rem;
 }
 
+header {
+  border-bottom: 1px solid var(--color-border);
+}
+
 nav a {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   text-decoration: none;
   font-weight: 600;
+  color: var(--color-text);
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: var(--color-accent);
 }
 
 footer {
   color: var(--color-muted);
   font-size: 0.875rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--color-border);
   margin-top: 3rem;
 }
 
@@ -63,27 +87,74 @@ footer {
   display: block;
 }
 
+.contact-intro {
+  color: var(--color-muted);
+}
+
 form.contact-form {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  max-width: 30rem;
+  gap: 1.25rem;
+  max-width: 32rem;
+  margin-top: 1.5rem;
+  padding: 2rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow-lg);
+}
+
+.contact-form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  font-size: 0.875rem;
 }
 
 form.contact-form input,
 form.contact-form textarea {
-  padding: 0.6rem;
+  padding: 0.75rem 0.9rem;
   font: inherit;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  color: var(--color-text);
+  background: var(--color-bg-subtle);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+form.contact-form input:focus,
+form.contact-form textarea:focus {
+  outline: none;
+  background: var(--color-bg);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgb(37 99 235 / 0.15);
 }
 
 form.contact-form button {
   align-self: flex-start;
-  padding: 0.6rem 1.25rem;
-  background: var(--color-accent);
+  padding: 0.75rem 1.75rem;
+  font: inherit;
+  font-weight: 600;
   color: white;
+  background: var(--gradient-primary);
   border: none;
-  border-radius: 6px;
+  border-radius: 2rem;
+  box-shadow: var(--shadow-md);
   cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+form.contact-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+#contact-status {
+  min-height: 1.2em;
+  font-size: 0.9rem;
+  color: var(--color-muted);
 }
