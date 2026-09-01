@@ -13,5 +13,8 @@ node_modules/
 .DS_Store
 *.log
 
+# wrangler
+.wrangler/
+
 # raw WordPress export (contains full DB dump — keep out of the repo)
 wxr-export/

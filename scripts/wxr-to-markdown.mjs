@@ -34,6 +34,20 @@ if (!inputPath) {
 
 const turndown = new TurndownService({ headingStyle: 'atx', codeBlockStyle: 'fenced' });
 
+// WordPress headings often carry a manually-set id (e.g. <h2 id="what-is">)
+// used as an in-page table-of-contents anchor target. Plain "## Heading"
+// Markdown has no way to express that id, which would silently break every
+// TOC link. Keep those headings as raw HTML (Markdown renderers pass block
+// HTML through untouched) instead of converting them to "##" syntax.
+turndown.addRule('headingWithId', {
+  filter: (node) => /^H[1-6]$/.test(node.nodeName) && node.getAttribute && node.getAttribute('id'),
+  replacement: (_content, node) => {
+    const level = node.nodeName.charAt(1);
+    const id = node.getAttribute('id');
+    return `\n\n<h${level} id="${id}">${node.textContent.trim()}</h${level}>\n\n`;
+  },
+});
+
 function slugify(input) {
   return input
     .toLowerCase()

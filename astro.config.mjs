@@ -1,15 +1,11 @@
 import { defineConfig } from 'astro/config';
-import node from '@astrojs/node';
 import sitemap from '@astrojs/sitemap';
 
-// Server output — built into a standalone Node server (dist/server/entry.mjs)
-// and run in a Docker container on Coolify. The contact form is a normal
-// Astro API route (src/pages/api/contact.ts) served by that same process.
+// Static output, deployed as a Cloudflare Worker with static assets (see
+// wrangler.toml). The contact form is the one dynamic route, handled by
+// src/worker.ts rather than by anything in the Astro build itself.
 export default defineConfig({
   site: 'https://lingostar.ai',
-  output: 'server',
-  adapter: node({
-    mode: 'standalone',
-  }),
+  output: 'static',
   integrations: [sitemap()],
 });

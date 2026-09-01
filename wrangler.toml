@@ -1,0 +1,12 @@
+# Deploys as a Cloudflare Worker with static assets: `npm run build` produces
+# ./dist, which is served directly by the ASSETS binding for every request
+# except /api/contact, which src/worker.ts handles itself. This project is
+# connected to Cloudflare via git-integrated Workers Builds, which runs
+# `wrangler deploy` against this file on every push.
+name = "lingostar"
+main = "src/worker.ts"
+compatibility_date = "2026-08-01"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
