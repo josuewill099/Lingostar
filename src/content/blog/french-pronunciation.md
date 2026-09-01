@@ -221,7 +221,7 @@ I have spent the last 18 months testing language automation platforms. Here is t
 
 ### Speak — Best AI tool for pronunciation (with caveats)
 
-[Speak](#) contains a dedicated French language module with speech recognition capable of catching major English errors (like an American `r`, missed liaisons, or misaligning `u` vs. `ou`).
+[Speak](https://www.speak.com) contains a dedicated French language module with speech recognition capable of catching major English errors (like an American `r`, missed liaisons, or misaligning `u` vs. `ou`).
 
 *   **The Catch:** Speak's French track is less polished than its flagship Spanish experience. It features a smaller lesson library and occasional UI clunkiness.
 *   **Price:** Around $20/month. Use the 7-day trial first to ensure it targets your specific speaking bottlenecks. For a deeper breakdown, check out my [full Speak app review](/blog/speak-app-review/).
@@ -236,7 +236,7 @@ Advanced Voice Mode is incredible for processing real-time conversational fluidn
 
 ### italki (Human Tutors) — Still the gold standard
 
-For fixing accent mechanics, **a live tutor on [italki](#) completely outperforms AI software.** The physical reality of producing the uvular `r` or routing nasal air paths benefits immensely from a human watching your mouth shape and providing real-time adjustments.
+For fixing accent mechanics, **a live tutor on [italki](https://www.italki.com) completely outperforms AI software.** The physical reality of producing the uvular `r` or routing nasal air paths benefits immensely from a human watching your mouth shape and providing real-time adjustments.
 
 *   **The Leverage:** Investing in three or four 1-hour pronunciation-only targeted tutoring sessions will save you months of trial-and-error app usage. Expect rates between $10–$25/hour.
 
@@ -312,4 +312,4 @@ Open your phone's Voice Memo app right now. Read this basic paragraph aloud:
 
 Listen to the playback and isolate three specific words where your rhythm staggered or your vowels sounded too American. **Those three terms are your mechanical priorities for the upcoming week.**
 
-If you want my advanced pronunciation drill sheets detailing specific routines for all five complex sounds, [join the email list](#). For more insights into optimizing your technology configuration, explore my [ChatGPT for French guide](/blog/chatgpt-french/) along with my independent [Speak app review](/blog/speak-app-review/).
+If you want my advanced pronunciation drill sheets detailing specific routines for all five complex sounds, join the email list. For more insights into optimizing your technology configuration, explore my [ChatGPT for French guide](/blog/chatgpt-french/) along with my independent [Speak app review](/blog/speak-app-review/).
