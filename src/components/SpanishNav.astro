@@ -2,11 +2,13 @@
 // Standard site nav for the self-contained Spanish pages (see the comment
 // in spanish/conjugation/[slug].astro for why they don't use BaseLayout).
 // Same destinations as Header.astro, restyled to the warm palette these
-// pages already define on :root (--ink/--line/--soft/--red).
+// pages already define on :root (--ink/--line/--soft/--red), with the
+// same hamburger-menu pattern as the homepage nav on small screens.
 ---
 <nav class="site-nav">
   <a href="/" class="site-nav-brand">Lingostar</a>
-  <div class="site-nav-links">
+  <button class="site-nav-toggle" id="siteNavToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  <div class="site-nav-links" id="siteNavLinks">
     <a href="/">Home</a>
     <a href="/blog/">Blog</a>
     <a href="/spanish/conjugation/">Spanish Conjugation</a>
@@ -16,10 +18,10 @@
 
 <style>
   .site-nav {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 0.75rem 1.5rem;
     padding: 18px 0;
     border-bottom: 1.5px solid var(--line);
@@ -31,6 +33,17 @@
     font-size: 1.25rem;
     color: var(--ink);
     text-decoration: none;
+  }
+
+  .site-nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--ink);
+    cursor: pointer;
+    padding: 0.25rem;
   }
 
   .site-nav-links {
@@ -50,4 +63,46 @@
   .site-nav-links a:hover {
     color: var(--red);
   }
+
+  @media (max-width: 640px) {
+    .site-nav-toggle {
+      display: block;
+    }
+
+    .site-nav-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      gap: 0;
+      padding: 0.5rem 0;
+      background: var(--paper);
+      border: 1.5px solid var(--line);
+      border-top: none;
+      border-radius: 0 0 12px 12px;
+      box-shadow: 3px 4px 0 rgba(31, 26, 22, 0.06);
+      z-index: 10;
+    }
+
+    .site-nav-links.active {
+      display: flex;
+    }
+
+    .site-nav-links a {
+      padding: 0.75rem 1.25rem;
+    }
+  }
 </style>
+
+<script>
+  const toggle = document.getElementById('siteNavToggle');
+  const links = document.getElementById('siteNavLinks');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = links?.classList.toggle('active');
+    toggle.textContent = isOpen ? '✕' : '☰';
+    toggle.setAttribute('aria-expanded', String(!!isOpen));
+  });
+</script>
