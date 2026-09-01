@@ -8,9 +8,10 @@ interface Props {
   description?: string;
   noindex?: boolean;
   structuredData?: string;
+  wide?: boolean;
 }
 
-const { title, description = 'Lingostar', noindex = false, structuredData } = Astro.props;
+const { title, description = 'Lingostar', noindex = false, structuredData, wide = false } = Astro.props;
 
 // Site-wide Organization block, present on every BaseLayout page. Pages
 // pass their own additional JSON-LD (BlogPosting, ContactPage, etc.) via
@@ -47,7 +48,7 @@ const organizationLd = JSON.stringify({
     {!noindex && <script type="application/ld+json" set:html={organizationLd} />}
     {!noindex && structuredData && <script type="application/ld+json" set:html={structuredData} />}
   </head>
-  <body>
+  <body style={wide ? '--content-width: 64rem;' : undefined}>
     <Header />
     <main>
       <slot />

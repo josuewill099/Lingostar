@@ -17,18 +17,42 @@ const blogLd = JSON.stringify({
     datePublished: post.data.pubDate.toISOString(),
   })),
 });
+
+// No post sets a `description` in frontmatter, so the card excerpt is
+// derived from the post body instead of left blank.
+function excerpt(body: string, length = 140) {
+  const plain = body
+    .replace(/^#+\s+.*/gm, '')
+    .replace(/[*_`>]/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return plain.length <= length ? plain : plain.slice(0, length).replace(/\s+\S*$/, '') + '…';
+}
+
+function readingTime(body: string) {
+  const words = body.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(words / 200));
+}
 ---
-<BaseLayout title="Blog | Lingostar" structuredData={blogLd}>
-  <h1>Blog</h1>
-  <ul class="post-list">
+<BaseLayout title="Blog | Lingostar" structuredData={blogLd} wide>
+  <div class="blog-hero">
+    <h1>Blog</h1>
+    <p class="blog-hero-sub">Practical guides on language learning, AI tools, and what actually works.</p>
+  </div>
+  <div class="post-grid">
     {posts.map((post) => (
-      <li>
-        <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
-        <time datetime={post.data.pubDate.toISOString()}>
-          {post.data.pubDate.toLocaleDateString()}
-        </time>
-        {post.data.description && <p>{post.data.description}</p>}
-      </li>
+      <a class="post-card" href={`/blog/${post.slug}/`}>
+        <h2>{post.data.title}</h2>
+        <p class="post-card-excerpt">{post.data.description || excerpt(post.body)}</p>
+        <div class="post-card-meta">
+          <time datetime={post.data.pubDate.toISOString()}>
+            {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+          </time>
+          <span aria-hidden="true">·</span>
+          <span>{readingTime(post.body)} min read</span>
+        </div>
+      </a>
     ))}
-  </ul>
+  </div>
 </BaseLayout>
