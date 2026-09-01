@@ -1,7 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const contactLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  url: 'https://lingostar.ai/contact/',
+  mainEntity: {
+    '@type': 'Organization',
+    name: 'Lingostar',
+    url: 'https://lingostar.ai',
+    email: 'hello@lingostar.ai',
+  },
+});
 ---
-<BaseLayout title="Contact | Lingostar">
+<BaseLayout title="Contact | Lingostar" structuredData={contactLd}>
   <h1>Contact</h1>
   <p class="contact-intro">Send us a message and we'll get back to you, or email us directly at
     <a href="mailto:hello@lingostar.ai">hello@lingostar.ai</a>.</p>

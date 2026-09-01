@@ -7,9 +7,21 @@ interface Props {
   title: string;
   description?: string;
   noindex?: boolean;
+  structuredData?: string;
 }
 
-const { title, description = 'Lingostar', noindex = false } = Astro.props;
+const { title, description = 'Lingostar', noindex = false, structuredData } = Astro.props;
+
+// Site-wide Organization block, present on every BaseLayout page. Pages
+// pass their own additional JSON-LD (BlogPosting, ContactPage, etc.) via
+// the structuredData prop.
+const organizationLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Lingostar',
+  url: 'https://lingostar.ai',
+  logo: 'https://lingostar.ai/favicon.svg',
+});
 ---
 <!doctype html>
 <html lang="en">
@@ -32,6 +44,8 @@ const { title, description = 'Lingostar', noindex = false } = Astro.props;
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    {!noindex && <script type="application/ld+json" set:html={organizationLd} />}
+    {!noindex && structuredData && <script type="application/ld+json" set:html={structuredData} />}
   </head>
   <body>
     <Header />
