@@ -48,6 +48,10 @@ export default defineConfig({
   output: 'static',
   integrations: [
     sitemap({
+      // Keep noindex pages (see their BaseLayout `noindex` prop) out of the
+      // sitemap too -- Google's guidance is not to list URLs you've told it
+      // not to index.
+      filter: (page) => !['privacy-policy', 'terms-of-service'].some((slug) => page.includes(`/${slug}/`)),
       serialize(item) {
         const path = new URL(item.url).pathname;
         item.lastmod = lastmodMap.get(path) ?? buildTime;
