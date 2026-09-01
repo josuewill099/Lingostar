@@ -61,7 +61,7 @@ for (const m of MOOD_ORDER) {
   moodsHtml += `<section class="mood"><h3>${m}</h3><div class="tense-grid">${cards}</div></section>`;
 }
 
-const related = (v.related || []).map((r) => `<a href="/spanish/conjugation/${r}">${r}</a>`).join('');
+const related = (v.related || []).map((r) => `<a href="/spanish/conjugation/${r}">${cap(r)}</a>`).join('');
 const irrNote = irrList.length
   ? `<strong>${cap(inf)}</strong> is irregular in the ${irrList.join(' and ').toLowerCase()} tense${irrList.length > 1 ? 's' : ''} — watch the stem changes highlighted above.`
   : `<strong>${cap(inf)}</strong> follows the regular <em>-${v.verb_class}</em> pattern in every tense — once you know the endings, you know this verb.`;
@@ -110,7 +110,7 @@ const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
   <script type="application/ld+json" set:html={faqLd} />
   <script type="application/ld+json" set:html={crumbLd} />
-  <style>
+  <style is:global>
     :root{--ink:#1f1a16;--paper:#faf6ef;--card:#fffdf8;--red:#b3372c;--amber:#d99a2b;--line:#e7ddcc;--soft:#6f6558}
     *{box-sizing:border-box;margin:0}
     body{font-family:'Public Sans',sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;
@@ -145,10 +145,12 @@ const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
     .cta{background:var(--ink);color:var(--paper);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
     .cta h3{font-family:'Fraunces',serif;font-size:1.5rem} .cta p{color:#cfc4b2;font-size:.92rem}
     .cta a{background:var(--amber);color:var(--ink);font-weight:700;text-decoration:none;padding:13px 26px;border-radius:999px;white-space:nowrap}
-    .related{margin:34px 0 60px} .related h3{font-family:'Fraunces',serif;margin-bottom:12px}
-    .related a{display:inline-block;margin:0 10px 10px 0;padding:8px 18px;border:1.5px solid var(--ink);border-radius:999px;
-    color:var(--ink);text-decoration:none;font-weight:600;font-size:.9rem}
-    .related a:hover{background:var(--ink);color:var(--paper)}
+    .related{margin:34px 0 60px} .related h3{font-family:'Fraunces',serif;margin-bottom:14px}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px}
+    .related-grid a{display:block;background:var(--card);border:1.5px solid var(--line);border-radius:12px;
+    padding:14px 16px;color:var(--ink);text-decoration:none;font-weight:700;font-family:'Fraunces',serif;font-size:1.05rem;
+    box-shadow:3px 4px 0 rgba(31,26,22,.06);transition:transform .15s,border-color .15s}
+    .related-grid a:hover{transform:translateY(-3px);border-color:var(--red)}
   </style>
 </head>
 <body>
@@ -168,7 +170,7 @@ const canonical = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
     <div><h3>Practice {inf} with your AI tutor</h3><p>{ctaCopy}</p></div>
     <a href={`https://lingostar.ai/practice?verb=${v.slug}`}>Practice now →</a>
   </div>
-  <div class="related"><h3>Related verbs</h3><Fragment set:html={related} /></div>
+  <div class="related"><h3>Related verbs</h3><div class="related-grid"><Fragment set:html={related} /></div></div>
 </div>
 </body>
 </html>
