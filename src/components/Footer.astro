@@ -2,5 +2,9 @@
 const year = new Date().getFullYear();
 ---
 <footer>
-  <p>&copy; {year} Lingostar. Built with Astro, hosted on Cloudflare.</p>
+  <p>&copy; <span id="footer-year">{year}</span> Lingostar. Built with Astro, hosted on Cloudflare.</p>
 </footer>
+<script>
+  const el = document.getElementById('footer-year');
+  if (el) el.textContent = String(new Date().getFullYear());
+</script>
