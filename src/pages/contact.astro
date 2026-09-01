@@ -3,7 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="Contact | Lingostar">
   <h1>Contact</h1>
-  <p>Send us a message and we'll get back to you.</p>
+  <p>Send us a message and we'll get back to you, or email us directly at
+    <a href="mailto:hello@lingostar.ai">hello@lingostar.ai</a>.</p>
 
   <form class="contact-form" method="POST" action="/api/contact" id="contact-form">
     <input type="text" name="name" placeholder="Your name" required />

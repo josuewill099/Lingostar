@@ -29,7 +29,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      from: 'Website Contact Form <contact@yourdomain.com>', // must be a verified Resend sender domain
+      from: 'Website Contact Form <contact@lingostar.ai>', // must be a verified Resend sender domain
       to: [env.CONTACT_TO],
       reply_to: email,
       subject: `New contact form message from ${name}`,

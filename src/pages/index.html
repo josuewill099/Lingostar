@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Lingostar AI | Practice Real Conversations to Learn Languages Fast</title>
+    <meta name="description" content="Learn English, Spanish, and French through real AI conversations. Practice pronunciation, vocabulary, and grammar with Lingostar's advanced language learning technology. Start speaking fluently today.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary-color: #10b981;
+            --accent-color: #f59e0b;
+            --text-primary: #111827;
+            --text-secondary: #6b7280;
+            --text-light: #9ca3af;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f9fafb;
+            --bg-accent: #f3f4f6;
+            --border-color: #e5e7eb;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+            overflow-x: hidden;
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        /* Navigation */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+        
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .logo::before {
+            content: "✨";
+            font-size: 1.5rem;
+        }
+        
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.75rem;
+            cursor: pointer;
+            color: var(--text-primary);
+            padding: 0.25rem;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .nav-link:hover {
+            color: var(--primary-color);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -0.5rem;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gradient-primary);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea20 0%, #764ba220 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 200%;
+            background: var(--gradient-accent);
+            opacity: 0.1;
+            border-radius: 50%;
+            animation: float 20s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+        
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+            padding: 8rem 0 4rem;
+        }
+        
+        .hero-text h1 {
+            font-size: clamp(2rem, 5vw, 4rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-text .highlight {
+            background: var(--gradient-secondary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-text p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+        
+        .language-badges {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        
+        .badge {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--bg-primary);
+            border: 2px solid var(--border-color);
+            border-radius: 2rem;
+            font-weight: 600;
+            font-size: 0.875rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .badge:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-color);
+        }
+        
+        .flag {
+            width: 24px;
+            height: 18px;
+            border-radius: 4px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+        }
+        
+        .flag.uk {
+            background: linear-gradient(45deg, #ff4757, #2f3542);
+        }
+        
+        .flag.spain {
+            background: linear-gradient(to bottom, #ff4757 33%, #feca57 33%, #feca57 66%, #ff4757 66%);
+        }
+        
+        .flag.france {
+            background: linear-gradient(to right, #0984e3 33%, #ddd 33%, #ddd 66%, #d63031 66%);
+        }
+        
+        .hero-visual {
+            position: relative;
+        }
+        
+        .chat-demo {
+            background: var(--bg-primary);
+            border-radius: 2rem;
+            box-shadow: var(--shadow-xl);
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .chat-demo::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-primary);
+        }
+        
+        .chat-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .ai-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        
+        .chat-info h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .chat-info p {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+        
+        .chat-messages {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .message {
+            padding: 1rem 1.25rem;
+            border-radius: 1.5rem;
+            max-width: 80%;
+            position: relative;
+            animation: slideIn 0.5s ease;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .message.ai {
+            background: var(--bg-accent);
+            align-self: flex-start;
+            border-bottom-left-radius: 0.5rem;
+        }
+        
+        .message.user {
+            background: var(--primary-color);
+            color: white;
+            align-self: flex-end;
+            border-bottom-right-radius: 0.5rem;
+        }
+        
+        .typing-indicator {
+            display: flex;
+            gap: 0.25rem;
+            padding: 1rem 1.25rem;
+            background: var(--bg-accent);
+            border-radius: 1.5rem;
+            border-bottom-left-radius: 0.5rem;
+            align-self: flex-start;
+            max-width: 80px;
+        }
+        
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--text-light);
+            animation: typing 1.5s infinite;
+        }
+        
+        .dot:nth-child(2) { animation-delay: 0.2s; }
+        .dot:nth-child(3) { animation-delay: 0.4s; }
+        
+        @keyframes typing {
+            0%, 60%, 100% { transform: translateY(0); opacity: 0.5; }
+            30% { transform: translateY(-10px); opacity: 1; }
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 6rem 0;
+            background: var(--bg-secondary);
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .section-header h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .section-header p {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+        
+        .feature-card {
+            background: var(--bg-primary);
+            padding: 2rem;
+            border-radius: 1.5rem;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid transparent;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-primary);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--primary-color);
+        }
+        
+        .feature-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 1rem;
+            background: var(--gradient-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .feature-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.95), rgba(168, 85, 247, 0.95));
+            color: white;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.4s ease;
+            border-radius: 1.5rem;
+        }
+        
+        .feature-card:hover .feature-overlay {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .feature-card:hover .feature-icon {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        
+        .feature-card:hover h3 {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        
+        .feature-overlay h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #fbbf24;
+        }
+        
+        .feature-overlay p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-highlights {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+        
+        .feature-highlights span {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.75rem;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            text-align: center;
+            white-space: nowrap;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 10;
+        }
+        
+        /* How it Works */
+        .how-it-works {
+            padding: 6rem 0;
+        }
+        
+        .steps-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+        
+        .step {
+            text-align: center;
+            position: relative;
+        }
+        
+        .step-number {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0 auto 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .step-number::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            opacity: 0.2;
+            z-index: -1;
+        }
+        
+        .step h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .step p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--text-primary);
+            color: white;
+            padding: 4rem 0 2rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .footer-section p,
+        .footer-section a {
+            color: #d1d5db;
+            text-decoration: none;
+            line-height: 1.6;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-section a:hover {
+            color: white;
+        }
+        
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #374151;
+            color: #9ca3af;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 1rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            }
+            
+            .hero-content {
+                gap: 3rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            /* Navigation */
+            .mobile-menu-toggle {
+                display: block;
+            }
+            
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg-primary);
+                flex-direction: column;
+                gap: 0;
+                padding: 1rem 0;
+                box-shadow: var(--shadow-lg);
+            }
+            
+            .nav-links.active {
+                display: flex;
+            }
+            
+            .nav-link {
+                padding: 1rem 1.5rem;
+                width: 100%;
+            }
+            
+            .nav-link::after {
+                display: none;
+            }
+            
+            /* Hero Section */
+            .hero {
+                min-height: auto;
+                padding: 2rem 0;
+            }
+            
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+                padding: 6rem 0 3rem;
+            }
+            
+            .hero-text h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-text p {
+                font-size: 1rem;
+            }
+            
+            .language-badges {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .chat-demo {
+                padding: 1.5rem;
+            }
+            
+            .message {
+                max-width: 90%;
+                font-size: 0.875rem;
+                padding: 0.875rem 1rem;
+            }
+            
+            /* Features Section */
+            .features {
+                padding: 4rem 0;
+            }
+            
+            .section-header {
+                margin-bottom: 3rem;
+            }
+            
+            .section-header h2 {
+                font-size: 1.75rem;
+            }
+            
+            .section-header p {
+                font-size: 1rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .feature-card {
+                min-height: 180px;
+                padding: 1.5rem;
+            }
+            
+            .feature-icon {
+                width: 56px;
+                height: 56px;
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
+            }
+            
+            .feature-card h3 {
+                font-size: 1.125rem;
+            }
+            
+            .feature-overlay {
+                padding: 1rem;
+            }
+            
+            .feature-overlay h4 {
+                font-size: 1rem;
+            }
+            
+            .feature-overlay p {
+                font-size: 0.875rem;
+            }
+            
+            .feature-highlights span {
+                font-size: 0.7rem;
+            }
+            
+            /* How it Works */
+            .how-it-works {
+                padding: 4rem 0;
+            }
+            
+            .steps-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .step-number {
+                width: 60px;
+                height: 60px;
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            
+            .step h3 {
+                font-size: 1.125rem;
+            }
+            
+            .step p {
+                font-size: 0.9375rem;
+            }
+            
+            /* Footer */
+            .footer {
+                padding: 3rem 0 1.5rem;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 0.75rem;
+            }
+            
+            .logo {
+                font-size: 1.5rem;
+            }
+            
+            .logo::before {
+                font-size: 1.25rem;
+            }
+            
+            .hero-text h1 {
+                font-size: 1.75rem;
+            }
+            
+            .hero-text p {
+                font-size: 0.9375rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            .badge {
+                font-size: 0.75rem;
+                padding: 0.4rem 0.75rem;
+            }
+            
+            .flag {
+                width: 20px;
+                height: 15px;
+            }
+            
+            .chat-demo {
+                padding: 1rem;
+                border-radius: 1.5rem;
+            }
+            
+            .chat-header {
+                margin-bottom: 1rem;
+            }
+            
+            .ai-avatar {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+            
+            .chat-info h3 {
+                font-size: 1rem;
+            }
+            
+            .chat-info p {
+                font-size: 0.8125rem;
+            }
+            
+            .section-header h2 {
+                font-size: 1.5rem;
+            }
+            
+            .section-header p {
+                font-size: 0.9375rem;
+            }
+            
+            .feature-card {
+                padding: 1.25rem;
+                min-height: 160px;
+            }
+            
+            .feature-icon {
+                width: 48px;
+                height: 48px;
+                font-size: 1.125rem;
+            }
+            
+            .step-number {
+                width: 56px;
+                height: 56px;
+                font-size: 1.375rem;
+            }
+            
+            .footer-section h3 {
+                font-size: 1.125rem;
+            }
+        }
+        
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+        
+        /* Focus styles */
+        .nav-link:focus,
+        .badge:focus,
+        .mobile-menu-toggle:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-container">
+                <a href="/" class="logo">Lingostar</a>
+                <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#how-it-works" class="nav-link">How it Works</a></li>
+                    <li><a href="/blog/" class="nav-link">Blog</a></li>
+                    <li><a href="/contact/" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Master Languages Through <span class="highlight">Real AI Conversations</span></h1>
+                    <p>Practice speaking English, Spanish, and French naturally with our advanced AI conversation partner. Build confidence, improve pronunciation, and achieve fluency through immersive dialogue experiences.</p>
+                    
+                    <div class="language-badges">
+                        <div class="badge">
+                            <div class="flag uk"></div>
+                            <span>English</span>
+                        </div>
+                        <div class="badge">
+                            <div class="flag spain"></div>
+                            <span>Español</span>
+                        </div>
+                        <div class="badge">
+                            <div class="flag france"></div>
+                            <span>Français</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="chat-demo">
+                        <div class="chat-header">
+                            <div class="ai-avatar">AI</div>
+                            <div class="chat-info">
+                                <h3>Lingostar AI</h3>
+                                <p>Your Language Learning Partner</p>
+                            </div>
+                        </div>
+                        <div class="chat-messages">
+                            <div class="message ai">Hi! What would you like to practice today? We can discuss travel, business, or any topic you're interested in!</div>
+                            <div class="message user">I'd love to practice ordering food at a restaurant in Spanish.</div>
+                            <div class="message ai">¡Perfecto! Let's start. Imagine you're at a Spanish restaurant. I'll be your waiter. ¡Bienvenido!</div>
+                            <div class="typing-indicator">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Revolutionary Language Learning Features</h2>
+                <p>Discover how Lingostar's AI technology transforms the way you learn languages through interactive conversations and personalized feedback.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Natural Conversation Practice</h3>
+                    <div class="feature-overlay">
+                        <h4>Real-World Conversations</h4>
+                        <p>Practice speaking with our AI on any topic - from casual chats to professional discussions. Our AI adapts to your level and interests.</p>
+                        <div class="feature-highlights">
+                            <span>50+ Conversation Topics</span>
+                            <span>Adaptive Difficulty</span>
+                            <span>Context Understanding</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🗣️</div>
+                    <h3>Advanced Pronunciation Analysis</h3>
+                    <div class="feature-overlay">
+                        <h4>Perfect Your Accent</h4>
+                        <p>Get instant feedback on pronunciation with AI-powered speech recognition. Compare with native speakers and improve your accent.</p>
+                        <div class="feature-highlights">
+                            <span>Phoneme-Level Analysis</span>
+                            <span>Visual Feedback</span>
+                            <span>Native Comparison</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Intelligent Vocabulary Building</h3>
+                    <div class="feature-overlay">
+                        <h4>Learn Words in Context</h4>
+                        <p>Discover new vocabulary naturally through conversations. Our AI introduces words at the perfect moment for maximum retention.</p>
+                        <div class="feature-highlights">
+                            <span>Context-Based Learning</span>
+                            <span>Spaced Repetition</span>
+                            <span>Personal Word Lists</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Personalized Learning Path</h3>
+                    <div class="feature-overlay">
+                        <h4>Your Unique Journey</h4>
+                        <p>AI creates a completely personalized learning path based on your goals, style, and progress. Track detailed analytics.</p>
+                        <div class="feature-highlights">
+                            <span>Adaptive Learning</span>
+                            <span>Progress Analytics</span>
+                            <span>Custom Plans</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎭</div>
+                    <h3>Role-Playing Scenarios</h3>
+                    <div class="feature-overlay">
+                        <h4>Practice Real Situations</h4>
+                        <p>Prepare for real-world conversations through immersive role-play. From job interviews to travel scenarios.</p>
+                        <div class="feature-highlights">
+                            <span>Professional Scenarios</span>
+                            <span>Travel Situations</span>
+                            <span>Social Interactions</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Grammar Correction & Tips</h3>
+                    <div class="feature-overlay">
+                        <h4>Learn Grammar Naturally</h4>
+                        <p>Receive gentle corrections and explanations during conversations. No boring drills - learn through practical usage.</p>
+                        <div class="feature-highlights">
+                            <span>Real-Time Corrections</span>
+                            <span>Pattern Recognition</span>
+                            <span>Contextual Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How Lingostar AI Works</h2>
+                <p>Start your language learning journey in three simple steps. Our intuitive platform makes it easy to begin practicing immediately.</p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Choose Your Language & Topic</h3>
+                    <p>Select from English, Spanish, or French. Pick a conversation topic that interests you or let our AI suggest relevant scenarios based on your learning goals.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Start Conversing</h3>
+                    <p>Begin your conversation with our AI partner. Speak naturally or type your responses. Our AI adapts to your skill level and keeps the dialogue engaging and educational.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Receive Feedback & Improve</h3>
+                    <p>Get instant analysis of your grammar, pronunciation, and vocabulary usage. Review your progress, practice weak areas, and watch your fluency improve over time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lingostar AI</h3>
+                    <p>Master languages through real AI conversations. Practice English, Spanish, and French naturally and achieve fluency faster.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="#features">Features</a>
+                        <a href="#how-it-works">How it Works</a>
+                        <a href="/blog/">Blog</a>
+                        <a href="/privacy-policy/">Privacy Policy</a>
+                        <a href="/terms-of-service/">Terms of Service</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <div class="footer-links">
+                        <a href="mailto:hello@lingostar.ai">hello@lingostar.ai</a>
+                        <a href="#">Support Center</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lingostar AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+            this.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+        });
+        
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.classList.remove('active');
+                menuToggle.textContent = '☰';
+            });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const isClickInside = event.target.closest('.nav-container');
+            if (!isClickInside && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                menuToggle.textContent = '☰';
+            }
+        });
+    </script>
+</body>
+</html>

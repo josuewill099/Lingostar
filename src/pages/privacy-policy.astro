@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getEntry } from 'astro:content';
+
+const entry = await getEntry('pages', 'privacy-policy');
+const { Content } = await entry.render();
+---
+<BaseLayout title={`${entry.data.title} | Lingostar`}>
+  <article>
+    <h1>{entry.data.title}</h1>
+    <Content />
+  </article>
+</BaseLayout>
