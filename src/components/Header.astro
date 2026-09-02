@@ -4,19 +4,27 @@ interface Props {
 }
 const { lang = 'en' } = Astro.props as Props;
 
-const nav = lang === 'fr'
-  ? [
-      { href: '/fr/', label: 'Accueil' },
-      { href: '/fr/blog/', label: 'Blog' },
-      { href: '/fr/espagnol/conjugaison/', label: 'Conjugaison espagnole' },
-      { href: '/fr/contact/', label: 'Contact' },
-    ]
-  : [
-      { href: '/', label: 'Home' },
-      { href: '/blog/', label: 'Blog' },
-      { href: '/spanish/conjugation/', label: 'Spanish Conjugation' },
-      { href: '/contact/', label: 'Contact' },
-    ];
+const NAV: Record<string, { href: string; label: string }[]> = {
+  en: [
+    { href: '/', label: 'Home' },
+    { href: '/blog/', label: 'Blog' },
+    { href: '/spanish/conjugation/', label: 'Spanish Conjugation' },
+    { href: '/contact/', label: 'Contact' },
+  ],
+  fr: [
+    { href: '/fr/', label: 'Accueil' },
+    { href: '/fr/blog/', label: 'Blog' },
+    { href: '/fr/espagnol/conjugaison/', label: 'Conjugaison espagnole' },
+    { href: '/fr/contact/', label: 'Contact' },
+  ],
+  pt: [
+    { href: '/pt/', label: 'Início' },
+    { href: '/pt/blog/', label: 'Blog' },
+    { href: '/pt/espanhol/conjugacao/', label: 'Conjugação de Espanhol' },
+    { href: '/pt/contact/', label: 'Contato' },
+  ],
+};
+const nav = NAV[lang] || NAV.en;
 ---
 <header>
   <nav>

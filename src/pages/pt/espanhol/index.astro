@@ -1,25 +1,26 @@
 ---
-import SpanishNav from '../../components/SpanishNav.astro';
-import SpanishFooter from '../../components/SpanishFooter.astro';
+import SpanishNav from '../../../components/SpanishNav.astro';
+import SpanishFooter from '../../../components/SpanishFooter.astro';
 
 export const prerender = true;
 
 const collectionLd = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: 'Learn Spanish',
-  url: 'https://lingostar.ai/spanish/',
-  description: 'Free Spanish learning resources from Lingostar: verb conjugation charts and AI conversation practice.',
+  name: 'Aprenda espanhol',
+  url: 'https://lingostar.ai/pt/espanhol/',
+  inLanguage: 'pt-BR',
+  description: 'Recursos gratuitos da Lingostar para aprender espanhol: tabelas de conjugação e prática de conversação com IA.',
 });
 const crumbLd = JSON.stringify({
   '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://lingostar.ai/' },
-    { '@type': 'ListItem', position: 2, name: 'Spanish', item: 'https://lingostar.ai/spanish/' },
+    { '@type': 'ListItem', position: 1, name: 'Início', item: 'https://lingostar.ai/pt/' },
+    { '@type': 'ListItem', position: 2, name: 'Espanhol', item: 'https://lingostar.ai/pt/espanhol/' },
   ],
 });
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9154720924448333"
    crossorigin="anonymous"></script>
@@ -34,12 +35,12 @@ const crumbLd = JSON.stringify({
   </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Learn Spanish | Lingostar</title>
-  <meta name="description" content="Free Spanish learning resources from Lingostar: verb conjugation charts and AI conversation practice." />
-  <link rel="canonical" href="https://lingostar.ai/spanish/" />
+  <title>Aprenda espanhol | Lingostar</title>
+  <meta name="description" content="Recursos gratuitos da Lingostar para aprender espanhol: tabelas de conjugação e prática de conversação com IA." />
+  <link rel="canonical" href="https://lingostar.ai/pt/espanhol/" />
+  <link rel="alternate" hreflang="pt-BR" href="https://lingostar.ai/pt/espanhol/" />
   <link rel="alternate" hreflang="en" href="https://lingostar.ai/spanish/" />
   <link rel="alternate" hreflang="fr" href="https://lingostar.ai/fr/espagnol/" />
-  <link rel="alternate" hreflang="pt-BR" href="https://lingostar.ai/pt/espanhol/" />
   <link rel="alternate" hreflang="x-default" href="https://lingostar.ai/spanish/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -62,24 +63,24 @@ const crumbLd = JSON.stringify({
 </head>
 <body>
 <div class="wrap">
-  <SpanishNav />
+  <SpanishNav lang="pt" />
   <header class="hero">
-    <h1>Learn Spanish</h1>
-    <p class="sub">Free resources to build your Spanish, backed by Lingostar's AI conversation practice.</p>
+    <h1>Aprenda espanhol</h1>
+    <p class="sub">Recursos gratuitos para evoluir no espanhol, com o apoio da prática de conversação com IA da Lingostar.</p>
   </header>
   <div class="cards">
     <div class="card">
-      <h2>Verb conjugation</h2>
-      <p>Full conjugation charts for the most common Spanish verbs — every tense and mood, irregular forms flagged.</p>
-      <a href="/spanish/conjugation/">Browse verbs →</a>
+      <h2>Conjugação de verbos</h2>
+      <p>Tabelas completas de conjugação para os verbos espanhóis mais comuns — todos os tempos e modos, com as formas irregulares destacadas.</p>
+      <a href="/pt/espanhol/conjugacao/">Ver verbos →</a>
     </div>
     <div class="card">
-      <h2>Practice with an AI tutor</h2>
-      <p>Speak naturally with Lingostar's AI conversation partner and get instant feedback on grammar and pronunciation.</p>
-      <a href="https://lingostar.ai/practice">Start practicing →</a>
+      <h2>Pratique com um tutor de IA</h2>
+      <p>Converse naturalmente com o parceiro de conversação da Lingostar e receba feedback instantâneo sobre gramática e pronúncia.</p>
+      <a href="https://lingostar.ai/practice">Começar a praticar →</a>
     </div>
   </div>
-  <SpanishFooter />
+  <SpanishFooter lang="pt" />
 </div>
 </body>
 </html>

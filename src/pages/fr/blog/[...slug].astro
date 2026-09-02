@@ -6,14 +6,16 @@ import { getCollection } from 'astro:content';
 export async function getStaticPaths() {
   const posts = await getCollection('blogFr', ({ data }) => !data.draft);
   const enPosts = await getCollection('blog', ({ data }) => !data.draft);
+  const ptPosts = await getCollection('blogPt', ({ data }) => !data.draft);
   const enSlugs = new Set(enPosts.map((p) => p.slug));
+  const ptSlugs = new Set(ptPosts.map((p) => p.slug));
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { post, hasEnglishVersion: enSlugs.has(post.slug) },
+    props: { post, hasEnglishVersion: enSlugs.has(post.slug), hasPortugueseVersion: ptSlugs.has(post.slug) },
   }));
 }
 
-const { post, hasEnglishVersion } = Astro.props;
+const { post, hasEnglishVersion, hasPortugueseVersion } = Astro.props;
 const { Content } = await post.render();
 
 const words = post.body.trim().split(/\s+/).filter(Boolean).length;
@@ -42,8 +44,11 @@ const blogPostingLd = JSON.stringify({
   url: canonicalUrl,
 });
 
-const translations = hasEnglishVersion
-  ? { en: `https://lingostar.ai/blog/${post.slug}/`, fr: canonicalUrl }
+const altTranslations: Record<string, string> = {};
+if (hasEnglishVersion) altTranslations.en = `https://lingostar.ai/blog/${post.slug}/`;
+if (hasPortugueseVersion) altTranslations['pt-BR'] = `https://lingostar.ai/pt/blog/${post.slug}/`;
+const translations = Object.keys(altTranslations).length > 0
+  ? { fr: canonicalUrl, ...altTranslations }
   : undefined;
 ---
 <BaseLayout title={`${post.data.title} | Lingostar`} description={post.data.description} lang="fr" structuredData={blogPostingLd} translations={translations}>

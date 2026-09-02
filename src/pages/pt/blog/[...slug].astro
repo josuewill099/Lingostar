@@ -1,28 +1,28 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import Comments from '../../components/Comments.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Comments from '../../../components/Comments.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const posts = await getCollection('blogPt', ({ data }) => !data.draft);
+  const enPosts = await getCollection('blog', ({ data }) => !data.draft);
   const frPosts = await getCollection('blogFr', ({ data }) => !data.draft);
-  const ptPosts = await getCollection('blogPt', ({ data }) => !data.draft);
+  const enSlugs = new Set(enPosts.map((p) => p.slug));
   const frSlugs = new Set(frPosts.map((p) => p.slug));
-  const ptSlugs = new Set(ptPosts.map((p) => p.slug));
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { post, hasFrenchVersion: frSlugs.has(post.slug), hasPortugueseVersion: ptSlugs.has(post.slug) },
+    props: { post, hasEnglishVersion: enSlugs.has(post.slug), hasFrenchVersion: frSlugs.has(post.slug) },
   }));
 }
 
-const { post, hasFrenchVersion, hasPortugueseVersion } = Astro.props;
+const { post, hasEnglishVersion, hasFrenchVersion } = Astro.props;
 const { Content } = await post.render();
 
 const words = post.body.trim().split(/\s+/).filter(Boolean).length;
 const readingMinutes = Math.max(1, Math.round(words / 200));
 
 function formatDate(date: Date) {
-  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  return date.toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
@@ -31,6 +31,7 @@ const blogPostingLd = JSON.stringify({
   '@type': 'BlogPosting',
   headline: post.data.title,
   description: post.data.description,
+  inLanguage: 'pt-BR',
   datePublished: post.data.pubDate.toISOString(),
   ...(post.data.updatedDate ? { dateModified: post.data.updatedDate.toISOString() } : {}),
   ...(post.data.author ? { author: { '@type': 'Person', name: post.data.author } } : {}),
@@ -43,23 +44,21 @@ const blogPostingLd = JSON.stringify({
   url: canonicalUrl,
 });
 
-// Only advertise an hreflang alternate for a language when a translation of
-// this exact post actually exists -- a self-referencing-only pair isn't useful.
 const altTranslations: Record<string, string> = {};
+if (hasEnglishVersion) altTranslations.en = `https://lingostar.ai/blog/${post.slug}/`;
 if (hasFrenchVersion) altTranslations.fr = `https://lingostar.ai/fr/blog/${post.slug}/`;
-if (hasPortugueseVersion) altTranslations['pt-BR'] = `https://lingostar.ai/pt/blog/${post.slug}/`;
 const translations = Object.keys(altTranslations).length > 0
-  ? { en: canonicalUrl, ...altTranslations }
+  ? { 'pt-BR': canonicalUrl, ...altTranslations }
   : undefined;
 ---
-<BaseLayout title={`${post.data.title} | Lingostar`} description={post.data.description} structuredData={blogPostingLd} translations={translations}>
+<BaseLayout title={`${post.data.title} | Lingostar`} description={post.data.description} lang="pt" structuredData={blogPostingLd} translations={translations}>
   <article>
     <h1>{post.data.title}</h1>
     <div class="post-meta">
       {post.data.author && (
         <span class="meta-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21a8 8 0 0 0-16 0" /><circle cx="12" cy="7" r="4" /></svg>
-          By {post.data.author}
+          Por {post.data.author}
         </span>
       )}
       <span class="meta-item">
@@ -68,17 +67,17 @@ const translations = Object.keys(altTranslations).length > 0
       </span>
       <span class="meta-item">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 3" /></svg>
-        {readingMinutes} min read
+        {readingMinutes} min de leitura
       </span>
       {post.data.updatedDate && (
         <span class="meta-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7Z" /><circle cx="12" cy="12" r="3" /></svg>
-          Updated: <time datetime={post.data.updatedDate.toISOString()}>{formatDate(post.data.updatedDate)}</time>
+          Atualizado em: <time datetime={post.data.updatedDate.toISOString()}>{formatDate(post.data.updatedDate)}</time>
         </span>
       )}
     </div>
     <Content />
   </article>
   <hr />
-  <Comments />
+  <Comments lang="pt" />
 </BaseLayout>

@@ -29,9 +29,15 @@ const organizationLd = JSON.stringify({
   url: 'https://lingostar.ai',
   logo: 'https://lingostar.ai/favicon.svg',
 });
+
+// `lang` stays a short internal key ('en'/'fr'/'pt', matching Header/Footer's
+// lookup tables) everywhere except the actual <html lang> attribute, which
+// needs full BCP-47 for correctness.
+const HTML_LANG: Record<string, string> = { pt: 'pt-BR' };
+const htmlLang = HTML_LANG[lang] || lang;
 ---
 <!doctype html>
-<html lang={lang}>
+<html lang={htmlLang}>
   <head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9154720924448333"
      crossorigin="anonymous"></script>

@@ -1,10 +1,11 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const contactLd = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
-  url: 'https://lingostar.ai/contact/',
+  url: 'https://lingostar.ai/pt/contact/',
+  inLanguage: 'pt-BR',
   mainEntity: {
     '@type': 'Organization',
     name: 'Lingostar',
@@ -18,25 +19,25 @@ const translations = {
   'pt-BR': 'https://lingostar.ai/pt/contact/',
 };
 ---
-<BaseLayout title="Contact | Lingostar" structuredData={contactLd} translations={translations}>
-  <h1>Contact</h1>
-  <p class="contact-intro">Send us a message and we'll get back to you, or email us directly at
+<BaseLayout title="Contato | Lingostar" lang="pt" structuredData={contactLd} translations={translations}>
+  <h1>Contato</h1>
+  <p class="contact-intro">Envie-nos uma mensagem e responderemos o mais rápido possível, ou escreva diretamente para
     <a href="mailto:hello@lingostar.ai">hello@lingostar.ai</a>.</p>
 
   <form class="contact-form" method="POST" action="/api/contact" id="contact-form">
     <div class="field">
-      <label for="contact-name">Name</label>
-      <input type="text" id="contact-name" name="name" placeholder="Your name" required />
+      <label for="contact-name">Nome</label>
+      <input type="text" id="contact-name" name="name" placeholder="Seu nome" required />
     </div>
     <div class="field">
-      <label for="contact-email">Email</label>
-      <input type="email" id="contact-email" name="email" placeholder="you@example.com" required />
+      <label for="contact-email">E-mail</label>
+      <input type="email" id="contact-email" name="email" placeholder="voce@exemplo.com" required />
     </div>
     <div class="field">
-      <label for="contact-message">Message</label>
-      <textarea id="contact-message" name="message" rows="6" placeholder="How can we help?" required></textarea>
+      <label for="contact-message">Mensagem</label>
+      <textarea id="contact-message" name="message" rows="6" placeholder="Como podemos ajudar?" required></textarea>
     </div>
-    <button type="submit">Send message</button>
+    <button type="submit">Enviar mensagem</button>
     <p id="contact-status" role="status"></p>
   </form>
 
@@ -46,17 +47,17 @@ const translations = {
 
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
-      status.textContent = 'Sending…';
+      status.textContent = 'Enviando…';
       try {
         const response = await fetch('/api/contact', {
           method: 'POST',
           body: new FormData(form),
         });
         if (!response.ok) throw new Error('Request failed');
-        status.textContent = 'Thanks — your message has been sent.';
+        status.textContent = 'Obrigado — sua mensagem foi enviada.';
         form.reset();
       } catch {
-        status.textContent = 'Something went wrong. Please try again later.';
+        status.textContent = 'Algo deu errado. Tente novamente mais tarde.';
       }
     });
   </script>

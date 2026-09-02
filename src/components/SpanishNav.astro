@@ -9,23 +9,33 @@ interface Props {
 }
 const { lang = 'en' } = Astro.props as Props;
 
-const nav = lang === 'fr'
-  ? [
-      { href: '/fr/', label: 'Accueil' },
-      { href: '/fr/blog/', label: 'Blog' },
-      { href: '/fr/espagnol/conjugaison/', label: 'Conjugaison espagnole' },
-      { href: '/fr/contact/', label: 'Contact' },
-    ]
-  : [
-      { href: '/', label: 'Home' },
-      { href: '/blog/', label: 'Blog' },
-      { href: '/spanish/conjugation/', label: 'Spanish Conjugation' },
-      { href: '/contact/', label: 'Contact' },
-    ];
-const toggleLabel = lang === 'fr' ? 'Ouvrir/fermer le menu' : 'Toggle menu';
+const NAV: Record<string, { href: string; label: string }[]> = {
+  en: [
+    { href: '/', label: 'Home' },
+    { href: '/blog/', label: 'Blog' },
+    { href: '/spanish/conjugation/', label: 'Spanish Conjugation' },
+    { href: '/contact/', label: 'Contact' },
+  ],
+  fr: [
+    { href: '/fr/', label: 'Accueil' },
+    { href: '/fr/blog/', label: 'Blog' },
+    { href: '/fr/espagnol/conjugaison/', label: 'Conjugaison espagnole' },
+    { href: '/fr/contact/', label: 'Contact' },
+  ],
+  pt: [
+    { href: '/pt/', label: 'Início' },
+    { href: '/pt/blog/', label: 'Blog' },
+    { href: '/pt/espanhol/conjugacao/', label: 'Conjugação de Espanhol' },
+    { href: '/pt/contact/', label: 'Contato' },
+  ],
+};
+const nav = NAV[lang] || NAV.en;
+const TOGGLE_LABEL: Record<string, string> = { fr: 'Ouvrir/fermer le menu', pt: 'Abrir/fechar menu' };
+const toggleLabel = TOGGLE_LABEL[lang] || 'Toggle menu';
+const HOME_HREF: Record<string, string> = { fr: '/fr/', pt: '/pt/' };
 ---
 <nav class="site-nav">
-  <a href={lang === 'fr' ? '/fr/' : '/'} class="site-nav-brand">Lingostar</a>
+  <a href={HOME_HREF[lang] || '/'} class="site-nav-brand">Lingostar</a>
   <button class="site-nav-toggle" id="siteNavToggle" aria-label={toggleLabel} aria-expanded="false">☰</button>
   <div class="site-nav-links" id="siteNavLinks">
     {nav.map((item) => <a href={item.href}>{item.label}</a>)}

@@ -1,8 +1,9 @@
 ---
-// Spanish verb conjugation, for French speakers learning Spanish. Reuses
-// the same `verbs` collection as /spanish/conjugation/[slug].astro (the
-// conjugation data is language-neutral) with French UI copy instead of
-// English. Self-contained like its English counterpart, not BaseLayout.
+// Spanish verb conjugation, for Brazilian Portuguese speakers learning
+// Spanish. Reuses the same `verbs` collection as
+// /spanish/conjugation/[slug].astro (the conjugation data is
+// language-neutral) with Portuguese UI copy instead of English. Self-
+// contained like its English/French counterparts, not BaseLayout.
 import { getCollection, type CollectionEntry } from 'astro:content';
 import SpanishNav from '../../../../components/SpanishNav.astro';
 import SpanishFooter from '../../../../components/SpanishFooter.astro';
@@ -20,44 +21,44 @@ const { v } = Astro.props as { v: VerbData };
 const PRONOUNS = ["yo", "tú", "él/ella/Ud.", "nosotros", "vosotros", "ellos/Uds."];
 const IMPERATIVE_KEYS = ["Imperative Affirmative", "Imperative Negative"];
 
-const TENSE_FR: Record<string, string> = {
-  Present: "Présent", Future: "Futur", Imperfect: "Imparfait", Preterite: "Passé simple",
-  Conditional: "Conditionnel", "Present Perfect": "Passé composé", "Future Perfect": "Futur antérieur",
-  "Past Perfect": "Plus-que-parfait", "Preterite (Archaic)": "Passé antérieur (littéraire)",
-  "Conditional Perfect": "Conditionnel passé",
+const TENSE_PT: Record<string, string> = {
+  Present: "Presente", Future: "Futuro do Presente", Imperfect: "Pretérito Imperfeito", Preterite: "Pretérito Perfeito",
+  Conditional: "Condicional", "Present Perfect": "Pretérito Perfeito Composto", "Future Perfect": "Futuro Composto",
+  "Past Perfect": "Mais-que-perfeito", "Preterite (Archaic)": "Pretérito Anterior (literário)",
+  "Conditional Perfect": "Condicional Composto",
 };
-const MOOD_FR: Record<string, string> = { Indicative: "Indicatif", Subjunctive: "Subjonctif", Imperative: "Impératif" };
+const MOOD_PT: Record<string, string> = { Indicative: "Indicativo", Subjunctive: "Subjuntivo", Imperative: "Imperativo" };
 
-// French meaning of the infinitive -- the verb data itself only carries an
-// English gloss (v.english), so this small lookup covers the 50 pilot
-// verbs rather than threading French glosses through the data pipeline.
-const FR_MEANING: Record<string, string> = {
-  ser: "être", estar: "être (état)", tener: "avoir", hacer: "faire", poder: "pouvoir",
-  decir: "dire", ir: "aller", ver: "voir", dar: "donner", saber: "savoir",
-  querer: "vouloir, aimer", llegar: "arriver", pasar: "passer", deber: "devoir", poner: "mettre",
-  parecer: "sembler", quedar: "rester", creer: "croire", hablar: "parler", llevar: "porter, emmener",
-  dejar: "laisser", seguir: "suivre, continuer", encontrar: "trouver", llamar: "appeler", venir: "venir",
-  pensar: "penser", salir: "sortir", volver: "revenir", tomar: "prendre", conocer: "connaître",
-  vivir: "vivre", sentir: "sentir, ressentir", mirar: "regarder", contar: "compter, raconter", empezar: "commencer",
-  esperar: "attendre, espérer", buscar: "chercher", entrar: "entrer", trabajar: "travailler", escribir: "écrire",
-  perder: "perdre", ocurrir: "se produire, arriver", entender: "comprendre", pedir: "demander", recibir: "recevoir",
-  recordar: "se souvenir de", terminar: "terminer", permitir: "permettre", aparecer: "apparaître", comenzar: "commencer",
+// Portuguese meaning of the infinitive -- the verb data itself only carries
+// an English gloss (v.english), so this small lookup covers the 50 pilot
+// verbs rather than threading Portuguese glosses through the data pipeline.
+const PT_MEANING: Record<string, string> = {
+  ser: "ser", estar: "estar (permanecer)", tener: "ter", hacer: "fazer", poder: "poder",
+  decir: "dizer", ir: "ir", ver: "ver", dar: "dar", saber: "saber",
+  querer: "querer, amar", llegar: "chegar", pasar: "passar", deber: "dever", poner: "pôr, colocar",
+  parecer: "parecer", quedar: "ficar", creer: "crer, acreditar", hablar: "falar", llevar: "levar, carregar",
+  dejar: "deixar", seguir: "seguir, continuar", encontrar: "encontrar", llamar: "chamar", venir: "vir",
+  pensar: "pensar", salir: "sair", volver: "voltar", tomar: "tomar, pegar", conocer: "conhecer",
+  vivir: "viver", sentir: "sentir", mirar: "olhar", contar: "contar, narrar", empezar: "começar",
+  esperar: "esperar", buscar: "procurar", entrar: "entrar", trabajar: "trabalhar", escribir: "escrever",
+  perder: "perder", ocurrir: "ocorrer, acontecer", entender: "entender", pedir: "pedir", recibir: "receber",
+  recordar: "lembrar-se de", terminar: "terminar", permitir: "permitir", aparecer: "aparecer", comenzar: "começar",
 };
 
 function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
 function tenseTable(tname: string, t: { tense_es: string; forms: string[] }, irregular: Set<string>) {
-  const flag = irregular.has(tname) ? ' <span class="irr">irrégulier</span>' : '';
+  const flag = irregular.has(tname) ? ' <span class="irr">irregular</span>' : '';
   const rows = PRONOUNS.map((p, i) => `<tr><td class="pr">${p}</td><td class="fm">${t.forms[i] || "—"}</td></tr>`).join('');
   return `<div class="tense-card">
-  <h4>${TENSE_FR[tname] || tname} <span class="es">(${t.tense_es})</span>${flag}</h4>
+  <h4>${TENSE_PT[tname] || tname} <span class="es">(${t.tense_es})</span>${flag}</h4>
   <table>${rows}</table></div>`;
 }
 
-const inf = v.infinitive, frMeaning = FR_MEANING[v.slug] || v.english;
+const inf = v.infinitive, ptMeaning = PT_MEANING[v.slug] || v.english;
 const irr = new Set(v.irregular_tenses);
 const irrList = [...new Set(v.irregular_tenses)];
-const badge = v.is_irregular ? "Verbe irrégulier" : "Verbe régulier";
+const badge = v.is_irregular ? "Verbo irregular" : "Verbo regular";
 const present = v.moods["Indicative"]["Present"].forms;
 const quick = PRONOUNS.map((p, i) => present[i] ? `${p} <strong>${present[i]}</strong>` : null).filter(Boolean).join(', ');
 
@@ -67,7 +68,7 @@ for (const m of ["Indicative", "Subjunctive", "Imperative"]) {
   if (m === "Imperative") {
     for (const key of IMPERATIVE_KEYS) {
       if (!v.moods[key]) continue;
-      const label = key.includes("Affirmative") ? "Affirmatif" : "Négatif";
+      const label = key.includes("Affirmative") ? "Afirmativo" : "Negativo";
       for (const tn of Object.keys(v.moods[key])) {
         cards += tenseTable(label, v.moods[key][tn], irr);
         renderedTenses++;
@@ -80,38 +81,38 @@ for (const m of ["Indicative", "Subjunctive", "Imperative"]) {
   }
   if (!cards) continue;
   renderedMoods++;
-  moodsHtml += `<section class="mood"><h3>${MOOD_FR[m] || m}</h3><div class="tense-grid">${cards}</div></section>`;
+  moodsHtml += `<section class="mood"><h3>${MOOD_PT[m] || m}</h3><div class="tense-grid">${cards}</div></section>`;
 }
 
-const related = (v.related || []).map((r) => `<a href="/fr/espagnol/conjugaison/${r}">${cap(r)}</a>`).join('');
+const related = (v.related || []).map((r) => `<a href="/pt/espanhol/conjugacao/${r}">${cap(r)}</a>`).join('');
 const irrNote = irrList.length
-  ? `<strong>${cap(inf)}</strong> est irrégulier au ${irrList.map((t) => (TENSE_FR[t] || t).toLowerCase()).join(' et au ')} — observez les changements de radical ci-dessus.`
-  : `<strong>${cap(inf)}</strong> suit le modèle régulier des verbes en <em>-${v.verb_class}</em> à tous les temps — une fois les terminaisons connues, ce verbe n'a plus de secret.`;
+  ? `<strong>${cap(inf)}</strong> é irregular no ${irrList.map((t) => (TENSE_PT[t] || t).toLowerCase()).join(' e no ')} — observe as mudanças de raiz acima.`
+  : `<strong>${cap(inf)}</strong> segue o padrão regular dos verbos em <em>-${v.verb_class}</em> em todos os tempos — uma vez conhecidas as terminações, esse verbo não tem mais segredos.`;
 
 const faqLd = JSON.stringify({
   "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-    { "@type": "Question", "name": `${cap(inf)} est-il régulier ou irrégulier ?`,
-      "acceptedAnswer": { "@type": "Answer", "text": `${cap(inf)} (${frMeaning}) est un verbe espagnol ${v.is_irregular ? 'irrégulier' : 'régulier'}.` } },
-    { "@type": "Question", "name": `Quel est le présent de l'indicatif de ${inf} ?`,
+    { "@type": "Question", "name": `${cap(inf)} é regular ou irregular?`,
+      "acceptedAnswer": { "@type": "Answer", "text": `${cap(inf)} (${ptMeaning}) é um verbo espanhol ${v.is_irregular ? 'irregular' : 'regular'}.` } },
+    { "@type": "Question", "name": `Qual é o presente do indicativo de ${inf}?`,
       "acceptedAnswer": { "@type": "Answer", "text": present.filter(Boolean).join(', ') } },
   ],
 });
 const crumbLd = JSON.stringify({
   "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Espagnol", "item": "https://lingostar.ai/fr/espagnol/" },
-    { "@type": "ListItem", "position": 2, "name": "Conjugaison", "item": "https://lingostar.ai/fr/espagnol/conjugaison/" },
+    { "@type": "ListItem", "position": 1, "name": "Espanhol", "item": "https://lingostar.ai/pt/espanhol/" },
+    { "@type": "ListItem", "position": 2, "name": "Conjugação", "item": "https://lingostar.ai/pt/espanhol/conjugacao/" },
     { "@type": "ListItem", "position": 3, "name": inf },
   ],
 });
 
-const pageTitle = `Conjugaison de ${cap(inf)} — ${frMeaning} | Tous les temps espagnols | Lingostar`;
-const pageDescription = `Conjugaison complète de ${inf} (${frMeaning}) à tous les temps et modes espagnols : présent, passé simple, imparfait, subjonctif et plus. ${badge} — #${v.frequency_rank} verbe le plus utilisé.`;
-const canonical = `https://lingostar.ai/fr/espagnol/conjugaison/${v.slug}`;
+const pageTitle = `Conjugação de ${cap(inf)} — ${ptMeaning} | Todos os tempos verbais em espanhol | Lingostar`;
+const pageDescription = `Conjugação completa de ${inf} (${ptMeaning}) em todos os tempos e modos do espanhol: presente, pretérito, imperfeito, subjuntivo e muito mais. ${badge} — verbo nº ${v.frequency_rank} mais usado.`;
+const canonical = `https://lingostar.ai/pt/espanhol/conjugacao/${v.slug}`;
 const englishUrl = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
-const portugueseUrl = `https://lingostar.ai/pt/espanhol/conjugacao/${v.slug}`;
+const frenchUrl = `https://lingostar.ai/fr/espagnol/conjugaison/${v.slug}`;
 ---
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="pt-BR">
 <head>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9154720924448333"
    crossorigin="anonymous"></script>
@@ -129,9 +130,9 @@ const portugueseUrl = `https://lingostar.ai/pt/espanhol/conjugacao/${v.slug}`;
   <title>{pageTitle}</title>
   <meta name="description" content={pageDescription} />
   <link rel="canonical" href={canonical} />
-  <link rel="alternate" hreflang="fr" href={canonical} />
+  <link rel="alternate" hreflang="pt-BR" href={canonical} />
   <link rel="alternate" hreflang="en" href={englishUrl} />
-  <link rel="alternate" hreflang="pt-BR" href={portugueseUrl} />
+  <link rel="alternate" hreflang="fr" href={frenchUrl} />
   <link rel="alternate" hreflang="x-default" href={englishUrl} />
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -181,23 +182,23 @@ const portugueseUrl = `https://lingostar.ai/pt/espanhol/conjugacao/${v.slug}`;
 </head>
 <body>
 <div class="wrap">
-  <SpanishNav lang="fr" />
-  <nav class="crumb"><a href="/fr/espagnol/">Espagnol</a> / <a href="/fr/espagnol/conjugaison/">Conjugaison</a> / {inf}</nav>
+  <SpanishNav lang="pt" />
+  <nav class="crumb"><a href="/pt/espanhol/">Espanhol</a> / <a href="/pt/espanhol/conjugacao/">Conjugação</a> / {inf}</nav>
   <header class="hero">
-    <span class="badge">{badge} · #{v.frequency_rank} le plus utilisé</span>
-    <h1><em>{cap(inf)}</em> — conjugaison</h1>
-    <p class="sub"><strong>{inf}</strong> — {frMeaning} · gérondif <strong>{v.gerund}</strong> · participe passé <strong>{v.past_participle}</strong></p>
-    <div class="meta"><span><b>{renderedTenses}</b> temps</span><span><b>{renderedMoods}</b> modes</span><span><b>-{v.verb_class}</b> groupe</span></div>
+    <span class="badge">{badge} · #{v.frequency_rank} mais usado</span>
+    <h1><em>{cap(inf)}</em> — conjugação</h1>
+    <p class="sub"><strong>{inf}</strong> — {ptMeaning} · gerúndio <strong>{v.gerund}</strong> · particípio passado <strong>{v.past_participle}</strong></p>
+    <div class="meta"><span><b>{renderedTenses}</b> tempos</span><span><b>{renderedMoods}</b> modos</span><span><b>-{v.verb_class}</b> grupo</span></div>
   </header>
-  <div class="quick"><h2>Réponse rapide — présent de l'indicatif</h2><p set:html={quick} /></div>
+  <div class="quick"><h2>Resposta rápida — presente do indicativo</h2><p set:html={quick} /></div>
   <Fragment set:html={moodsHtml} />
-  <div class="note"><h3 style="font-family:'Fraunces',serif;margin-bottom:8px">Remarque</h3><p set:html={irrNote} /></div>
+  <div class="note"><h3 style="font-family:'Fraunces',serif;margin-bottom:8px">Observação</h3><p set:html={irrNote} /></div>
   <div class="cta">
-    <div><h3>Pratiquez {inf} avec votre tuteur IA</h3><p>Dites-le à voix haute — Lingostar corrige votre prononciation et vous fait travailler les formes irrégulières jusqu'à ce qu'elles deviennent naturelles.</p></div>
-    <a href={`https://lingostar.ai/practice?verb=${v.slug}`}>Pratiquer →</a>
+    <div><h3>Pratique {inf} com seu tutor de IA</h3><p>Diga em voz alta — a Lingostar corrige sua pronúncia e treina as formas irregulares até que se tornem naturais.</p></div>
+    <a href={`https://lingostar.ai/practice?verb=${v.slug}`}>Praticar →</a>
   </div>
-  <div class="related"><h3>Verbes associés</h3><div class="related-grid"><Fragment set:html={related} /></div></div>
-  <SpanishFooter lang="fr" />
+  <div class="related"><h3>Verbos relacionados</h3><div class="related-grid"><Fragment set:html={related} /></div></div>
+  <SpanishFooter lang="pt" />
 </div>
 </body>
 </html>
