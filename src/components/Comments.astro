@@ -1,7 +1,8 @@
 ---
-// Giscus comments, backed by GitHub Discussions on this repo.
-// Set up: https://giscus.app — enable Discussions on the repo, install the
-// giscus app, then fill in the data-* values below with what that page gives you.
+// Giscus comments, backed by GitHub Discussions on this repo (configured;
+// PUBLIC_GISCUS_* are set as Cloudflare Workers Builds environment
+// variables, not committed here). See https://giscus.app to regenerate the
+// data-* values if the repo, category, or mapping ever changes.
 const repo = import.meta.env.PUBLIC_GISCUS_REPO || 'your-org/your-repo';
 const repoId = import.meta.env.PUBLIC_GISCUS_REPO_ID || '';
 const category = import.meta.env.PUBLIC_GISCUS_CATEGORY || 'Comments';
