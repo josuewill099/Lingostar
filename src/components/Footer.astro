@@ -1,13 +1,89 @@
 ---
+// Matches the homepage's dark 4-column footer (src/pages/index.html /
+// fr/index.html), which is hand-coded HTML and can't share this component.
+// Keep the two in sync if the design changes.
 interface Props {
   lang?: string;
 }
 const { lang = 'en' } = Astro.props as Props;
 const year = new Date().getFullYear();
-const text = lang === 'fr' ? 'Lingostar AI. Tous droits réservés.' : 'Lingostar AI. All rights reserved.';
+
+const copy = lang === 'fr'
+  ? {
+      brandBlurb: "Maîtrisez les langues grâce à de vraies conversations avec l'IA. Pratiquez l'anglais, l'espagnol et le français naturellement et progressez plus vite.",
+      quickLinks: 'Liens rapides',
+      home: 'Accueil',
+      blog: 'Blog',
+      spanish: 'Conjugaison espagnole',
+      legal: 'Mentions légales',
+      privacy: 'Politique de confidentialité',
+      terms: "Conditions d'utilisation",
+      contact: 'Contact',
+      support: "Centre d'assistance",
+      rights: 'Lingostar AI. Tous droits réservés.',
+      homeHref: '/fr/',
+      blogHref: '/fr/blog/',
+      spanishHref: '/fr/espagnol/conjugaison/',
+      privacyHref: '/fr/privacy-policy/',
+      termsHref: '/fr/terms-of-service/',
+    }
+  : {
+      brandBlurb: 'Master languages through real AI conversations. Practice English, Spanish, and French naturally and achieve fluency faster.',
+      quickLinks: 'Quick Links',
+      home: 'Home',
+      blog: 'Blog',
+      spanish: 'Spanish Conjugation',
+      legal: 'Legal',
+      privacy: 'Privacy Policy',
+      terms: 'Terms of Service',
+      contact: 'Contact',
+      support: 'Support Center',
+      rights: 'Lingostar AI. All rights reserved.',
+      homeHref: '/',
+      blogHref: '/blog/',
+      spanishHref: '/spanish/conjugation/',
+      privacyHref: '/privacy-policy/',
+      termsHref: '/terms-of-service/',
+    };
 ---
-<footer>
-  <p>&copy; <span id="footer-year">{year}</span> {text}</p>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="site-footer-content">
+      <div class="site-footer-section">
+        <h3>Lingostar AI</h3>
+        <p>{copy.brandBlurb}</p>
+      </div>
+
+      <div class="site-footer-section">
+        <h3>{copy.quickLinks}</h3>
+        <div class="site-footer-links">
+          <a href={copy.homeHref}>{copy.home}</a>
+          <a href={copy.blogHref}>{copy.blog}</a>
+          <a href={copy.spanishHref}>{copy.spanish}</a>
+        </div>
+      </div>
+
+      <div class="site-footer-section">
+        <h3>{copy.legal}</h3>
+        <div class="site-footer-links">
+          <a href={copy.privacyHref}>{copy.privacy}</a>
+          <a href={copy.termsHref}>{copy.terms}</a>
+        </div>
+      </div>
+
+      <div class="site-footer-section">
+        <h3>{copy.contact}</h3>
+        <div class="site-footer-links">
+          <a href="mailto:hello@lingostar.ai">hello@lingostar.ai</a>
+          <a href="#">{copy.support}</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer-bottom">
+      <p>&copy; <span id="footer-year">{year}</span> {copy.rights}</p>
+    </div>
+  </div>
 </footer>
 <script>
   const el = document.getElementById('footer-year');

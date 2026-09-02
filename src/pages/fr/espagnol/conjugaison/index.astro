@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import SpanishNav from '../../../../components/SpanishNav.astro';
+import SpanishFooter from '../../../../components/SpanishFooter.astro';
 
 export const prerender = true;
 
@@ -84,6 +85,7 @@ const crumbLd = JSON.stringify({
       </li>
     ))}
   </ul>
+  <SpanishFooter lang="fr" />
 </div>
 </body>
 </html>

@@ -1,0 +1,149 @@
+---
+// Themed equivalent of Footer.astro for the self-contained Spanish pages
+// (see the comment in spanish/conjugation/[slug].astro for why they don't
+// use BaseLayout) -- same 4-column content, restyled to the warm palette
+// these pages already define on :root (--ink/--paper/--line/--soft/--red).
+interface Props {
+  lang?: string;
+}
+const { lang = 'en' } = Astro.props as Props;
+const year = new Date().getFullYear();
+
+const copy = lang === 'fr'
+  ? {
+      brandBlurb: "Maîtrisez les langues grâce à de vraies conversations avec l'IA. Pratiquez l'anglais, l'espagnol et le français naturellement et progressez plus vite.",
+      quickLinks: 'Liens rapides',
+      home: 'Accueil',
+      blog: 'Blog',
+      spanish: 'Conjugaison espagnole',
+      legal: 'Mentions légales',
+      privacy: 'Politique de confidentialité',
+      terms: "Conditions d'utilisation",
+      contact: 'Contact',
+      support: "Centre d'assistance",
+      rights: 'Lingostar AI. Tous droits réservés.',
+      homeHref: '/fr/',
+      blogHref: '/fr/blog/',
+      spanishHref: '/fr/espagnol/conjugaison/',
+      privacyHref: '/fr/privacy-policy/',
+      termsHref: '/fr/terms-of-service/',
+    }
+  : {
+      brandBlurb: 'Master languages through real AI conversations. Practice English, Spanish, and French naturally and achieve fluency faster.',
+      quickLinks: 'Quick Links',
+      home: 'Home',
+      blog: 'Blog',
+      spanish: 'Spanish Conjugation',
+      legal: 'Legal',
+      privacy: 'Privacy Policy',
+      terms: 'Terms of Service',
+      contact: 'Contact',
+      support: 'Support Center',
+      rights: 'Lingostar AI. All rights reserved.',
+      homeHref: '/',
+      blogHref: '/blog/',
+      spanishHref: '/spanish/conjugation/',
+      privacyHref: '/privacy-policy/',
+      termsHref: '/terms-of-service/',
+    };
+---
+<footer class="site-footer">
+  <div class="site-footer-content">
+    <div class="site-footer-section">
+      <h3>Lingostar AI</h3>
+      <p>{copy.brandBlurb}</p>
+    </div>
+
+    <div class="site-footer-section">
+      <h3>{copy.quickLinks}</h3>
+      <div class="site-footer-links">
+        <a href={copy.homeHref}>{copy.home}</a>
+        <a href={copy.blogHref}>{copy.blog}</a>
+        <a href={copy.spanishHref}>{copy.spanish}</a>
+      </div>
+    </div>
+
+    <div class="site-footer-section">
+      <h3>{copy.legal}</h3>
+      <div class="site-footer-links">
+        <a href={copy.privacyHref}>{copy.privacy}</a>
+        <a href={copy.termsHref}>{copy.terms}</a>
+      </div>
+    </div>
+
+    <div class="site-footer-section">
+      <h3>{copy.contact}</h3>
+      <div class="site-footer-links">
+        <a href="mailto:hello@lingostar.ai">hello@lingostar.ai</a>
+        <a href="#">{copy.support}</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer-bottom">
+    <p>&copy; <span id="footer-year">{year}</span> {copy.rights}</p>
+  </div>
+</footer>
+<script>
+  const el = document.getElementById('footer-year');
+  if (el) el.textContent = String(new Date().getFullYear());
+</script>
+
+<style>
+  .site-footer {
+    margin-top: 60px;
+    padding: 44px 0 24px;
+    border-top: 3px solid var(--ink);
+  }
+
+  .site-footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .site-footer-section h3 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--red);
+    margin: 0 0 0.85rem;
+  }
+
+  .site-footer-section p {
+    color: var(--soft);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .site-footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .site-footer-links a {
+    color: var(--soft);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .site-footer-links a:hover {
+    color: var(--red);
+  }
+
+  .site-footer-bottom {
+    padding-top: 1.5rem;
+    border-top: 1.5px solid var(--line);
+    color: var(--soft);
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .site-footer-bottom p {
+    margin: 0;
+  }
+</style>

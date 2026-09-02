@@ -6,6 +6,7 @@
 // but still uses SpanishNav for standard site-wide navigation.
 import { getCollection, type CollectionEntry } from 'astro:content';
 import SpanishNav from '../../../components/SpanishNav.astro';
+import SpanishFooter from '../../../components/SpanishFooter.astro';
 
 export const prerender = true;
 
@@ -235,6 +236,7 @@ const frenchUrl = `https://lingostar.ai/fr/espagnol/conjugaison/${v.slug}`;
     <a href={`https://lingostar.ai/practice?verb=${v.slug}`}>Practice now →</a>
   </div>
   <div class="related"><h3>Related verbs</h3><div class="related-grid"><Fragment set:html={related} /></div></div>
+  <SpanishFooter />
 </div>
 <script>
   function stripDiacritics(s) {

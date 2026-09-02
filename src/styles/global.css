@@ -42,14 +42,10 @@ a {
   color: var(--color-accent);
 }
 
-header,
-footer {
+header {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 1.25rem;
-}
-
-header {
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -65,11 +61,69 @@ nav a:hover {
   color: var(--color-accent);
 }
 
-footer {
-  color: var(--color-muted);
-  font-size: 0.875rem;
-  border-top: 1px solid var(--color-border);
+.site-footer {
   margin-top: 3rem;
+  padding: 3rem 1.25rem 1.5rem;
+  background: var(--color-text);
+  color: white;
+}
+
+.site-footer-inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.site-footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.site-footer-section h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.85rem;
+  background: var(--gradient-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.site-footer-section p {
+  color: #d1d5db;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.site-footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.site-footer-links a {
+  color: #d1d5db;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.site-footer-links a:hover {
+  color: white;
+}
+
+.site-footer-bottom {
+  padding-top: 1.5rem;
+  border-top: 1px solid #374151;
+  color: #9ca3af;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.site-footer-bottom p {
+  margin: 0;
 }
 
 .post-meta {

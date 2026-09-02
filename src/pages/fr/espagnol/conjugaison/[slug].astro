@@ -5,6 +5,7 @@
 // English. Self-contained like its English counterpart, not BaseLayout.
 import { getCollection, type CollectionEntry } from 'astro:content';
 import SpanishNav from '../../../../components/SpanishNav.astro';
+import SpanishFooter from '../../../../components/SpanishFooter.astro';
 
 export const prerender = true;
 
@@ -192,6 +193,7 @@ const englishUrl = `https://lingostar.ai/spanish/conjugation/${v.slug}`;
     <a href={`https://lingostar.ai/practice?verb=${v.slug}`}>Pratiquer →</a>
   </div>
   <div class="related"><h3>Verbes associés</h3><div class="related-grid"><Fragment set:html={related} /></div></div>
+  <SpanishFooter lang="fr" />
 </div>
 </body>
 </html>
