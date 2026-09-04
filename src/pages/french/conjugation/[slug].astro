@@ -1,0 +1,178 @@
+---
+// French verb conjugation page — pSEO pipeline. Data comes from the
+// `frenchVerbs` content collection (src/content/frenchVerbs/*.json), built
+// by scripts/build_french_verbs.mjs from french-verbs-lefff. English
+// audience, charts only (no interactive drill yet — see the `verbs`
+// collection's English-Spanish pages for that feature). Self-contained
+// like its Spanish counterpart, not BaseLayout (see spanish/conjugation/
+// [slug].astro's header comment for why).
+import { getCollection, type CollectionEntry } from 'astro:content';
+import SpanishNav from '../../../components/SpanishNav.astro';
+import SpanishFooter from '../../../components/SpanishFooter.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const verbs = await getCollection('frenchVerbs');
+  return verbs.map((v) => ({ params: { slug: v.data.slug }, props: { v: v.data } }));
+}
+
+type VerbData = CollectionEntry<'frenchVerbs'>['data'];
+const { v } = Astro.props as { v: VerbData };
+
+const PRONOUNS = ["je", "tu", "il/elle/on", "nous", "vous", "ils/elles"];
+const IMPERATIVE_KEYS = ["Imperative Affirmative", "Imperative Negative"];
+
+function cap(s: string) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
+function tenseTable(tname: string, t: { tense_fr: string; forms: string[] }, irregular: Set<string>) {
+  const flag = irregular.has(tname) ? ' <span class="irr">irregular</span>' : '';
+  const rows = PRONOUNS.map((p, i) => `<tr><td class="pr">${p}</td><td class="fm">${t.forms[i] || "—"}</td></tr>`).join('');
+  return `<div class="tense-card">
+  <h4>${tname} <span class="fr">(${t.tense_fr})</span>${flag}</h4>
+  <table>${rows}</table></div>`;
+}
+
+const inf = v.infinitive, en = v.english;
+const irr = new Set(v.irregular_tenses);
+const irrList = [...new Set(v.irregular_tenses)];
+const badge = v.is_irregular ? "Irregular verb" : "Regular verb";
+const present = v.moods["Indicative"]["Present"].forms;
+const quick = PRONOUNS.map((p, i) => present[i] ? `${p} <strong>${present[i]}</strong>` : null).filter(Boolean).join(', ');
+
+let moodsHtml = "", renderedMoods = 0, renderedTenses = 0;
+for (const m of ["Indicative", "Subjunctive", "Imperative"]) {
+  let cards = "";
+  if (m === "Imperative") {
+    for (const key of IMPERATIVE_KEYS) {
+      if (!v.moods[key]) continue;
+      const label = key.includes("Affirmative") ? "Affirmative" : "Negative";
+      for (const tn of Object.keys(v.moods[key])) {
+        cards += tenseTable(label, v.moods[key][tn], irr);
+        renderedTenses++;
+      }
+    }
+  } else {
+    if (!v.moods[m]) continue;
+    cards = Object.entries(v.moods[m]).map(([tn, t]) => tenseTable(tn, t as any, irr)).join('');
+    renderedTenses += Object.keys(v.moods[m]).length;
+  }
+  if (!cards) continue;
+  renderedMoods++;
+  moodsHtml += `<section class="mood"><h3>${m}</h3><div class="tense-grid">${cards}</div></section>`;
+}
+
+const related = (v.related || []).map((r) => `<a href="/french/conjugation/${r}">${cap(r)}</a>`).join('');
+const irrNote = irrList.length
+  ? `<strong>${cap(inf)}</strong> is irregular in the ${irrList.join(' and ')} — pay attention to the stem changes above.`
+  : `<strong>${cap(inf)}</strong> follows the regular pattern for <em>${v.verb_class}</em> verbs across every tense — once you know the endings, this verb holds no surprises.`;
+
+const faqLd = JSON.stringify({
+  "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+    { "@type": "Question", "name": `Is ${inf} regular or irregular?`,
+      "acceptedAnswer": { "@type": "Answer", "text": `${cap(inf)} (${en}) is an ${v.is_irregular ? 'irregular' : 'regular'} French verb.` } },
+    { "@type": "Question", "name": `What is the present tense of ${inf}?`,
+      "acceptedAnswer": { "@type": "Answer", "text": present.filter(Boolean).join(', ') } },
+  ],
+});
+const crumbLd = JSON.stringify({
+  "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "French", "item": "https://lingostar.ai/french/" },
+    { "@type": "ListItem", "position": 2, "name": "Conjugation", "item": "https://lingostar.ai/french/conjugation/" },
+    { "@type": "ListItem", "position": 3, "name": inf },
+  ],
+});
+
+const pageTitle = `${cap(inf)} Conjugation — ${en} | All French Tenses | Lingostar`;
+const pageDescription = `Full conjugation of ${inf} (${en}) in every French tense and mood: present, passé composé, imperfect, subjunctive, and more. ${badge} — #${v.frequency_rank} most common verb.`;
+const canonical = `https://lingostar.ai/french/conjugation/${v.slug}`;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9154720924448333"
+   crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8YB8MCJV0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M8YB8MCJV0');
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription} />
+  <link rel="canonical" href={canonical} />
+  <link rel="alternate" hreflang="en" href={canonical} />
+  <link rel="alternate" hreflang="x-default" href={canonical} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script type="application/ld+json" set:html={faqLd} />
+  <script type="application/ld+json" set:html={crumbLd} />
+  <style is:global>
+    :root{--ink:#1f1a16;--paper:#faf6ef;--card:#fffdf8;--red:#b3372c;--amber:#d99a2b;--line:#e7ddcc;--soft:#6f6558}
+    *{box-sizing:border-box;margin:0}
+    body{font-family:'Public Sans',sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;
+    background-image:radial-gradient(circle at 12% -8%,#f3e7d0 0,transparent 42%),radial-gradient(circle at 105% 15%,#f6e3dd 0,transparent 35%)}
+    .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+    nav.crumb{padding:18px 0;font-size:.82rem;color:var(--soft)} nav.crumb a{color:var(--red);text-decoration:none}
+    header.hero{padding:26px 0 34px;border-bottom:3px solid var(--ink)}
+    .badge{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    padding:5px 12px;border:1.5px solid var(--red);color:var(--red);border-radius:999px;margin-bottom:14px}
+    h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2.6rem,7vw,4.6rem);line-height:1.02}
+    h1 em{font-style:normal;color:var(--red)}
+    .sub{font-size:1.15rem;color:var(--soft);margin-top:10px} .sub strong{color:var(--ink)}
+    .meta{display:flex;gap:22px;margin-top:18px;font-size:.88rem;flex-wrap:wrap}
+    .meta span b{font-family:'Fraunces',serif;font-size:1.1rem}
+    .quick{margin:30px 0;background:var(--card);border:1.5px solid var(--line);border-left:6px solid var(--amber);
+    padding:20px 24px;border-radius:0 12px 12px 0}
+    .quick h2{font-family:'Fraunces',serif;font-size:1.15rem;margin-bottom:8px}
+    section.mood{margin:44px 0}
+    section.mood>h3{font-family:'Fraunces',serif;font-size:2rem;border-bottom:1.5px solid var(--line);padding-bottom:8px;margin-bottom:20px}
+    .tense-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
+    .tense-card{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:18px 20px;
+    box-shadow:3px 4px 0 rgba(31,26,22,.06);transition:transform .15s}
+    .tense-card:hover{transform:translateY(-3px)}
+    .tense-card h4{font-family:'Fraunces',serif;font-size:1.08rem} .fr{font-weight:500;color:var(--soft);font-size:.85rem}
+    .irr{background:var(--red);color:#fff;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px;vertical-align:middle}
+    table{width:100%;border-collapse:collapse;font-size:.94rem;margin-top:8px}
+    td{padding:5px 4px;border-bottom:1px dashed var(--line)} tr:last-child td{border:none}
+    .pr{color:var(--soft);width:44%} .fm{font-weight:700}
+    .note,.cta{margin:38px 0;padding:24px 26px;border-radius:14px}
+    .note{background:#f2ead9;border:1.5px solid var(--line)}
+    .cta{background:var(--ink);color:var(--paper);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+    .cta h3{font-family:'Fraunces',serif;font-size:1.5rem} .cta p{color:#cfc4b2;font-size:.92rem}
+    .cta a{background:var(--amber);color:var(--ink);font-weight:700;text-decoration:none;padding:13px 26px;border-radius:999px;white-space:nowrap}
+    .related{margin:34px 0 60px} .related h3{font-family:'Fraunces',serif;margin-bottom:14px}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px}
+    .related-grid a{display:block;background:var(--card);border:1.5px solid var(--line);border-radius:12px;
+    padding:14px 16px;color:var(--ink);text-decoration:none;font-weight:700;font-family:'Fraunces',serif;font-size:1.05rem;
+    box-shadow:3px 4px 0 rgba(31,26,22,.06);transition:transform .15s,border-color .15s}
+    .related-grid a:hover{transform:translateY(-3px);border-color:var(--red)}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <SpanishNav />
+  <nav class="crumb"><a href="/french/">French</a> / <a href="/french/conjugation/">Conjugation</a> / {inf}</nav>
+  <header class="hero">
+    <span class="badge">{badge} · #{v.frequency_rank} most common</span>
+    <h1><em>{cap(inf)}</em> conjugation</h1>
+    <p class="sub"><strong>{inf}</strong> — {en} · present participle <strong>{v.gerund}</strong> · past participle <strong>{v.past_participle}</strong></p>
+    <div class="meta"><span><b>{renderedTenses}</b> tenses</span><span><b>{renderedMoods}</b> moods</span><span><b>{v.verb_class}</b> group</span></div>
+  </header>
+  <div class="quick"><h2>Quick answer — present tense</h2><p set:html={quick} /></div>
+  <Fragment set:html={moodsHtml} />
+  <div class="note"><h3 style="font-family:'Fraunces',serif;margin-bottom:8px">Note</h3><p set:html={irrNote} /></div>
+  <div class="cta">
+    <div><h3>Practice {inf} with an AI tutor</h3><p>Say it out loud — Lingostar corrects your pronunciation and drills the irregular forms until they feel natural.</p></div>
+    <a href={`https://lingostar.ai/practice?verb=${v.slug}`}>Practice →</a>
+  </div>
+  <div class="related"><h3>Related verbs</h3><div class="related-grid"><Fragment set:html={related} /></div></div>
+  <SpanishFooter />
+</div>
+</body>
+</html>

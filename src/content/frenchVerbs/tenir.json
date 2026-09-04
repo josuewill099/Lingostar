@@ -1,0 +1,207 @@
+{
+ "infinitive": "tenir",
+ "english": "to hold",
+ "gerund": "tenant",
+ "past_participle": "tenu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "tiens",
+     "tiens",
+     "tient",
+     "tenons",
+     "tenez",
+     "tiennent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "tiendrai",
+     "tiendras",
+     "tiendra",
+     "tiendrons",
+     "tiendrez",
+     "tiendront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "tenais",
+     "tenais",
+     "tenait",
+     "tenions",
+     "teniez",
+     "tenaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "tins",
+     "tins",
+     "tint",
+     "tînmes",
+     "tîntes",
+     "tinrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "tiendrais",
+     "tiendrais",
+     "tiendrait",
+     "tiendrions",
+     "tiendriez",
+     "tiendraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai tenu",
+     "as tenu",
+     "a tenu",
+     "avons tenu",
+     "avez tenu",
+     "ont tenu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai tenu",
+     "auras tenu",
+     "aura tenu",
+     "aurons tenu",
+     "aurez tenu",
+     "auront tenu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais tenu",
+     "avais tenu",
+     "avait tenu",
+     "avions tenu",
+     "aviez tenu",
+     "avaient tenu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus tenu",
+     "eus tenu",
+     "eut tenu",
+     "eûmes tenu",
+     "eûtes tenu",
+     "eurent tenu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais tenu",
+     "aurais tenu",
+     "aurait tenu",
+     "aurions tenu",
+     "auriez tenu",
+     "auraient tenu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "tienne",
+     "tiennes",
+     "tienne",
+     "tenions",
+     "teniez",
+     "tiennent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "tinsse",
+     "tinsses",
+     "tînt",
+     "tinssions",
+     "tinssiez",
+     "tinssent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie tenu",
+     "aies tenu",
+     "ait tenu",
+     "ayons tenu",
+     "ayez tenu",
+     "aient tenu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse tenu",
+     "eusses tenu",
+     "eût tenu",
+     "eussions tenu",
+     "eussiez tenu",
+     "eussent tenu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "tiens",
+     "",
+     "tenons",
+     "tenez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne tiens pas",
+     "",
+     "ne tenons pas",
+     "ne tenez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 16,
+ "slug": "tenir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "mettre",
+  "sortir"
+ ]
+}

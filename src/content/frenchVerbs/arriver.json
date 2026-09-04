@@ -1,0 +1,204 @@
+{
+ "infinitive": "arriver",
+ "english": "to arrive, happen",
+ "gerund": "arrivant",
+ "past_participle": "arrivé",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "arrive",
+     "arrives",
+     "arrive",
+     "arrivons",
+     "arrivez",
+     "arrivent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "arriverai",
+     "arriveras",
+     "arrivera",
+     "arriverons",
+     "arriverez",
+     "arriveront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "arrivais",
+     "arrivais",
+     "arrivait",
+     "arrivions",
+     "arriviez",
+     "arrivaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "arrivai",
+     "arrivas",
+     "arriva",
+     "arrivâmes",
+     "arrivâtes",
+     "arrivèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "arriverais",
+     "arriverais",
+     "arriverait",
+     "arriverions",
+     "arriveriez",
+     "arriveraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "suis arrivé",
+     "es arrivé",
+     "est arrivé",
+     "sommes arrivé",
+     "êtes arrivé",
+     "sont arrivé"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "serai arrivé",
+     "seras arrivé",
+     "sera arrivé",
+     "serons arrivé",
+     "serez arrivé",
+     "seront arrivé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "étais arrivé",
+     "étais arrivé",
+     "était arrivé",
+     "étions arrivé",
+     "étiez arrivé",
+     "étaient arrivé"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "fus arrivé",
+     "fus arrivé",
+     "fut arrivé",
+     "fûmes arrivé",
+     "fûtes arrivé",
+     "furent arrivé"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "serais arrivé",
+     "serais arrivé",
+     "serait arrivé",
+     "serions arrivé",
+     "seriez arrivé",
+     "seraient arrivé"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "arrive",
+     "arrives",
+     "arrive",
+     "arrivions",
+     "arriviez",
+     "arrivent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "arrivasse",
+     "arrivasses",
+     "arrivât",
+     "arrivassions",
+     "arrivassiez",
+     "arrivassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "sois arrivé",
+     "sois arrivé",
+     "soit arrivé",
+     "soyons arrivé",
+     "soyez arrivé",
+     "soient arrivé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "fusse arrivé",
+     "fusses arrivé",
+     "fût arrivé",
+     "fussions arrivé",
+     "fussiez arrivé",
+     "fussent arrivé"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "arrive",
+     "",
+     "arrivons",
+     "arrivez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "n'arrive pas",
+     "",
+     "n'arrivons pas",
+     "n'arrivez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 46,
+ "slug": "arriver",
+ "is_irregular": false,
+ "related": [
+  "parler",
+  "aimer",
+  "donner",
+  "demander",
+  "rester"
+ ]
+}

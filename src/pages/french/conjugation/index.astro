@@ -1,0 +1,92 @@
+---
+import { getCollection } from 'astro:content';
+import SpanishNav from '../../../components/SpanishNav.astro';
+import SpanishFooter from '../../../components/SpanishFooter.astro';
+
+export const prerender = true;
+
+const verbs = (await getCollection('frenchVerbs')).sort((a, b) => a.data.frequency_rank - b.data.frequency_rank);
+
+const itemListLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'French Verb Conjugation Charts',
+  itemListElement: verbs.map((v, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: v.data.infinitive,
+    url: `https://lingostar.ai/french/conjugation/${v.data.slug}`,
+  })),
+});
+const crumbLd = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://lingostar.ai/' },
+    { '@type': 'ListItem', position: 2, name: 'French', item: 'https://lingostar.ai/french/' },
+    { '@type': 'ListItem', position: 3, name: 'Conjugation', item: 'https://lingostar.ai/french/conjugation/' },
+  ],
+});
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9154720924448333"
+   crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8YB8MCJV0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M8YB8MCJV0');
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>French Verb Conjugation Charts | Lingostar</title>
+  <meta name="description" content="Full conjugation charts for the most common French verbs — every tense and mood, with irregular forms flagged." />
+  <link rel="canonical" href="https://lingostar.ai/french/conjugation/" />
+  <link rel="alternate" hreflang="en" href="https://lingostar.ai/french/conjugation/" />
+  <link rel="alternate" hreflang="x-default" href="https://lingostar.ai/french/conjugation/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,900;9..144,900&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script type="application/ld+json" set:html={itemListLd} />
+  <script type="application/ld+json" set:html={crumbLd} />
+  <style>
+    :root{--ink:#1f1a16;--paper:#faf6ef;--card:#fffdf8;--red:#b3372c;--amber:#d99a2b;--line:#e7ddcc;--soft:#6f6558}
+    *{box-sizing:border-box;margin:0}
+    body{font-family:'Public Sans',sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+    .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+    nav.crumb{padding:18px 0;font-size:.82rem;color:var(--soft)} nav.crumb a{color:var(--red);text-decoration:none}
+    header.hero{padding:26px 0 34px;border-bottom:3px solid var(--ink)}
+    h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2.4rem,6vw,3.6rem);line-height:1.02}
+    .sub{font-size:1.1rem;color:var(--soft);margin-top:10px}
+    .list{list-style:none;margin:34px 0 60px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+    .list li a{display:flex;justify-content:space-between;gap:10px;background:var(--card);border:1.5px solid var(--line);
+    border-radius:12px;padding:14px 18px;text-decoration:none;color:var(--ink);font-weight:600}
+    .list li a:hover{border-color:var(--red)}
+    .rank{color:var(--soft);font-weight:500;font-size:.85rem}
+    .irr-tag{color:var(--red);font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <SpanishNav />
+  <nav class="crumb"><a href="/french/">French</a> / Conjugation</nav>
+  <header class="hero">
+    <h1>French verb conjugation</h1>
+    <p class="sub">{verbs.length} of the most common French verbs, every tense and mood, irregular forms flagged.</p>
+  </header>
+  <ul class="list">
+    {verbs.map((v) => (
+      <li>
+        <a href={`/french/conjugation/${v.data.slug}`}>
+          <span>{v.data.infinitive} <span class="rank">#{v.data.frequency_rank}</span></span>
+          {v.data.is_irregular && <span class="irr-tag">irregular</span>}
+        </a>
+      </li>
+    ))}
+  </ul>
+  <SpanishFooter />
+</div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+{
+ "infinitive": "partir",
+ "english": "to leave, depart",
+ "gerund": "partant",
+ "past_participle": "parti",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "pars",
+     "pars",
+     "part",
+     "partons",
+     "partez",
+     "partent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "partirai",
+     "partiras",
+     "partira",
+     "partirons",
+     "partirez",
+     "partiront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "partais",
+     "partais",
+     "partait",
+     "partions",
+     "partiez",
+     "partaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "partis",
+     "partis",
+     "partit",
+     "partîmes",
+     "partîtes",
+     "partirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "partirais",
+     "partirais",
+     "partirait",
+     "partirions",
+     "partiriez",
+     "partiraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "suis parti",
+     "es parti",
+     "est parti",
+     "sommes parti",
+     "êtes parti",
+     "sont parti"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "serai parti",
+     "seras parti",
+     "sera parti",
+     "serons parti",
+     "serez parti",
+     "seront parti"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "étais parti",
+     "étais parti",
+     "était parti",
+     "étions parti",
+     "étiez parti",
+     "étaient parti"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "fus parti",
+     "fus parti",
+     "fut parti",
+     "fûmes parti",
+     "fûtes parti",
+     "furent parti"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "serais parti",
+     "serais parti",
+     "serait parti",
+     "serions parti",
+     "seriez parti",
+     "seraient parti"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "parte",
+     "partes",
+     "parte",
+     "partions",
+     "partiez",
+     "partent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "partisse",
+     "partisses",
+     "partît",
+     "partissions",
+     "partissiez",
+     "partissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "sois parti",
+     "sois parti",
+     "soit parti",
+     "soyons parti",
+     "soyez parti",
+     "soient parti"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "fusse parti",
+     "fusses parti",
+     "fût parti",
+     "fussions parti",
+     "fussiez parti",
+     "fussent parti"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "pars",
+     "",
+     "partons",
+     "partez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne pars pas",
+     "",
+     "ne partons pas",
+     "ne partez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 15,
+ "slug": "partir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "prendre",
+  "mettre"
+ ]
+}

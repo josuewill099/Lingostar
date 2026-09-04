@@ -1,0 +1,204 @@
+{
+ "infinitive": "demander",
+ "english": "to ask (for)",
+ "gerund": "demandant",
+ "past_participle": "demandé",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "demande",
+     "demandes",
+     "demande",
+     "demandons",
+     "demandez",
+     "demandent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "demanderai",
+     "demanderas",
+     "demandera",
+     "demanderons",
+     "demanderez",
+     "demanderont"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "demandais",
+     "demandais",
+     "demandait",
+     "demandions",
+     "demandiez",
+     "demandaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "demandai",
+     "demandas",
+     "demanda",
+     "demandâmes",
+     "demandâtes",
+     "demandèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "demanderais",
+     "demanderais",
+     "demanderait",
+     "demanderions",
+     "demanderiez",
+     "demanderaient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai demandé",
+     "as demandé",
+     "a demandé",
+     "avons demandé",
+     "avez demandé",
+     "ont demandé"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai demandé",
+     "auras demandé",
+     "aura demandé",
+     "aurons demandé",
+     "aurez demandé",
+     "auront demandé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais demandé",
+     "avais demandé",
+     "avait demandé",
+     "avions demandé",
+     "aviez demandé",
+     "avaient demandé"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus demandé",
+     "eus demandé",
+     "eut demandé",
+     "eûmes demandé",
+     "eûtes demandé",
+     "eurent demandé"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais demandé",
+     "aurais demandé",
+     "aurait demandé",
+     "aurions demandé",
+     "auriez demandé",
+     "auraient demandé"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "demande",
+     "demandes",
+     "demande",
+     "demandions",
+     "demandiez",
+     "demandent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "demandasse",
+     "demandasses",
+     "demandât",
+     "demandassions",
+     "demandassiez",
+     "demandassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie demandé",
+     "aies demandé",
+     "ait demandé",
+     "ayons demandé",
+     "ayez demandé",
+     "aient demandé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse demandé",
+     "eusses demandé",
+     "eût demandé",
+     "eussions demandé",
+     "eussiez demandé",
+     "eussent demandé"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "demande",
+     "",
+     "demandons",
+     "demandez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne demande pas",
+     "",
+     "ne demandons pas",
+     "ne demandez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 43,
+ "slug": "demander",
+ "is_irregular": false,
+ "related": [
+  "parler",
+  "aimer",
+  "donner",
+  "chercher",
+  "trouver"
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "infinitive": "trouver",
+ "english": "to find",
+ "gerund": "trouvant",
+ "past_participle": "trouvé",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "trouve",
+     "trouves",
+     "trouve",
+     "trouvons",
+     "trouvez",
+     "trouvent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "trouverai",
+     "trouveras",
+     "trouvera",
+     "trouverons",
+     "trouverez",
+     "trouveront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "trouvais",
+     "trouvais",
+     "trouvait",
+     "trouvions",
+     "trouviez",
+     "trouvaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "trouvai",
+     "trouvas",
+     "trouva",
+     "trouvâmes",
+     "trouvâtes",
+     "trouvèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "trouverais",
+     "trouverais",
+     "trouverait",
+     "trouverions",
+     "trouveriez",
+     "trouveraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai trouvé",
+     "as trouvé",
+     "a trouvé",
+     "avons trouvé",
+     "avez trouvé",
+     "ont trouvé"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai trouvé",
+     "auras trouvé",
+     "aura trouvé",
+     "aurons trouvé",
+     "aurez trouvé",
+     "auront trouvé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais trouvé",
+     "avais trouvé",
+     "avait trouvé",
+     "avions trouvé",
+     "aviez trouvé",
+     "avaient trouvé"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus trouvé",
+     "eus trouvé",
+     "eut trouvé",
+     "eûmes trouvé",
+     "eûtes trouvé",
+     "eurent trouvé"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais trouvé",
+     "aurais trouvé",
+     "aurait trouvé",
+     "aurions trouvé",
+     "auriez trouvé",
+     "auraient trouvé"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "trouve",
+     "trouves",
+     "trouve",
+     "trouvions",
+     "trouviez",
+     "trouvent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "trouvasse",
+     "trouvasses",
+     "trouvât",
+     "trouvassions",
+     "trouvassiez",
+     "trouvassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie trouvé",
+     "aies trouvé",
+     "ait trouvé",
+     "ayons trouvé",
+     "ayez trouvé",
+     "aient trouvé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse trouvé",
+     "eusses trouvé",
+     "eût trouvé",
+     "eussions trouvé",
+     "eussiez trouvé",
+     "eussent trouvé"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "trouve",
+     "",
+     "trouvons",
+     "trouvez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne trouve pas",
+     "",
+     "ne trouvons pas",
+     "ne trouvez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 42,
+ "slug": "trouver",
+ "is_irregular": false,
+ "related": [
+  "parler",
+  "aimer",
+  "donner",
+  "chercher"
+ ]
+}

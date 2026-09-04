@@ -1,0 +1,207 @@
+{
+ "infinitive": "venir",
+ "english": "to come",
+ "gerund": "venant",
+ "past_participle": "venu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "viens",
+     "viens",
+     "vient",
+     "venons",
+     "venez",
+     "viennent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "viendrai",
+     "viendras",
+     "viendra",
+     "viendrons",
+     "viendrez",
+     "viendront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "venais",
+     "venais",
+     "venait",
+     "venions",
+     "veniez",
+     "venaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "vins",
+     "vins",
+     "vint",
+     "vînmes",
+     "vîntes",
+     "vinrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "viendrais",
+     "viendrais",
+     "viendrait",
+     "viendrions",
+     "viendriez",
+     "viendraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "suis venu",
+     "es venu",
+     "est venu",
+     "sommes venu",
+     "êtes venu",
+     "sont venu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "serai venu",
+     "seras venu",
+     "sera venu",
+     "serons venu",
+     "serez venu",
+     "seront venu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "étais venu",
+     "étais venu",
+     "était venu",
+     "étions venu",
+     "étiez venu",
+     "étaient venu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "fus venu",
+     "fus venu",
+     "fut venu",
+     "fûmes venu",
+     "fûtes venu",
+     "furent venu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "serais venu",
+     "serais venu",
+     "serait venu",
+     "serions venu",
+     "seriez venu",
+     "seraient venu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "vienne",
+     "viennes",
+     "vienne",
+     "venions",
+     "veniez",
+     "viennent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "vinsse",
+     "vinsses",
+     "vînt",
+     "vinssions",
+     "vinssiez",
+     "vinssent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "sois venu",
+     "sois venu",
+     "soit venu",
+     "soyons venu",
+     "soyez venu",
+     "soient venu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "fusse venu",
+     "fusses venu",
+     "fût venu",
+     "fussions venu",
+     "fussiez venu",
+     "fussent venu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "viens",
+     "",
+     "venons",
+     "venez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne viens pas",
+     "",
+     "ne venons pas",
+     "ne venez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 11,
+ "slug": "venir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "devoir",
+  "savoir"
+ ]
+}

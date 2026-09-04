@@ -1,0 +1,207 @@
+{
+ "infinitive": "devoir",
+ "english": "to have to, must, owe",
+ "gerund": "devant",
+ "past_participle": "dû",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "dois",
+     "dois",
+     "doit",
+     "devons",
+     "devez",
+     "doivent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "devrai",
+     "devras",
+     "devra",
+     "devrons",
+     "devrez",
+     "devront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "devais",
+     "devais",
+     "devait",
+     "devions",
+     "deviez",
+     "devaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "dus",
+     "dus",
+     "dut",
+     "dûmes",
+     "dûtes",
+     "durent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "devrais",
+     "devrais",
+     "devrait",
+     "devrions",
+     "devriez",
+     "devraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai dû",
+     "as dû",
+     "a dû",
+     "avons dû",
+     "avez dû",
+     "ont dû"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai dû",
+     "auras dû",
+     "aura dû",
+     "aurons dû",
+     "aurez dû",
+     "auront dû"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais dû",
+     "avais dû",
+     "avait dû",
+     "avions dû",
+     "aviez dû",
+     "avaient dû"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus dû",
+     "eus dû",
+     "eut dû",
+     "eûmes dû",
+     "eûtes dû",
+     "eurent dû"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais dû",
+     "aurais dû",
+     "aurait dû",
+     "aurions dû",
+     "auriez dû",
+     "auraient dû"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "doive",
+     "doives",
+     "doive",
+     "devions",
+     "deviez",
+     "doivent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "dusse",
+     "dusses",
+     "dût",
+     "dussions",
+     "dussiez",
+     "dussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie dû",
+     "aies dû",
+     "ait dû",
+     "ayons dû",
+     "ayez dû",
+     "aient dû"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse dû",
+     "eusses dû",
+     "eût dû",
+     "eussions dû",
+     "eussiez dû",
+     "eussent dû"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "dois",
+     "",
+     "devons",
+     "devez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne dois pas",
+     "",
+     "ne devons pas",
+     "ne devez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 8,
+ "slug": "devoir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "dire",
+  "pouvoir"
+ ]
+}

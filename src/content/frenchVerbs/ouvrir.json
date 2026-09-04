@@ -1,0 +1,207 @@
+{
+ "infinitive": "ouvrir",
+ "english": "to open",
+ "gerund": "ouvrant",
+ "past_participle": "ouvert",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "ouvre",
+     "ouvres",
+     "ouvre",
+     "ouvrons",
+     "ouvrez",
+     "ouvrent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "ouvrirai",
+     "ouvriras",
+     "ouvrira",
+     "ouvrirons",
+     "ouvrirez",
+     "ouvriront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "ouvrais",
+     "ouvrais",
+     "ouvrait",
+     "ouvrions",
+     "ouvriez",
+     "ouvraient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "ouvris",
+     "ouvris",
+     "ouvrit",
+     "ouvrîmes",
+     "ouvrîtes",
+     "ouvrirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "ouvrirais",
+     "ouvrirais",
+     "ouvrirait",
+     "ouvririons",
+     "ouvririez",
+     "ouvriraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai ouvert",
+     "as ouvert",
+     "a ouvert",
+     "avons ouvert",
+     "avez ouvert",
+     "ont ouvert"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai ouvert",
+     "auras ouvert",
+     "aura ouvert",
+     "aurons ouvert",
+     "aurez ouvert",
+     "auront ouvert"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais ouvert",
+     "avais ouvert",
+     "avait ouvert",
+     "avions ouvert",
+     "aviez ouvert",
+     "avaient ouvert"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus ouvert",
+     "eus ouvert",
+     "eut ouvert",
+     "eûmes ouvert",
+     "eûtes ouvert",
+     "eurent ouvert"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais ouvert",
+     "aurais ouvert",
+     "aurait ouvert",
+     "aurions ouvert",
+     "auriez ouvert",
+     "auraient ouvert"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "ouvre",
+     "ouvres",
+     "ouvre",
+     "ouvrions",
+     "ouvriez",
+     "ouvrent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "ouvrisse",
+     "ouvrisses",
+     "ouvrît",
+     "ouvrissions",
+     "ouvrissiez",
+     "ouvrissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie ouvert",
+     "aies ouvert",
+     "ait ouvert",
+     "ayons ouvert",
+     "ayez ouvert",
+     "aient ouvert"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse ouvert",
+     "eusses ouvert",
+     "eût ouvert",
+     "eussions ouvert",
+     "eussiez ouvert",
+     "eussent ouvert"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ouvre",
+     "",
+     "ouvrons",
+     "ouvrez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "n'ouvre pas",
+     "",
+     "n'ouvrons pas",
+     "n'ouvrez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 25,
+ "slug": "ouvrir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "suivre",
+  "boire"
+ ]
+}

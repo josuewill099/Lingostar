@@ -1,0 +1,204 @@
+{
+ "infinitive": "finir",
+ "english": "to finish",
+ "gerund": "finissant",
+ "past_participle": "fini",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "finis",
+     "finis",
+     "finit",
+     "finissons",
+     "finissez",
+     "finissent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "finirai",
+     "finiras",
+     "finira",
+     "finirons",
+     "finirez",
+     "finiront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "finissais",
+     "finissais",
+     "finissait",
+     "finissions",
+     "finissiez",
+     "finissaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "finis",
+     "finis",
+     "finit",
+     "finîmes",
+     "finîtes",
+     "finirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "finirais",
+     "finirais",
+     "finirait",
+     "finirions",
+     "finiriez",
+     "finiraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai fini",
+     "as fini",
+     "a fini",
+     "avons fini",
+     "avez fini",
+     "ont fini"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai fini",
+     "auras fini",
+     "aura fini",
+     "aurons fini",
+     "aurez fini",
+     "auront fini"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais fini",
+     "avais fini",
+     "avait fini",
+     "avions fini",
+     "aviez fini",
+     "avaient fini"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus fini",
+     "eus fini",
+     "eut fini",
+     "eûmes fini",
+     "eûtes fini",
+     "eurent fini"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais fini",
+     "aurais fini",
+     "aurait fini",
+     "aurions fini",
+     "auriez fini",
+     "auraient fini"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "finisse",
+     "finisses",
+     "finisse",
+     "finissions",
+     "finissiez",
+     "finissent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "finisse",
+     "finisses",
+     "finît",
+     "finissions",
+     "finissiez",
+     "finissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie fini",
+     "aies fini",
+     "ait fini",
+     "ayons fini",
+     "ayez fini",
+     "aient fini"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse fini",
+     "eusses fini",
+     "eût fini",
+     "eussions fini",
+     "eussiez fini",
+     "eussent fini"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "finis",
+     "",
+     "finissons",
+     "finissez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne finis pas",
+     "",
+     "ne finissons pas",
+     "ne finissez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 31,
+ "slug": "finir",
+ "is_irregular": false,
+ "related": [
+  "choisir",
+  "reussir",
+  "reflechir",
+  "repondre",
+  "rendre"
+ ]
+}

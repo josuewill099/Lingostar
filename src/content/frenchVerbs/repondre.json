@@ -1,0 +1,207 @@
+{
+ "infinitive": "répondre",
+ "english": "to answer, respond",
+ "gerund": "répondant",
+ "past_participle": "répondu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "réponds",
+     "réponds",
+     "répond",
+     "répondons",
+     "répondez",
+     "répondent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "répondrai",
+     "répondras",
+     "répondra",
+     "répondrons",
+     "répondrez",
+     "répondront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "répondais",
+     "répondais",
+     "répondait",
+     "répondions",
+     "répondiez",
+     "répondaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "répondis",
+     "répondis",
+     "répondit",
+     "répondîmes",
+     "répondîtes",
+     "répondirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "répondrais",
+     "répondrais",
+     "répondrait",
+     "répondrions",
+     "répondriez",
+     "répondraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai répondu",
+     "as répondu",
+     "a répondu",
+     "avons répondu",
+     "avez répondu",
+     "ont répondu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai répondu",
+     "auras répondu",
+     "aura répondu",
+     "aurons répondu",
+     "aurez répondu",
+     "auront répondu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais répondu",
+     "avais répondu",
+     "avait répondu",
+     "avions répondu",
+     "aviez répondu",
+     "avaient répondu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus répondu",
+     "eus répondu",
+     "eut répondu",
+     "eûmes répondu",
+     "eûtes répondu",
+     "eurent répondu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais répondu",
+     "aurais répondu",
+     "aurait répondu",
+     "aurions répondu",
+     "auriez répondu",
+     "auraient répondu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "réponde",
+     "répondes",
+     "réponde",
+     "répondions",
+     "répondiez",
+     "répondent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "répondisse",
+     "répondisses",
+     "répondît",
+     "répondissions",
+     "répondissiez",
+     "répondissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie répondu",
+     "aies répondu",
+     "ait répondu",
+     "ayons répondu",
+     "ayez répondu",
+     "aient répondu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse répondu",
+     "eusses répondu",
+     "eût répondu",
+     "eussions répondu",
+     "eussiez répondu",
+     "eussent répondu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "réponds",
+     "",
+     "répondons",
+     "répondez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne réponds pas",
+     "",
+     "ne répondons pas",
+     "ne répondez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 28,
+ "slug": "repondre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "ouvrir",
+  "attendre"
+ ]
+}

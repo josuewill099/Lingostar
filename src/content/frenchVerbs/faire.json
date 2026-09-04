@@ -1,0 +1,205 @@
+{
+ "infinitive": "faire",
+ "english": "to do, make",
+ "gerund": "faisant",
+ "past_participle": "fait",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "fais",
+     "fais",
+     "fait",
+     "faisons",
+     "faites",
+     "font"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "ferai",
+     "feras",
+     "fera",
+     "ferons",
+     "ferez",
+     "feront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "faisais",
+     "faisais",
+     "faisait",
+     "faisions",
+     "faisiez",
+     "faisaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "fis",
+     "fis",
+     "fit",
+     "fîmes",
+     "fîtes",
+     "firent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "ferais",
+     "ferais",
+     "ferait",
+     "ferions",
+     "feriez",
+     "feraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai fait",
+     "as fait",
+     "a fait",
+     "avons fait",
+     "avez fait",
+     "ont fait"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai fait",
+     "auras fait",
+     "aura fait",
+     "aurons fait",
+     "aurez fait",
+     "auront fait"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais fait",
+     "avais fait",
+     "avait fait",
+     "avions fait",
+     "aviez fait",
+     "avaient fait"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus fait",
+     "eus fait",
+     "eut fait",
+     "eûmes fait",
+     "eûtes fait",
+     "eurent fait"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais fait",
+     "aurais fait",
+     "aurait fait",
+     "aurions fait",
+     "auriez fait",
+     "auraient fait"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "fasse",
+     "fasses",
+     "fasse",
+     "fassions",
+     "fassiez",
+     "fassent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "fisse",
+     "fisses",
+     "fît",
+     "fissions",
+     "fissiez",
+     "fissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie fait",
+     "aies fait",
+     "ait fait",
+     "ayons fait",
+     "ayez fait",
+     "aient fait"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse fait",
+     "eusses fait",
+     "eût fait",
+     "eussions fait",
+     "eussiez fait",
+     "eussent fait"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "fais",
+     "",
+     "faisons",
+     "faites",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne fais pas",
+     "",
+     "ne faisons pas",
+     "ne faites pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 3,
+ "slug": "faire",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "aller"
+ ]
+}

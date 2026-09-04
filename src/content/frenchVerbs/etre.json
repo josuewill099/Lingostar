@@ -1,0 +1,205 @@
+{
+ "infinitive": "être",
+ "english": "to be",
+ "gerund": "étant",
+ "past_participle": "été",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "suis",
+     "es",
+     "est",
+     "sommes",
+     "êtes",
+     "sont"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "serai",
+     "seras",
+     "sera",
+     "serons",
+     "serez",
+     "seront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "étais",
+     "étais",
+     "était",
+     "étions",
+     "étiez",
+     "étaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "fus",
+     "fus",
+     "fut",
+     "fûmes",
+     "fûtes",
+     "furent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "serais",
+     "serais",
+     "serait",
+     "serions",
+     "seriez",
+     "seraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai été",
+     "as été",
+     "a été",
+     "avons été",
+     "avez été",
+     "ont été"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai été",
+     "auras été",
+     "aura été",
+     "aurons été",
+     "aurez été",
+     "auront été"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais été",
+     "avais été",
+     "avait été",
+     "avions été",
+     "aviez été",
+     "avaient été"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus été",
+     "eus été",
+     "eut été",
+     "eûmes été",
+     "eûtes été",
+     "eurent été"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais été",
+     "aurais été",
+     "aurait été",
+     "aurions été",
+     "auriez été",
+     "auraient été"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "sois",
+     "sois",
+     "soit",
+     "soyons",
+     "soyez",
+     "soient"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "fusse",
+     "fusses",
+     "fût",
+     "fussions",
+     "fussiez",
+     "fussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie été",
+     "aies été",
+     "ait été",
+     "ayons été",
+     "ayez été",
+     "aient été"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse été",
+     "eusses été",
+     "eût été",
+     "eussions été",
+     "eussiez été",
+     "eussent été"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "sois",
+     "",
+     "soyons",
+     "soyez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne sois pas",
+     "",
+     "ne soyons pas",
+     "ne soyez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 1,
+ "slug": "etre",
+ "is_irregular": true,
+ "related": [
+  "avoir",
+  "faire",
+  "aller"
+ ]
+}

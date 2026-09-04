@@ -1,0 +1,204 @@
+{
+ "infinitive": "entrer",
+ "english": "to enter",
+ "gerund": "entrant",
+ "past_participle": "entré",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "entre",
+     "entres",
+     "entre",
+     "entrons",
+     "entrez",
+     "entrent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "entrerai",
+     "entreras",
+     "entrera",
+     "entrerons",
+     "entrerez",
+     "entreront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "entrais",
+     "entrais",
+     "entrait",
+     "entrions",
+     "entriez",
+     "entraient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "entrai",
+     "entras",
+     "entra",
+     "entrâmes",
+     "entrâtes",
+     "entrèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "entrerais",
+     "entrerais",
+     "entrerait",
+     "entrerions",
+     "entreriez",
+     "entreraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "suis entré",
+     "es entré",
+     "est entré",
+     "sommes entré",
+     "êtes entré",
+     "sont entré"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "serai entré",
+     "seras entré",
+     "sera entré",
+     "serons entré",
+     "serez entré",
+     "seront entré"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "étais entré",
+     "étais entré",
+     "était entré",
+     "étions entré",
+     "étiez entré",
+     "étaient entré"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "fus entré",
+     "fus entré",
+     "fut entré",
+     "fûmes entré",
+     "fûtes entré",
+     "furent entré"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "serais entré",
+     "serais entré",
+     "serait entré",
+     "serions entré",
+     "seriez entré",
+     "seraient entré"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "entre",
+     "entres",
+     "entre",
+     "entrions",
+     "entriez",
+     "entrent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "entrasse",
+     "entrasses",
+     "entrât",
+     "entrassions",
+     "entrassiez",
+     "entrassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "sois entré",
+     "sois entré",
+     "soit entré",
+     "soyons entré",
+     "soyez entré",
+     "soient entré"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "fusse entré",
+     "fusses entré",
+     "fût entré",
+     "fussions entré",
+     "fussiez entré",
+     "fussent entré"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "entre",
+     "",
+     "entrons",
+     "entrez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "n'entre pas",
+     "",
+     "n'entrons pas",
+     "n'entrez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 47,
+ "slug": "entrer",
+ "is_irregular": false,
+ "related": [
+  "parler",
+  "aimer",
+  "donner",
+  "rester",
+  "passer"
+ ]
+}

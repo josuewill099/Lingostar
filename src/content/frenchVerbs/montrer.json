@@ -1,0 +1,204 @@
+{
+ "infinitive": "montrer",
+ "english": "to show",
+ "gerund": "montrant",
+ "past_participle": "montré",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "montre",
+     "montres",
+     "montre",
+     "montrons",
+     "montrez",
+     "montrent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "montrerai",
+     "montreras",
+     "montrera",
+     "montrerons",
+     "montrerez",
+     "montreront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "montrais",
+     "montrais",
+     "montrait",
+     "montrions",
+     "montriez",
+     "montraient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "montrai",
+     "montras",
+     "montra",
+     "montrâmes",
+     "montrâtes",
+     "montrèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "montrerais",
+     "montrerais",
+     "montrerait",
+     "montrerions",
+     "montreriez",
+     "montreraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai montré",
+     "as montré",
+     "a montré",
+     "avons montré",
+     "avez montré",
+     "ont montré"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai montré",
+     "auras montré",
+     "aura montré",
+     "aurons montré",
+     "aurez montré",
+     "auront montré"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais montré",
+     "avais montré",
+     "avait montré",
+     "avions montré",
+     "aviez montré",
+     "avaient montré"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus montré",
+     "eus montré",
+     "eut montré",
+     "eûmes montré",
+     "eûtes montré",
+     "eurent montré"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais montré",
+     "aurais montré",
+     "aurait montré",
+     "aurions montré",
+     "auriez montré",
+     "auraient montré"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "montre",
+     "montres",
+     "montre",
+     "montrions",
+     "montriez",
+     "montrent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "montrasse",
+     "montrasses",
+     "montrât",
+     "montrassions",
+     "montrassiez",
+     "montrassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie montré",
+     "aies montré",
+     "ait montré",
+     "ayons montré",
+     "ayez montré",
+     "aient montré"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse montré",
+     "eusses montré",
+     "eût montré",
+     "eussions montré",
+     "eussiez montré",
+     "eussent montré"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "montre",
+     "",
+     "montrons",
+     "montrez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne montre pas",
+     "",
+     "ne montrons pas",
+     "ne montrez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 48,
+ "slug": "montrer",
+ "is_irregular": false,
+ "related": [
+  "parler",
+  "aimer",
+  "donner",
+  "passer",
+  "arriver"
+ ]
+}

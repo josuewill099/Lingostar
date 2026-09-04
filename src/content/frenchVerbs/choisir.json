@@ -1,0 +1,204 @@
+{
+ "infinitive": "choisir",
+ "english": "to choose",
+ "gerund": "choisissant",
+ "past_participle": "choisi",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "choisis",
+     "choisis",
+     "choisit",
+     "choisissons",
+     "choisissez",
+     "choisissent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "choisirai",
+     "choisiras",
+     "choisira",
+     "choisirons",
+     "choisirez",
+     "choisiront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "choisissais",
+     "choisissais",
+     "choisissait",
+     "choisissions",
+     "choisissiez",
+     "choisissaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "choisis",
+     "choisis",
+     "choisit",
+     "choisîmes",
+     "choisîtes",
+     "choisirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "choisirais",
+     "choisirais",
+     "choisirait",
+     "choisirions",
+     "choisiriez",
+     "choisiraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai choisi",
+     "as choisi",
+     "a choisi",
+     "avons choisi",
+     "avez choisi",
+     "ont choisi"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai choisi",
+     "auras choisi",
+     "aura choisi",
+     "aurons choisi",
+     "aurez choisi",
+     "auront choisi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais choisi",
+     "avais choisi",
+     "avait choisi",
+     "avions choisi",
+     "aviez choisi",
+     "avaient choisi"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus choisi",
+     "eus choisi",
+     "eut choisi",
+     "eûmes choisi",
+     "eûtes choisi",
+     "eurent choisi"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais choisi",
+     "aurais choisi",
+     "aurait choisi",
+     "aurions choisi",
+     "auriez choisi",
+     "auraient choisi"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "choisisse",
+     "choisisses",
+     "choisisse",
+     "choisissions",
+     "choisissiez",
+     "choisissent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "choisisse",
+     "choisisses",
+     "choisît",
+     "choisissions",
+     "choisissiez",
+     "choisissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie choisi",
+     "aies choisi",
+     "ait choisi",
+     "ayons choisi",
+     "ayez choisi",
+     "aient choisi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse choisi",
+     "eusses choisi",
+     "eût choisi",
+     "eussions choisi",
+     "eussiez choisi",
+     "eussent choisi"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "choisis",
+     "",
+     "choisissons",
+     "choisissez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne choisis pas",
+     "",
+     "ne choisissons pas",
+     "ne choisissez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 32,
+ "slug": "choisir",
+ "is_irregular": false,
+ "related": [
+  "finir",
+  "reussir",
+  "reflechir",
+  "rendre",
+  "descendre"
+ ]
+}

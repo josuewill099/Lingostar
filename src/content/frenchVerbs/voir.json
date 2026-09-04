@@ -1,0 +1,207 @@
+{
+ "infinitive": "voir",
+ "english": "to see",
+ "gerund": "voyant",
+ "past_participle": "vu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "vois",
+     "vois",
+     "voit",
+     "voyons",
+     "voyez",
+     "voient"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "verrai",
+     "verras",
+     "verra",
+     "verrons",
+     "verrez",
+     "verront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "voyais",
+     "voyais",
+     "voyait",
+     "voyions",
+     "voyiez",
+     "voyaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "vis",
+     "vis",
+     "vit",
+     "vîmes",
+     "vîtes",
+     "virent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "verrais",
+     "verrais",
+     "verrait",
+     "verrions",
+     "verriez",
+     "verraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai vu",
+     "as vu",
+     "a vu",
+     "avons vu",
+     "avez vu",
+     "ont vu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai vu",
+     "auras vu",
+     "aura vu",
+     "aurons vu",
+     "aurez vu",
+     "auront vu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais vu",
+     "avais vu",
+     "avait vu",
+     "avions vu",
+     "aviez vu",
+     "avaient vu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus vu",
+     "eus vu",
+     "eut vu",
+     "eûmes vu",
+     "eûtes vu",
+     "eurent vu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais vu",
+     "aurais vu",
+     "aurait vu",
+     "aurions vu",
+     "auriez vu",
+     "auraient vu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "voie",
+     "voies",
+     "voie",
+     "voyions",
+     "voyiez",
+     "voient"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "visse",
+     "visses",
+     "vît",
+     "vissions",
+     "vissiez",
+     "vissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie vu",
+     "aies vu",
+     "ait vu",
+     "ayons vu",
+     "ayez vu",
+     "aient vu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse vu",
+     "eusses vu",
+     "eût vu",
+     "eussions vu",
+     "eussiez vu",
+     "eussent vu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "vois",
+     "",
+     "voyons",
+     "voyez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne vois pas",
+     "",
+     "ne voyons pas",
+     "ne voyez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 10,
+ "slug": "voir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "vouloir",
+  "devoir"
+ ]
+}

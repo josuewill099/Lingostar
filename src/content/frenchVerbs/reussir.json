@@ -1,0 +1,203 @@
+{
+ "infinitive": "réussir",
+ "english": "to succeed",
+ "gerund": "réussissant",
+ "past_participle": "réussi",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "réussis",
+     "réussis",
+     "réussit",
+     "réussissons",
+     "réussissez",
+     "réussissent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "réussirai",
+     "réussiras",
+     "réussira",
+     "réussirons",
+     "réussirez",
+     "réussiront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "réussissais",
+     "réussissais",
+     "réussissait",
+     "réussissions",
+     "réussissiez",
+     "réussissaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "réussis",
+     "réussis",
+     "réussit",
+     "réussîmes",
+     "réussîtes",
+     "réussirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "réussirais",
+     "réussirais",
+     "réussirait",
+     "réussirions",
+     "réussiriez",
+     "réussiraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai réussi",
+     "as réussi",
+     "a réussi",
+     "avons réussi",
+     "avez réussi",
+     "ont réussi"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai réussi",
+     "auras réussi",
+     "aura réussi",
+     "aurons réussi",
+     "aurez réussi",
+     "auront réussi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais réussi",
+     "avais réussi",
+     "avait réussi",
+     "avions réussi",
+     "aviez réussi",
+     "avaient réussi"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus réussi",
+     "eus réussi",
+     "eut réussi",
+     "eûmes réussi",
+     "eûtes réussi",
+     "eurent réussi"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais réussi",
+     "aurais réussi",
+     "aurait réussi",
+     "aurions réussi",
+     "auriez réussi",
+     "auraient réussi"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "réussisse",
+     "réussisses",
+     "réussisse",
+     "réussissions",
+     "réussissiez",
+     "réussissent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "réussisse",
+     "réussisses",
+     "réussît",
+     "réussissions",
+     "réussissiez",
+     "réussissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie réussi",
+     "aies réussi",
+     "ait réussi",
+     "ayons réussi",
+     "ayez réussi",
+     "aient réussi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse réussi",
+     "eusses réussi",
+     "eût réussi",
+     "eussions réussi",
+     "eussiez réussi",
+     "eussent réussi"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "réussis",
+     "",
+     "réussissons",
+     "réussissez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne réussis pas",
+     "",
+     "ne réussissons pas",
+     "ne réussissez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 33,
+ "slug": "reussir",
+ "is_irregular": false,
+ "related": [
+  "finir",
+  "choisir",
+  "reflechir",
+  "descendre"
+ ]
+}

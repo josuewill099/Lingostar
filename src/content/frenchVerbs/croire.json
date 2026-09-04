@@ -1,0 +1,207 @@
+{
+ "infinitive": "croire",
+ "english": "to believe",
+ "gerund": "croyant",
+ "past_participle": "cru",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "crois",
+     "crois",
+     "croit",
+     "croyons",
+     "croyez",
+     "croient"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "croirai",
+     "croiras",
+     "croira",
+     "croirons",
+     "croirez",
+     "croiront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "croyais",
+     "croyais",
+     "croyait",
+     "croyions",
+     "croyiez",
+     "croyaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "crus",
+     "crus",
+     "crut",
+     "crûmes",
+     "crûtes",
+     "crurent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "croirais",
+     "croirais",
+     "croirait",
+     "croirions",
+     "croiriez",
+     "croiraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai cru",
+     "as cru",
+     "a cru",
+     "avons cru",
+     "avez cru",
+     "ont cru"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai cru",
+     "auras cru",
+     "aura cru",
+     "aurons cru",
+     "aurez cru",
+     "auront cru"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais cru",
+     "avais cru",
+     "avait cru",
+     "avions cru",
+     "aviez cru",
+     "avaient cru"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus cru",
+     "eus cru",
+     "eut cru",
+     "eûmes cru",
+     "eûtes cru",
+     "eurent cru"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais cru",
+     "aurais cru",
+     "aurait cru",
+     "aurions cru",
+     "auriez cru",
+     "auraient cru"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "croie",
+     "croies",
+     "croie",
+     "croyions",
+     "croyiez",
+     "croient"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "crusse",
+     "crusses",
+     "crût",
+     "crussions",
+     "crussiez",
+     "crussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie cru",
+     "aies cru",
+     "ait cru",
+     "ayons cru",
+     "ayez cru",
+     "aient cru"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse cru",
+     "eusses cru",
+     "eût cru",
+     "eussions cru",
+     "eussiez cru",
+     "eussent cru"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "crois",
+     "",
+     "croyons",
+     "croyez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne crois pas",
+     "",
+     "ne croyons pas",
+     "ne croyez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 18,
+ "slug": "croire",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "partir",
+  "tenir"
+ ]
+}

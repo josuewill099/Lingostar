@@ -1,0 +1,202 @@
+{
+ "infinitive": "chercher",
+ "english": "to look for",
+ "gerund": "cherchant",
+ "past_participle": "cherché",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "cherche",
+     "cherches",
+     "cherche",
+     "cherchons",
+     "cherchez",
+     "cherchent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "chercherai",
+     "chercheras",
+     "cherchera",
+     "chercherons",
+     "chercherez",
+     "chercheront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "cherchais",
+     "cherchais",
+     "cherchait",
+     "cherchions",
+     "cherchiez",
+     "cherchaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "cherchai",
+     "cherchas",
+     "chercha",
+     "cherchâmes",
+     "cherchâtes",
+     "cherchèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "chercherais",
+     "chercherais",
+     "chercherait",
+     "chercherions",
+     "chercheriez",
+     "chercheraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai cherché",
+     "as cherché",
+     "a cherché",
+     "avons cherché",
+     "avez cherché",
+     "ont cherché"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai cherché",
+     "auras cherché",
+     "aura cherché",
+     "aurons cherché",
+     "aurez cherché",
+     "auront cherché"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais cherché",
+     "avais cherché",
+     "avait cherché",
+     "avions cherché",
+     "aviez cherché",
+     "avaient cherché"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus cherché",
+     "eus cherché",
+     "eut cherché",
+     "eûmes cherché",
+     "eûtes cherché",
+     "eurent cherché"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais cherché",
+     "aurais cherché",
+     "aurait cherché",
+     "aurions cherché",
+     "auriez cherché",
+     "auraient cherché"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "cherche",
+     "cherches",
+     "cherche",
+     "cherchions",
+     "cherchiez",
+     "cherchent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "cherchasse",
+     "cherchasses",
+     "cherchât",
+     "cherchassions",
+     "cherchassiez",
+     "cherchassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie cherché",
+     "aies cherché",
+     "ait cherché",
+     "ayons cherché",
+     "ayez cherché",
+     "aient cherché"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse cherché",
+     "eusses cherché",
+     "eût cherché",
+     "eussions cherché",
+     "eussiez cherché",
+     "eussent cherché"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "cherche",
+     "",
+     "cherchons",
+     "cherchez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne cherche pas",
+     "",
+     "ne cherchons pas",
+     "ne cherchez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 41,
+ "slug": "chercher",
+ "is_irregular": false,
+ "related": [
+  "parler",
+  "aimer",
+  "donner"
+ ]
+}

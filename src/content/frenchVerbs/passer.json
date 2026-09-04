@@ -1,0 +1,204 @@
+{
+ "infinitive": "passer",
+ "english": "to pass, spend (time)",
+ "gerund": "passant",
+ "past_participle": "passé",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "passe",
+     "passes",
+     "passe",
+     "passons",
+     "passez",
+     "passent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "passerai",
+     "passeras",
+     "passera",
+     "passerons",
+     "passerez",
+     "passeront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "passais",
+     "passais",
+     "passait",
+     "passions",
+     "passiez",
+     "passaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "passai",
+     "passas",
+     "passa",
+     "passâmes",
+     "passâtes",
+     "passèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "passerais",
+     "passerais",
+     "passerait",
+     "passerions",
+     "passeriez",
+     "passeraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai passé",
+     "as passé",
+     "a passé",
+     "avons passé",
+     "avez passé",
+     "ont passé"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai passé",
+     "auras passé",
+     "aura passé",
+     "aurons passé",
+     "aurez passé",
+     "auront passé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais passé",
+     "avais passé",
+     "avait passé",
+     "avions passé",
+     "aviez passé",
+     "avaient passé"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus passé",
+     "eus passé",
+     "eut passé",
+     "eûmes passé",
+     "eûtes passé",
+     "eurent passé"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais passé",
+     "aurais passé",
+     "aurait passé",
+     "aurions passé",
+     "auriez passé",
+     "auraient passé"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "passe",
+     "passes",
+     "passe",
+     "passions",
+     "passiez",
+     "passent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "passasse",
+     "passasses",
+     "passât",
+     "passassions",
+     "passassiez",
+     "passassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie passé",
+     "aies passé",
+     "ait passé",
+     "ayons passé",
+     "ayez passé",
+     "aient passé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse passé",
+     "eusses passé",
+     "eût passé",
+     "eussions passé",
+     "eussiez passé",
+     "eussent passé"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "passe",
+     "",
+     "passons",
+     "passez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne passe pas",
+     "",
+     "ne passons pas",
+     "ne passez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 45,
+ "slug": "passer",
+ "is_irregular": false,
+ "related": [
+  "parler",
+  "aimer",
+  "donner",
+  "trouver",
+  "demander"
+ ]
+}

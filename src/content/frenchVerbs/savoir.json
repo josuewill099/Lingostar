@@ -1,0 +1,207 @@
+{
+ "infinitive": "savoir",
+ "english": "to know (a fact)",
+ "gerund": "sachant",
+ "past_participle": "su",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "sais",
+     "sais",
+     "sait",
+     "savons",
+     "savez",
+     "savent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "saurai",
+     "sauras",
+     "saura",
+     "saurons",
+     "saurez",
+     "sauront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "savais",
+     "savais",
+     "savait",
+     "savions",
+     "saviez",
+     "savaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "sus",
+     "sus",
+     "sut",
+     "sûmes",
+     "sûtes",
+     "surent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "saurais",
+     "saurais",
+     "saurait",
+     "saurions",
+     "sauriez",
+     "sauraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai su",
+     "as su",
+     "a su",
+     "avons su",
+     "avez su",
+     "ont su"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai su",
+     "auras su",
+     "aura su",
+     "aurons su",
+     "aurez su",
+     "auront su"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais su",
+     "avais su",
+     "avait su",
+     "avions su",
+     "aviez su",
+     "avaient su"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus su",
+     "eus su",
+     "eut su",
+     "eûmes su",
+     "eûtes su",
+     "eurent su"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais su",
+     "aurais su",
+     "aurait su",
+     "aurions su",
+     "auriez su",
+     "auraient su"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "sache",
+     "saches",
+     "sache",
+     "sachions",
+     "sachiez",
+     "sachent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "susse",
+     "susses",
+     "sût",
+     "sussions",
+     "sussiez",
+     "sussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie su",
+     "aies su",
+     "ait su",
+     "ayons su",
+     "ayez su",
+     "aient su"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse su",
+     "eusses su",
+     "eût su",
+     "eussions su",
+     "eussiez su",
+     "eussent su"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "sache",
+     "",
+     "sachons",
+     "sachez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne sache pas",
+     "",
+     "ne sachons pas",
+     "ne sachez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 9,
+ "slug": "savoir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "pouvoir",
+  "vouloir"
+ ]
+}

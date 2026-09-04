@@ -1,0 +1,207 @@
+{
+ "infinitive": "sortir",
+ "english": "to go out, leave",
+ "gerund": "sortant",
+ "past_participle": "sorti",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "sors",
+     "sors",
+     "sort",
+     "sortons",
+     "sortez",
+     "sortent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "sortirai",
+     "sortiras",
+     "sortira",
+     "sortirons",
+     "sortirez",
+     "sortiront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "sortais",
+     "sortais",
+     "sortait",
+     "sortions",
+     "sortiez",
+     "sortaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "sortis",
+     "sortis",
+     "sortit",
+     "sortîmes",
+     "sortîtes",
+     "sortirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "sortirais",
+     "sortirais",
+     "sortirait",
+     "sortirions",
+     "sortiriez",
+     "sortiraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai sorti",
+     "as sorti",
+     "a sorti",
+     "avons sorti",
+     "avez sorti",
+     "ont sorti"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai sorti",
+     "auras sorti",
+     "aura sorti",
+     "aurons sorti",
+     "aurez sorti",
+     "auront sorti"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais sorti",
+     "avais sorti",
+     "avait sorti",
+     "avions sorti",
+     "aviez sorti",
+     "avaient sorti"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus sorti",
+     "eus sorti",
+     "eut sorti",
+     "eûmes sorti",
+     "eûtes sorti",
+     "eurent sorti"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais sorti",
+     "aurais sorti",
+     "aurait sorti",
+     "aurions sorti",
+     "auriez sorti",
+     "auraient sorti"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "sorte",
+     "sortes",
+     "sorte",
+     "sortions",
+     "sortiez",
+     "sortent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "sortisse",
+     "sortisses",
+     "sortît",
+     "sortissions",
+     "sortissiez",
+     "sortissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie sorti",
+     "aies sorti",
+     "ait sorti",
+     "ayons sorti",
+     "ayez sorti",
+     "aient sorti"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse sorti",
+     "eusses sorti",
+     "eût sorti",
+     "eussions sorti",
+     "eussiez sorti",
+     "eussent sorti"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "sors",
+     "",
+     "sortons",
+     "sortez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne sors pas",
+     "",
+     "ne sortons pas",
+     "ne sortez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 14,
+ "slug": "sortir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "venir",
+  "prendre"
+ ]
+}

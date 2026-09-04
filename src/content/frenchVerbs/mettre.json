@@ -1,0 +1,207 @@
+{
+ "infinitive": "mettre",
+ "english": "to put, place",
+ "gerund": "mettant",
+ "past_participle": "mis",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "mets",
+     "mets",
+     "met",
+     "mettons",
+     "mettez",
+     "mettent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "mettrai",
+     "mettras",
+     "mettra",
+     "mettrons",
+     "mettrez",
+     "mettront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "mettais",
+     "mettais",
+     "mettait",
+     "mettions",
+     "mettiez",
+     "mettaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "mis",
+     "mis",
+     "mit",
+     "mîmes",
+     "mîtes",
+     "mirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "mettrais",
+     "mettrais",
+     "mettrait",
+     "mettrions",
+     "mettriez",
+     "mettraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai mis",
+     "as mis",
+     "a mis",
+     "avons mis",
+     "avez mis",
+     "ont mis"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai mis",
+     "auras mis",
+     "aura mis",
+     "aurons mis",
+     "aurez mis",
+     "auront mis"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais mis",
+     "avais mis",
+     "avait mis",
+     "avions mis",
+     "aviez mis",
+     "avaient mis"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus mis",
+     "eus mis",
+     "eut mis",
+     "eûmes mis",
+     "eûtes mis",
+     "eurent mis"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais mis",
+     "aurais mis",
+     "aurait mis",
+     "aurions mis",
+     "auriez mis",
+     "auraient mis"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "mette",
+     "mettes",
+     "mette",
+     "mettions",
+     "mettiez",
+     "mettent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "misse",
+     "misses",
+     "mît",
+     "missions",
+     "missiez",
+     "missent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie mis",
+     "aies mis",
+     "ait mis",
+     "ayons mis",
+     "ayez mis",
+     "aient mis"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse mis",
+     "eusses mis",
+     "eût mis",
+     "eussions mis",
+     "eussiez mis",
+     "eussent mis"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "mets",
+     "",
+     "mettons",
+     "mettez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne mets pas",
+     "",
+     "ne mettons pas",
+     "ne mettez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 13,
+ "slug": "mettre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "voir",
+  "venir"
+ ]
+}

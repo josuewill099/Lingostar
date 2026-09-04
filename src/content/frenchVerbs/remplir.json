@@ -1,0 +1,204 @@
+{
+ "infinitive": "remplir",
+ "english": "to fill",
+ "gerund": "remplissant",
+ "past_participle": "rempli",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "remplis",
+     "remplis",
+     "remplit",
+     "remplissons",
+     "remplissez",
+     "remplissent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "remplirai",
+     "rempliras",
+     "remplira",
+     "remplirons",
+     "remplirez",
+     "rempliront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "remplissais",
+     "remplissais",
+     "remplissait",
+     "remplissions",
+     "remplissiez",
+     "remplissaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "remplis",
+     "remplis",
+     "remplit",
+     "remplîmes",
+     "remplîtes",
+     "remplirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "remplirais",
+     "remplirais",
+     "remplirait",
+     "remplirions",
+     "rempliriez",
+     "rempliraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai rempli",
+     "as rempli",
+     "a rempli",
+     "avons rempli",
+     "avez rempli",
+     "ont rempli"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai rempli",
+     "auras rempli",
+     "aura rempli",
+     "aurons rempli",
+     "aurez rempli",
+     "auront rempli"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais rempli",
+     "avais rempli",
+     "avait rempli",
+     "avions rempli",
+     "aviez rempli",
+     "avaient rempli"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus rempli",
+     "eus rempli",
+     "eut rempli",
+     "eûmes rempli",
+     "eûtes rempli",
+     "eurent rempli"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais rempli",
+     "aurais rempli",
+     "aurait rempli",
+     "aurions rempli",
+     "auriez rempli",
+     "auraient rempli"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "remplisse",
+     "remplisses",
+     "remplisse",
+     "remplissions",
+     "remplissiez",
+     "remplissent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "remplisse",
+     "remplisses",
+     "remplît",
+     "remplissions",
+     "remplissiez",
+     "remplissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie rempli",
+     "aies rempli",
+     "ait rempli",
+     "ayons rempli",
+     "ayez rempli",
+     "aient rempli"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse rempli",
+     "eusses rempli",
+     "eût rempli",
+     "eussions rempli",
+     "eussiez rempli",
+     "eussent rempli"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "remplis",
+     "",
+     "remplissons",
+     "remplissez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne remplis pas",
+     "",
+     "ne remplissons pas",
+     "ne remplissez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 37,
+ "slug": "remplir",
+ "is_irregular": false,
+ "related": [
+  "finir",
+  "choisir",
+  "reussir",
+  "reflechir",
+  "obeir"
+ ]
+}

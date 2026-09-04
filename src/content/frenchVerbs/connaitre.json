@@ -1,0 +1,207 @@
+{
+ "infinitive": "connaître",
+ "english": "to know (a person/place)",
+ "gerund": "connaissant",
+ "past_participle": "connu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "connais",
+     "connais",
+     "connaît",
+     "connaissons",
+     "connaissez",
+     "connaissent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "connaîtrai",
+     "connaîtras",
+     "connaîtra",
+     "connaîtrons",
+     "connaîtrez",
+     "connaîtront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "connaissais",
+     "connaissais",
+     "connaissait",
+     "connaissions",
+     "connaissiez",
+     "connaissaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "connus",
+     "connus",
+     "connut",
+     "connûmes",
+     "connûtes",
+     "connurent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "connaîtrais",
+     "connaîtrais",
+     "connaîtrait",
+     "connaîtrions",
+     "connaîtriez",
+     "connaîtraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai connu",
+     "as connu",
+     "a connu",
+     "avons connu",
+     "avez connu",
+     "ont connu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai connu",
+     "auras connu",
+     "aura connu",
+     "aurons connu",
+     "aurez connu",
+     "auront connu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais connu",
+     "avais connu",
+     "avait connu",
+     "avions connu",
+     "aviez connu",
+     "avaient connu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus connu",
+     "eus connu",
+     "eut connu",
+     "eûmes connu",
+     "eûtes connu",
+     "eurent connu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais connu",
+     "aurais connu",
+     "aurait connu",
+     "aurions connu",
+     "auriez connu",
+     "auraient connu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "connaisse",
+     "connaisses",
+     "connaisse",
+     "connaissions",
+     "connaissiez",
+     "connaissent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "connusse",
+     "connusses",
+     "connût",
+     "connussions",
+     "connussiez",
+     "connussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie connu",
+     "aies connu",
+     "ait connu",
+     "ayons connu",
+     "ayez connu",
+     "aient connu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse connu",
+     "eusses connu",
+     "eût connu",
+     "eussions connu",
+     "eussiez connu",
+     "eussent connu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "connais",
+     "",
+     "connaissons",
+     "connaissez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne connais pas",
+     "",
+     "ne connaissons pas",
+     "ne connaissez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 17,
+ "slug": "connaitre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "sortir",
+  "partir"
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "infinitive": "dire",
+ "english": "to say, tell",
+ "gerund": "disant",
+ "past_participle": "dit",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "dis",
+     "dis",
+     "dit",
+     "disons",
+     "dites",
+     "disent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "dirai",
+     "diras",
+     "dira",
+     "dirons",
+     "direz",
+     "diront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "disais",
+     "disais",
+     "disait",
+     "disions",
+     "disiez",
+     "disaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "dis",
+     "dis",
+     "dit",
+     "dîmes",
+     "dîtes",
+     "dirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "dirais",
+     "dirais",
+     "dirait",
+     "dirions",
+     "diriez",
+     "diraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai dit",
+     "as dit",
+     "a dit",
+     "avons dit",
+     "avez dit",
+     "ont dit"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai dit",
+     "auras dit",
+     "aura dit",
+     "aurons dit",
+     "aurez dit",
+     "auront dit"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais dit",
+     "avais dit",
+     "avait dit",
+     "avions dit",
+     "aviez dit",
+     "avaient dit"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus dit",
+     "eus dit",
+     "eut dit",
+     "eûmes dit",
+     "eûtes dit",
+     "eurent dit"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais dit",
+     "aurais dit",
+     "aurait dit",
+     "aurions dit",
+     "auriez dit",
+     "auraient dit"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "dise",
+     "dises",
+     "dise",
+     "disions",
+     "disiez",
+     "disent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "disse",
+     "disses",
+     "dît",
+     "dissions",
+     "dissiez",
+     "dissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie dit",
+     "aies dit",
+     "ait dit",
+     "ayons dit",
+     "ayez dit",
+     "aient dit"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse dit",
+     "eusses dit",
+     "eût dit",
+     "eussions dit",
+     "eussiez dit",
+     "eussent dit"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "dis",
+     "",
+     "disons",
+     "dites",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne dis pas",
+     "",
+     "ne disons pas",
+     "ne dites pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 5,
+ "slug": "dire",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "aller"
+ ]
+}

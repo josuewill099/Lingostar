@@ -1,0 +1,204 @@
+{
+ "infinitive": "aimer",
+ "english": "to like, love",
+ "gerund": "aimant",
+ "past_participle": "aimé",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "aime",
+     "aimes",
+     "aime",
+     "aimons",
+     "aimez",
+     "aiment"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "aimerai",
+     "aimeras",
+     "aimera",
+     "aimerons",
+     "aimerez",
+     "aimeront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "aimais",
+     "aimais",
+     "aimait",
+     "aimions",
+     "aimiez",
+     "aimaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "aimai",
+     "aimas",
+     "aima",
+     "aimâmes",
+     "aimâtes",
+     "aimèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "aimerais",
+     "aimerais",
+     "aimerait",
+     "aimerions",
+     "aimeriez",
+     "aimeraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai aimé",
+     "as aimé",
+     "a aimé",
+     "avons aimé",
+     "avez aimé",
+     "ont aimé"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai aimé",
+     "auras aimé",
+     "aura aimé",
+     "aurons aimé",
+     "aurez aimé",
+     "auront aimé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais aimé",
+     "avais aimé",
+     "avait aimé",
+     "avions aimé",
+     "aviez aimé",
+     "avaient aimé"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus aimé",
+     "eus aimé",
+     "eut aimé",
+     "eûmes aimé",
+     "eûtes aimé",
+     "eurent aimé"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais aimé",
+     "aurais aimé",
+     "aurait aimé",
+     "aurions aimé",
+     "auriez aimé",
+     "auraient aimé"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "aime",
+     "aimes",
+     "aime",
+     "aimions",
+     "aimiez",
+     "aiment"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "aimasse",
+     "aimasses",
+     "aimât",
+     "aimassions",
+     "aimassiez",
+     "aimassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie aimé",
+     "aies aimé",
+     "ait aimé",
+     "ayons aimé",
+     "ayez aimé",
+     "aient aimé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse aimé",
+     "eusses aimé",
+     "eût aimé",
+     "eussions aimé",
+     "eussiez aimé",
+     "eussent aimé"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "aime",
+     "",
+     "aimons",
+     "aimez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "n'aime pas",
+     "",
+     "n'aimons pas",
+     "n'aimez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 39,
+ "slug": "aimer",
+ "is_irregular": false,
+ "related": [
+  "parler",
+  "donner",
+  "chercher",
+  "grandir",
+  "remplir"
+ ]
+}

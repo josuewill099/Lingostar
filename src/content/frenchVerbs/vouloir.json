@@ -1,0 +1,207 @@
+{
+ "infinitive": "vouloir",
+ "english": "to want",
+ "gerund": "voulant",
+ "past_participle": "voulu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "veux",
+     "veux",
+     "veut",
+     "voulons",
+     "voulez",
+     "veulent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "voudrai",
+     "voudras",
+     "voudra",
+     "voudrons",
+     "voudrez",
+     "voudront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "voulais",
+     "voulais",
+     "voulait",
+     "voulions",
+     "vouliez",
+     "voulaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "voulus",
+     "voulus",
+     "voulut",
+     "voulûmes",
+     "voulûtes",
+     "voulurent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "voudrais",
+     "voudrais",
+     "voudrait",
+     "voudrions",
+     "voudriez",
+     "voudraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai voulu",
+     "as voulu",
+     "a voulu",
+     "avons voulu",
+     "avez voulu",
+     "ont voulu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai voulu",
+     "auras voulu",
+     "aura voulu",
+     "aurons voulu",
+     "aurez voulu",
+     "auront voulu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais voulu",
+     "avais voulu",
+     "avait voulu",
+     "avions voulu",
+     "aviez voulu",
+     "avaient voulu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus voulu",
+     "eus voulu",
+     "eut voulu",
+     "eûmes voulu",
+     "eûtes voulu",
+     "eurent voulu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais voulu",
+     "aurais voulu",
+     "aurait voulu",
+     "aurions voulu",
+     "auriez voulu",
+     "auraient voulu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "veuille",
+     "veuilles",
+     "veuille",
+     "voulions",
+     "vouliez",
+     "veuillent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "voulusse",
+     "voulusses",
+     "voulût",
+     "voulussions",
+     "voulussiez",
+     "voulussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie voulu",
+     "aies voulu",
+     "ait voulu",
+     "ayons voulu",
+     "ayez voulu",
+     "aient voulu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse voulu",
+     "eusses voulu",
+     "eût voulu",
+     "eussions voulu",
+     "eussiez voulu",
+     "eussent voulu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "veuille",
+     "",
+     "veuillons",
+     "veuillez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne veuille pas",
+     "",
+     "ne veuillons pas",
+     "ne veuillez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 7,
+ "slug": "vouloir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "aller",
+  "dire"
+ ]
+}

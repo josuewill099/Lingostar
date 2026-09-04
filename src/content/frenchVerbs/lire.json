@@ -1,0 +1,207 @@
+{
+ "infinitive": "lire",
+ "english": "to read",
+ "gerund": "lisant",
+ "past_participle": "lu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "lis",
+     "lis",
+     "lit",
+     "lisons",
+     "lisez",
+     "lisent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "lirai",
+     "liras",
+     "lira",
+     "lirons",
+     "lirez",
+     "liront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "lisais",
+     "lisais",
+     "lisait",
+     "lisions",
+     "lisiez",
+     "lisaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "lus",
+     "lus",
+     "lut",
+     "lûmes",
+     "lûtes",
+     "lurent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "lirais",
+     "lirais",
+     "lirait",
+     "lirions",
+     "liriez",
+     "liraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai lu",
+     "as lu",
+     "a lu",
+     "avons lu",
+     "avez lu",
+     "ont lu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai lu",
+     "auras lu",
+     "aura lu",
+     "aurons lu",
+     "aurez lu",
+     "auront lu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais lu",
+     "avais lu",
+     "avait lu",
+     "avions lu",
+     "aviez lu",
+     "avaient lu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus lu",
+     "eus lu",
+     "eut lu",
+     "eûmes lu",
+     "eûtes lu",
+     "eurent lu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais lu",
+     "aurais lu",
+     "aurait lu",
+     "aurions lu",
+     "auriez lu",
+     "auraient lu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "lise",
+     "lises",
+     "lise",
+     "lisions",
+     "lisiez",
+     "lisent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "lusse",
+     "lusses",
+     "lût",
+     "lussions",
+     "lussiez",
+     "lussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie lu",
+     "aies lu",
+     "ait lu",
+     "ayons lu",
+     "ayez lu",
+     "aient lu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse lu",
+     "eusses lu",
+     "eût lu",
+     "eussions lu",
+     "eussiez lu",
+     "eussent lu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "lis",
+     "",
+     "lisons",
+     "lisez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne lis pas",
+     "",
+     "ne lisons pas",
+     "ne lisez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 20,
+ "slug": "lire",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "connaitre",
+  "croire"
+ ]
+}

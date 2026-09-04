@@ -1,0 +1,205 @@
+{
+ "infinitive": "avoir",
+ "english": "to have",
+ "gerund": "ayant",
+ "past_participle": "eu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "ai",
+     "as",
+     "a",
+     "avons",
+     "avez",
+     "ont"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "aurai",
+     "auras",
+     "aura",
+     "aurons",
+     "aurez",
+     "auront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "avais",
+     "avais",
+     "avait",
+     "avions",
+     "aviez",
+     "avaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "eus",
+     "eus",
+     "eut",
+     "eûmes",
+     "eûtes",
+     "eurent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "aurais",
+     "aurais",
+     "aurait",
+     "aurions",
+     "auriez",
+     "auraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai eu",
+     "as eu",
+     "a eu",
+     "avons eu",
+     "avez eu",
+     "ont eu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai eu",
+     "auras eu",
+     "aura eu",
+     "aurons eu",
+     "aurez eu",
+     "auront eu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais eu",
+     "avais eu",
+     "avait eu",
+     "avions eu",
+     "aviez eu",
+     "avaient eu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus eu",
+     "eus eu",
+     "eut eu",
+     "eûmes eu",
+     "eûtes eu",
+     "eurent eu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais eu",
+     "aurais eu",
+     "aurait eu",
+     "aurions eu",
+     "auriez eu",
+     "auraient eu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "aie",
+     "aies",
+     "ait",
+     "ayons",
+     "ayez",
+     "aient"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "eusse",
+     "eusses",
+     "eût",
+     "eussions",
+     "eussiez",
+     "eussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie eu",
+     "aies eu",
+     "ait eu",
+     "ayons eu",
+     "ayez eu",
+     "aient eu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse eu",
+     "eusses eu",
+     "eût eu",
+     "eussions eu",
+     "eussiez eu",
+     "eussent eu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "aie",
+     "",
+     "ayons",
+     "ayez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "n'aie pas",
+     "",
+     "n'ayons pas",
+     "n'ayez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 2,
+ "slug": "avoir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "faire",
+  "aller"
+ ]
+}

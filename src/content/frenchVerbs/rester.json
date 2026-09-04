@@ -1,0 +1,204 @@
+{
+ "infinitive": "rester",
+ "english": "to stay, remain",
+ "gerund": "restant",
+ "past_participle": "resté",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "reste",
+     "restes",
+     "reste",
+     "restons",
+     "restez",
+     "restent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "resterai",
+     "resteras",
+     "restera",
+     "resterons",
+     "resterez",
+     "resteront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "restais",
+     "restais",
+     "restait",
+     "restions",
+     "restiez",
+     "restaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "restai",
+     "restas",
+     "resta",
+     "restâmes",
+     "restâtes",
+     "restèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "resterais",
+     "resterais",
+     "resterait",
+     "resterions",
+     "resteriez",
+     "resteraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "suis resté",
+     "es resté",
+     "est resté",
+     "sommes resté",
+     "êtes resté",
+     "sont resté"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "serai resté",
+     "seras resté",
+     "sera resté",
+     "serons resté",
+     "serez resté",
+     "seront resté"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "étais resté",
+     "étais resté",
+     "était resté",
+     "étions resté",
+     "étiez resté",
+     "étaient resté"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "fus resté",
+     "fus resté",
+     "fut resté",
+     "fûmes resté",
+     "fûtes resté",
+     "furent resté"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "serais resté",
+     "serais resté",
+     "serait resté",
+     "serions resté",
+     "seriez resté",
+     "seraient resté"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "reste",
+     "restes",
+     "reste",
+     "restions",
+     "restiez",
+     "restent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "restasse",
+     "restasses",
+     "restât",
+     "restassions",
+     "restassiez",
+     "restassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "sois resté",
+     "sois resté",
+     "soit resté",
+     "soyons resté",
+     "soyez resté",
+     "soient resté"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "fusse resté",
+     "fusses resté",
+     "fût resté",
+     "fussions resté",
+     "fussiez resté",
+     "fussent resté"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "reste",
+     "",
+     "restons",
+     "restez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne reste pas",
+     "",
+     "ne restons pas",
+     "ne restez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 44,
+ "slug": "rester",
+ "is_irregular": false,
+ "related": [
+  "parler",
+  "aimer",
+  "donner",
+  "chercher",
+  "trouver"
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "infinitive": "vendre",
+ "english": "to sell",
+ "gerund": "vendant",
+ "past_participle": "vendu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "vends",
+     "vends",
+     "vend",
+     "vendons",
+     "vendez",
+     "vendent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "vendrai",
+     "vendras",
+     "vendra",
+     "vendrons",
+     "vendrez",
+     "vendront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "vendais",
+     "vendais",
+     "vendait",
+     "vendions",
+     "vendiez",
+     "vendaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "vendis",
+     "vendis",
+     "vendit",
+     "vendîmes",
+     "vendîtes",
+     "vendirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "vendrais",
+     "vendrais",
+     "vendrait",
+     "vendrions",
+     "vendriez",
+     "vendraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai vendu",
+     "as vendu",
+     "a vendu",
+     "avons vendu",
+     "avez vendu",
+     "ont vendu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai vendu",
+     "auras vendu",
+     "aura vendu",
+     "aurons vendu",
+     "aurez vendu",
+     "auront vendu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais vendu",
+     "avais vendu",
+     "avait vendu",
+     "avions vendu",
+     "aviez vendu",
+     "avaient vendu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus vendu",
+     "eus vendu",
+     "eut vendu",
+     "eûmes vendu",
+     "eûtes vendu",
+     "eurent vendu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais vendu",
+     "aurais vendu",
+     "aurait vendu",
+     "aurions vendu",
+     "auriez vendu",
+     "auraient vendu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "vende",
+     "vendes",
+     "vende",
+     "vendions",
+     "vendiez",
+     "vendent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "vendisse",
+     "vendisses",
+     "vendît",
+     "vendissions",
+     "vendissiez",
+     "vendissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie vendu",
+     "aies vendu",
+     "ait vendu",
+     "ayons vendu",
+     "ayez vendu",
+     "aient vendu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse vendu",
+     "eusses vendu",
+     "eût vendu",
+     "eussions vendu",
+     "eussiez vendu",
+     "eussent vendu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "vends",
+     "",
+     "vendons",
+     "vendez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne vends pas",
+     "",
+     "ne vendons pas",
+     "ne vendez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 27,
+ "slug": "vendre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "courir",
+  "ouvrir"
+ ]
+}

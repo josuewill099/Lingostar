@@ -1,0 +1,207 @@
+{
+ "infinitive": "écrire",
+ "english": "to write",
+ "gerund": "écrivant",
+ "past_participle": "écrit",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "écris",
+     "écris",
+     "écrit",
+     "écrivons",
+     "écrivez",
+     "écrivent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "écrirai",
+     "écriras",
+     "écrira",
+     "écrirons",
+     "écrirez",
+     "écriront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "écrivais",
+     "écrivais",
+     "écrivait",
+     "écrivions",
+     "écriviez",
+     "écrivaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "écrivis",
+     "écrivis",
+     "écrivit",
+     "écrivîmes",
+     "écrivîtes",
+     "écrivirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "écrirais",
+     "écrirais",
+     "écrirait",
+     "écririons",
+     "écririez",
+     "écriraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai écrit",
+     "as écrit",
+     "a écrit",
+     "avons écrit",
+     "avez écrit",
+     "ont écrit"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai écrit",
+     "auras écrit",
+     "aura écrit",
+     "aurons écrit",
+     "aurez écrit",
+     "auront écrit"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais écrit",
+     "avais écrit",
+     "avait écrit",
+     "avions écrit",
+     "aviez écrit",
+     "avaient écrit"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus écrit",
+     "eus écrit",
+     "eut écrit",
+     "eûmes écrit",
+     "eûtes écrit",
+     "eurent écrit"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais écrit",
+     "aurais écrit",
+     "aurait écrit",
+     "aurions écrit",
+     "auriez écrit",
+     "auraient écrit"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "écrive",
+     "écrives",
+     "écrive",
+     "écrivions",
+     "écriviez",
+     "écrivent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "écrivisse",
+     "écrivisses",
+     "écrivît",
+     "écrivissions",
+     "écrivissiez",
+     "écrivissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie écrit",
+     "aies écrit",
+     "ait écrit",
+     "ayons écrit",
+     "ayez écrit",
+     "aient écrit"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse écrit",
+     "eusses écrit",
+     "eût écrit",
+     "eussions écrit",
+     "eussiez écrit",
+     "eussent écrit"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "écris",
+     "",
+     "écrivons",
+     "écrivez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "n'écris pas",
+     "",
+     "n'écrivons pas",
+     "n'écrivez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 19,
+ "slug": "ecrire",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "tenir",
+  "connaitre"
+ ]
+}

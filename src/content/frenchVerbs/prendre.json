@@ -1,0 +1,207 @@
+{
+ "infinitive": "prendre",
+ "english": "to take",
+ "gerund": "prenant",
+ "past_participle": "pris",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "prends",
+     "prends",
+     "prend",
+     "prenons",
+     "prenez",
+     "prennent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "prendrai",
+     "prendras",
+     "prendra",
+     "prendrons",
+     "prendrez",
+     "prendront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "prenais",
+     "prenais",
+     "prenait",
+     "prenions",
+     "preniez",
+     "prenaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "pris",
+     "pris",
+     "prit",
+     "prîmes",
+     "prîtes",
+     "prirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "prendrais",
+     "prendrais",
+     "prendrait",
+     "prendrions",
+     "prendriez",
+     "prendraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai pris",
+     "as pris",
+     "a pris",
+     "avons pris",
+     "avez pris",
+     "ont pris"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai pris",
+     "auras pris",
+     "aura pris",
+     "aurons pris",
+     "aurez pris",
+     "auront pris"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais pris",
+     "avais pris",
+     "avait pris",
+     "avions pris",
+     "aviez pris",
+     "avaient pris"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus pris",
+     "eus pris",
+     "eut pris",
+     "eûmes pris",
+     "eûtes pris",
+     "eurent pris"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais pris",
+     "aurais pris",
+     "aurait pris",
+     "aurions pris",
+     "auriez pris",
+     "auraient pris"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "prenne",
+     "prennes",
+     "prenne",
+     "prenions",
+     "preniez",
+     "prennent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "prisse",
+     "prisses",
+     "prît",
+     "prissions",
+     "prissiez",
+     "prissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie pris",
+     "aies pris",
+     "ait pris",
+     "ayons pris",
+     "ayez pris",
+     "aient pris"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse pris",
+     "eusses pris",
+     "eût pris",
+     "eussions pris",
+     "eussiez pris",
+     "eussent pris"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "prends",
+     "",
+     "prenons",
+     "prenez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne prends pas",
+     "",
+     "ne prenons pas",
+     "ne prenez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 12,
+ "slug": "prendre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "savoir",
+  "voir"
+ ]
+}

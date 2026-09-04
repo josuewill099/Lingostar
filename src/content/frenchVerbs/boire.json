@@ -1,0 +1,207 @@
+{
+ "infinitive": "boire",
+ "english": "to drink",
+ "gerund": "buvant",
+ "past_participle": "bu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "bois",
+     "bois",
+     "boit",
+     "buvons",
+     "buvez",
+     "boivent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "boirai",
+     "boiras",
+     "boira",
+     "boirons",
+     "boirez",
+     "boiront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "buvais",
+     "buvais",
+     "buvait",
+     "buvions",
+     "buviez",
+     "buvaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "bus",
+     "bus",
+     "but",
+     "bûmes",
+     "bûtes",
+     "burent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "boirais",
+     "boirais",
+     "boirait",
+     "boirions",
+     "boiriez",
+     "boiraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai bu",
+     "as bu",
+     "a bu",
+     "avons bu",
+     "avez bu",
+     "ont bu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai bu",
+     "auras bu",
+     "aura bu",
+     "aurons bu",
+     "aurez bu",
+     "auront bu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais bu",
+     "avais bu",
+     "avait bu",
+     "avions bu",
+     "aviez bu",
+     "avaient bu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus bu",
+     "eus bu",
+     "eut bu",
+     "eûmes bu",
+     "eûtes bu",
+     "eurent bu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais bu",
+     "aurais bu",
+     "aurait bu",
+     "aurions bu",
+     "auriez bu",
+     "auraient bu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "boive",
+     "boives",
+     "boive",
+     "buvions",
+     "buviez",
+     "boivent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "busse",
+     "busses",
+     "bût",
+     "bussions",
+     "bussiez",
+     "bussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie bu",
+     "aies bu",
+     "ait bu",
+     "ayons bu",
+     "ayez bu",
+     "aient bu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse bu",
+     "eusses bu",
+     "eût bu",
+     "eussions bu",
+     "eussiez bu",
+     "eussent bu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "bois",
+     "",
+     "buvons",
+     "buvez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne bois pas",
+     "",
+     "ne buvons pas",
+     "ne buvez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 23,
+ "slug": "boire",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "lire",
+  "vivre"
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "infinitive": "aller",
+ "english": "to go",
+ "gerund": "allant",
+ "past_participle": "allé",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "vais",
+     "vas",
+     "va",
+     "allons",
+     "allez",
+     "vont"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "irai",
+     "iras",
+     "ira",
+     "irons",
+     "irez",
+     "iront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "allais",
+     "allais",
+     "allait",
+     "allions",
+     "alliez",
+     "allaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "allai",
+     "allas",
+     "alla",
+     "allâmes",
+     "allâtes",
+     "allèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "irais",
+     "irais",
+     "irait",
+     "irions",
+     "iriez",
+     "iraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "suis allé",
+     "es allé",
+     "est allé",
+     "sommes allé",
+     "êtes allé",
+     "sont allé"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "serai allé",
+     "seras allé",
+     "sera allé",
+     "serons allé",
+     "serez allé",
+     "seront allé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "étais allé",
+     "étais allé",
+     "était allé",
+     "étions allé",
+     "étiez allé",
+     "étaient allé"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "fus allé",
+     "fus allé",
+     "fut allé",
+     "fûmes allé",
+     "fûtes allé",
+     "furent allé"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "serais allé",
+     "serais allé",
+     "serait allé",
+     "serions allé",
+     "seriez allé",
+     "seraient allé"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "aille",
+     "ailles",
+     "aille",
+     "allions",
+     "alliez",
+     "aillent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "allasse",
+     "allasses",
+     "allât",
+     "allassions",
+     "allassiez",
+     "allassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "sois allé",
+     "sois allé",
+     "soit allé",
+     "soyons allé",
+     "soyez allé",
+     "soient allé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "fusse allé",
+     "fusses allé",
+     "fût allé",
+     "fussions allé",
+     "fussiez allé",
+     "fussent allé"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "va",
+     "",
+     "allons",
+     "allez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne va pas",
+     "",
+     "n'allons pas",
+     "n'allez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 4,
+ "slug": "aller",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire"
+ ]
+}

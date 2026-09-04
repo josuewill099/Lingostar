@@ -1,0 +1,202 @@
+{
+ "infinitive": "réfléchir",
+ "english": "to think, reflect",
+ "gerund": "réfléchissant",
+ "past_participle": "réfléchi",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "réfléchis",
+     "réfléchis",
+     "réfléchit",
+     "réfléchissons",
+     "réfléchissez",
+     "réfléchissent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "réfléchirai",
+     "réfléchiras",
+     "réfléchira",
+     "réfléchirons",
+     "réfléchirez",
+     "réfléchiront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "réfléchissais",
+     "réfléchissais",
+     "réfléchissait",
+     "réfléchissions",
+     "réfléchissiez",
+     "réfléchissaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "réfléchis",
+     "réfléchis",
+     "réfléchit",
+     "réfléchîmes",
+     "réfléchîtes",
+     "réfléchirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "réfléchirais",
+     "réfléchirais",
+     "réfléchirait",
+     "réfléchirions",
+     "réfléchiriez",
+     "réfléchiraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai réfléchi",
+     "as réfléchi",
+     "a réfléchi",
+     "avons réfléchi",
+     "avez réfléchi",
+     "ont réfléchi"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai réfléchi",
+     "auras réfléchi",
+     "aura réfléchi",
+     "aurons réfléchi",
+     "aurez réfléchi",
+     "auront réfléchi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais réfléchi",
+     "avais réfléchi",
+     "avait réfléchi",
+     "avions réfléchi",
+     "aviez réfléchi",
+     "avaient réfléchi"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus réfléchi",
+     "eus réfléchi",
+     "eut réfléchi",
+     "eûmes réfléchi",
+     "eûtes réfléchi",
+     "eurent réfléchi"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais réfléchi",
+     "aurais réfléchi",
+     "aurait réfléchi",
+     "aurions réfléchi",
+     "auriez réfléchi",
+     "auraient réfléchi"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "réfléchisse",
+     "réfléchisses",
+     "réfléchisse",
+     "réfléchissions",
+     "réfléchissiez",
+     "réfléchissent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "réfléchisse",
+     "réfléchisses",
+     "réfléchît",
+     "réfléchissions",
+     "réfléchissiez",
+     "réfléchissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie réfléchi",
+     "aies réfléchi",
+     "ait réfléchi",
+     "ayons réfléchi",
+     "ayez réfléchi",
+     "aient réfléchi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse réfléchi",
+     "eusses réfléchi",
+     "eût réfléchi",
+     "eussions réfléchi",
+     "eussiez réfléchi",
+     "eussent réfléchi"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "réfléchis",
+     "",
+     "réfléchissons",
+     "réfléchissez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne réfléchis pas",
+     "",
+     "ne réfléchissons pas",
+     "ne réfléchissez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 34,
+ "slug": "reflechir",
+ "is_irregular": false,
+ "related": [
+  "finir",
+  "choisir",
+  "reussir"
+ ]
+}

@@ -119,4 +119,29 @@ const verbs = defineCollection({
   }),
 });
 
-export const collections = { blog, pages, blogFr, pagesFr, blogPt, pagesPt, verbs };
+// French verb conjugation data (pSEO pipeline, English-audience pilot) —
+// one JSON file per verb, built from french-verbs-lefff via
+// scripts/build_french_verbs.mjs. No `drill` field yet: this collection
+// has no interactive practice widget in its first version (see verbs
+// above for that feature, English-Spanish only so far).
+const frenchVerbs = defineCollection({
+  type: 'data',
+  schema: z.object({
+    infinitive: z.string(),
+    english: z.string(),
+    gerund: z.string(),
+    past_participle: z.string(),
+    verb_class: z.string(),
+    moods: z.record(z.record(z.object({
+      tense_fr: z.string(),
+      forms: z.array(z.string()),
+    }))),
+    irregular_tenses: z.array(z.string()),
+    is_irregular: z.boolean(),
+    frequency_rank: z.number(),
+    related: z.array(z.string()),
+    slug: z.string(),
+  }),
+});
+
+export const collections = { blog, pages, blogFr, pagesFr, blogPt, pagesPt, verbs, frenchVerbs };

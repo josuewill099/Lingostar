@@ -1,0 +1,207 @@
+{
+ "infinitive": "descendre",
+ "english": "to go down, descend",
+ "gerund": "descendant",
+ "past_participle": "descendu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "descends",
+     "descends",
+     "descend",
+     "descendons",
+     "descendez",
+     "descendent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "descendrai",
+     "descendras",
+     "descendra",
+     "descendrons",
+     "descendrez",
+     "descendront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "descendais",
+     "descendais",
+     "descendait",
+     "descendions",
+     "descendiez",
+     "descendaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "descendis",
+     "descendis",
+     "descendit",
+     "descendîmes",
+     "descendîtes",
+     "descendirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "descendrais",
+     "descendrais",
+     "descendrait",
+     "descendrions",
+     "descendriez",
+     "descendraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai descendu",
+     "as descendu",
+     "a descendu",
+     "avons descendu",
+     "avez descendu",
+     "ont descendu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai descendu",
+     "auras descendu",
+     "aura descendu",
+     "aurons descendu",
+     "aurez descendu",
+     "auront descendu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais descendu",
+     "avais descendu",
+     "avait descendu",
+     "avions descendu",
+     "aviez descendu",
+     "avaient descendu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus descendu",
+     "eus descendu",
+     "eut descendu",
+     "eûmes descendu",
+     "eûtes descendu",
+     "eurent descendu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais descendu",
+     "aurais descendu",
+     "aurait descendu",
+     "aurions descendu",
+     "auriez descendu",
+     "auraient descendu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "descende",
+     "descendes",
+     "descende",
+     "descendions",
+     "descendiez",
+     "descendent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "descendisse",
+     "descendisses",
+     "descendît",
+     "descendissions",
+     "descendissiez",
+     "descendissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie descendu",
+     "aies descendu",
+     "ait descendu",
+     "ayons descendu",
+     "ayez descendu",
+     "aient descendu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse descendu",
+     "eusses descendu",
+     "eût descendu",
+     "eussions descendu",
+     "eussiez descendu",
+     "eussent descendu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "descends",
+     "",
+     "descendons",
+     "descendez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne descends pas",
+     "",
+     "ne descendons pas",
+     "ne descendez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 30,
+ "slug": "descendre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "vendre",
+  "repondre"
+ ]
+}

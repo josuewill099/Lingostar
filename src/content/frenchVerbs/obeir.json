@@ -1,0 +1,203 @@
+{
+ "infinitive": "obéir",
+ "english": "to obey",
+ "gerund": "obéissant",
+ "past_participle": "obéi",
+ "verb_class": "ir",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "obéis",
+     "obéis",
+     "obéit",
+     "obéissons",
+     "obéissez",
+     "obéissent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "obéirai",
+     "obéiras",
+     "obéira",
+     "obéirons",
+     "obéirez",
+     "obéiront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "obéissais",
+     "obéissais",
+     "obéissait",
+     "obéissions",
+     "obéissiez",
+     "obéissaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "obéis",
+     "obéis",
+     "obéit",
+     "obéîmes",
+     "obéîtes",
+     "obéirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "obéirais",
+     "obéirais",
+     "obéirait",
+     "obéirions",
+     "obéiriez",
+     "obéiraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai obéi",
+     "as obéi",
+     "a obéi",
+     "avons obéi",
+     "avez obéi",
+     "ont obéi"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai obéi",
+     "auras obéi",
+     "aura obéi",
+     "aurons obéi",
+     "aurez obéi",
+     "auront obéi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais obéi",
+     "avais obéi",
+     "avait obéi",
+     "avions obéi",
+     "aviez obéi",
+     "avaient obéi"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus obéi",
+     "eus obéi",
+     "eut obéi",
+     "eûmes obéi",
+     "eûtes obéi",
+     "eurent obéi"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais obéi",
+     "aurais obéi",
+     "aurait obéi",
+     "aurions obéi",
+     "auriez obéi",
+     "auraient obéi"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "obéisse",
+     "obéisses",
+     "obéisse",
+     "obéissions",
+     "obéissiez",
+     "obéissent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "obéisse",
+     "obéisses",
+     "obéît",
+     "obéissions",
+     "obéissiez",
+     "obéissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie obéi",
+     "aies obéi",
+     "ait obéi",
+     "ayons obéi",
+     "ayez obéi",
+     "aient obéi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse obéi",
+     "eusses obéi",
+     "eût obéi",
+     "eussions obéi",
+     "eussiez obéi",
+     "eussent obéi"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "obéis",
+     "",
+     "obéissons",
+     "obéissez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "n'obéis pas",
+     "",
+     "n'obéissons pas",
+     "n'obéissez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 35,
+ "slug": "obeir",
+ "is_irregular": false,
+ "related": [
+  "finir",
+  "choisir",
+  "reussir",
+  "reflechir"
+ ]
+}

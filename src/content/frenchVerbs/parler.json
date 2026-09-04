@@ -1,0 +1,204 @@
+{
+ "infinitive": "parler",
+ "english": "to speak, talk",
+ "gerund": "parlant",
+ "past_participle": "parlé",
+ "verb_class": "er",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "parle",
+     "parles",
+     "parle",
+     "parlons",
+     "parlez",
+     "parlent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "parlerai",
+     "parleras",
+     "parlera",
+     "parlerons",
+     "parlerez",
+     "parleront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "parlais",
+     "parlais",
+     "parlait",
+     "parlions",
+     "parliez",
+     "parlaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "parlai",
+     "parlas",
+     "parla",
+     "parlâmes",
+     "parlâtes",
+     "parlèrent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "parlerais",
+     "parlerais",
+     "parlerait",
+     "parlerions",
+     "parleriez",
+     "parleraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai parlé",
+     "as parlé",
+     "a parlé",
+     "avons parlé",
+     "avez parlé",
+     "ont parlé"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai parlé",
+     "auras parlé",
+     "aura parlé",
+     "aurons parlé",
+     "aurez parlé",
+     "auront parlé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais parlé",
+     "avais parlé",
+     "avait parlé",
+     "avions parlé",
+     "aviez parlé",
+     "avaient parlé"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus parlé",
+     "eus parlé",
+     "eut parlé",
+     "eûmes parlé",
+     "eûtes parlé",
+     "eurent parlé"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais parlé",
+     "aurais parlé",
+     "aurait parlé",
+     "aurions parlé",
+     "auriez parlé",
+     "auraient parlé"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "parle",
+     "parles",
+     "parle",
+     "parlions",
+     "parliez",
+     "parlent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "parlasse",
+     "parlasses",
+     "parlât",
+     "parlassions",
+     "parlassiez",
+     "parlassent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie parlé",
+     "aies parlé",
+     "ait parlé",
+     "ayons parlé",
+     "ayez parlé",
+     "aient parlé"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse parlé",
+     "eusses parlé",
+     "eût parlé",
+     "eussions parlé",
+     "eussiez parlé",
+     "eussent parlé"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "parle",
+     "",
+     "parlons",
+     "parlez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne parle pas",
+     "",
+     "ne parlons pas",
+     "ne parlez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [],
+ "frequency_rank": 38,
+ "slug": "parler",
+ "is_irregular": false,
+ "related": [
+  "aimer",
+  "donner",
+  "chercher",
+  "obeir",
+  "grandir"
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "infinitive": "rendre",
+ "english": "to give back, return",
+ "gerund": "rendant",
+ "past_participle": "rendu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "rends",
+     "rends",
+     "rend",
+     "rendons",
+     "rendez",
+     "rendent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "rendrai",
+     "rendras",
+     "rendra",
+     "rendrons",
+     "rendrez",
+     "rendront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "rendais",
+     "rendais",
+     "rendait",
+     "rendions",
+     "rendiez",
+     "rendaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "rendis",
+     "rendis",
+     "rendit",
+     "rendîmes",
+     "rendîtes",
+     "rendirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "rendrais",
+     "rendrais",
+     "rendrait",
+     "rendrions",
+     "rendriez",
+     "rendraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai rendu",
+     "as rendu",
+     "a rendu",
+     "avons rendu",
+     "avez rendu",
+     "ont rendu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai rendu",
+     "auras rendu",
+     "aura rendu",
+     "aurons rendu",
+     "aurez rendu",
+     "auront rendu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais rendu",
+     "avais rendu",
+     "avait rendu",
+     "avions rendu",
+     "aviez rendu",
+     "avaient rendu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus rendu",
+     "eus rendu",
+     "eut rendu",
+     "eûmes rendu",
+     "eûtes rendu",
+     "eurent rendu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais rendu",
+     "aurais rendu",
+     "aurait rendu",
+     "aurions rendu",
+     "auriez rendu",
+     "auraient rendu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "rende",
+     "rendes",
+     "rende",
+     "rendions",
+     "rendiez",
+     "rendent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "rendisse",
+     "rendisses",
+     "rendît",
+     "rendissions",
+     "rendissiez",
+     "rendissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie rendu",
+     "aies rendu",
+     "ait rendu",
+     "ayons rendu",
+     "ayez rendu",
+     "aient rendu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse rendu",
+     "eusses rendu",
+     "eût rendu",
+     "eussions rendu",
+     "eussiez rendu",
+     "eussent rendu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "rends",
+     "",
+     "rendons",
+     "rendez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne rends pas",
+     "",
+     "ne rendons pas",
+     "ne rendez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 29,
+ "slug": "rendre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "attendre",
+  "vendre"
+ ]
+}

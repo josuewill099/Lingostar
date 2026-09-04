@@ -1,0 +1,207 @@
+{
+ "infinitive": "attendre",
+ "english": "to wait for",
+ "gerund": "attendant",
+ "past_participle": "attendu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "attends",
+     "attends",
+     "attend",
+     "attendons",
+     "attendez",
+     "attendent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "attendrai",
+     "attendras",
+     "attendra",
+     "attendrons",
+     "attendrez",
+     "attendront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "attendais",
+     "attendais",
+     "attendait",
+     "attendions",
+     "attendiez",
+     "attendaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "attendis",
+     "attendis",
+     "attendit",
+     "attendîmes",
+     "attendîtes",
+     "attendirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "attendrais",
+     "attendrais",
+     "attendrait",
+     "attendrions",
+     "attendriez",
+     "attendraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai attendu",
+     "as attendu",
+     "a attendu",
+     "avons attendu",
+     "avez attendu",
+     "ont attendu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai attendu",
+     "auras attendu",
+     "aura attendu",
+     "aurons attendu",
+     "aurez attendu",
+     "auront attendu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais attendu",
+     "avais attendu",
+     "avait attendu",
+     "avions attendu",
+     "aviez attendu",
+     "avaient attendu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus attendu",
+     "eus attendu",
+     "eut attendu",
+     "eûmes attendu",
+     "eûtes attendu",
+     "eurent attendu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais attendu",
+     "aurais attendu",
+     "aurait attendu",
+     "aurions attendu",
+     "auriez attendu",
+     "auraient attendu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "attende",
+     "attendes",
+     "attende",
+     "attendions",
+     "attendiez",
+     "attendent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "attendisse",
+     "attendisses",
+     "attendît",
+     "attendissions",
+     "attendissiez",
+     "attendissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie attendu",
+     "aies attendu",
+     "ait attendu",
+     "ayons attendu",
+     "ayez attendu",
+     "aient attendu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse attendu",
+     "eusses attendu",
+     "eût attendu",
+     "eussions attendu",
+     "eussiez attendu",
+     "eussent attendu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "attends",
+     "",
+     "attendons",
+     "attendez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "n'attends pas",
+     "",
+     "n'attendons pas",
+     "n'attendez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 26,
+ "slug": "attendre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "boire",
+  "courir"
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "infinitive": "vivre",
+ "english": "to live",
+ "gerund": "vivant",
+ "past_participle": "vécu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "vis",
+     "vis",
+     "vit",
+     "vivons",
+     "vivez",
+     "vivent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "vivrai",
+     "vivras",
+     "vivra",
+     "vivrons",
+     "vivrez",
+     "vivront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "vivais",
+     "vivais",
+     "vivait",
+     "vivions",
+     "viviez",
+     "vivaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "vécus",
+     "vécus",
+     "vécut",
+     "vécûmes",
+     "vécûtes",
+     "vécurent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "vivrais",
+     "vivrais",
+     "vivrait",
+     "vivrions",
+     "vivriez",
+     "vivraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai vécu",
+     "as vécu",
+     "a vécu",
+     "avons vécu",
+     "avez vécu",
+     "ont vécu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai vécu",
+     "auras vécu",
+     "aura vécu",
+     "aurons vécu",
+     "aurez vécu",
+     "auront vécu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais vécu",
+     "avais vécu",
+     "avait vécu",
+     "avions vécu",
+     "aviez vécu",
+     "avaient vécu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus vécu",
+     "eus vécu",
+     "eut vécu",
+     "eûmes vécu",
+     "eûtes vécu",
+     "eurent vécu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais vécu",
+     "aurais vécu",
+     "aurait vécu",
+     "aurions vécu",
+     "auriez vécu",
+     "auraient vécu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "vive",
+     "vives",
+     "vive",
+     "vivions",
+     "viviez",
+     "vivent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "vécusse",
+     "vécusses",
+     "vécût",
+     "vécussions",
+     "vécussiez",
+     "vécussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie vécu",
+     "aies vécu",
+     "ait vécu",
+     "ayons vécu",
+     "ayez vécu",
+     "aient vécu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse vécu",
+     "eusses vécu",
+     "eût vécu",
+     "eussions vécu",
+     "eussiez vécu",
+     "eussent vécu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "vis",
+     "",
+     "vivons",
+     "vivez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne vis pas",
+     "",
+     "ne vivons pas",
+     "ne vivez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 21,
+ "slug": "vivre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "croire",
+  "ecrire"
+ ]
+}

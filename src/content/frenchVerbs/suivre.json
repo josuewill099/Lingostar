@@ -1,0 +1,207 @@
+{
+ "infinitive": "suivre",
+ "english": "to follow",
+ "gerund": "suivant",
+ "past_participle": "suivi",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "suis",
+     "suis",
+     "suit",
+     "suivons",
+     "suivez",
+     "suivent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "suivrai",
+     "suivras",
+     "suivra",
+     "suivrons",
+     "suivrez",
+     "suivront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "suivais",
+     "suivais",
+     "suivait",
+     "suivions",
+     "suiviez",
+     "suivaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "suivis",
+     "suivis",
+     "suivit",
+     "suivîmes",
+     "suivîtes",
+     "suivirent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "suivrais",
+     "suivrais",
+     "suivrait",
+     "suivrions",
+     "suivriez",
+     "suivraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai suivi",
+     "as suivi",
+     "a suivi",
+     "avons suivi",
+     "avez suivi",
+     "ont suivi"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai suivi",
+     "auras suivi",
+     "aura suivi",
+     "aurons suivi",
+     "aurez suivi",
+     "auront suivi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais suivi",
+     "avais suivi",
+     "avait suivi",
+     "avions suivi",
+     "aviez suivi",
+     "avaient suivi"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus suivi",
+     "eus suivi",
+     "eut suivi",
+     "eûmes suivi",
+     "eûtes suivi",
+     "eurent suivi"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais suivi",
+     "aurais suivi",
+     "aurait suivi",
+     "aurions suivi",
+     "auriez suivi",
+     "auraient suivi"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "suive",
+     "suives",
+     "suive",
+     "suivions",
+     "suiviez",
+     "suivent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "suivisse",
+     "suivisses",
+     "suivît",
+     "suivissions",
+     "suivissiez",
+     "suivissent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie suivi",
+     "aies suivi",
+     "ait suivi",
+     "ayons suivi",
+     "ayez suivi",
+     "aient suivi"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse suivi",
+     "eusses suivi",
+     "eût suivi",
+     "eussions suivi",
+     "eussiez suivi",
+     "eussent suivi"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "suis",
+     "",
+     "suivons",
+     "suivez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne suis pas",
+     "",
+     "ne suivons pas",
+     "ne suivez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 22,
+ "slug": "suivre",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "ecrire",
+  "lire"
+ ]
+}

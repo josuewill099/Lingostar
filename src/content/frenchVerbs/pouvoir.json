@@ -1,0 +1,207 @@
+{
+ "infinitive": "pouvoir",
+ "english": "to be able to, can",
+ "gerund": "pouvant",
+ "past_participle": "pu",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "puis",
+     "peux",
+     "peut",
+     "pouvons",
+     "pouvez",
+     "peuvent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "pourrai",
+     "pourras",
+     "pourra",
+     "pourrons",
+     "pourrez",
+     "pourront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "pouvais",
+     "pouvais",
+     "pouvait",
+     "pouvions",
+     "pouviez",
+     "pouvaient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "pus",
+     "pus",
+     "put",
+     "pûmes",
+     "pûtes",
+     "purent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "pourrais",
+     "pourrais",
+     "pourrait",
+     "pourrions",
+     "pourriez",
+     "pourraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai pu",
+     "as pu",
+     "a pu",
+     "avons pu",
+     "avez pu",
+     "ont pu"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai pu",
+     "auras pu",
+     "aura pu",
+     "aurons pu",
+     "aurez pu",
+     "auront pu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais pu",
+     "avais pu",
+     "avait pu",
+     "avions pu",
+     "aviez pu",
+     "avaient pu"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus pu",
+     "eus pu",
+     "eut pu",
+     "eûmes pu",
+     "eûtes pu",
+     "eurent pu"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais pu",
+     "aurais pu",
+     "aurait pu",
+     "aurions pu",
+     "auriez pu",
+     "auraient pu"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "puisse",
+     "puisses",
+     "puisse",
+     "puissions",
+     "puissiez",
+     "puissent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "pusse",
+     "pusses",
+     "pût",
+     "pussions",
+     "pussiez",
+     "pussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie pu",
+     "aies pu",
+     "ait pu",
+     "ayons pu",
+     "ayez pu",
+     "aient pu"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse pu",
+     "eusses pu",
+     "eût pu",
+     "eussions pu",
+     "eussiez pu",
+     "eussent pu"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 6,
+ "slug": "pouvoir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "aller",
+  "dire"
+ ]
+}

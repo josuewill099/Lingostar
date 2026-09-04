@@ -1,0 +1,207 @@
+{
+ "infinitive": "courir",
+ "english": "to run",
+ "gerund": "courant",
+ "past_participle": "couru",
+ "verb_class": "irregular",
+ "moods": {
+  "Indicative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "cours",
+     "cours",
+     "court",
+     "courons",
+     "courez",
+     "courent"
+    ]
+   },
+   "Future": {
+    "tense_fr": "Futur",
+    "forms": [
+     "courrai",
+     "courras",
+     "courra",
+     "courrons",
+     "courrez",
+     "courront"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "courais",
+     "courais",
+     "courait",
+     "courions",
+     "couriez",
+     "couraient"
+    ]
+   },
+   "Preterite": {
+    "tense_fr": "Passé simple",
+    "forms": [
+     "courus",
+     "courus",
+     "courut",
+     "courûmes",
+     "courûtes",
+     "coururent"
+    ]
+   },
+   "Conditional": {
+    "tense_fr": "Conditionnel",
+    "forms": [
+     "courrais",
+     "courrais",
+     "courrait",
+     "courrions",
+     "courriez",
+     "courraient"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé composé",
+    "forms": [
+     "ai couru",
+     "as couru",
+     "a couru",
+     "avons couru",
+     "avez couru",
+     "ont couru"
+    ]
+   },
+   "Future Perfect": {
+    "tense_fr": "Futur antérieur",
+    "forms": [
+     "aurai couru",
+     "auras couru",
+     "aura couru",
+     "aurons couru",
+     "aurez couru",
+     "auront couru"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "avais couru",
+     "avais couru",
+     "avait couru",
+     "avions couru",
+     "aviez couru",
+     "avaient couru"
+    ]
+   },
+   "Preterite (Archaic)": {
+    "tense_fr": "Passé antérieur",
+    "forms": [
+     "eus couru",
+     "eus couru",
+     "eut couru",
+     "eûmes couru",
+     "eûtes couru",
+     "eurent couru"
+    ]
+   },
+   "Conditional Perfect": {
+    "tense_fr": "Conditionnel passé",
+    "forms": [
+     "aurais couru",
+     "aurais couru",
+     "aurait couru",
+     "aurions couru",
+     "auriez couru",
+     "auraient couru"
+    ]
+   }
+  },
+  "Subjunctive": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "coure",
+     "coures",
+     "coure",
+     "courions",
+     "couriez",
+     "courent"
+    ]
+   },
+   "Imperfect": {
+    "tense_fr": "Imparfait",
+    "forms": [
+     "courusse",
+     "courusses",
+     "courût",
+     "courussions",
+     "courussiez",
+     "courussent"
+    ]
+   },
+   "Present Perfect": {
+    "tense_fr": "Passé",
+    "forms": [
+     "aie couru",
+     "aies couru",
+     "ait couru",
+     "ayons couru",
+     "ayez couru",
+     "aient couru"
+    ]
+   },
+   "Past Perfect": {
+    "tense_fr": "Plus-que-parfait",
+    "forms": [
+     "eusse couru",
+     "eusses couru",
+     "eût couru",
+     "eussions couru",
+     "eussiez couru",
+     "eussent couru"
+    ]
+   }
+  },
+  "Imperative Affirmative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "cours",
+     "",
+     "courons",
+     "courez",
+     ""
+    ]
+   }
+  },
+  "Imperative Negative": {
+   "Present": {
+    "tense_fr": "Présent",
+    "forms": [
+     "",
+     "ne cours pas",
+     "",
+     "ne courons pas",
+     "ne courez pas",
+     ""
+    ]
+   }
+  }
+ },
+ "irregular_tenses": [
+  "Present",
+  "Preterite"
+ ],
+ "frequency_rank": 24,
+ "slug": "courir",
+ "is_irregular": true,
+ "related": [
+  "etre",
+  "avoir",
+  "faire",
+  "vivre",
+  "suivre"
+ ]
+}

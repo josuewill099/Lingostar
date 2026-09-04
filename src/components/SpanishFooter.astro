@@ -18,6 +18,7 @@ const COPY: Record<string, Record<string, string>> = {
     home: 'Home',
     blog: 'Blog',
     spanish: 'Spanish Conjugation',
+    french: 'French Conjugation',
     legal: 'Legal',
     privacy: 'Privacy Policy',
     terms: 'Terms of Service',
@@ -27,6 +28,7 @@ const COPY: Record<string, Record<string, string>> = {
     homeHref: '/',
     blogHref: '/blog/',
     spanishHref: '/spanish/conjugation/',
+    frenchHref: '/french/conjugation/',
     privacyHref: '/privacy-policy/',
     termsHref: '/terms-of-service/',
   },
@@ -87,6 +89,7 @@ const copy = COPY[lang] || COPY.en;
         <a href={copy.homeHref}>{copy.home}</a>
         <a href={copy.blogHref}>{copy.blog}</a>
         <a href={copy.spanishHref}>{copy.spanish}</a>
+        {copy.frenchHref && <a href={copy.frenchHref}>{copy.french}</a>}
       </div>
     </div>
 
