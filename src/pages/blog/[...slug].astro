@@ -34,10 +34,11 @@ const blogPostingLd = JSON.stringify({
   datePublished: post.data.pubDate.toISOString(),
   ...(post.data.updatedDate ? { dateModified: post.data.updatedDate.toISOString() } : {}),
   ...(post.data.author ? { author: { '@type': 'Person', name: post.data.author } } : {}),
+  ...(post.data.image ? { image: new URL(post.data.image, Astro.site).href } : {}),
   publisher: {
     '@type': 'Organization',
     name: 'Lingostar',
-    logo: { '@type': 'ImageObject', url: 'https://lingostar.ai/favicon.svg' },
+    logo: { '@type': 'ImageObject', url: 'https://lingostar.ai/logo.png' },
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
   url: canonicalUrl,
