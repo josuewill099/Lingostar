@@ -18,3 +18,7 @@ node_modules/
 
 # raw WordPress export (contains full DB dump — keep out of the repo)
 wxr-export/
+
+# local session/handoff notes — not meant for the repo
+HANDOFF.md
+PROJECT_NOTES.md

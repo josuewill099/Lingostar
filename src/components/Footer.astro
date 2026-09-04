@@ -11,6 +11,8 @@ const year = new Date().getFullYear();
 const COPY: Record<string, Record<string, string>> = {
   en: {
     brandBlurb: 'Master languages through real AI conversations. Practice English, Spanish, and French naturally and achieve fluency faster.',
+    alsoByUs: 'Also by our team: ',
+    farmEarAura: 'Farm Ear Aura',
     quickLinks: 'Quick Links',
     home: 'Home',
     blog: 'Blog',
@@ -29,6 +31,8 @@ const COPY: Record<string, Record<string, string>> = {
   },
   fr: {
     brandBlurb: "Maîtrisez les langues grâce à de vraies conversations avec l'IA. Pratiquez l'anglais, l'espagnol et le français naturellement et progressez plus vite.",
+    alsoByUs: 'Également par notre équipe : ',
+    farmEarAura: 'Farm Ear Aura',
     quickLinks: 'Liens rapides',
     home: 'Accueil',
     blog: 'Blog',
@@ -47,6 +51,8 @@ const COPY: Record<string, Record<string, string>> = {
   },
   pt: {
     brandBlurb: 'Domine idiomas através de conversas reais com IA. Pratique inglês, espanhol e francês naturalmente e alcance fluência mais rápido.',
+    alsoByUs: 'Também da nossa equipe: ',
+    farmEarAura: 'Farm Ear Aura',
     quickLinks: 'Links Rápidos',
     home: 'Início',
     blog: 'Blog',
@@ -72,6 +78,7 @@ const copy = COPY[lang] || COPY.en;
       <div class="site-footer-section">
         <h3>Lingostar AI</h3>
         <p>{copy.brandBlurb}</p>
+        <p style="margin-top: 0.75rem;">{copy.alsoByUs}<a href="https://farmearaura.com">{copy.farmEarAura}</a>.</p>
       </div>
 
       <div class="site-footer-section">

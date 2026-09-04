@@ -1,8 +1,8 @@
 ---
 // Themed equivalent of Footer.astro for the self-contained Spanish pages
 // (see the comment in spanish/conjugation/[slug].astro for why they don't
-// use BaseLayout) -- same 4-column content, restyled to the warm palette
-// these pages already define on :root (--ink/--paper/--line/--soft/--red).
+// use BaseLayout) -- same 4-column content and dark styling as Footer.astro,
+// duplicated here (not imported) since these pages don't load global.css.
 interface Props {
   lang?: string;
 }
@@ -12,6 +12,8 @@ const year = new Date().getFullYear();
 const COPY: Record<string, Record<string, string>> = {
   en: {
     brandBlurb: 'Master languages through real AI conversations. Practice English, Spanish, and French naturally and achieve fluency faster.',
+    alsoByUs: 'Also by our team: ',
+    farmEarAura: 'Farm Ear Aura',
     quickLinks: 'Quick Links',
     home: 'Home',
     blog: 'Blog',
@@ -30,6 +32,8 @@ const COPY: Record<string, Record<string, string>> = {
   },
   fr: {
     brandBlurb: "Maîtrisez les langues grâce à de vraies conversations avec l'IA. Pratiquez l'anglais, l'espagnol et le français naturellement et progressez plus vite.",
+    alsoByUs: 'Également par notre équipe : ',
+    farmEarAura: 'Farm Ear Aura',
     quickLinks: 'Liens rapides',
     home: 'Accueil',
     blog: 'Blog',
@@ -48,6 +52,8 @@ const COPY: Record<string, Record<string, string>> = {
   },
   pt: {
     brandBlurb: 'Domine idiomas através de conversas reais com IA. Pratique inglês, espanhol e francês naturalmente e alcance fluência mais rápido.',
+    alsoByUs: 'Também da nossa equipe: ',
+    farmEarAura: 'Farm Ear Aura',
     quickLinks: 'Links Rápidos',
     home: 'Início',
     blog: 'Blog',
@@ -72,6 +78,7 @@ const copy = COPY[lang] || COPY.en;
     <div class="site-footer-section">
       <h3>Lingostar AI</h3>
       <p>{copy.brandBlurb}</p>
+      <p style="margin-top: 0.75rem;">{copy.alsoByUs}<a href="https://farmearaura.com">{copy.farmEarAura}</a>.</p>
     </div>
 
     <div class="site-footer-section">
@@ -112,8 +119,9 @@ const copy = COPY[lang] || COPY.en;
 <style>
   .site-footer {
     margin-top: 60px;
-    padding: 44px 0 24px;
-    border-top: 3px solid var(--ink);
+    padding: 3rem 1.25rem 1.5rem;
+    background: #111827;
+    color: white;
   }
 
   .site-footer-content {
@@ -121,18 +129,23 @@ const copy = COPY[lang] || COPY.en;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     margin-bottom: 2rem;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .site-footer-section h3 {
-    font-family: 'Fraunces', serif;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    color: var(--red);
     margin: 0 0 0.85rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .site-footer-section p {
-    color: var(--soft);
+    color: #d1d5db;
     font-size: 0.9rem;
     line-height: 1.6;
     margin: 0;
@@ -145,22 +158,25 @@ const copy = COPY[lang] || COPY.en;
   }
 
   .site-footer-links a {
-    color: var(--soft);
+    color: #d1d5db;
     font-size: 0.9rem;
     text-decoration: none;
     transition: color 0.2s ease;
   }
 
   .site-footer-links a:hover {
-    color: var(--red);
+    color: white;
   }
 
   .site-footer-bottom {
     padding-top: 1.5rem;
-    border-top: 1.5px solid var(--line);
-    color: var(--soft);
+    border-top: 1px solid #374151;
+    color: #9ca3af;
     font-size: 0.85rem;
     text-align: center;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .site-footer-bottom p {
