@@ -7,7 +7,10 @@ interface Props {
   title: string;
   description?: string;
   noindex?: boolean;
-  structuredData?: string;
+  // A single JSON.stringify()'d schema.org object, or several (e.g. a
+  // page's own type plus a BreadcrumbList) -- each renders as its own
+  // <script type="application/ld+json"> tag.
+  structuredData?: string | string[];
   wide?: boolean;
   lang?: string;
   // Same object passed by every language version of a page, e.g.
@@ -18,6 +21,7 @@ interface Props {
 }
 
 const { title, description = 'Lingostar', noindex = false, structuredData, wide = false, lang = 'en', translations } = Astro.props;
+const structuredDataBlocks = structuredData ? (Array.isArray(structuredData) ? structuredData : [structuredData]) : [];
 
 // Site-wide Organization block, present on every BaseLayout page. Pages
 // pass their own additional JSON-LD (BlogPosting, ContactPage, etc.) via
@@ -60,7 +64,7 @@ const htmlLang = HTML_LANG[lang] || lang;
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     {!noindex && <script type="application/ld+json" set:html={organizationLd} />}
-    {!noindex && structuredData && <script type="application/ld+json" set:html={structuredData} />}
+    {!noindex && structuredDataBlocks.map((block) => <script type="application/ld+json" set:html={block} />)}
     {translations && Object.entries(translations).map(([hreflang, href]) => (
       <link rel="alternate" hreflang={hreflang} href={href} />
     ))}

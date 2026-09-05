@@ -12,13 +12,19 @@ const contactLd = JSON.stringify({
     email: 'hello@lingostar.ai',
   },
 });
+const breadcrumbLd = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://lingostar.ai/' },
+    { '@type': 'ListItem', position: 2, name: 'Contact' },
+  ],
+});
 const translations = {
   en: 'https://lingostar.ai/contact/',
   fr: 'https://lingostar.ai/fr/contact/',
   'pt-BR': 'https://lingostar.ai/pt/contact/',
 };
 ---
-<BaseLayout title="Contact | Lingostar" structuredData={contactLd} translations={translations}>
+<BaseLayout title="Contact | Lingostar" structuredData={[contactLd, breadcrumbLd]} translations={translations}>
   <h1>Contact</h1>
   <p class="contact-intro">Send us a message and we'll get back to you, or email us directly at
     <a href="mailto:hello@lingostar.ai">hello@lingostar.ai</a>.</p>

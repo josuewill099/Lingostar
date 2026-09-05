@@ -17,6 +17,12 @@ const blogLd = JSON.stringify({
     datePublished: post.data.pubDate.toISOString(),
   })),
 });
+const breadcrumbLd = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://lingostar.ai/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog' },
+  ],
+});
 
 // No post sets a `description` in frontmatter, so the card excerpt is
 // derived from the post body instead of left blank.
@@ -41,7 +47,7 @@ const translations = {
   'pt-BR': 'https://lingostar.ai/pt/blog/',
 };
 ---
-<BaseLayout title="Blog | Lingostar" structuredData={blogLd} translations={translations} wide>
+<BaseLayout title="Blog | Lingostar" structuredData={[blogLd, breadcrumbLd]} translations={translations} wide>
   <div class="blog-hero">
     <h1>Blog</h1>
     <p class="blog-hero-sub">Practical guides on language learning, AI tools, and what actually works.</p>

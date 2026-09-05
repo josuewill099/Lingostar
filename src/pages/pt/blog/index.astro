@@ -18,6 +18,12 @@ const blogLd = JSON.stringify({
     datePublished: post.data.pubDate.toISOString(),
   })),
 });
+const breadcrumbLd = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Início', item: 'https://lingostar.ai/pt/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog' },
+  ],
+});
 
 function excerpt(body: string, length = 140) {
   const plain = body
@@ -40,7 +46,7 @@ const translations = {
   'pt-BR': 'https://lingostar.ai/pt/blog/',
 };
 ---
-<BaseLayout title="Blog | Lingostar" lang="pt" structuredData={blogLd} translations={translations} wide>
+<BaseLayout title="Blog | Lingostar" lang="pt" structuredData={[blogLd, breadcrumbLd]} translations={translations} wide>
   <div class="blog-hero">
     <h1>Blog</h1>
     <p class="blog-hero-sub">Guias práticos sobre aprendizado de idiomas, ferramentas de IA e o que realmente funciona.</p>

@@ -43,6 +43,13 @@ const blogPostingLd = JSON.stringify({
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
   url: canonicalUrl,
 });
+const breadcrumbLd = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://lingostar.ai/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://lingostar.ai/blog/' },
+    { '@type': 'ListItem', position: 3, name: post.data.title },
+  ],
+});
 
 // Only advertise an hreflang alternate for a language when a translation of
 // this exact post actually exists -- a self-referencing-only pair isn't useful.
@@ -53,7 +60,7 @@ const translations = Object.keys(altTranslations).length > 0
   ? { en: canonicalUrl, ...altTranslations }
   : undefined;
 ---
-<BaseLayout title={`${post.data.title} | Lingostar`} description={post.data.description} structuredData={blogPostingLd} translations={translations}>
+<BaseLayout title={`${post.data.title} | Lingostar`} description={post.data.description} structuredData={[blogPostingLd, breadcrumbLd]} translations={translations}>
   <article>
     <h1>{post.data.title}</h1>
     <div class="post-meta">

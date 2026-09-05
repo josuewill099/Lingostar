@@ -44,6 +44,13 @@ const blogPostingLd = JSON.stringify({
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
   url: canonicalUrl,
 });
+const breadcrumbLd = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://lingostar.ai/fr/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://lingostar.ai/fr/blog/' },
+    { '@type': 'ListItem', position: 3, name: post.data.title },
+  ],
+});
 
 const altTranslations: Record<string, string> = {};
 if (hasEnglishVersion) altTranslations.en = `https://lingostar.ai/blog/${post.slug}/`;
@@ -52,7 +59,7 @@ const translations = Object.keys(altTranslations).length > 0
   ? { fr: canonicalUrl, ...altTranslations }
   : undefined;
 ---
-<BaseLayout title={`${post.data.title} | Lingostar`} description={post.data.description} lang="fr" structuredData={blogPostingLd} translations={translations}>
+<BaseLayout title={`${post.data.title} | Lingostar`} description={post.data.description} lang="fr" structuredData={[blogPostingLd, breadcrumbLd]} translations={translations}>
   <article>
     <h1>{post.data.title}</h1>
     <div class="post-meta">
